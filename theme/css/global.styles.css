@@ -2468,12 +2468,12 @@ tr.error {}
 .page-hardware-protection .location-text { margin: 0 0 35px 0; }
 .page-hardware-protection .location iframe { margin: 15px 0 0 0;}  
 .price-euro .period { font-size: 17px;}
-.page-hardware-protection .protect-plan .biling-plan { min-height: 915px;}
+.page-hardware-protection .protect-plan .biling-plan { min-height: 950px;}
 .page-hardware-protection .node .node-content { padding-bottom: 20px !important;}
 .page-hardware-protection .node .node-content .row.last { padding: 0;}
 .page-hardware-protection .protect-plan .products-grid .biling-plan .cpecification { top: 420px; }
-.page-hardware-protection .second.biling-plan.open { min-height: 1055px;}
-.page-hardware-protection .third.biling-plan.open { min-height: 1055px;}
+.page-hardware-protection .second.biling-plan.open { min-height: 950px;}
+.page-hardware-protection .third.biling-plan.open { min-height: 950px;}
 
 /* =============================================================================
  *   Page cloud hosting

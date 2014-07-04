@@ -21,7 +21,7 @@
 				var data = $.parseJSON($("#marker-json").html());
 				$.each(data.data, function(data, value, i) {
 					$.ajax({
-						url: 'http://maps.googleapis.com/maps/api/geocode/json?address='+ value.title +'&sensor=false&language=en',             // указываем URL и
+						url: 'http://maps.googleapis.com/maps/api/geocode/json?address='+ value.title +'&sensor=false&language=en',             // writing URL
 						dataType : "json",  
 						success: function (data, textStatus) {
 							$.each(data, function() {
