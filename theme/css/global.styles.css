@@ -2333,10 +2333,12 @@ tr.error {}
 .page-faq #faq-tab .etabs.r-tabs-nav { padding: 0 0 30px 0;}
 .page-faq #faq-tab .faq-tabs-content { padding: 0 0 0 20px;}
 .page-faq .faq-no-answer { background: url(images/no-answer.png) top left repeat-x; position: relative;}
-.page-faq .faq-no-answer:hover { background: url(images/no-answer-hover.png) top left repeat-x;}
+.page-faq .faq-no-answer:hover { background: url(images/no-answer-hover.png) top left repeat-x; }
+.page-faq a.faq-no-answer:hover { text-decoration:none; }
+.page-faq .faq-no-answer:hover p { color:#fff; }
 .page-faq .faq-no-answer:hover:before { background: url(images/no-answer-hover-arrow.png);}
-.page-faq .faq-no-answer .faq-no-answer-one { font-size: 24px; padding: 20px 0 0 0; line-height: 24px;}
-.page-faq .faq-no-answer .faq-no-answer-two { font-size: 16px; padding: 0 0 20px 0; line-height: 16px;}
+.page-faq .faq-no-answer .faq-no-answer-one { font-size: 24px; padding: 20px 0 0 0; line-height: 24px; }
+.page-faq .faq-no-answer .faq-no-answer-two { font-size: 16px; padding: 0 0 20px 0; line-height: 16px; }
 .page-faq .faq-no-answer p { color: black; text-align: center; margin: 0; }
 .page-faq .faq-no-answer:before { content: '0'; text-indent: -9999px; display: block; background: url(images/no-answer-arrow.png); width: 17px; height: 15px; position: absolute; top: -12px; left: 430px;}
 .page-faq .node .node-content .row.first { margin-bottom: 0; border: none; padding-bottom: 0;}
@@ -2515,7 +2517,7 @@ tr.error {}
 .page-blog .blog > img { float: left; margin: 0 45px 0 0; z-index: 2;}
 .page-blog .blog-image { height: 290px; margin: 0 40px 0 0; float: left;} 
 .page-blog .blog .blog-size { width: 95%; color: #5d5d5d;}
-.page-blog .blog .blog-size > h2 { font-size: 24px; font-weight: 400; line-height: 24px; margin-bottom: 0; color: #5d5d5d;}
+.page-blog .blog .blog-size > h2 { font-size: 19px; font-weight: 400; line-height: 24px; margin-bottom: 0; color: #5d5d5d;}
 .blog { width: 630px; position: relative;}
 .blog .blog-author-image { background: url(images/author.png) left no-repeat; padding: 0 0 0 20px; color: #a9a9a9;}
 .blog .blog-comment { background: url(images/comments.png) left no-repeat; padding: 0 0 0 20px;}

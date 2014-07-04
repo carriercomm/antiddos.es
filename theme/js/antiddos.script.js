@@ -1,5 +1,5 @@
-(function($) {
-
+	// Map points on CDN page
+	(function($) {
 	$(document).ready(function() {
 		if ( $('#map').length ) {
 			var map;
@@ -15,7 +15,7 @@
 				};
 				map = new google.maps.Map(document.getElementById("map"), mapOptions);
 				
-				//Определяем область отображения меток на карте
+				//Points area rectangle on the map
 				var latlngbounds = new google.maps.LatLngBounds();
 				
 				var data = $.parseJSON($("#marker-json").html());
@@ -40,17 +40,146 @@
 			};
 			mapInit();
 		}
-	
-		
-		
-		
 		//console.log( $.each(data.data, function(index, value) {'http://maps.googleapis.com/maps/api/geocode/json?address='+ value.title +'&sensor=false&language=en'}) );
+		
+		// Index page jCarousel and image sliders
+		jQuery(function(){
+			
+			jQuery('#newslider').camera({
+				height: '400px',
+				loader: 'bar',
+				pagination: true,
+				fx: 'scrollLeft',
+				loaderColor: '#f57815',
+				thumbnails: false,
+				loaderOpacity: 1,
+				loaderPadding: 2,
+				loaderStroke: 6,
+				playPause: false
+			});
+			
+			
+			jQuery(document).ready(function() {
+				
+			if ( jQuery('#products-carousel').length  ) {
+			jQuery('#products-carousel').carouFredSel({
+				auto: false,
+				prev: '#prev',
+				next: '#next',
+				items: 3,
+				visibleItems: 3,
+				height: 340,
+				mousewheel: true,
+				swipe: {
+					onMouse: true,
+					onTouch: true
+					}
+				});
+			}
+			
+		jQuery('.r-tabs-nav .r-tabs-tab').on('click', function() {
+		if ( $('#products-carousel1').length  ) {
+			$('#products-carousel1').carouFredSel({
+				auto: false,
+				prev: '#prev1',
+				next: '#next1',
+				items: 3,
+				visibleItems: 3,
+				height: 340,
+				mousewheel: true,
+				swipe: {
+					onMouse: true,
+					onTouch: true
+				}
+			});
+		}
+		if ( $('#products-carousel2').length  ) {
+			$('#products-carousel2').carouFredSel({
+				auto: false,
+				prev: '#prev2',
+				next: '#next2',
+				items: 3,
+				visibleItems: 3,
+				height: 340,
+				mousewheel: true,
+				swipe: {
+					onMouse: true,
+					onTouch: true
+				}
+			});
+		}
+		if ( $('#products-carousel3').length  ) {
+			$('#products-carousel3').carouFredSel({
+				auto: false,
+				prev: '#prev3',
+				next: '#next3',
+				height: 340,
+				items: 3,
+				visibleItems: 3,
+				mousewheel: true,
+				swipe: {
+					onMouse: true,
+					onTouch: true
+				}
+			});
+		}
+		if ( $('#products-carousel4').length  ) {
+			$('#products-carousel4').carouFredSel({
+				auto: false,
+				prev: '#prev4',
+				next: '#next4',
+				height: 340,
+				items: 3,
+				visibleItems: 3,
+				mousewheel: true,
+				swipe: {
+					onMouse: true,
+					onTouch: true
+				}
+			});
+		}
+		if ( $('#products-carousel5').length  ) {
+			$('#products-carousel5').carouFredSel({
+				auto: false,
+				prev: '#prev5',
+				next: '#next5',
+				height: 340,
+				items: 3,
+				visibleItems: 3,
+				mousewheel: true,
+				swipe: {
+					onMouse: true,
+					onTouch: true
+				}
+			});
+		}
+		if ( $('#products-carousel6').length  ) {
+			$('#products-carousel6').carouFredSel({
+				auto: false,
+				prev: '#prev6',
+				next: '#next6',
+				height: 340,
+				items: 3,
+				visibleItems: 3,
+				mousewheel: true,
+				swipe: {
+					onMouse: true,
+					onTouch: true
+				}
+			});
+		}
+		});
+		});
+			
+		});
+				
+		// Show/hide on Reviews page
 		if ( $('.page-reviews-text').length ) {
 			$(".page-reviews-text").shorten({
 		     		"showChars" :  521,              
 		      		"moreText"  : "show all",      
 		      		"ellipsesText" : "...",         
-		      		"lessText"  : "hide"   
+		      		"lessText"  : "collapse"   
 		  	});
 		}
 		//if ( $('#products-carousel').length  ) {
@@ -159,6 +288,7 @@
 		//	});
 		//}
 		
+		//Show and hide mode on index for product jCarousel
 		$('.chooseview.gridshow').on('click', function() {
 			$(this).slideUp(800);
 			$(this).parents('.r-tabs-state-active').find('.list_carousel').slideUp(800);
@@ -171,7 +301,7 @@
 			$('html, body').animate({scrollTop:$('#block-antiddos-products').position().top}, 800);
 		});
 		
-		// Анимация списка выбора языка.
+		// Lang list animation
 		$('#block-antiddos-languages ul.list-languages').on('click', function() {
 			$(this).hasClass('collapsed') ? $(this).removeClass('collapsed') : $(this).addClass('collapsed');
 		});
@@ -195,7 +325,7 @@
 			});
 		}
 
-		// Animation chsrta on page about us
+		// Chart animation on the page About us
 		if ( $('.page-about-us .charts-box').length ) {
 			$( window ).load(function() {
 				var chartHieght = [240, 180, 137, 129, 93];
@@ -206,7 +336,8 @@
 				}, 250);
 			});
 		}
-
+		
+		// Chart animation on the page All products
 		if ( $('.page-all-products .charts-box').length ) {
 			$( window ).load(function() {
 				var chartHieght = [240, 180, 137, 129, 93];
@@ -218,10 +349,12 @@
 			});
 		}
 		
+		// OS modification drop-down
 		if ( $('ul.custom-select').length ) {
 			$("ul.custom-select:not(.os-modification)").mCustomScrollbar();
 		}
-
+		
+		// With/without protection radio
 		$('.without-protection').addClass('active');
 
 		$('input:radio').click(function() {
@@ -231,9 +364,9 @@
 
 		$('.windows-select').click(function (e) {
 
-			// Высчитываем высоту сех елементов спска.
-			var heightLi = 46; // Высота одного елемента елемента.
-			var heightBox = 200; // Высота видимой области списка.
+			// Calculating height of the list elements
+			var heightLi = 46; // One element height
+			var heightBox = 200; // Visible area height
 			var element = $(this);
 
 			if ( $('.page-cloud-hosting').length )
@@ -260,7 +393,7 @@
 			e.stopPropagation();
 		});
 
-
+		
 		$(document).click(function (e) {
 			$('.custom-select-list').css({'border-bottom': 'none'}).animate({height: '0px'});
 		});
