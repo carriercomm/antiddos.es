@@ -1,0 +1,2451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+<header creationtool="Olifant" creationtoolversion="3.0.8.0" datatype="unkown" segtype="paragraph" adminlang="EN-US" srclang="EN-US" o-tmf="" creationdate="20120511T212234Z" creationid="FIRST" changedate="20140128T173813Z" changeid="FIRST">
+</header>
+<body>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_here_you_find</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Here you will find answers to the common questions asked about our services.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Here you will find answers to the common questions asked about our services.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Hier finden Sie Antworten auf die häufigsten Fragen, die über unseren Leistungen gefragt sind.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Here you will find answers to the common questions asked about our services.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Here you will find answers to the common questions asked about our services.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Here you will find answers to the common questions asked about our services.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Here you will find answers to the common questions asked about our services.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_cloud_servers</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Cloud Servers, Storage and Load Balancing</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Cloud Servers, Storage and Load Balancing</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Cloud Server, Speicherung und Lastverteilung</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Cloud Servers, Storage and Load Balancing</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Cloud Servers, Storage and Load Balancing</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Cloud Servers, Storage and Load Balancing</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Cloud Servers, Storage and Load Balancing</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_q1</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>How long does it take to get my server set up?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>How long does it take to get my server set up?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Wie lange dauert es, meines Server-Setup zu bekommen?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>How long does it take to get my server set up?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>How long does it take to get my server set up?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>How long does it take to get my server set up?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>How long does it take to get my server set up?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_q2</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Can my server's hardware be upgraded? What are the fees for this?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Can my server's hardware be upgraded? What are the fees for this?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Kann mein Server-Hardware aufgerüstet werden? Was sind die Gebühren für diese?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Can my server's hardware be upgraded? What are the fees for this?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Can my server's hardware be upgraded? What are the fees for this?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Can my server's hardware be upgraded? What are the fees for this?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Can my server's hardware be upgraded? What are the fees for this?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_q3</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>How do I add additional IP addresses? Is there an upgrade fee?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>How do I add additional IP addresses? Is there an upgrade fee?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Wie füge ich zusätzliche IP-Adressen hinzu? Gibt es eine Upgrade-Gebühr?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>How do I add additional IP addresses? Is there an upgrade fee?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>How do I add additional IP addresses? Is there an upgrade fee?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>How do I add additional IP addresses? Is there an upgrade fee?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>How do I add additional IP addresses? Is there an upgrade fee?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_q4</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Can I create mail accounts on my server? What software is included for mail?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Can I create mail accounts on my server? What software is included for mail?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Kann ich Mail-Konten auf meinem Server erstellen? Welche Software ist für E-Mail inbegriffen?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Can I create mail accounts on my server? What software is included for mail?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Can I create mail accounts on my server? What software is included for mail?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Can I create mail accounts on my server? What software is included for mail?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Can I create mail accounts on my server? What software is included for mail?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_q5</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Will I be able to manage my server through a Web-based control panel?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Will I be able to manage my server through a Web-based control panel?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Kann ich meinen Server via eine Web-basierte Systemsteuerug verwalten?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Will I be able to manage my server through a Web-based control panel?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Will I be able to manage my server through a Web-based control panel?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Will I be able to manage my server through a Web-based control panel?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Will I be able to manage my server through a Web-based control panel?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_q6</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>What exactly is RAID? Do you provide RAID configurations?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>What exactly is RAID? Do you provide RAID configurations?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Was genau ist RAID? Bieten Sie RAID-Konfigurationen?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>What exactly is RAID? Do you provide RAID configurations?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>What exactly is RAID? Do you provide RAID configurations?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>What exactly is RAID? Do you provide RAID configurations?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>What exactly is RAID? Do you provide RAID configurations?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_q7</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Who is responsible for the server hardware?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Who is responsible for the server hardware?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Wer ist verantwortlich für die Server-Hardware?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Who is responsible for the server hardware?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Who is responsible for the server hardware?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Who is responsible for the server hardware?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Who is responsible for the server hardware?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_q8</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>What is your uptime guarantee?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>What is your uptime guarantee?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Was ist Ihre Betriebszeit-Garantie?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>What is your uptime guarantee?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>What is your uptime guarantee?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>What is your uptime guarantee?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>What is your uptime guarantee?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_q9</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Will I have Root Access?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Will I have Root Access?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Bekomme ich Root-Zugriff?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Will I have Root Access?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Will I have Root Access?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Will I have Root Access?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Will I have Root Access?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_q10</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>What is a Data Center?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>What is a Data Center?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Was ist den Rechenzentrum?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>What is a Data Center?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>What is a Data Center?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>What is a Data Center?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>What is a Data Center?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_q11</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>How often do you monitor the Data Center network equipment and dedicated servers?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>How often do you monitor the Data Center network equipment and dedicated servers?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Wie oft überwachen Sie die RechenzentrumNetzwerk-Ausrüstung und Dedizierten Server?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>How often do you monitor the Data Center network equipment and dedicated servers?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>How often do you monitor the Data Center network equipment and dedicated servers?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>How often do you monitor the Data Center network equipment and dedicated servers?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>How often do you monitor the Data Center network equipment and dedicated servers?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_q12</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>What kind of connection to the Internet will my server have?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>What kind of connection to the Internet will my server have?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Welche Art von Verbindung zum Internet wird mein Server haben?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>What kind of connection to the Internet will my server have?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>What kind of connection to the Internet will my server have?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>What kind of connection to the Internet will my server have?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>What kind of connection to the Internet will my server have?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_q13</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>What is your policy on bandwidth?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>What is your policy on bandwidth?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Welche Politik haben Sie für Bandbreite?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>What is your policy on bandwidth?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>What is your policy on bandwidth?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>What is your policy on bandwidth?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>What is your policy on bandwidth?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_q14</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Will I have access to IPMI / KVM to reinstall Operations System or to manage server power supply?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Will I have access to IPMI / KVM to reinstall Operations System or to manage server power supply?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Will ich haben Zugriff auf IPMI / KVM um neu Betriebssystems aufzusetzen oder Server-Stromversorgung zu verwalten?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Will I have access to IPMI / KVM to reinstall Operations System or to manage server power supply?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Will I have access to IPMI / KVM to reinstall Operations System or to manage server power supply?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Will I have access to IPMI / KVM to reinstall Operations System or to manage server power supply?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Will I have access to IPMI / KVM to reinstall Operations System or to manage server power supply?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_a1</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>In stock standard server configurations, as described at solarcom.ch, are installed within 4 regular
+business hours with exceptions being made for delays attributed to payment processing and custom 
+configurations.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>In stock standard server configurations, as described at solarcom.ch, are installed within 4 regular
+business hours with exceptions being made for delays attributed to payment processing and custom 
+configurations.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Ins Lager werden Standard-Server-Konfigurationen, wie bei solarcom.ch beschrieben, während der 4 Geschäftsstunden  installiert werden. 
+Ausnahmen können durch Zahlungsverzögerungen und Sondernkonfigurationen auftreten.
+</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>In stock standard server configurations, as described at solarcom.ch, are installed within 4 regular
+business hours with exceptions being made for delays attributed to payment processing and custom 
+configurations.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>In stock standard server configurations, as described at solarcom.ch, are installed within 4 regular
+business hours with exceptions being made for delays attributed to payment processing and custom 
+configurations.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>In stock standard server configurations, as described at solarcom.ch, are installed within 4 regular
+business hours with exceptions being made for delays attributed to payment processing and custom 
+configurations.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>In stock standard server configurations, as described at solarcom.ch, are installed within 4 regular
+business hours with exceptions being made for delays attributed to payment processing and custom 
+configurations.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_a2</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Your hardware can be upgraded at anytime. To order a hardware or software upgrade, please visit
+your control panel or contact Solar Communications customer service.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Your hardware can be upgraded at anytime. To order a hardware or software upgrade, please visit
+your control panel or contact Solar Communications customer service.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Ihre Hardware kann jederzeit nachgerüstet werden. Um einen Hardware-oder Software-Upgrade zu bestellen, besuchen Sie bitte
+Ihre Szstemsteuerung oder kontaktieren Sie  Solar Communications Kundenbetreuung.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Your hardware can be upgraded at anytime. To order a hardware or software upgrade, please visit
+your control panel or contact Solar Communications customer service.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Your hardware can be upgraded at anytime. To order a hardware or software upgrade, please visit
+your control panel or contact Solar Communications customer service.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Your hardware can be upgraded at anytime. To order a hardware or software upgrade, please visit
+your control panel or contact Solar Communications customer service.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Your hardware can be upgraded at anytime. To order a hardware or software upgrade, please visit
+your control panel or contact Solar Communications customer service.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_a3</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Additional IPs can be rented at a cost of 3 USD per month by contacting Solar Communications
+customer support or via control panel.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Additional IPs can be rented at a cost of 3 USD per month by contacting Solar Communications
+customer support or via control panel.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Zusätzliche IPs können zu einem Preis von 3 USD pro Monat gemietet sein.
+Dafür kontaktieren Sie Solar Communications Kundenbetreuung oder via Systemsteuerung.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Additional IPs can be rented at a cost of 3 USD per month by contacting Solar Communications
+customer support or via control panel.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Additional IPs can be rented at a cost of 3 USD per month by contacting Solar Communications
+customer support or via control panel.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Additional IPs can be rented at a cost of 3 USD per month by contacting Solar Communications
+customer support or via control panel.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Additional IPs can be rented at a cost of 3 USD per month by contacting Solar Communications
+customer support or via control panel.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_a4</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Yes, you can. Solar Communications provides various software, including mail servers, to help
+you to manage your server efficiently.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Yes, you can. Solar Communications provides various software, including mail servers, to help
+you to manage your server efficiently.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Ja, können Sie. Solar Communications bietet verschiedene Software, einschließlich Mail-Server, um Sie zu helfen
+Ihren Server effizient zu verwalten.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Yes, you can. Solar Communications provides various software, including mail servers, to help
+you to manage your server efficiently.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Yes, you can. Solar Communications provides various software, including mail servers, to help
+you to manage your server efficiently.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Yes, you can. Solar Communications provides various software, including mail servers, to help
+you to manage your server efficiently.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Yes, you can. Solar Communications provides various software, including mail servers, to help
+you to manage your server efficiently.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_a5</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Each server with cPanel installed comes with excellent control panel (Web Host Manager - WHM)
+that gives you total control over your server. Control panel will allow you to allocate resources, 
+manage e-mails, domains and handle all parts of server administration.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Each server with cPanel installed comes with excellent control panel (Web Host Manager - WHM)
+that gives you total control over your server. Control panel will allow you to allocate resources, 
+manage e-mails, domains and handle all parts of server administration.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Jeder Server mit  dem installierten cPanel kommt mit ausgezeichneten Systemsteuerung (Web Host Manager - WHM), 
+das Ihnen die volle Kontrolle über Ihren Server gibt. Szstemsteuerung ermöglicht es Ihnen, Ressourcen bereitzustellen,
+E-Mails und Domains zu verwalten und alle Teile der Server-Administration zu erledigen.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Each server with cPanel installed comes with excellent control panel (Web Host Manager - WHM)
+that gives you total control over your server. Control panel will allow you to allocate resources, 
+manage e-mails, domains and handle all parts of server administration.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Each server with cPanel installed comes with excellent control panel (Web Host Manager - WHM)
+that gives you total control over your server. Control panel will allow you to allocate resources, 
+manage e-mails, domains and handle all parts of server administration.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Each server with cPanel installed comes with excellent control panel (Web Host Manager - WHM)
+that gives you total control over your server. Control panel will allow you to allocate resources, 
+manage e-mails, domains and handle all parts of server administration.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Each server with cPanel installed comes with excellent control panel (Web Host Manager - WHM)
+that gives you total control over your server. Control panel will allow you to allocate resources, 
+manage e-mails, domains and handle all parts of server administration.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_a6</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>
+		RAID is a Redundant Array of Independent Disks. RAID allows storage of data on several linked 
+disks that are recognized as a single entity by server operating system. Solar Communications provides
+several RAID SATA and SAS configurations.&lt;br&gt;&lt;br&gt;
+RAID-0:  Uses block-level striping and has no redundancy. RAID-0 provides improved performance and
+additional storage but no fault tolerance as the technology divides data into blocks and places each block
+on a different drive. This solution is most effective for applications where speed is of the primary concern.
+As RAID-0 does not provide redundancy daily backups are strongly recommended.&lt;Br&gt;&lt;br&gt;
+RAID-1: Uses mirroring where data is written identically to 2 disks. The application continues to operate
+as long as at least one drive is functioning. RAID-1 offers high degree of redundancy at a minimal
+performance reduction.&lt;br&gt;&lt;br&gt;
+RAID 5 : Uses block-level striping with distributed parity. RAID-5 distributes parity along with the data and
+requires all drives but one to be present to operate. Upon drive failure, the data can be restored as enough
+data has been made redundant. This is an optimal solution for databases and solutions that require high disk 
+utilization. We recommend this solution due to combination of data protection and speed.&lt;br&gt;&lt;br&gt;
+RAID-1 + Hot Spare: This type of RAID is great if one of your drives fail and you need to replace it without 
+shutting down your system. Hot Spare is a hard disk that is switched into operation if one of the hard drives 
+in RAID-1 fails. This way you always have 2 working hard drives at your disposal.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>
+		RAID is a Redundant Array of Independent Disks. RAID allows storage of data on several linked 
+disks that are recognized as a single entity by server operating system. Solar Communications provides
+several RAID SATA and SAS configurations.&lt;br&gt;&lt;br&gt;
+RAID-0:  Uses block-level striping and has no redundancy. RAID-0 provides improved performance and
+additional storage but no fault tolerance as the technology divides data into blocks and places each block
+on a different drive. This solution is most effective for applications where speed is of the primary concern.
+As RAID-0 does not provide redundancy daily backups are strongly recommended.&lt;Br&gt;&lt;br&gt;
+RAID-1: Uses mirroring where data is written identically to 2 disks. The application continues to operate
+as long as at least one drive is functioning. RAID-1 offers high degree of redundancy at a minimal
+performance reduction.&lt;br&gt;&lt;br&gt;
+RAID 5 : Uses block-level striping with distributed parity. RAID-5 distributes parity along with the data and
+requires all drives but one to be present to operate. Upon drive failure, the data can be restored as enough
+data has been made redundant. This is an optimal solution for databases and solutions that require high disk 
+utilization. We recommend this solution due to combination of data protection and speed.&lt;br&gt;&lt;br&gt;
+RAID-1 + Hot Spare: This type of RAID is great if one of your drives fail and you need to replace it without 
+shutting down your system. Hot Spare is a hard disk that is switched into operation if one of the hard drives 
+in RAID-1 fails. This way you always have 2 working hard drives at your disposal.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>
+		RAID ist Redundante Anordnung unabhängiger Festplatten. RAID ermöglicht die Speicherung von Daten auf mehreren miteinander verbundenen
+Festplatten, die als eine Einheit von Server-Betriebssystem erkannt sind. Solar Communications bietet
+mehrere RAID SATA-und SAS-Konfigurationen.&lt;br&gt;&lt;br&gt;
+RAID-0: Verwendet Striping auf Blockebene und hat keine Redundanz. RAID-0 bietet eine verbesserte Leistung und
+zusätzlichen Speicher, aber keine Fehlertoleranz, wie die Technologie teilt Daten in Blöcke und platziert jeder Block
+auf einem anderen Laufwerk.Diese Lösung ist am effektivsten für Anwendungen, bei denen Geschwindigkeit der Hauptanliegen ist.
+Als RAID-0 bietet keine Redundanz, sind tägliche Backups dringend empfohlen.&lt;Br&gt;&lt;br&gt;
+RAID-1: Verwendet Spiegelung, wo die Daten identisch zu 2 Festplatten geschrieben sind. Die Anwendung arbeitet weiter
+solange mindestens ein Laufwerk funktioniert. RAID-1 bietet hohe Redundanz bei minimalem
+Leistungsreduzierung.&lt;br&gt;&lt;br&gt;
+RAID 5: Verwendet Block-Level Striping mit verteilter Parität. RAID-5 verteilt Parität zusammen mit den Daten und
+verlangt, dass alle Treiber vorhanden sein, um zu arbeiten. Nach Festplattenausfall, können die Daten wiederhergestellt werden als genug
+Daten wurde entlassen. Dies ist eine optimale Lösung für Datenbanken und Lösungen, die hohe Auslastung von Festplatten erfordern.
+Wir empfehlen diese Lösung aufgrund der Kombination des Datenschutzes und der Geschwindigkeit.&lt;br&gt;&lt;br&gt;
+RAID-1 + Hot-Spare: Diese Art von RAID ist toll, wenn einer Ihrer Treiber ausfällt, und Sie müssen, um es ohne
+Herunterfahren des Systems zu ersetzen. Hot Spare ist eine Festplatte, die in Betrieb geschaltet wird, wenn eine der Festplatten
+in RAID-1 ausfällt. Auf diese Weise haben Sie immer 2 Arbeits-Festplatten zur Verfügung.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>
+		RAID is a Redundant Array of Independent Disks. RAID allows storage of data on several linked 
+disks that are recognized as a single entity by server operating system. Solar Communications provides
+several RAID SATA and SAS configurations.&lt;br&gt;&lt;br&gt;
+RAID-0:  Uses block-level striping and has no redundancy. RAID-0 provides improved performance and
+additional storage but no fault tolerance as the technology divides data into blocks and places each block
+on a different drive. This solution is most effective for applications where speed is of the primary concern.
+As RAID-0 does not provide redundancy daily backups are strongly recommended.&lt;Br&gt;&lt;br&gt;
+RAID-1: Uses mirroring where data is written identically to 2 disks. The application continues to operate
+as long as at least one drive is functioning. RAID-1 offers high degree of redundancy at a minimal
+performance reduction.&lt;br&gt;&lt;br&gt;
+RAID 5 : Uses block-level striping with distributed parity. RAID-5 distributes parity along with the data and
+requires all drives but one to be present to operate. Upon drive failure, the data can be restored as enough
+data has been made redundant. This is an optimal solution for databases and solutions that require high disk 
+utilization. We recommend this solution due to combination of data protection and speed.&lt;br&gt;&lt;br&gt;
+RAID-1 + Hot Spare: This type of RAID is great if one of your drives fail and you need to replace it without 
+shutting down your system. Hot Spare is a hard disk that is switched into operation if one of the hard drives 
+in RAID-1 fails. This way you always have 2 working hard drives at your disposal.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>
+		RAID is a Redundant Array of Independent Disks. RAID allows storage of data on several linked 
+disks that are recognized as a single entity by server operating system. Solar Communications provides
+several RAID SATA and SAS configurations.&lt;br&gt;&lt;br&gt;
+RAID-0:  Uses block-level striping and has no redundancy. RAID-0 provides improved performance and
+additional storage but no fault tolerance as the technology divides data into blocks and places each block
+on a different drive. This solution is most effective for applications where speed is of the primary concern.
+As RAID-0 does not provide redundancy daily backups are strongly recommended.&lt;Br&gt;&lt;br&gt;
+RAID-1: Uses mirroring where data is written identically to 2 disks. The application continues to operate
+as long as at least one drive is functioning. RAID-1 offers high degree of redundancy at a minimal
+performance reduction.&lt;br&gt;&lt;br&gt;
+RAID 5 : Uses block-level striping with distributed parity. RAID-5 distributes parity along with the data and
+requires all drives but one to be present to operate. Upon drive failure, the data can be restored as enough
+data has been made redundant. This is an optimal solution for databases and solutions that require high disk 
+utilization. We recommend this solution due to combination of data protection and speed.&lt;br&gt;&lt;br&gt;
+RAID-1 + Hot Spare: This type of RAID is great if one of your drives fail and you need to replace it without 
+shutting down your system. Hot Spare is a hard disk that is switched into operation if one of the hard drives 
+in RAID-1 fails. This way you always have 2 working hard drives at your disposal.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>
+		RAID is a Redundant Array of Independent Disks. RAID allows storage of data on several linked 
+disks that are recognized as a single entity by server operating system. Solar Communications provides
+several RAID SATA and SAS configurations.&lt;br&gt;&lt;br&gt;
+RAID-0:  Uses block-level striping and has no redundancy. RAID-0 provides improved performance and
+additional storage but no fault tolerance as the technology divides data into blocks and places each block
+on a different drive. This solution is most effective for applications where speed is of the primary concern.
+As RAID-0 does not provide redundancy daily backups are strongly recommended.&lt;Br&gt;&lt;br&gt;
+RAID-1: Uses mirroring where data is written identically to 2 disks. The application continues to operate
+as long as at least one drive is functioning. RAID-1 offers high degree of redundancy at a minimal
+performance reduction.&lt;br&gt;&lt;br&gt;
+RAID 5 : Uses block-level striping with distributed parity. RAID-5 distributes parity along with the data and
+requires all drives but one to be present to operate. Upon drive failure, the data can be restored as enough
+data has been made redundant. This is an optimal solution for databases and solutions that require high disk 
+utilization. We recommend this solution due to combination of data protection and speed.&lt;br&gt;&lt;br&gt;
+RAID-1 + Hot Spare: This type of RAID is great if one of your drives fail and you need to replace it without 
+shutting down your system. Hot Spare is a hard disk that is switched into operation if one of the hard drives 
+in RAID-1 fails. This way you always have 2 working hard drives at your disposal.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>
+		RAID is a Redundant Array of Independent Disks. RAID allows storage of data on several linked 
+disks that are recognized as a single entity by server operating system. Solar Communications provides
+several RAID SATA and SAS configurations.&lt;br&gt;&lt;br&gt;
+RAID-0:  Uses block-level striping and has no redundancy. RAID-0 provides improved performance and
+additional storage but no fault tolerance as the technology divides data into blocks and places each block
+on a different drive. This solution is most effective for applications where speed is of the primary concern.
+As RAID-0 does not provide redundancy daily backups are strongly recommended.&lt;Br&gt;&lt;br&gt;
+RAID-1: Uses mirroring where data is written identically to 2 disks. The application continues to operate
+as long as at least one drive is functioning. RAID-1 offers high degree of redundancy at a minimal
+performance reduction.&lt;br&gt;&lt;br&gt;
+RAID 5 : Uses block-level striping with distributed parity. RAID-5 distributes parity along with the data and
+requires all drives but one to be present to operate. Upon drive failure, the data can be restored as enough
+data has been made redundant. This is an optimal solution for databases and solutions that require high disk 
+utilization. We recommend this solution due to combination of data protection and speed.&lt;br&gt;&lt;br&gt;
+RAID-1 + Hot Spare: This type of RAID is great if one of your drives fail and you need to replace it without 
+shutting down your system. Hot Spare is a hard disk that is switched into operation if one of the hard drives 
+in RAID-1 fails. This way you always have 2 working hard drives at your disposal.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_a7</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Solar Communications guarantees that all hardware components will be maintained in a proper working order 
+and in an event of failure the hardware will be replaced at no cost to customer, except for event of gross misusage
+of the leased equipment. Hardware repair/replacement will begin immediately upon identification of a hardware problem.
+Hardware is defined as the  Processor(s), RAM, Hard Disk(s), Motherboard, NIC Card, and other related hardware 
+included under the server lease. For more information regarding Solar Communications Hardware 
+Guarantee please review our SLA.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Solar Communications guarantees that all hardware components will be maintained in a proper working order 
+and in an event of failure the hardware will be replaced at no cost to customer, except for event of gross misusage
+of the leased equipment. Hardware repair/replacement will begin immediately upon identification of a hardware problem.
+Hardware is defined as the  Processor(s), RAM, Hard Disk(s), Motherboard, NIC Card, and other related hardware 
+included under the server lease. For more information regarding Solar Communications Hardware 
+Guarantee please review our SLA.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Solar Communications garantiert, dass alle Hardware-Komponenten in einem einwandfreiem Zustand werden beibehalten wird
+und in einem Ausfall wird die Hardware ohne Kosten für den Kunden ersetzt werden, außer bei grobem Missbrauch
+der vermieteten Geräte. Hardware Reparatur / Austausch beginnt sofort nach der Identifizierung eines Hardware-Problems.
+Hardware ist als Prozessor (en), RAM, Festplatte (n), Mainboard, Netzwerkkarte definiert und andere verwandte Hardware
+unter dem Server-Leasing. Für weitere Informationen über Solar Communications Hardware
+Garantieren, uberprüfen Sie bitte unsere DGV.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Solar Communications guarantees that all hardware components will be maintained in a proper working order 
+and in an event of failure the hardware will be replaced at no cost to customer, except for event of gross misusage
+of the leased equipment. Hardware repair/replacement will begin immediately upon identification of a hardware problem.
+Hardware is defined as the  Processor(s), RAM, Hard Disk(s), Motherboard, NIC Card, and other related hardware 
+included under the server lease. For more information regarding Solar Communications Hardware 
+Guarantee please review our SLA.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Solar Communications guarantees that all hardware components will be maintained in a proper working order 
+and in an event of failure the hardware will be replaced at no cost to customer, except for event of gross misusage
+of the leased equipment. Hardware repair/replacement will begin immediately upon identification of a hardware problem.
+Hardware is defined as the  Processor(s), RAM, Hard Disk(s), Motherboard, NIC Card, and other related hardware 
+included under the server lease. For more information regarding Solar Communications Hardware 
+Guarantee please review our SLA.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Solar Communications guarantees that all hardware components will be maintained in a proper working order 
+and in an event of failure the hardware will be replaced at no cost to customer, except for event of gross misusage
+of the leased equipment. Hardware repair/replacement will begin immediately upon identification of a hardware problem.
+Hardware is defined as the  Processor(s), RAM, Hard Disk(s), Motherboard, NIC Card, and other related hardware 
+included under the server lease. For more information regarding Solar Communications Hardware 
+Guarantee please review our SLA.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Solar Communications guarantees that all hardware components will be maintained in a proper working order 
+and in an event of failure the hardware will be replaced at no cost to customer, except for event of gross misusage
+of the leased equipment. Hardware repair/replacement will begin immediately upon identification of a hardware problem.
+Hardware is defined as the  Processor(s), RAM, Hard Disk(s), Motherboard, NIC Card, and other related hardware 
+included under the server lease. For more information regarding Solar Communications Hardware 
+Guarantee please review our SLA.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_a8</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Dedicated servers provided by Solar Communications are connected to the Internet network through redundant 
+high quality connections by top upstream carriers. This ensures data delivery to the dedicated servers in  
+the fastest, most efficient manner possible. Solar Communications Gmbh guarantees 99.9% online availability 
+of your server in a given month, excluding scheduled maintenance. Solar Communications Cisco powered redundant 
+network combined with 24/7 monitoring by highly qualified network engineers, guarantee that all network infrastructure
+ including routers, switches, and cabling are at their optimal  performance. For more information regarding Solar 
+Communications our uptime guarantee please review SLA and Business Safety Guarantee pages.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dedicated servers provided by Solar Communications are connected to the Internet network through redundant 
+high quality connections by top upstream carriers. This ensures data delivery to the dedicated servers in  
+the fastest, most efficient manner possible. Solar Communications Gmbh guarantees 99.9% online availability 
+of your server in a given month, excluding scheduled maintenance. Solar Communications Cisco powered redundant 
+network combined with 24/7 monitoring by highly qualified network engineers, guarantee that all network infrastructure
+ including routers, switches, and cabling are at their optimal  performance. For more information regarding Solar 
+Communications our uptime guarantee please review SLA and Business Safety Guarantee pages.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Dedizierte Server, die von Solar Communications bereitgestellt sind, sind mit dem Internet-Netzwerk durch redundate qualitativ hochwertige Verbindungen von Top stromaufwärts Träger verbunden.
+Dies garantiert Datenlieferung an den dedizierten Servern in
+die schnellste und effizienteste Art und Weise möglich. Solar Communications GmbH garantiert 99,9% Online-Verfügbarkeit
+Ihres Servers in einem bestimmten Monat, ohne planmäßige Wartung. Solar-Kommunikation Cisco betriebene redundante
+Netzwerk mit 24/7 Überwachung von hochqualifiziertes Netzwerk-Ingenieure garantiert dass alle Netzwerk-Infrastruktur
+einschließlich Router, Switches und Verkabelung sind auf ihre optimale Leistung. Für weitere Informationen über Solar-
+Kommunikation Betriebszeit-Garantie bitte bewerten Sie DGV and Business Sicherheitsgarantie Seiten.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dedicated servers provided by Solar Communications are connected to the Internet network through redundant 
+high quality connections by top upstream carriers. This ensures data delivery to the dedicated servers in  
+the fastest, most efficient manner possible. Solar Communications Gmbh guarantees 99.9% online availability 
+of your server in a given month, excluding scheduled maintenance. Solar Communications Cisco powered redundant 
+network combined with 24/7 monitoring by highly qualified network engineers, guarantee that all network infrastructure
+ including routers, switches, and cabling are at their optimal  performance. For more information regarding Solar 
+Communications our uptime guarantee please review SLA and Business Safety Guarantee pages.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dedicated servers provided by Solar Communications are connected to the Internet network through redundant 
+high quality connections by top upstream carriers. This ensures data delivery to the dedicated servers in  
+the fastest, most efficient manner possible. Solar Communications Gmbh guarantees 99.9% online availability 
+of your server in a given month, excluding scheduled maintenance. Solar Communications Cisco powered redundant 
+network combined with 24/7 monitoring by highly qualified network engineers, guarantee that all network infrastructure
+ including routers, switches, and cabling are at their optimal  performance. For more information regarding Solar 
+Communications our uptime guarantee please review SLA and Business Safety Guarantee pages.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dedicated servers provided by Solar Communications are connected to the Internet network through redundant 
+high quality connections by top upstream carriers. This ensures data delivery to the dedicated servers in  
+the fastest, most efficient manner possible. Solar Communications Gmbh guarantees 99.9% online availability 
+of your server in a given month, excluding scheduled maintenance. Solar Communications Cisco powered redundant 
+network combined with 24/7 monitoring by highly qualified network engineers, guarantee that all network infrastructure
+ including routers, switches, and cabling are at their optimal  performance. For more information regarding Solar 
+Communications our uptime guarantee please review SLA and Business Safety Guarantee pages.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dedicated servers provided by Solar Communications are connected to the Internet network through redundant 
+high quality connections by top upstream carriers. This ensures data delivery to the dedicated servers in  
+the fastest, most efficient manner possible. Solar Communications Gmbh guarantees 99.9% online availability 
+of your server in a given month, excluding scheduled maintenance. Solar Communications Cisco powered redundant 
+network combined with 24/7 monitoring by highly qualified network engineers, guarantee that all network infrastructure
+ including routers, switches, and cabling are at their optimal  performance. For more information regarding Solar 
+Communications our uptime guarantee please review SLA and Business Safety Guarantee pages.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_a9</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Yes, the root access will be provided to you.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Yes, the root access will be provided to you.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Ja, wird die Root-Zugang zur Verfügung gestellt werden.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Yes, the root access will be provided to you.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Yes, the root access will be provided to you.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Yes, the root access will be provided to you.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Yes, the root access will be provided to you.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_a10</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Data Center is a facility where the servers connected to Internet network and all related infrastructure is located. 
+Our facility is secured to prevent unauthorized access, has backup power generators and overall is  optimized to 
+ensure uninterrupted network performance. State-of-the-art infrastructure, multiple network redundancy and around 
+the clock traffic and server monitoring enables us to guarantee excellent online availability and reliability for each 
+and every server.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Data Center is a facility where the servers connected to Internet network and all related infrastructure is located. 
+Our facility is secured to prevent unauthorized access, has backup power generators and overall is  optimized to 
+ensure uninterrupted network performance. State-of-the-art infrastructure, multiple network redundancy and around 
+the clock traffic and server monitoring enables us to guarantee excellent online availability and reliability for each 
+and every server.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Rechenzentrum ist eine Einrichtung, wo die Server mit dem Internet-Netzwerk verbunden ist und alle verbundenen Infrastruktur befindet sich. 
+Unsere Einrichtung gesichert ist, um unbefugten Zugriff zu verhindern, hat Backup-Generatoren und insgesamt ist optimiert
+ununterbrochene Netzwerk-Performance zu gewährleisten. State-of-the-art Infrastruktur, mehrere Netzwerk-Redundanz und rund
+die Uhr Verkehrs-und Server-Überwachung ermöglicht es uns, ausgezeichnete Online-Verfügbarkeit und Zuverlässigkeit für jeder Server zu garantieren.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Data Center is a facility where the servers connected to Internet network and all related infrastructure is located. 
+Our facility is secured to prevent unauthorized access, has backup power generators and overall is  optimized to 
+ensure uninterrupted network performance. State-of-the-art infrastructure, multiple network redundancy and around 
+the clock traffic and server monitoring enables us to guarantee excellent online availability and reliability for each 
+and every server.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Data Center is a facility where the servers connected to Internet network and all related infrastructure is located. 
+Our facility is secured to prevent unauthorized access, has backup power generators and overall is  optimized to 
+ensure uninterrupted network performance. State-of-the-art infrastructure, multiple network redundancy and around 
+the clock traffic and server monitoring enables us to guarantee excellent online availability and reliability for each 
+and every server.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Data Center is a facility where the servers connected to Internet network and all related infrastructure is located. 
+Our facility is secured to prevent unauthorized access, has backup power generators and overall is  optimized to 
+ensure uninterrupted network performance. State-of-the-art infrastructure, multiple network redundancy and around 
+the clock traffic and server monitoring enables us to guarantee excellent online availability and reliability for each 
+and every server.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Data Center is a facility where the servers connected to Internet network and all related infrastructure is located. 
+Our facility is secured to prevent unauthorized access, has backup power generators and overall is  optimized to 
+ensure uninterrupted network performance. State-of-the-art infrastructure, multiple network redundancy and around 
+the clock traffic and server monitoring enables us to guarantee excellent online availability and reliability for each 
+and every server.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_a11</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Our datacenter is monitored 24/7 by highly qualified Solar Communications technical staff.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Our datacenter is monitored 24/7 by highly qualified Solar Communications technical staff.
+</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Our datacenter is monitored 24/7 by highly qualified Solar Communications technical staff.
+</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>faq_1_a11</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>faq_1_a11</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>faq_1_a11</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>faq_1_a11</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_a12</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Each Dedicated Server is connected to Solar Communications network core via 1 Gbit/s port. The connection can 
+be upgraded to 10 Gbit/s upon request.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Each Dedicated Server is connected to Solar Communications network core via 1 Gbit/s port. The connection can 
+be upgraded to 10 Gbit/s upon request.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Jeder Dedizierter Server ist zum Solar Communications Netzwerk Kern via 1 Gbit/s Anschluß verbunden. Die Verbindung kann
+bis zu 10 Gbit / s auf Wunsch erweitert werden.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Each Dedicated Server is connected to Solar Communications network core via 1 Gbit/s port. The connection can 
+be upgraded to 10 Gbit/s upon request.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Each Dedicated Server is connected to Solar Communications network core via 1 Gbit/s port. The connection can 
+be upgraded to 10 Gbit/s upon request.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Each Dedicated Server is connected to Solar Communications network core via 1 Gbit/s port. The connection can 
+be upgraded to 10 Gbit/s upon request.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Each Dedicated Server is connected to Solar Communications network core via 1 Gbit/s port. The connection can 
+be upgraded to 10 Gbit/s upon request.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_a13</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Each Dedicated Server has a specific bandwidth limit in line with billing plan selected or negotiated. If additional 
+bandwidth is required, it can be easily purchased. Please review our fees schedule for pricing.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Each Dedicated Server has a specific bandwidth limit in line with billing plan selected or negotiated. If additional 
+bandwidth is required, it can be easily purchased. Please review our fees schedule for pricing.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Jeder Dedizierter Server hat eine spezifische Bandbreite Begrenzung im Einklang mit Fakturierungsplans ausgewählt oder ausgehandelt. Wenn zusätzliche
+Bandbreite erforderlich ist, kann es leicht gekauft werden. Bitte lesen Sie unsere Gebührenverzeichnis für die Preisfindung.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Each Dedicated Server has a specific bandwidth limit in line with billing plan selected or negotiated. If additional 
+bandwidth is required, it can be easily purchased. Please review our fees schedule for pricing.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Each Dedicated Server has a specific bandwidth limit in line with billing plan selected or negotiated. If additional 
+bandwidth is required, it can be easily purchased. Please review our fees schedule for pricing.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Each Dedicated Server has a specific bandwidth limit in line with billing plan selected or negotiated. If additional 
+bandwidth is required, it can be easily purchased. Please review our fees schedule for pricing.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Each Dedicated Server has a specific bandwidth limit in line with billing plan selected or negotiated. If additional 
+bandwidth is required, it can be easily purchased. Please review our fees schedule for pricing.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_1_a14</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Yes, access to IPMI / KVM is provided free of charge for each server purchased for us.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Yes, access to IPMI / KVM is provided free of charge for each server purchased for us.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Ja, ist der Zugriff auf IPMI/KVM kostenlos für jeden bei uns gekauften Server.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Yes, access to IPMI / KVM is provided free of charge for each server purchased for us.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Yes, access to IPMI / KVM is provided free of charge for each server purchased for us.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Yes, access to IPMI / KVM is provided free of charge for each server purchased for us.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Yes, access to IPMI / KVM is provided free of charge for each server purchased for us.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_2_q1</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>From geographic perspective, where my equipment will be located?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>From geographic perspective, where my equipment will be located?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Aus geografischer Sicht, wo wird meine Ausrüstung verortet?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>From geographic perspective, where my equipment will be located?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>From geographic perspective, where my equipment will be located?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>From geographic perspective, where my equipment will be located?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>From geographic perspective, where my equipment will be located?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_2_q2</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>What kind of connection to the Internet will my equipment have?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>What kind of connection to the Internet will my equipment have?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Welche Art der Verbindung zum Internet wird meine Ausrüstung haben?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>What kind of connection to the Internet will my equipment have?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>What kind of connection to the Internet will my equipment have?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>What kind of connection to the Internet will my equipment have?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>What kind of connection to the Internet will my equipment have?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_2_q3</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Can I order Solar Communications to upgrade, setup or manage my equipment that is located at your data center?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Can I order Solar Communications to upgrade, setup or manage my equipment that is located at your data center?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Kann ich kontaktieren Solar Communications, um meine Ausrüstung, die in ihrem Rechenzentrum befindet sich,  zu aktualisieren, einrichten oder verwalten?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Can I order Solar Communications to upgrade, setup or manage my equipment that is located at your data center?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Can I order Solar Communications to upgrade, setup or manage my equipment that is located at your data center?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Can I order Solar Communications to upgrade, setup or manage my equipment that is located at your data center?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Can I order Solar Communications to upgrade, setup or manage my equipment that is located at your data center?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_2_q4</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>My equipment will require more electric power then allocated at the billing plan that I have chosen. Can I purchase 
+additional power?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>My equipment will require more electric power then allocated at the billing plan that I have chosen. Can I purchase 
+additional power?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Meine Ausrüstung wird mehr elektrische Energie dann an der zugeorneten Fakturierungsplan, das ich gewählt habe. Kann ich
+zusätzliche Leistung kaufen?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>My equipment will require more electric power then allocated at the billing plan that I have chosen. Can I purchase 
+additional power?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>My equipment will require more electric power then allocated at the billing plan that I have chosen. Can I purchase 
+additional power?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>My equipment will require more electric power then allocated at the billing plan that I have chosen. Can I purchase 
+additional power?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>My equipment will require more electric power then allocated at the billing plan that I have chosen. Can I purchase 
+additional power?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_2_q5</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>How many IP addresses are provided by default? Can I purchase additional IP addresses?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>How many IP addresses are provided by default? Can I purchase additional IP addresses?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Wie viele IP-Adressen sind standardmäßig zur Verfügung gestellt? Kann ich zusätzliche IP-Adressen kaufen?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>How many IP addresses are provided by default? Can I purchase additional IP addresses?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>How many IP addresses are provided by default? Can I purchase additional IP addresses?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>How many IP addresses are provided by default? Can I purchase additional IP addresses?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>How many IP addresses are provided by default? Can I purchase additional IP addresses?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_2_q6</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Do I have to pay import duty when shipping my equipment to you?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Do I have to pay import duty when shipping my equipment to you?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Muß ich die Einfuhrabgabe zahlen beim Versand meiner Ausrüstung zu Ihnen?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Do I have to pay import duty when shipping my equipment to you?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Do I have to pay import duty when shipping my equipment to you?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Do I have to pay import duty when shipping my equipment to you?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Do I have to pay import duty when shipping my equipment to you?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_2_q7</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>What is the procedure to return my equipment?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>What is the procedure to return my equipment?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Wie ist das Verfahren, um meine Ausrüstung zurückzukehren?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>What is the procedure to return my equipment?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>What is the procedure to return my equipment?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>What is the procedure to return my equipment?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>What is the procedure to return my equipment?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_2_q8</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>What does Burstable billing (95th Percentile) mean?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>What does Burstable billing (95th Percentile) mean?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Was bedeutet Burstable Abrechnung (95. Perzentil)?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>What does Burstable billing (95th Percentile) mean?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>What does Burstable billing (95th Percentile) mean?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>What does Burstable billing (95th Percentile) mean?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>What does Burstable billing (95th Percentile) mean?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_2_q9</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Is my equipment safe with you?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Is my equipment safe with you?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Ist meine Ausrüstung bei Ihnen sicher?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Is my equipment safe with you?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Is my equipment safe with you?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Is my equipment safe with you?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Is my equipment safe with you?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_2_q10</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Will I have access to my equipment?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Will I have access to my equipment?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Bekomme ich Zugriff auf meine Ausrüstung?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Will I have access to my equipment?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Will I have access to my equipment?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Will I have access to my equipment?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Will I have access to my equipment?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_2_a1</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Your equipment will be located at our data center in Zurich, Switzerland.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Your equipment will be located at our data center in Zurich, Switzerland.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Ihre Ausrüstung wird in unserem Rechenzentrum in Zürich, Schweiz geortet.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Your equipment will be located at our data center in Zurich, Switzerland.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Your equipment will be located at our data center in Zurich, Switzerland.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Your equipment will be located at our data center in Zurich, Switzerland.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Your equipment will be located at our data center in Zurich, Switzerland.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_2_a2</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Your equipment will be connected to Solar Communications network core via 1 Gbit/s port. The connection 
+can be upgraded to 10 Gbit/s upon request.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Your equipment will be connected to Solar Communications network core via 1 Gbit/s port. The connection 
+can be upgraded to 10 Gbit/s upon request.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Ihre Ausrüstung wird zum Solar Communications Netzwerk Kern via 1 Gbit / s Anschluß angeschloßen. Die Verbindung kann
+zu 10 Gbit / s auf Ihren Wunsch erweitert.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Your equipment will be connected to Solar Communications network core via 1 Gbit/s port. The connection 
+can be upgraded to 10 Gbit/s upon request.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Your equipment will be connected to Solar Communications network core via 1 Gbit/s port. The connection 
+can be upgraded to 10 Gbit/s upon request.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Your equipment will be connected to Solar Communications network core via 1 Gbit/s port. The connection 
+can be upgraded to 10 Gbit/s upon request.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Your equipment will be connected to Solar Communications network core via 1 Gbit/s port. The connection 
+can be upgraded to 10 Gbit/s upon request.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_2_a3</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Our engineers will be happy to assist you with upgrade, setup and management of your equipment. Please note that you
+will be charged for this service. For the price of Remote Hands service please review price listing for Colocation.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Our engineers will be happy to assist you with upgrade, setup and management of your equipment. Please note that you
+will be charged for this service. For the price of Remote Hands service please review price listing for Colocation.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Unsere Ingenieure freuen Ihnen, um Sie mit Upgrade, Setup und Verwaltung Ihrer Geräte zu unterstützen. Bitte beachten Sie, dass Sie
+wird für diesen Dienst berechnet. Für den Preis von Fernbetreuung sehen Sie bitte Preis Angebot für Colocation.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Our engineers will be happy to assist you with upgrade, setup and management of your equipment. Please note that you
+will be charged for this service. For the price of Remote Hands service please review price listing for Colocation.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Our engineers will be happy to assist you with upgrade, setup and management of your equipment. Please note that you
+will be charged for this service. For the price of Remote Hands service please review price listing for Colocation.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Our engineers will be happy to assist you with upgrade, setup and management of your equipment. Please note that you
+will be charged for this service. For the price of Remote Hands service please review price listing for Colocation.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Our engineers will be happy to assist you with upgrade, setup and management of your equipment. Please note that you
+will be charged for this service. For the price of Remote Hands service please review price listing for Colocation.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_2_a4</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>
+		Yes, you can. &lt;br&gt;&lt;br&gt;Please specify desired amount of power when making Colocation order in Add-ons directory. Pricing can be 
+reviewed at price listing page of Colocation service.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>
+		Yes, you can. &lt;br&gt;&lt;br&gt;Please specify desired amount of power when making Colocation order in Add-ons directory. Pricing can be 
+reviewed at price listing page of Colocation service.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>
+		Ja, können Sie. &lt;br&gt;&lt;br&gt;Geben Siebitte gewünschte Menge an Strom, wenn Sie Colocation Bestellung in Add-ons-Verzeichnis machen. Sehen SIe bitte die Preisliste
+auf der Seite von Colocation Dienste.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>
+		Yes, you can. &lt;br&gt;&lt;br&gt;Please specify desired amount of power when making Colocation order in Add-ons directory. Pricing can be 
+reviewed at price listing page of Colocation service.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>
+		Yes, you can. &lt;br&gt;&lt;br&gt;Please specify desired amount of power when making Colocation order in Add-ons directory. Pricing can be 
+reviewed at price listing page of Colocation service.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>
+		Yes, you can. &lt;br&gt;&lt;br&gt;Please specify desired amount of power when making Colocation order in Add-ons directory. Pricing can be 
+reviewed at price listing page of Colocation service.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>
+		Yes, you can. &lt;br&gt;&lt;br&gt;Please specify desired amount of power when making Colocation order in Add-ons directory. Pricing can be 
+reviewed at price listing page of Colocation service.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_2_a5</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Amount of IP addresses provided varies depending on the chosen billing plan. For terms and pricing for the provision of 
+additional IP addresses please visit price listing page of Colocation service.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Amount of IP addresses provided varies depending on the chosen billing plan. For terms and pricing for the provision of 
+additional IP addresses please visit price listing page of Colocation service.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Anzahl der bereitgestellten IP-Adressen variiert abhängig von der gewählten Fakturierungsplans. Für Bedingungen und Preise für die Bereitstellung von
+zusätzliche IP-Adressen besuchen Sie bitte die Preisseite von Colocation Dienste.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Amount of IP addresses provided varies depending on the chosen billing plan. For terms and pricing for the provision of 
+additional IP addresses please visit price listing page of Colocation service.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Amount of IP addresses provided varies depending on the chosen billing plan. For terms and pricing for the provision of 
+additional IP addresses please visit price listing page of Colocation service.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Amount of IP addresses provided varies depending on the chosen billing plan. For terms and pricing for the provision of 
+additional IP addresses please visit price listing page of Colocation service.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Amount of IP addresses provided varies depending on the chosen billing plan. For terms and pricing for the provision of 
+additional IP addresses please visit price listing page of Colocation service.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_2_a6</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>The answer to this question depends on the country you are sending the equipment form. Please contact us for exact 
+information. Please do not forget to specify the country and shipping method. Our specialists will assist you in shipping 
+related questions and install your equipment in the most time effective manner.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>The answer to this question depends on the country you are sending the equipment form. Please contact us for exact 
+information. Please do not forget to specify the country and shipping method. Our specialists will assist you in shipping 
+related questions and install your equipment in the most time effective manner.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Die Antwort auf diese Frage hängt von dem Land, die Sie die Geräte senden aus. Kontaktieren Sie uns bitte für genaue
+Informationen. Vergessen Sie bitte nicht, um das Land und Versandart anzugeben.Unsere Spezialisten unterstützen Sie in Fragen zum Versand
+und installieren die Geräte in der meisten Zeit effektive Weise.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>The answer to this question depends on the country you are sending the equipment form. Please contact us for exact 
+information. Please do not forget to specify the country and shipping method. Our specialists will assist you in shipping 
+related questions and install your equipment in the most time effective manner.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>The answer to this question depends on the country you are sending the equipment form. Please contact us for exact 
+information. Please do not forget to specify the country and shipping method. Our specialists will assist you in shipping 
+related questions and install your equipment in the most time effective manner.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>The answer to this question depends on the country you are sending the equipment form. Please contact us for exact 
+information. Please do not forget to specify the country and shipping method. Our specialists will assist you in shipping 
+related questions and install your equipment in the most time effective manner.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>The answer to this question depends on the country you are sending the equipment form. Please contact us for exact 
+information. Please do not forget to specify the country and shipping method. Our specialists will assist you in shipping 
+related questions and install your equipment in the most time effective manner.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_2_a7</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>You are required to refuse the service you have been using at your control panel. Our specialists will make an invoice to 
+be paid prior to the return of equipment based on the country where the equipment will be shipped,  preferred shipping 
+method and insurance.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>You are required to refuse the service you have been using at your control panel. Our specialists will make an invoice to 
+be paid prior to the return of equipment based on the country where the equipment will be shipped,  preferred shipping 
+method and insurance.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sie sind erforderlich, um den Dienst, der Sie auf Ihnen Systemsteuerung verwanden, zu verweigern. Unsere Spezialisten erstellen eine Rechnung, die bezahlt vorher soll, vor der Rückkern der Ausrüstung abhängig von dem Land, in dem das Gerät ausgeliefert wird, bevorzuge Versandmethode und Versicherung.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>You are required to refuse the service you have been using at your control panel. Our specialists will make an invoice to 
+be paid prior to the return of equipment based on the country where the equipment will be shipped,  preferred shipping 
+method and insurance.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>You are required to refuse the service you have been using at your control panel. Our specialists will make an invoice to 
+be paid prior to the return of equipment based on the country where the equipment will be shipped,  preferred shipping 
+method and insurance.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>You are required to refuse the service you have been using at your control panel. Our specialists will make an invoice to 
+be paid prior to the return of equipment based on the country where the equipment will be shipped,  preferred shipping 
+method and insurance.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>You are required to refuse the service you have been using at your control panel. Our specialists will make an invoice to 
+be paid prior to the return of equipment based on the country where the equipment will be shipped,  preferred shipping 
+method and insurance.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_2_a8</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>This means that traffic calculation within your billing rate is done according to generally accepted traffic calculation model 
+that depends on utilization pattern and overall amount used. For more information about Burstable billing please visit the wiki.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>This means that traffic calculation within your billing rate is done according to generally accepted traffic calculation model 
+that depends on utilization pattern and overall amount used. For more information about Burstable billing please visit the wiki.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Dies bedeutet, dass Verkehr-Berechnung innerhalb des Abrechnungstarif ist nach allgemein anerkannten Verkehr-Berechnungsmodel gemacht. Und hängt das Model von Struktur der Nutzung und insgesamt verwendeten Menge. Für weitere Informationen über Burstable Abrechnung besuchen Sie bitte die Wiki.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>This means that traffic calculation within your billing rate is done according to generally accepted traffic calculation model 
+that depends on utilization pattern and overall amount used. For more information about Burstable billing please visit the wiki.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>This means that traffic calculation within your billing rate is done according to generally accepted traffic calculation model 
+that depends on utilization pattern and overall amount used. For more information about Burstable billing please visit the wiki.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>This means that traffic calculation within your billing rate is done according to generally accepted traffic calculation model 
+that depends on utilization pattern and overall amount used. For more information about Burstable billing please visit the wiki.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>This means that traffic calculation within your billing rate is done according to generally accepted traffic calculation model 
+that depends on utilization pattern and overall amount used. For more information about Burstable billing please visit the wiki.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_2_a9</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Yes, you equipment is absolutely safe with us. We explicitly guarantee that no unauthorized party will have access to your 
+equipment. The data center is equipped with sophisticated security and Anti-Fire systems.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Yes, you equipment is absolutely safe with us. We explicitly guarantee that no unauthorized party will have access to your 
+equipment. The data center is equipped with sophisticated security and Anti-Fire systems.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Ja, ist Ihre Ausrüstung unbedingt sicher mit uns. Wir ganantieren, dass keiner ungenehmigten Beteiligter der Zugriff auf Ihre 
+Ausrüstung haben.Das Rechenzentrum ist mit ausgeklügelten Sicherheits-und Anti-Feuer-Systemen ausgestattet.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Yes, you equipment is absolutely safe with us. We explicitly guarantee that no unauthorized party will have access to your 
+equipment. The data center is equipped with sophisticated security and Anti-Fire systems.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Yes, you equipment is absolutely safe with us. We explicitly guarantee that no unauthorized party will have access to your 
+equipment. The data center is equipped with sophisticated security and Anti-Fire systems.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Yes, you equipment is absolutely safe with us. We explicitly guarantee that no unauthorized party will have access to your 
+equipment. The data center is equipped with sophisticated security and Anti-Fire systems.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Yes, you equipment is absolutely safe with us. We explicitly guarantee that no unauthorized party will have access to your 
+equipment. The data center is equipped with sophisticated security and Anti-Fire systems.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_2_a10</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Yes absolutely, if you are renting entire rack (1 Full Rack). In other cases the situation will be resolved individually.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Yes absolutely, if you are renting entire rack (1 Full Rack). In other cases the situation will be resolved individually.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Ja, unbedingt, wenn Sie gesamte Rack (1 Voll-Rack) mieten. In anderen Fällen wird die Situation individuell gelöst werden.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Yes absolutely, if you are renting entire rack (1 Full Rack). In other cases the situation will be resolved individually.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Yes absolutely, if you are renting entire rack (1 Full Rack). In other cases the situation will be resolved individually.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Yes absolutely, if you are renting entire rack (1 Full Rack). In other cases the situation will be resolved individually.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Yes absolutely, if you are renting entire rack (1 Full Rack). In other cases the situation will be resolved individually.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_3_q1</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>What kind of DDoS attacks can Solar Communications stop?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>What kind of DDoS attacks can Solar Communications stop?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Welche Art von DDoS-Attacken können Solar-Kommunikation verhindern?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>What kind of DDoS attacks can Solar Communications stop?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>What kind of DDoS attacks can Solar Communications stop?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>What kind of DDoS attacks can Solar Communications stop?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>What kind of DDoS attacks can Solar Communications stop?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_3_q2</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>What, precisely, can be defended using your service?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>What, precisely, can be defended using your service?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Was genau kann verteidigte mit Ihre Dienste sein?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>What, precisely, can be defended using your service?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>What, precisely, can be defended using your service?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>What, precisely, can be defended using your service?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>What, precisely, can be defended using your service?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_3_q3</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>What if I need to defend several domains?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>What if I need to defend several domains?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Was, wenn ich mehrere Domains verteidigen müssen?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>What if I need to defend several domains?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>What if I need to defend several domains?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>What if I need to defend several domains?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>What if I need to defend several domains?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_3_q4</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>What is Content caching option? Do I need it?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>What is Content caching option? Do I need it?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Was ist Inhalt-Caching-Option? Brauche ich das?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>What is Content caching option? Do I need it?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>What is Content caching option? Do I need it?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>What is Content caching option? Do I need it?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>What is Content caching option? Do I need it?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_3_q5</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Do you provide Money back guarantee in case your system does not stop an attack?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Do you provide Money back guarantee in case your system does not stop an attack?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sie bieten Geld-Zurück-Garantie, falls Ihr System einen Angriff nicht verhindert?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Do you provide Money back guarantee in case your system does not stop an attack?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Do you provide Money back guarantee in case your system does not stop an attack?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Do you provide Money back guarantee in case your system does not stop an attack?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Do you provide Money back guarantee in case your system does not stop an attack?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_3_a1</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Any of DDoS protection packages of Solar Communications will defend you from absolutely all types of DDoS attacks.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Any of DDoS protection packages of Solar Communications will defend you from absolutely all types of DDoS attacks.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Alle DDoS-Schutz-Pakete von Solar Communications werden Sie von absolut allen Arten der DDoS-Attacken verteidigen.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Any of DDoS protection packages of Solar Communications will defend you from absolutely all types of DDoS attacks.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Any of DDoS protection packages of Solar Communications will defend you from absolutely all types of DDoS attacks.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Any of DDoS protection packages of Solar Communications will defend you from absolutely all types of DDoS attacks.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Any of DDoS protection packages of Solar Communications will defend you from absolutely all types of DDoS attacks.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_3_a2</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Depending on the selected DDoS protection package we can defend your web site (http/https), mail server (smtp/pop3) or 
+all TCP/UDP ports of your server(s). The latter is effective when you need to mitigate an attack to your game server that 
+works on TCP protocol, for example.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Depending on the selected DDoS protection package we can defend your web site (http/https), mail server (smtp/pop3) or 
+all TCP/UDP ports of your server(s). The latter is effective when you need to mitigate an attack to your game server that 
+works on TCP protocol, for example.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Abhängig von der gewählten DDoS-Schutz-Paket können wir Ihre Website (http / https), Mail-Server (SMTP-POP3) oder
+alle TCP / UDP-Ports Ihres Servers(n) verteidigen. Letzteres ist effektiv, wenn Sie einen Angriff auf Ihr Spiel-Server, der auf TCP-Protokoll arbeite,mildern müssen, zum Beispiel.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Depending on the selected DDoS protection package we can defend your web site (http/https), mail server (smtp/pop3) or 
+all TCP/UDP ports of your server(s). The latter is effective when you need to mitigate an attack to your game server that 
+works on TCP protocol, for example.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Depending on the selected DDoS protection package we can defend your web site (http/https), mail server (smtp/pop3) or 
+all TCP/UDP ports of your server(s). The latter is effective when you need to mitigate an attack to your game server that 
+works on TCP protocol, for example.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Depending on the selected DDoS protection package we can defend your web site (http/https), mail server (smtp/pop3) or 
+all TCP/UDP ports of your server(s). The latter is effective when you need to mitigate an attack to your game server that 
+works on TCP protocol, for example.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Depending on the selected DDoS protection package we can defend your web site (http/https), mail server (smtp/pop3) or 
+all TCP/UDP ports of your server(s). The latter is effective when you need to mitigate an attack to your game server that 
+works on TCP protocol, for example.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_3_a3</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>
+		If you need to defend a single web site with several domain aliases, that display the same content, please select package
+Standart with 2 additional domain aliases turned on. If necessary, please order add-on to enable increased amount of domain
+aliases when making a DDoS protection order.&lt;br&gt;&lt;br&gt;
+Please note that package Standart with no Extra website add-on purchased will work with a single web site only. If you need 
+to defend several web sites, which differ in content, we recommend you to purchase package Enterprise that allows you to 
+manage DDoS protection of up to 3 different web sites. Enterprises can be expanded to protect even more domains 
+(add-on Extra website) at lower rate as compared  to package Standart.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>
+		If you need to defend a single web site with several domain aliases, that display the same content, please select package
+Standard with 2 additional domain aliases turned on. If necessary, please order add-on to enable increased amount of domain
+aliases when making a DDoS protection order.&lt;br&gt;&lt;br&gt;
+Please note that package Standard with no Extra website add-on purchased will work with a single web site only. If you need 
+to defend several web sites, which differ in content, we recommend you to purchase package Enterprise that allows you to 
+manage DDoS protection of up to 3 different web sites. Enterprises can be expanded to protect even more domains 
+(add-on Extra website) at lower rate as compared  to package Standard.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>
+		Wenn Sie eine einzelne Webseite mit mehreren Domain-Alias​​, die den gleichen Inhalt anzeigen, verteidigen müssen, wählen Sie bitte Standard Paket
+mit 2 zusätzlichen eingeschalteten Domainaliases. Wenn notig, bestellen Sie bitte Add-on, um den erhöhten Betrag von Domainaliases zu aktivieren, zusammen mit  der DDoS-Schutz Bestellung.&lt;br&gt;&lt;br&gt;
+Beachten Sie bitte, dass der gekauften Standard Paket onhe zusätliche Webseite Add-on nur mit einer einzigen Webseite funktionieren wird. Wenn Sie mehrere Webseiten, die inhaltlich unterscheiden, verteidigen müssen, empfehlen wir Ihnen Enterprise Paket, der Ihnen erlaubt, DDoS-Schutz von bis zu 3 verschiedenen Webseiten zu verwalten, zu kaufen. Enterprise Paket kann erweitert werden, um noch mehr Domains (zusätliche Add-on Webseiten bei niedrigeren Preisen im Vergleich zu Standard Paket zu schützen.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>
+		If you need to defend a single web site with several domain aliases, that display the same content, please select package
+Standart with 2 additional domain aliases turned on. If necessary, please order add-on to enable increased amount of domain
+aliases when making a DDoS protection order.&lt;br&gt;&lt;br&gt;
+Please note that package Standart with no Extra website add-on purchased will work with a single web site only. If you need 
+to defend several web sites, which differ in content, we recommend you to purchase package Enterprise that allows you to 
+manage DDoS protection of up to 3 different web sites. Enterprises can be expanded to protect even more domains 
+(add-on Extra website) at lower rate as compared  to package Standart.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>
+		If you need to defend a single web site with several domain aliases, that display the same content, please select package
+Standart with 2 additional domain aliases turned on. If necessary, please order add-on to enable increased amount of domain
+aliases when making a DDoS protection order.&lt;br&gt;&lt;br&gt;
+Please note that package Standart with no Extra website add-on purchased will work with a single web site only. If you need 
+to defend several web sites, which differ in content, we recommend you to purchase package Enterprise that allows you to 
+manage DDoS protection of up to 3 different web sites. Enterprises can be expanded to protect even more domains 
+(add-on Extra website) at lower rate as compared  to package Standart.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>
+		If you need to defend a single web site with several domain aliases, that display the same content, please select package
+Standart with 2 additional domain aliases turned on. If necessary, please order add-on to enable increased amount of domain
+aliases when making a DDoS protection order.&lt;br&gt;&lt;br&gt;
+Please note that package Standart with no Extra website add-on purchased will work with a single web site only. If you need 
+to defend several web sites, which differ in content, we recommend you to purchase package Enterprise that allows you to 
+manage DDoS protection of up to 3 different web sites. Enterprises can be expanded to protect even more domains 
+(add-on Extra website) at lower rate as compared  to package Standart.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>
+		If you need to defend a single web site with several domain aliases, that display the same content, please select package
+Standart with 2 additional domain aliases turned on. If necessary, please order add-on to enable increased amount of domain
+aliases when making a DDoS protection order.&lt;br&gt;&lt;br&gt;
+Please note that package Standart with no Extra website add-on purchased will work with a single web site only. If you need 
+to defend several web sites, which differ in content, we recommend you to purchase package Enterprise that allows you to 
+manage DDoS protection of up to 3 different web sites. Enterprises can be expanded to protect even more domains 
+(add-on Extra website) at lower rate as compared  to package Standart.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_3_a4</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>In some cases, when a web server that contains your web site has a relatively slow bandwidth and is located at considerable 
+distance from Switzerland we recommend Content caching option. The option will significantly improve the response time of 
+your web site to the end user. Static elements of your web site such as images, css styles and flash will be transmitted to 
+end users without communication between our system and your  server at every end user request.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>In some cases, when a web server that contains your web site has a relatively slow bandwidth and is located at considerable 
+distance from Switzerland we recommend Content caching option. The option will significantly improve the response time of 
+your web site to the end user. Static elements of your web site such as images, css styles and flash will be transmitted to 
+end users without communication between our system and your  server at every end user request.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>In einigen Fällen, wenn ein Web-Server, die Ihre Website enthält, eine relativ langsame Bandbreite hat und unter erheblichem befindet
+Abstand von der Schweiz befindet sich, empfehlen wir Inhalt Caching-Option. Die Option wird erheblich die Ansprechzeit
+Ihrer Webseite für den Endbenutzer verbessern. Statische Elemente Ihrer Webseite, wie Bilder, CSS-Stile und Blitz, werden zu
+Endverbraucher ohne Kommunikation zwischen unserem System und dem Server bei jeder Endbenutzer Anfrage übertrug.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>In some cases, when a web server that contains your web site has a relatively slow bandwidth and is located at considerable 
+distance from Switzerland we recommend Content caching option. The option will significantly improve the response time of 
+your web site to the end user. Static elements of your web site such as images, css styles and flash will be transmitted to 
+end users without communication between our system and your  server at every end user request.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>In some cases, when a web server that contains your web site has a relatively slow bandwidth and is located at considerable 
+distance from Switzerland we recommend Content caching option. The option will significantly improve the response time of 
+your web site to the end user. Static elements of your web site such as images, css styles and flash will be transmitted to 
+end users without communication between our system and your  server at every end user request.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>In some cases, when a web server that contains your web site has a relatively slow bandwidth and is located at considerable 
+distance from Switzerland we recommend Content caching option. The option will significantly improve the response time of 
+your web site to the end user. Static elements of your web site such as images, css styles and flash will be transmitted to 
+end users without communication between our system and your  server at every end user request.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>In some cases, when a web server that contains your web site has a relatively slow bandwidth and is located at considerable 
+distance from Switzerland we recommend Content caching option. The option will significantly improve the response time of 
+your web site to the end user. Static elements of your web site such as images, css styles and flash will be transmitted to 
+end users without communication between our system and your  server at every end user request.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_3_a5</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Yes, our Money back guarantee is 110%. This means that you will receive 110% of the paid amount in the event of our failure 
+to defend your infrastructure. The guarantee is valid if parameters Max.Packets/s and Max. Requests/s are within limitations 
+of your DDoS protection package.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Yes, our Money back guarantee is 110%. This means that you will receive 110% of the paid amount in the event of our failure 
+to defend your infrastructure. The guarantee is valid if parameters Max.Packets/s and Max. Requests/s are within limitations 
+of your DDoS protection package.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Ja, ist unsere Geld-zurück-Garantie 110%. Dies bedeutet, dass Sie 110% des eingezahlten Betrages im Falle unseres Versagens,
+Ihre Infrastruktur zu verteidigen, erhalten. Die Garantie ist gültig, wenn Max.Packets / s und max. Anfragen / s Parameter innerhalb der Grenzen
+Ihres DDoS-Schutz-Paket sind.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Yes, our Money back guarantee is 110%. This means that you will receive 110% of the paid amount in the event of our failure 
+to defend your infrastructure. The guarantee is valid if parameters Max.Packets/s and Max. Requests/s are within limitations 
+of your DDoS protection package.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Yes, our Money back guarantee is 110%. This means that you will receive 110% of the paid amount in the event of our failure 
+to defend your infrastructure. The guarantee is valid if parameters Max.Packets/s and Max. Requests/s are within limitations 
+of your DDoS protection package.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Yes, our Money back guarantee is 110%. This means that you will receive 110% of the paid amount in the event of our failure 
+to defend your infrastructure. The guarantee is valid if parameters Max.Packets/s and Max. Requests/s are within limitations 
+of your DDoS protection package.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Yes, our Money back guarantee is 110%. This means that you will receive 110% of the paid amount in the event of our failure 
+to defend your infrastructure. The guarantee is valid if parameters Max.Packets/s and Max. Requests/s are within limitations 
+of your DDoS protection package.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_4_q1</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>What is the purpose of Revenue Share Program?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>What is the purpose of Revenue Share Program?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Was ist der Zweck der Revenue Share Programm?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>What is the purpose of Revenue Share Program?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>What is the purpose of Revenue Share Program?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>What is the purpose of Revenue Share Program?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>What is the purpose of Revenue Share Program?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_4_q2</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>What are the requirements for those who wish to join Revenue Share Program?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>What are the requirements for those who wish to join Revenue Share Program?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Welche Anforderungen für diejenigen, die Revenue Share Programm beitreten wollen, haben Sie?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>What are the requirements for those who wish to join Revenue Share Program?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>What are the requirements for those who wish to join Revenue Share Program?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>What are the requirements for those who wish to join Revenue Share Program?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>What are the requirements for those who wish to join Revenue Share Program?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_4_q3</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Why would I start my business in partnership with Solar Communications Gmbh?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Why would I start my business in partnership with Solar Communications Gmbh?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Warum sollte ich mein Geschäft in Partnerschaft mit Solar Communications GmbH beginnen?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Why would I start my business in partnership with Solar Communications Gmbh?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Why would I start my business in partnership with Solar Communications Gmbh?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Why would I start my business in partnership with Solar Communications Gmbh?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Why would I start my business in partnership with Solar Communications Gmbh?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_4_q4</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Do I need initial capital?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Do I need initial capital?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Brauche ich Startkapital?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Do I need initial capital?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Do I need initial capital?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Do I need initial capital?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Do I need initial capital?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_4_q5</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Is this regular partner program or the business will be actulaly mine?</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Is this regular partner program or the business will be actulaly mine?</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Ist das normale Partner-Programm oder ist das Geschäft eigentlich mein?</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Is this regular partner program or the business will be actulaly mine?</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Is this regular partner program or the business will be actulaly mine?</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Is this regular partner program or the business will be actulaly mine?</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Is this regular partner program or the business will be actulaly mine?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_4_q6</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>I have other questions related to Revenue Share Program.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>I have other questions related to Revenue Share Program.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Ich habe noch andere Fragen über Revenue Share Programm.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>I have other questions related to Revenue Share Program.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>I have other questions related to Revenue Share Program.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>I have other questions related to Revenue Share Program.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>I have other questions related to Revenue Share Program.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_4_a1</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Revenue Share Program is designed for individuals and companies that would like to start their own business. 
+Participation in the program allows you to acquire new skills and stable income that tends to increase over time. 
+We would like to emphasize that in contrast to other partner programs, Solar Communications provides you 
+with fully implemented solution to start your own IT service sales business. This means that you are ready to 
+start your own online business right away.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Revenue Share Program is designed for individuals and companies that would like to start their own business. 
+Participation in the program allows you to acquire new skills and stable income that tends to increase over time. 
+We would like to emphasize that in contrast to other partner programs, Solar Communications provides you 
+with fully implemented solution to start your own IT service sales business. This means that you are ready to 
+start your own online business right away.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Revenue Share Programm ist für Einzelpersonen und Unternehmen, die gerne ihr eigenes Unternehmen gründen möchten. 
+Die Teilnahme am Programm ermöglicht es Ihnen, neue Fähigkeiten und stabile Erträge, die im Laufe der Zeit erhöhen wird zu erwerben. 
+Wir möchten betonen, dass im Gegensatz zu anderen Partnerprogrammen, Solar Communication
+mit voll implementierte Lösung eine eigene IT-Service-Sales-Geschäft zu beginnen, bietet. Dies bedeutet, dass Sie bereit sind,
+Ihr eigenes Online-Geschäft sofort zu beginnen.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Revenue Share Program is designed for individuals and companies that would like to start their own business. 
+Participation in the program allows you to acquire new skills and stable income that tends to increase over time. 
+We would like to emphasize that in contrast to other partner programs, Solar Communications provides you 
+with fully implemented solution to start your own IT service sales business. This means that you are ready to 
+start your own online business right away.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Revenue Share Program is designed for individuals and companies that would like to start their own business. 
+Participation in the program allows you to acquire new skills and stable income that tends to increase over time. 
+We would like to emphasize that in contrast to other partner programs, Solar Communications provides you 
+with fully implemented solution to start your own IT service sales business. This means that you are ready to 
+start your own online business right away.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Revenue Share Program is designed for individuals and companies that would like to start their own business. 
+Participation in the program allows you to acquire new skills and stable income that tends to increase over time. 
+We would like to emphasize that in contrast to other partner programs, Solar Communications provides you 
+with fully implemented solution to start your own IT service sales business. This means that you are ready to 
+start your own online business right away.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Revenue Share Program is designed for individuals and companies that would like to start their own business. 
+Participation in the program allows you to acquire new skills and stable income that tends to increase over time. 
+We would like to emphasize that in contrast to other partner programs, Solar Communications provides you 
+with fully implemented solution to start your own IT service sales business. This means that you are ready to 
+start your own online business right away.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_4_a2</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>The key requirement is your willingness and ability to sell high quality IT products/services under your own brand. 
+In turn Solar Communications is responsible for technical and customer service sides of your business. As we will 
+provide you with fully implemented solution to start your business, no IT related knowledge is necessary, although 
+is desirable.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>The key requirement is your willingness and ability to sell high quality IT products/services under your own brand. 
+In turn Solar Communications is responsible for technical and customer service sides of your business. As we will 
+provide you with fully implemented solution to start your business, no IT related knowledge is necessary, although 
+is desirable.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Die Haupt-Anforderung ist Ihre Bereitschaft und Fähigkeit, qualitativ hochwertige IT-Produkte / Dienstleistungen unter Ihrer eigenen Marke zu verkaufen.
+Im Gegenzug ist Solar Communications verantwortlich für die technische Seiten und Kundenbetreuung Ihres Unternehmens. Da bieten wir
+Ihnen die vollständig implementierte Lösung für Ihr Unternehmen zu beginnen, ist keine IT-Kenntnisse notwendig, obwohl
+erwünscht ist.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>The key requirement is your willingness and ability to sell high quality IT products/services under your own brand. 
+In turn Solar Communications is responsible for technical and customer service sides of your business. As we will 
+provide you with fully implemented solution to start your business, no IT related knowledge is necessary, although 
+is desirable.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>The key requirement is your willingness and ability to sell high quality IT products/services under your own brand. 
+In turn Solar Communications is responsible for technical and customer service sides of your business. As we will 
+provide you with fully implemented solution to start your business, no IT related knowledge is necessary, although 
+is desirable.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>The key requirement is your willingness and ability to sell high quality IT products/services under your own brand. 
+In turn Solar Communications is responsible for technical and customer service sides of your business. As we will 
+provide you with fully implemented solution to start your business, no IT related knowledge is necessary, although 
+is desirable.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>The key requirement is your willingness and ability to sell high quality IT products/services under your own brand. 
+In turn Solar Communications is responsible for technical and customer service sides of your business. As we will 
+provide you with fully implemented solution to start your business, no IT related knowledge is necessary, although 
+is desirable.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_4_a3</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Solar Communications Gmbh. is an innovative company that provides high-end level services in IT related field. 
+In line with our business model we do not engage in end customer sales. Sales of our service is the privilege of 
+Solar Communication's authorized partners insuring that we always keep up with rapidly rising demand for our 
+services. All our partners will be assisted in starting their business at already existing market. No initial capital 
+needed. Pre requirements are minimal while profitability is impressive. Together with Solar Communications 
+your business will be able to offer highly competitive IT products/services. You will be pleasantly surprised 
+how easy and comprehensive it is to start your own online business in partnership with Solar Communications.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Solar Communications Gmbh. is an innovative company that provides high-end level services in IT related field. 
+In line with our business model we do not engage in end customer sales. Sales of our service is the privilege of 
+Solar Communication's authorized partners insuring that we always keep up with rapidly rising demand for our 
+services. All our partners will be assisted in starting their business at already existing market. No initial capital 
+needed. Pre requirements are minimal while profitability is impressive. Together with Solar Communications 
+your business will be able to offer highly competitive IT products/services. You will be pleasantly surprised 
+how easy and comprehensive it is to start your own online business in partnership with Solar Communications.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Solar Communication Gmbh. ist ein innovatives Unternehmen, das High-End-Level-Dienste in IT verwandten Bereich bietet.
+Im Einklang mit unserem Geschäftsmodell wir nicht in Endkundenverkauf teilnehmen. Verkäufe unseres Dienst ist das Vorrecht der genehmigten Partner von Solar Communications. Dies versichert, dass wir immer mit schnell steigender Nachfrage nach unseren Dienstleistungen mitkommen. Alle unsere Partner werden bei der Gründung ihrer Unternehmen an bereits bestehenden Markt unterstützt. Kein Startkapital
+ist erforderlich. Anforderungen sind minimal, während die Rentabilität beeindruckend ist. Zusammen mit Solar Communications
+wird Ihr Unternehmen in der Lage sein, hoch umkämpften IT Produkte / Dienstleistungen zu bieten. Sie werden angenehm überrascht sein,
+wie einfach und umfassend ist es, eigenen Online-Geschäft in Partnerschaft mit Solar Communications zu beginnen.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Solar Communications Gmbh. is an innovative company that provides high-end level services in IT related field. 
+In line with our business model we do not engage in end customer sales. Sales of our service is the privilege of 
+Solar Communication's authorized partners insuring that we always keep up with rapidly rising demand for our 
+services. All our partners will be assisted in starting their business at already existing market. No initial capital 
+needed. Pre requirements are minimal while profitability is impressive. Together with Solar Communications 
+your business will be able to offer highly competitive IT products/services. You will be pleasantly surprised 
+how easy and comprehensive it is to start your own online business in partnership with Solar Communications.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Solar Communications Gmbh. is an innovative company that provides high-end level services in IT related field. 
+In line with our business model we do not engage in end customer sales. Sales of our service is the privilege of 
+Solar Communication's authorized partners insuring that we always keep up with rapidly rising demand for our 
+services. All our partners will be assisted in starting their business at already existing market. No initial capital 
+needed. Pre requirements are minimal while profitability is impressive. Together with Solar Communications 
+your business will be able to offer highly competitive IT products/services. You will be pleasantly surprised 
+how easy and comprehensive it is to start your own online business in partnership with Solar Communications.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Solar Communications Gmbh. is an innovative company that provides high-end level services in IT related field. 
+In line with our business model we do not engage in end customer sales. Sales of our service is the privilege of 
+Solar Communication's authorized partners insuring that we always keep up with rapidly rising demand for our 
+services. All our partners will be assisted in starting their business at already existing market. No initial capital 
+needed. Pre requirements are minimal while profitability is impressive. Together with Solar Communications 
+your business will be able to offer highly competitive IT products/services. You will be pleasantly surprised 
+how easy and comprehensive it is to start your own online business in partnership with Solar Communications.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Solar Communications Gmbh. is an innovative company that provides high-end level services in IT related field. 
+In line with our business model we do not engage in end customer sales. Sales of our service is the privilege of 
+Solar Communication's authorized partners insuring that we always keep up with rapidly rising demand for our 
+services. All our partners will be assisted in starting their business at already existing market. No initial capital 
+needed. Pre requirements are minimal while profitability is impressive. Together with Solar Communications 
+your business will be able to offer highly competitive IT products/services. You will be pleasantly surprised 
+how easy and comprehensive it is to start your own online business in partnership with Solar Communications.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_4_a4</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>No investment on your part is required. Your own online business will be created by Solar Communications 
+and you will be the owner. We will provide everything that is needed. Your only goal is to secure sales. Later, 
+as your lever of expertise rises, you may take on more responsibilities.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>No investment on your part is required. Your own online business will be created by Solar Communications 
+and you will be the owner. We will provide everything that is needed. Your only goal is to secure sales. Later, 
+as your lever of expertise rises, you may take on more responsibilities.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Keine Investitionen sind Ihrerseits erforderlich. Ihr eigenes Online-Geschäft wird von Solar Communikations geschaffen werden
+und werden Sie der Besitzer sein. Wir bieten alles, was benötigt ist. Ihr einziges Ziel ist es, Verkäufe zu sichern. Später
+wie Ihre fachliche Kompetenz steigt, können Sie auf mehr Verantwortung übernehmen</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>No investment on your part is required. Your own online business will be created by Solar Communications 
+and you will be the owner. We will provide everything that is needed. Your only goal is to secure sales. Later, 
+as your lever of expertise rises, you may take on more responsibilities.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>No investment on your part is required. Your own online business will be created by Solar Communications 
+and you will be the owner. We will provide everything that is needed. Your only goal is to secure sales. Later, 
+as your lever of expertise rises, you may take on more responsibilities.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>No investment on your part is required. Your own online business will be created by Solar Communications 
+and you will be the owner. We will provide everything that is needed. Your only goal is to secure sales. Later, 
+as your lever of expertise rises, you may take on more responsibilities.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>No investment on your part is required. Your own online business will be created by Solar Communications 
+and you will be the owner. We will provide everything that is needed. Your only goal is to secure sales. Later, 
+as your lever of expertise rises, you may take on more responsibilities.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_4_a5</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>In contrast to other partner programs, you will manage a company under your own brand name. Your client 
+base will always stay with you.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>In contrast to other partner programs, you will manage a company under your own brand name. Your client 
+base will always stay with you.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Im Gegensatz zu anderen Partnerprogrammen, werden Sie ein Geschäft unter Ihrer eigenen Marke verwalten. Ihr Kundenstamm
+wird immer bei Ihnen bleiben.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>In contrast to other partner programs, you will manage a company under your own brand name. Your client 
+base will always stay with you.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>In contrast to other partner programs, you will manage a company under your own brand name. Your client 
+base will always stay with you.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>In contrast to other partner programs, you will manage a company under your own brand name. Your client 
+base will always stay with you.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>In contrast to other partner programs, you will manage a company under your own brand name. Your client 
+base will always stay with you.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>faq_4_a6</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>For additional information please contact your personal assistant following registration at Revenue Share Program.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>For additional information please contact your personal assistant following registration at Revenue Share Program.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Für weitere Informationen kontaktieren Sie bitte Ihren persönlichen Assistenten nach Anmeldung in Revenue Share Programm.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>For additional information please contact your personal assistant following registration at Revenue Share Program.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>For additional information please contact your personal assistant following registration at Revenue Share Program.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>For additional information please contact your personal assistant following registration at Revenue Share Program.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>For additional information please contact your personal assistant following registration at Revenue Share Program.</seg>
+</tuv>
+</tu>
+</body>
+</tmx>

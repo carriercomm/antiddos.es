@@ -1,0 +1,5838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmx version="1.4">
+  <header creationtool="Olifant" creationtoolversion="3.0.8.0" datatype="unkown" segtype="paragraph" adminlang="EN-US" srclang="EN-US" creationdate="20120511T212234Z" creationid="FIRST" changedate="20130107T164335Z" changeid="FIRST"/>
+  <body>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>ticket_new</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>New</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>New</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Neue</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>New</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>New</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>New</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>New</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>ticket_answered</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Customer attention required</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Customer attention required</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Aufmerksamkeit der Kunden erforderlich</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Customer attention required</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Customer attention required</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Customer attention required</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Customer attention required</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>ticket_open</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Support attention required</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Support attention required</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Aufmerksamkeit  des Support Team erforderlich</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Support attention required</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Support attention required</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Support attention required</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Support attention required</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>ticket_closed</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Closed</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Closed</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Ticket has been closed</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Geschlossen</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Ticket wurde geschlossen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Closed</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Ticket has been closed</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Closed</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Ticket has been closed</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Ticket has been closed</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Ticket has been closed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Account Balance</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Account Balance</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Account Balance</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Guthaben des Kontos</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Account Balance</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Account Balance</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Account Balance</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Account Balance</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>New</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>New</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>New</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Neue</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>New</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>New</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>New</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>New</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Completed</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Completed</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Completed</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Abgeschlossen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Completed</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Completed</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Completed</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Completed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Cancelled</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Cancelled</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Cancelled</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Abgebrochen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Cancelled</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Cancelled</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Cancelled</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Cancelled</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Client list</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Client list</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Client list</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Kunden Liste</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Client list</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Client list</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Client list</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Client list</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>clients_list</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>List of your clients. Amount of orders and contact information.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>List of your clients. Amount of orders and contact information.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Liste Ihrer Kunden. Betrag der Bestellungen und Kontaktdaten.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>List of your clients. Amount of orders and contact information.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>List of your clients. Amount of orders and contact information.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>List of your clients. Amount of orders and contact information.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>List of your clients. Amount of orders and contact information.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>URL</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>URL</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>URL</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>URL</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>URL</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>URL</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>URL</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>URL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Clients</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Clients</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Clients</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Kunden</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Clients</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Clients</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Clients</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Clients</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Actions</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Actions</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Actions</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Handlungen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Actions</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Actions</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Actions</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Actions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>view</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>view</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>view</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Ansicht</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>view</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>view</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>view</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>view</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>clients_no_sites</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>You have no registered sites.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>You have no registered sites.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Sie haben keine registierten Seiten.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>You have no registered sites.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>You have no registered sites.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>You have no registered sites.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>You have no registered sites.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Orders</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Orders</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Orders</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Bestellungen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Orders</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Orders</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Orders</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Orders</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>clients_no_users</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>This site has no registered users.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>This site has no registered users.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Diese Seite hat keine registrierten Benutzer.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>This site has no registered users.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>This site has no registered users.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>This site has no registered users.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>This site has no registered users.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>clients_return</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Return to sites list</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Return to sites list</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Zurück zur Liste der Websiten</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Return to sites list</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Return to sites list</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Return to sites list</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Return to sites list</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Hide</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Hide</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Hide</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Verstecken</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Hide</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Hide</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Hide</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Hide</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>overview_welcome</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Welcome, %user%</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Welcome, %user%</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Willkommen, %user%</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Welcome, %user%</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Welcome, %user%</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Welcome, %user%</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Welcome, %user%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Certified Partner</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Certified Partner</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Certified Partner</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Zertifizierter Partner</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Certified Partner</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Certified Partner</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Certified Partner</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Certified Partner</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Non-certified Partner</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Non-certified Partner</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Non-certified Partner</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Nicht zertifizierter Partner</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Non-certified Partner</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Non-certified Partner</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Non-certified Partner</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Non-certified Partner</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>overview_welcome_text</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Welcome to system of ready-made  business solutions.&lt;br&gt;To start your own business familiarize yourself with 'Partner area' directory. &lt;br&gt;&lt;Br&gt; If you have any questions, please feel free to ask by visiting 'Help'.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Welcome to system of ready-made  business solutions.&lt;br&gt;To start your own business familiarize yourself with 'Partner area' directory. &lt;br&gt;&lt;Br&gt; If you have any questions, please feel free to ask by visiting 'Help'.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Willkommen zum System der fertiggestellten Business-Lösungen.&lt;br&gt;Um Ihr eigenes Geschäft zu beginnen, machen Sie sich mit 'Partner-Bereich' Verzeichnis vertraut. &lt;br&gt;&lt;Br&gt; Wenn Sie irgendwelche Fragen haben, zögern Sie nicht zu fragen, durch den Besuch 'Hilfe'.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Welcome to system of ready-made  business solutions.&lt;br&gt;To start your own business familiarize yourself with 'Partner area' directory. &lt;br&gt;&lt;Br&gt; If you have any questions, please feel free to ask by visiting 'Help'.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Welcome to system of ready-made  business solutions.&lt;br&gt;To start your own business familiarize yourself with 'Partner area' directory. &lt;br&gt;&lt;Br&gt; If you have any questions, please feel free to ask by visiting 'Help'.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Welcome to system of ready-made  business solutions.&lt;br&gt;To start your own business familiarize yourself with 'Partner area' directory. &lt;br&gt;&lt;Br&gt; If you have any questions, please feel free to ask by visiting 'Help'.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Welcome to system of ready-made  business solutions.&lt;br&gt;To start your own business familiarize yourself with 'Partner area' directory. &lt;br&gt;&lt;Br&gt; If you have any questions, please feel free to ask by visiting 'Help'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>overview_tickets</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>You have &lt;b&gt;%count%&lt;/b&gt; new tickets requiring your attention.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>You have &lt;b&gt;%count%&lt;/b&gt; new tickets requiring your attention.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Sie haben &lt;b&gt;%count%&lt;/b&gt; neue Tickets, die Ihre Aufmerksamkeit erfordern.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>You have &lt;b&gt;%count%&lt;/b&gt; new tickets requiring your attention.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>You have &lt;b&gt;%count%&lt;/b&gt; new tickets requiring your attention.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>You have &lt;b&gt;%count%&lt;/b&gt; new tickets requiring your attention.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>You have &lt;b&gt;%count%&lt;/b&gt; new tickets requiring your attention.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Edit Profile</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Edit Profile</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Edit Profile</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Profil bearbeiten</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Edit Profile</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Edit Profile</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Edit Profile</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Edit Profile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Help and Guidelines</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Help and Guidelines</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Help and Guidelines</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Hilfe und Richtlinien</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Help and Guidelines</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Help and Guidelines</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Help and Guidelines</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Help and Guidelines</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Withdraw Balance</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Withdraw Balance</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Withdraw Balance</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Guthaben ziehen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Withdraw Balance</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Withdraw Balance</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Withdraw Balance</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Withdraw Balance</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Statistics</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Statistics</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Statistics</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Statistik</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Statistics</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Statistics</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Statistics</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Statistics</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Category</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Category</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Category</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Kategorie</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Category</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Category</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Category</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Category</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Count</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Count</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Count</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Zählen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Count</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Count</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Count</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Count</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Websites</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Websites</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Websites</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Webseiten</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Websites</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Websites</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Websites</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Websites</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Total clients</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Total clients</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Total clients</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Total Kunden</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Total clients</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Total clients</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Total clients</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Total clients</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Total orders</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Total orders</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Total orders</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Total Bestellungen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Total orders</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Total orders</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Total orders</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Total orders</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Reward commission</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Reward commission</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Reward commission</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Belohnen Sie Provision</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Reward commission</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Reward commission</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Reward commission</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Reward commission</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>View Clients</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>View Clients</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>View Clients</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Ansehen Sie Kunden</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>View Clients</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>View Clients</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>View Clients</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>View Clients</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>View Sites</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>View Sites</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>View Sites</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Ansehen Sie Seiten</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>View Sites</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>View Sites</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>View Sites</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>View Sites</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Account Statement</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Account Statement</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Account Statement</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Kontenauszug</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Account Statement</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Account Statement</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Account Statement</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Account Statement</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>overview_last3</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Latest 3 transactions</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Latest 3 transactions</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Letzte 3 Transaktionen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Latest 3 transactions</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Latest 3 transactions</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Latest 3 transactions</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Latest 3 transactions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>overview_no_trans</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>You have no recent transactions.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>You have no recent transactions.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Sie haben keine kürzlichen Transaktionen.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>You have no recent transactions.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>You have no recent transactions.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>You have no recent transactions.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>You have no recent transactions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>overview_history</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>View Full History</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>View Full History</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Ansehen Sie Chronik</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>View Full History</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>View Full History</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>View Full History</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>View Full History</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>overview_warning</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Warning!</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Warning!</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Warnung!</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Warning!</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Warning!</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Warning!</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Warning!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>overview_warning_text</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Warning! Your account is not approved yet. You are not able to create new sites.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Warning! Your account is not approved yet. You are not able to create new sites.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Warnung! Ihr Konto ist noch nicht genehmigt. Sie sind nicht in der Lage, neue Websites zu erstellen.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Warning! Your account is not approved yet. You are not able to create new sites.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Warning! Your account is not approved yet. You are not able to create new sites.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Warning! Your account is not approved yet. You are not able to create new sites.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Warning! Your account is not approved yet. You are not able to create new sites.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Profile</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Profile</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Profile</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Profile</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Profil</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Profil</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Profile</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Profile</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Profile</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Profile</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Profile</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Profile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>profile_edit</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Edit Profile. &lt;br&gt;All fields are mandatory. While completing the form, double check that the information entered is correct.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Edit Profile. &lt;br&gt;All fields are mandatory. While completing the form, double check that the information entered is correct.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Profil bearbeiten. &lt;br&gt;Alle Felder sind Pflichtfelder. Während Sie das Formular ausfüllen, überprüfen Sie, dass die Informationen korrekt sind.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Edit Profile. &lt;br&gt;All fields are mandatory. While completing the form, double check that the information entered is correct.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Edit Profile. &lt;br&gt;All fields are mandatory. While completing the form, double check that the information entered is correct.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Edit Profile. &lt;br&gt;All fields are mandatory. While completing the form, double check that the information entered is correct.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Edit Profile. &lt;br&gt;All fields are mandatory. While completing the form, double check that the information entered is correct.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Username</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Username</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Username</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Benutzername </seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Username</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Username</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Username</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Username</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Email address</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Email address</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Email address</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>E-mail Adresse</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Email address</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Email address</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Email address</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Email address</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>First name</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>First name</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>First name</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Vorname</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>First name</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>First name</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>First name</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>First name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Last name</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Last name</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Last name</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Familienname</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Last name</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Last name</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Last name</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Last name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Entity</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Entity</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Entity</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Einheit</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Entity</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Entity</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Entity</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Entity</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Organization</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Organization</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Organization</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Gesellschaft</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Organization</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Organization</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Organization</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Organization</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Address</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Address</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Address</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Adresse</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Address</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Address</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Address</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Address</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>City</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>City</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>City</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Stadt</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>City</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>City</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>City</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>City</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Country</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Country</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Country</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Land</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Country</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Country</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Country</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Country</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Phone</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Phone</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Phone</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Telefon</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Phone</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Phone</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Phone</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Phone</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Save</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Save</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Save</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Speichern</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Save</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Save</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Save</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Save</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Password</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Password</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Password</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Passwort</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Password</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Password</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Password</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Password</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Old Password</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Old Password</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Old Password</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Altes Passwort</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Old Password</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Old Password</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Old Password</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Old Password</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>New Password</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>New Password</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>New Password</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Neues Passwort</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>New Password</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>New Password</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>New Password</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>New Password</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Comfirm Password</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Comfirm Password</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Comfirm Password</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Bestätigen Sie Passwort</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Comfirm Password</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Comfirm Password</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Comfirm Password</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Comfirm Password</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Profit</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Profit</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Profit</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Gewinn</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Profit</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Profit</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Profit</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Profit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_conf_price</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Configuration price: Site:</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Configuration price: Site:</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Konfiguration Preis: Seite:</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Configuration price: Site:</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Configuration price: Site:</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Configuration price: Site:</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Configuration price: Site:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_conf_products</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Configuration price: Site:</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Configuration products: Site:</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Konfiguration Produkte: Seite:</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Configuration products: Site:</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Configuration products: Site:</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Configuration products: Site:</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Configuration products: Site:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Product</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Product</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Product</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Produkt</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Product</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Product</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Product</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Product</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Tax</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Tax</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Tax</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Steuer</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Tax</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Tax</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Tax</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Tax</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Recomm.</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Recomm.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Recomm.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Empf.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Recomm.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Recomm.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Recomm.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Recomm.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Price</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Price</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Price</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Preis</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Price</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Price</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Price</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Price</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Profit (%)</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Profit (%)</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Profit (%)</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Gewinn (%)</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Profit (%)</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Profit (%)</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Profit (%)</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Profit (%)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Profit  (CHF)</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Profit  (CHF)</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Profit  (CHF)</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Gewinn  (CHF)</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Profit  (CHF)</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Profit  (CHF)</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Profit  (CHF)</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Profit  (CHF)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Profit (CHF)</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Profit (CHF)</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Profit (CHF)</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Gewinn (CHF)</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Profit (CHF)</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Profit (CHF)</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Profit (CHF)</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Profit (CHF)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Tax (%)</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Tax (%)</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Tax (%)</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Steuer (%)</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Tax (%)</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Tax (%)</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Tax (%)</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Tax (%)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Tax (CHF)</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Tax (CHF)</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Tax (CHF)</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Steuer (CHF)</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Tax (CHF)</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Tax (CHF)</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Tax (CHF)</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Tax (CHF)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Recommended price</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Recommended price</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Recommended price</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Richtpreis</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Recommended price</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Recommended price</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Recommended price</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Recommended price</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_price_site</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Price on your site</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Price on your site</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Preis auf Ihrer Webseite</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Price on your site</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Price on your site</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Price on your site</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Price on your site</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Update price</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Update price</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Update price</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Aktualisieren Sie Preis</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Update price</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Update price</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Update price</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Update price</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_error_generating</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Error generating site archive. Please contact system administrator.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Error generating site archive. Please contact system administrator.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Fehler beim Generieren Website Archiv. Kontaktieren Sie bitte den Systemadministrator.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Error generating site archive. Please contact system administrator.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Error generating site archive. Please contact system administrator.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Error generating site archive. Please contact system administrator.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Error generating site archive. Please contact system administrator.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>List sites</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>List sites</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>List sites</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Liste der Seiten</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>List sites</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>List sites</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>List sites</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>List sites</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_main</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>&lt;b&gt;List of your websites is available in this directory. You can administrate your projects here. &lt;/b&gt;&lt;br&gt;&lt;br&gt; Click 'Download' button to download the archived version of your website.&lt;br&gt;&lt;br&gt;To freeze your web site click on 'Hold site'. 'Hold site' will disable payments,  registrations and new orders.&lt;br&gt;&lt;br&gt; Click on 'Edit info' to edit your website. &lt;br&gt;&lt;br&gt;'New' create new web site.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>&lt;b&gt;List of your websites is available in this directory. You can administrate your projects here. &lt;/b&gt;&lt;br&gt;&lt;br&gt; Click 'Download' button to download the archived version of your website.&lt;br&gt;&lt;br&gt;To freeze your web site click on 'Hold site'. 'Hold site' will disable payments,  registrations and new orders.&lt;br&gt;&lt;br&gt; Click on 'Edit info' to edit your website. &lt;br&gt;&lt;br&gt;'New' – create new web site.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>&lt;b&gt;Liste Ihrer Webseiten ist in diesem Verzeichnis verfügbar. Sie können Ihre Projekte hier administrieren. &lt;/b&gt;&lt;br&gt;&lt;br&gt; Klicken Sie auf "Herunterladen", um die archivierte Version Ihrer Website herunzuladen.&lt;br&gt;&lt;br&gt;Um Ihre Webseite zu einfrieren, klicken Sie auf 'Halten Webseite'. 'Halten Webseite' deaktiviert Zahlungen, Registrierungen und neue Bestellungen.&lt;br&gt;&lt;br&gt; Klicken Sie auf "Informationen bearbeiten", um Ihre Webseite zu bearbeiten. &lt;br&gt;&lt;br&gt;'Neue' – neue Webseite zu erstellen.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>&lt;b&gt;List of your websites is available in this directory. You can administrate your projects here. &lt;/b&gt;&lt;br&gt;&lt;br&gt; Click 'Download' button to download the archived version of your website.&lt;br&gt;&lt;br&gt;To freeze your web site click on 'Hold site'. 'Hold site' will disable payments,  registrations and new orders.&lt;br&gt;&lt;br&gt; Click on 'Edit info' to edit your website. &lt;br&gt;&lt;br&gt;'New' – create new web site.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>&lt;b&gt;List of your websites is available in this directory. You can administrate your projects here. &lt;/b&gt;&lt;br&gt;&lt;br&gt; Click 'Download' button to download the archived version of your website.&lt;br&gt;&lt;br&gt;To freeze your web site click on 'Hold site'. 'Hold site' will disable payments,  registrations and new orders.&lt;br&gt;&lt;br&gt; Click on 'Edit info' to edit your website. &lt;br&gt;&lt;br&gt;'New' – create new web site.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>&lt;b&gt;List of your websites is available in this directory. You can administrate your projects here. &lt;/b&gt;&lt;br&gt;&lt;br&gt; Click 'Download' button to download the archived version of your website.&lt;br&gt;&lt;br&gt;To freeze your web site click on 'Hold site'. 'Hold site' will disable payments,  registrations and new orders.&lt;br&gt;&lt;br&gt; Click on 'Edit info' to edit your website. &lt;br&gt;&lt;br&gt;'New' – create new web site.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>&lt;b&gt;List of your websites is available in this directory. You can administrate your projects here. &lt;/b&gt;&lt;br&gt;&lt;br&gt; Click 'Download' button to download the archived version of your website.&lt;br&gt;&lt;br&gt;To freeze your web site click on 'Hold site'. 'Hold site' will disable payments,  registrations and new orders.&lt;br&gt;&lt;br&gt; Click on 'Edit info' to edit your website. &lt;br&gt;&lt;br&gt;'New' – create new web site.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Name / URL</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Name / URL</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Name / URL</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Name / URL</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Name / URL</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Name / URL</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Name / URL</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Name / URL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Active</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Active</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Active</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Aktiv</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Active</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Active</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Active</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Active</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Token</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Token</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Token</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Token</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Token</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Token</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Token</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Token</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Download</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Download</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Download</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Download</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Herunterladen</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Herunterladen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Download</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Download</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Download</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Download</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Download</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Download</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Configure</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Configure</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Configure</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Konfigurieren</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Configure</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Configure</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Configure</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Configure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Bearbeiten</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Bearbeiten</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Edit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Statistic</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Statistic</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Statistic</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Statistik</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Statistic</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Statistic</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Statistic</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Statistic</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_create</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Create new site</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Create new site</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Erstellen Sie neue Seite</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Create new site</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Create new site</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Create new site</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Create new site</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>steps</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Step's</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Step's</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Schritte</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Step's</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Step's</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Step's</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Step's</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Create site</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Create site</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Create site</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Erstellen Seite</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Create site</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Create site</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Create site</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Create site</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_using_programm</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>You will generate your project within minutes, with assistance of our program. &lt;br&gt;Basic knowledge of FTP is sufficient to create new project. FTP is necessary to upload generated files to your server.&lt;br&gt;&lt;br&gt; To generate your website, complete 7 simple steps. Once the website has been generated, download archive and upload files to your FTP. &lt;br&gt;&lt;br&gt; If you have any questions, please submit a support ticket. Our specialists will assist you to resolve any kind of problem.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>You will generate your project within minutes, with assistance of our program. &lt;br&gt;Basic knowledge of FTP is sufficient to create new project. FTP is necessary to upload generated files to your server.&lt;br&gt;&lt;br&gt; To generate your website, complete 7 simple steps. Once the website has been generated, download archive and upload files to your FTP. &lt;br&gt;&lt;br&gt; If you have any questions, please submit a support ticket. Our specialists will assist you to resolve any kind of problem.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Sie werden Ihr Projekt innerhalb von Minuten mit Hilfe unseres Programms erzeugen. &lt;br&gt;Grundkenntnisse der FTP ist ausreichend, um neues Projekt zu erstellen. FTP ist notwendig, um generierten Dateien auf Ihren Server hochzuladen.&lt;br&gt;&lt;br&gt; Um Ihre Webseite zu erzeugen, machen Sie 7 einfachen Schritten. Sobald die Webseite generiert wurde, laden Sie Archiv herunter und laden Sie Dateien auf Ihrem FTP. &lt;br&gt;&lt;br&gt; Wenn Sie irgendwelche Fragen haben, senden Sie bitte ein Support Ticket. Unsere Fachleute helfen Ihnen.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>You will generate your project within minutes, with assistance of our program. &lt;br&gt;Basic knowledge of FTP is sufficient to create new project. FTP is necessary to upload generated files to your server.&lt;br&gt;&lt;br&gt; To generate your website, complete 7 simple steps. Once the website has been generated, download archive and upload files to your FTP. &lt;br&gt;&lt;br&gt; If you have any questions, please submit a support ticket. Our specialists will assist you to resolve any kind of problem.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>You will generate your project within minutes, with assistance of our program. &lt;br&gt;Basic knowledge of FTP is sufficient to create new project. FTP is necessary to upload generated files to your server.&lt;br&gt;&lt;br&gt; To generate your website, complete 7 simple steps. Once the website has been generated, download archive and upload files to your FTP. &lt;br&gt;&lt;br&gt; If you have any questions, please submit a support ticket. Our specialists will assist you to resolve any kind of problem.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>You will generate your project within minutes, with assistance of our program. &lt;br&gt;Basic knowledge of FTP is sufficient to create new project. FTP is necessary to upload generated files to your server.&lt;br&gt;&lt;br&gt; To generate your website, complete 7 simple steps. Once the website has been generated, download archive and upload files to your FTP. &lt;br&gt;&lt;br&gt; If you have any questions, please submit a support ticket. Our specialists will assist you to resolve any kind of problem.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>You will generate your project within minutes, with assistance of our program. &lt;br&gt;Basic knowledge of FTP is sufficient to create new project. FTP is necessary to upload generated files to your server.&lt;br&gt;&lt;br&gt; To generate your website, complete 7 simple steps. Once the website has been generated, download archive and upload files to your FTP. &lt;br&gt;&lt;br&gt; If you have any questions, please submit a support ticket. Our specialists will assist you to resolve any kind of problem.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Page name</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Page name</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Page name</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Name der Seite</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Page name</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Page name</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Page name</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Page name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Content</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Content</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Content</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Inhalt</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Content</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Content</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Content</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Content</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Save page</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Save page</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Save page</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Speichern Sie Seite</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Save page</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Save page</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Save page</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Save page</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Navigation</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Navigation</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Menu</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Menu</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Menu</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Menu</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Menu</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Menu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_you_can</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>For your convenience you may preview the test page of your future web site. To preview click on 'Preview Site'.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>For your convenience you may preview the test page of your future web site. To preview click on 'Preview Site'.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Für Ihre Bequemlichkeit können Sie eine Vorschau der Testseite von Ihrer zukünftigen Webseite haben. Um eine Vorschau zu haben, klicken Sie auf "Seite-Vorschau".</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>For your convenience you may preview the test page of your future web site. To preview click on 'Preview Site'.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>For your convenience you may preview the test page of your future web site. To preview click on 'Preview Site'.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>For your convenience you may preview the test page of your future web site. To preview click on 'Preview Site'.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>For your convenience you may preview the test page of your future web site. To preview click on 'Preview Site'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Step Back</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Step Back</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Step Back</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Schritt zurück</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Step Back</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Step Back</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Step Back</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Step Back</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Site preview</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Site preview</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Site preview</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Seite Vorschau</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Site preview</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Site preview</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Site preview</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Site preview</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Step forward</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Step forward</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Step forward</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Schritt vor</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Step forward</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Step forward</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Step forward</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Step forward</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_step1_old</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Step 1 - Start</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Step 1 - Start</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Schritt 1 - Start</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Step 1 - Start</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Step 1 - Start</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Step 1 - Start</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Step 1 - Start</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_fill_form</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Complete the form. Please make sure that all fields contain correct information.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Complete the form. Please make sure that all fields contain correct information.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Füllen Sie das Formular aus. Bitte stellen Sie sicher, dass alle Felder korrekt Informationen enthalten.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Complete the form. Please make sure that all fields contain correct information.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Complete the form. Please make sure that all fields contain correct information.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Complete the form. Please make sure that all fields contain correct information.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Complete the form. Please make sure that all fields contain correct information.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Main information</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Main information</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Main information</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Haupt-Information</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Main information</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Main information</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Main information</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Main information</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Site Name</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Site Name</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Site Name</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Name der Seite</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Site Name</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Site Name</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Site Name</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Site Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>example</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>example</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>example</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Beispiel</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>example</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>example</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>example</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>example</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Site Slogan</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Site Slogan</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Site Slogan</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Slogan der Seite</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Site Slogan</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Site Slogan</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Site Slogan</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Site Slogan</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Site Url</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Site Url</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Site Url</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Url der Seite</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Site Url</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Site Url</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Site Url</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Site Url</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Twitter Account</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Twitter Account</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Twitter Account</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Twitter Konto</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Twitter Account</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Twitter Account</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Twitter Account</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Twitter Account</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Facebook Account</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Facebook Account</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Facebook Account</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Facebook Konto</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Facebook Account</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Facebook Account</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Facebook Account</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Facebook Account</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Next step</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Next step</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Next step</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Nächster Schritt</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Next step</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Next step</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Next step</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Next step</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_step1</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Step 1 - Template</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Step 1 - Template</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Schritt 1 - Vorlage</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Step 1 - Start</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Step 1 - Template</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Step 1 - Template</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Step 1 - Template</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_choose_template</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Select the template that you like.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Select the template that you like.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Wählen Sie die Vorlage, die mögen Sie.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Select the template that you like.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Select the template that you like.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Select the template that you like.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Select the template that you like.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_step2</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Step 2 - Color scheme</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Step 2 - Color scheme</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Schritt 2 - Farbschema</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Step 2 - Template</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Step 2 - Color scheme</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Step 2 - Color scheme</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Step 2 - Color scheme</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_choose_schema</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Select color scheme.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Select color scheme.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Wählen Sie das Farbschema.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Select color scheme.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Select color scheme.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Select color scheme.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Select color scheme.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Show</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Show</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Show</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Anzeigen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Show</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Show</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Show</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Show</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_step3</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Step 3 - Logo Generator</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Step 3 - Logo Generator</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Schritt 3 - Logo Generator</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Step 3 - Color scheme</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Step 3 - Logo Generator</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Step 3 - Logo Generator</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Step 3 - Logo Generator</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Preview logo</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Preview logo.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Preview logo.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Preview logo</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Beschauen Sie das Logo vorher.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Beschauen Sie das Logo vorher</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Preview logo.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Preview logo</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Preview logo.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Preview logo</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Preview logo</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Preview logo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Upload logo</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Upload logo</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Upload logo</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Laden Sie das Logo hoch</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Upload logo</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Upload logo</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Upload logo</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Upload logo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Preview logo</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Preview logo</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Preview logo.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Preview logo</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Beschauen Sie das Logo vorher.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Beschauen Sie das Logo vorher</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Preview logo.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Preview logo</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Preview logo.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Preview logo</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Preview logo</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Preview logo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Submit logo</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Submit logo</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Submit logo</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Senden Sie das Logo</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Submit logo</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Submit logo</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Submit logo</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Submit logo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Generate logo</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Generate logo.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Generate logo.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Erzeugen Sie ein Logo.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Generate logo.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Generate logo.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Generate logo.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Generate logo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Select image</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Select image</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Select image</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Select image.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Wählen Sie ein Bild</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Wählen Sie ein Bild</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Select image</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Select image.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Select image</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Select image.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Select image.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Select image.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Logo text</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Logo text</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Logo text</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Text des Logos</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Logo text</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Logo text</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Logo text</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Logo text</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Text size</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Text size</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Text size</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Textgröße</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Text size</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Text size</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Text size</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Text size</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Gap</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Gap,px</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Gap</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Gap</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Gap</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Gap</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Gap</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Gap</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Basic color</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Basic color</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Basic color</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Grundfarbe</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Basic color</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Basic color</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Basic color</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Basic color</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Or input color</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Or input color</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Or input color</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Oder eingeben Sie Farbe</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Or input color</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Or input color</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Or input color</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Or input color</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Or use java palette</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Or use java palette</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Or use java palette</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Oder nutzen Sie java-Palette</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Or use java palette</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Or use java palette</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Or use java palette</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Or use java palette</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Angle</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Angle</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Angle</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Perspektive</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Angle</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Angle</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Angle</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Angle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Shadow width</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Shadow width</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Shadow width</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Schatten Breite</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Shadow width</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Shadow width</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Shadow width</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Shadow width</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Shadow intensity</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Shadow intensity</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Shadow intensity</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Schattenintensität</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Shadow intensity</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Shadow intensity</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Shadow intensity</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Shadow intensity</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Blur</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Blur</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Blur</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Weichzeichnung</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Blur</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Blur</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Blur</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Blur</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_select_font</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Select font name</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Select font name</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Wählen Sie Schriftart</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Select font name</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Select font name</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Select font name</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Select font name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_or_upload</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Or upload your logo</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Or upload your logo</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Oder laden Sie Ihr Logo hoch</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Or upload your logo</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Or upload your logo</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Or upload your logo</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Or upload your logo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Find file</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Find file</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Find file</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Suchen Sie Datei</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Find file</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Find file</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Find file</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Find file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Delete logo</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Delete logo</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Delete logo</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Löschen Sie das Logo</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Delete logo</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Delete logo</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Delete logo</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Delete logo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_submit_logo</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Submit logo and goto next step</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Submit logo and goto next step</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Senden Sie das Logo und gehen zum nächsten Schritt</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Submit logo and goto next step</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Submit logo and goto next step</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Submit logo and goto next step</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Submit logo and goto next step</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_step4</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Step 4 - Picture</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Step 4 - Picture</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Schritt 4 - Bild</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Step 4 - Logo Generator</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Step 4 - Picture</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Step 4 - Picture</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Step 4 - Picture</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_main_picture</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>In addition to template and color scheme, you may select the web site picture. &lt;br&gt; Click on picture that you like. To preview your website new look click on 'Preview site'.&lt;br&gt;&lt;br&gt;You may upload your own picture. If you choose this option, please make sure that you follow size parameters for the picture.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>In addition to template and color scheme, you may select the web site picture. &lt;br&gt; Click on picture that you like. To preview your website new look click on 'Preview site'.&lt;br&gt;&lt;br&gt;You may upload your own picture. If you choose this option, please make sure that you follow size parameters for the picture.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Neben Vorlage und Farbschema, können Sie Webseite Bild wählen. &lt;br&gt; Klicken Sie auf das Bild, das Sie mögen. Um neuen Look Ihrer Webesite zu sehen, klicken Sie auf 'Vorschau Webseite'.&lt;br&gt;&lt;br&gt;Sie können Ihr eigenes Bild hochladen. Wenn Sie diese Option wählen, stellen Sie sicher, dass Sie die Größe Parameter für das Bild folgen.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>In addition to template and color scheme, you may select the web site picture. &lt;br&gt; Click on picture that you like. To preview your website new look click on 'Preview site'.&lt;br&gt;&lt;br&gt;You may upload your own picture. If you choose this option, please make sure that you follow size parameters for the picture.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>In addition to template and color scheme, you may select the web site picture. &lt;br&gt; Click on picture that you like. To preview your website new look click on 'Preview site'.&lt;br&gt;&lt;br&gt;You may upload your own picture. If you choose this option, please make sure that you follow size parameters for the picture.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>In addition to template and color scheme, you may select the web site picture. &lt;br&gt; Click on picture that you like. To preview your website new look click on 'Preview site'.&lt;br&gt;&lt;br&gt;You may upload your own picture. If you choose this option, please make sure that you follow size parameters for the picture.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>In addition to template and color scheme, you may select the web site picture. &lt;br&gt; Click on picture that you like. To preview your website new look click on 'Preview site'.&lt;br&gt;&lt;br&gt;You may upload your own picture. If you choose this option, please make sure that you follow size parameters for the picture.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Select image</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Select image.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Select image</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Select image.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Wählen Sie ein Bild</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Wählen Sie ein Bild</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Select image</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Select image.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Select image</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Select image.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Select image.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Select image.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_or_upload_image</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Or upload your image</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Or upload your image</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Oder laden Sie Ihr Bild hoch</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Or upload your image</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Or upload your image</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Or upload your image</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Or upload your image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Delete</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Delete</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Delete</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Delete</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Löschen</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Löschen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Delete</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Delete</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Delete</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Delete</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Delete</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Delete</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_submit_image</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Submit image and goto next </seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Submit image and goto next </seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Senden Sie Bild und gehen zum nächsten </seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Submit image and goto next </seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Submit image and goto next </seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Submit image and goto next </seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Submit image and goto next </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_step5</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Step 5 - Content</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Step 5 - Content</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Schritt 5 - Inhalt</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Step 5 - Picture</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Step 5 - Content</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Step 5 - Content</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Step 5 - Content</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_edit_content</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>In this directory you can edit the content of your future website. There are two types of content:&lt;br&gt;&lt;br&gt; 1) Static. This type of content is mandatory and can be edited, but not deleted. &lt;Br&gt; 2) Dynamic. Can be edited, deleted. In addition new pages can be created. &lt;br&gt;&lt;br&gt; To add a page of dynamic content click on &lt;img src='/images/plus.gif'&gt; below. &lt;br&gt; To edit a page click on the appropriate page to select it. Once the page has been edited, click on 'Save'to save the page.&lt;Br&gt;To delete the page click on 'Delete'.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>In this directory you can edit the content of your future website. There are two types of content:&lt;br&gt;&lt;br&gt; 1) Static. This type of content is mandatory and can be edited, but not deleted. &lt;Br&gt; 2) Dynamic. Can be edited, deleted. In addition new pages can be created. &lt;br&gt;&lt;br&gt; To add a page of dynamic content click on &lt;img src='/images/plus.gif'&gt; below. &lt;br&gt; To edit a page click on the appropriate page to select it. Once the page has been edited, click on 'Save'to save the page.&lt;Br&gt;To delete the page click on 'Delete'.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>In diesem Verzeichnis können Sie den Inhalt Ihrer zukünftigen Webseite bearbeiten. Es gibt zwei Arten von Inhalten:&lt;br&gt;&lt;br&gt; 1) Static. Diese Art von Inhalten ist obligatorisch und kann bearbeitet werden, aber nicht gelöscht werden. &lt;Br&gt; 2) Dynamisch. Kann bearbeitet, gelöscht werden. Neben neuen Seiten erstellt werden können. &lt;br&gt;&lt;br&gt; Um eine Seite zu der dynamischen Inhalte hinzuzufügen, klicken Sie auf&lt;img src='/images/plus.gif'&gt; herunten. &lt;br&gt; Um eine Seite zu bearbeiten, klicken Sie auf die entsprechende Seite, um es auszuwählen. Sobald die Seite bearbeitet wurde, klicken Sie auf "Speichern", um die Seite zu speichern.&lt;Br&gt;Um die Seite zu löschen, klicken Sie auf "Löschen".</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>In this directory you can edit the content of your future website. There are two types of content:&lt;br&gt;&lt;br&gt; 1) Static. This type of content is mandatory and can be edited, but not deleted. &lt;Br&gt; 2) Dynamic. Can be edited, deleted. In addition new pages can be created. &lt;br&gt;&lt;br&gt; To add a page of dynamic content click on &lt;img src='/images/plus.gif'&gt; below. &lt;br&gt; To edit a page click on the appropriate page to select it. Once the page has been edited, click on 'Save'to save the page.&lt;Br&gt;To delete the page click on 'Delete'.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>In this directory you can edit the content of your future website. There are two types of content:&lt;br&gt;&lt;br&gt; 1) Static. This type of content is mandatory and can be edited, but not deleted. &lt;Br&gt; 2) Dynamic. Can be edited, deleted. In addition new pages can be created. &lt;br&gt;&lt;br&gt; To add a page of dynamic content click on &lt;img src='/images/plus.gif'&gt; below. &lt;br&gt; To edit a page click on the appropriate page to select it. Once the page has been edited, click on 'Save'to save the page.&lt;Br&gt;To delete the page click on 'Delete'.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>In this directory you can edit the content of your future website. There are two types of content:&lt;br&gt;&lt;br&gt; 1) Static. This type of content is mandatory and can be edited, but not deleted. &lt;Br&gt; 2) Dynamic. Can be edited, deleted. In addition new pages can be created. &lt;br&gt;&lt;br&gt; To add a page of dynamic content click on &lt;img src='/images/plus.gif'&gt; below. &lt;br&gt; To edit a page click on the appropriate page to select it. Once the page has been edited, click on 'Save'to save the page.&lt;Br&gt;To delete the page click on 'Delete'.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>In this directory you can edit the content of your future website. There are two types of content:&lt;br&gt;&lt;br&gt; 1) Static. This type of content is mandatory and can be edited, but not deleted. &lt;Br&gt; 2) Dynamic. Can be edited, deleted. In addition new pages can be created. &lt;br&gt;&lt;br&gt; To add a page of dynamic content click on &lt;img src='/images/plus.gif'&gt; below. &lt;br&gt; To edit a page click on the appropriate page to select it. Once the page has been edited, click on 'Save'to save the page.&lt;Br&gt;To delete the page click on 'Delete'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Pages</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Pages</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Pages</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Seiten</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Pages</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Pages</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Pages</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Pages</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_step6</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Step 6 - Background</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Step 6 - Background</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Schritt 6 - Hintergrund</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Step 6 - Content</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Step 6 - Background</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Step 6 - Background</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Step 6 - Background</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_upload_background</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Upload your background image</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Upload your background image</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Laden Sie Ihr Hintergrundbild hoch</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Upload your background image</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Upload your background image</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Upload your background image</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Upload your background image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_submit_background</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Submit image and goto next step</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Submit image and goto next step</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Senden Sie Bild und gehen zum nächsten Schritt</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Submit image and goto next step</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Submit image and goto next step</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Submit image and goto next step</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Submit image and goto next step</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>sites_step7</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Step 7 - Download</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Step 7 - Download</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Schritt 7 - Herunterladen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Step 7 - Background</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Step 7 - Download</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Step 7 - Download</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Step 7 - Download</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Download archive</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Download archive.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Download archive.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Laden Archiv herunter.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Download archive.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Download archive.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Download archive.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Download archive.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Edit Ticket</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Edit Ticket</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Edit Ticket</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Bearbeiten SieTicket</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Edit Ticket</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Edit Ticket</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Edit Ticket</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Edit Ticket</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Subject</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Subject</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Subject</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Thema</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Subject</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Subject</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Subject</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Subject</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Beschreibung</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Description</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Save ticket</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Save ticket</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Save ticket</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Speichern Sie Ticket</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Save ticket</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Save ticket</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Save ticket</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Save ticket</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Back</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Back</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Back</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Zurück</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Back</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Back</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Back</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Back</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Tickets</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Tickets</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Tickets</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Tickets</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Tickets</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Tickets</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Tickets</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Tickets</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>tickets_you_can</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>If you have any questions, please feel free to ask our support. </seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>If you have any questions, please feel free to ask our support. </seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Wenn Sie irgendwelche Fragen haben, wenden Sie sich bitte an unseren Support.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>If you have any questions, please feel free to ask our support. </seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>If you have any questions, please feel free to ask our support. </seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>If you have any questions, please feel free to ask our support. </seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>If you have any questions, please feel free to ask our support. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>New ticket</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>New ticket</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>New ticket</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>New ticket</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Neues Ticket</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Neues Ticket</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>New ticket</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>New ticket</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>New ticket</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>New ticket</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>New ticket</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>New ticket</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>tickets_requiring_attention</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Tickets requiring your attention</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Tickets requiring your attention</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Tickets, die Ihre Aufmerksamkeit erfordern</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Tickets requiring your attention</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Tickets requiring your attention</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Tickets requiring your attention</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Tickets requiring your attention</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>ID</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>ID</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>ID</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>ID</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>ID</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>ID</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>ID</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Status</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Status</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Status</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Status</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Status</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Status</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Status</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Status</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Created</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Created</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Created</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Erstellt</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Created</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Created</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Created</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Created</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Read</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Read</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Read</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Lesen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Read</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Read</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Read</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Read</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>tickets_no</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>You have no tickets in this category.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>You have no tickets in this category.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Sie haben noch keine Tickets in dieser Kategorie.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>You have no tickets in this category.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>You have no tickets in this category.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>You have no tickets in this category.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>You have no tickets in this category.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>New Ticket</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>New Ticket</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>New Ticket</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Neues Ticket</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>New Ticket</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>New Ticket</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>New Ticket</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>New Ticket</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Create ticket</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Create ticket</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Create ticket</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Erstellen Sie Ticket</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Create ticket</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Create ticket</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Create ticket</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Create ticket</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Ticket</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Ticket</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Ticket</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Ticket</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Ticket</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Ticket</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Ticket</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Ticket</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Reply</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Reply</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Reply</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Antwort</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Reply</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Reply</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Reply</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Reply</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Message</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Message</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Message</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Nachricht</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Message</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Message</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Message</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Message</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Partner panel</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Partner panel</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Partner panel</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Partner panel</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Partner panel</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Partner panel</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Partner panel</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Partner panel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Balance</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Balance</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Balance</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Guthaben</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Balance</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Balance</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Balance</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Balance</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>E-Mail</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>E-Mail</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>E-Mail</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>E-Mail</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>E-Mail</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>E-Mail</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>E-Mail</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>E-Mail</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Customers</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Customers</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Customers</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Kunden</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Customers</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Customers</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Customers</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Customers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Help</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Help</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Help</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Hilfe</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Help</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Help</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Help</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Help</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>RSPC Portal</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>RSPC Portal</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>RSPC Portal</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>RSPC Portal</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>RSPC Portal</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>RSPC Portal</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>RSPC Portal</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>RSPC Portal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Overview</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Overview</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Overview</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Übersicht</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Overview</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Overview</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Overview</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Overview</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>tickets_read_tickets</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Read Tickets (%count%)</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Read Tickets (%count%)</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Lesen Sie Tickets (%count%)</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Read Tickets (%count%)</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Read Tickets (%count%)</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Read Tickets (%count%)</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Read Tickets (%count%)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>profile_updated</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Your profile has been updated</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Your profile has been updated</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Ihr Profil wurde aktualisiert</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Your profile has been updated</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Your profile has been updated</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Your profile has been updated</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Your profile has been updated</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>password_changed</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Your password has been changed.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Your password has been changed.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Ihr Passwort wurde geändert.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Your password has been changed.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Your password has been changed.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Your password has been changed.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Your password has been changed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>password_invalid</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Old password is invalid</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Old password is invalid</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Altes Passwort ist ungültig</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Old password is invalid</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Old password is invalid</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Old password is invalid</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Old password is invalid</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Profile</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Profile</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Profile</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Profile</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Profil</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Profil</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Profile</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Profile</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Profile</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Profile</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Profile</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Profile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>site_updated</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Site configuration has been updated.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Site configuration has been updated.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Webseite-Konfiguration wurde aktualisiert.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Site configuration has been updated.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Site configuration has been updated.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Site configuration has been updated.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Site configuration has been updated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>site_generated</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Your site has been generated successfully.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Your site has been generated successfully.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Ihre Seite wurde erfolgreich erzeugt.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Your site has been generated successfully.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Your site has been generated successfully.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Your site has been generated successfully.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Your site has been generated successfully.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>error_generating</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Error generating your site: %error%</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Error generating your site: %error%</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Fehler beim Generieren Ihre Webseite: %error%</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Error generating your site: %error%</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Error generating your site: %error%</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Error generating your site: %error%</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Error generating your site: %error%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>page_saved</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Page has been saved successfully.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Page has been saved successfully.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Seite wurde erfolgreich gespeichert.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Page has been saved successfully.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Page has been saved successfully.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Page has been saved successfully.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Page has been saved successfully.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>error_saving</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Error saving page.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Error saving page.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Fehler beim Speichern der Seite.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Error saving page.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Error saving page.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Error saving page.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Error saving page.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>page_deleted</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Page has been deleted successfully</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Page has been deleted successfully</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Seite wurde erfolgreich gelöscht</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Page has been deleted successfully</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Page has been deleted successfully</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Page has been deleted successfully</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Page has been deleted successfully</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>template_not</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Template not set.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Template not set.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Vorlage nicht gesetzt.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Template not set.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Template not set.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Template not set.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Template not set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>palette_not</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Palette not set.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Palette not set.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Palette nicht gesetzt.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Palette not set.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Palette not set.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Palette not set.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Palette not set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>error_loading_sitepic</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Error loading sitepic.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Error loading sitepic.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Fehler beim Hochaden Seitebild.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Error loading sitepic.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Error loading sitepic.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Error loading sitepic.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Error loading sitepic.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>status_changed</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Status of site has been changed</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Status of site has been changed</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Status der Webseite wurde geändert</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Status of site has been changed</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Status of site has been changed</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Status of site has been changed</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Status of site has been changed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>site_deleted</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Site has been deleted</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Site has been deleted</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Seite wurde gelöscht</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Site has been deleted</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Site has been deleted</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Site has been deleted</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Site has been deleted</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Sites</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Sites</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Sites</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Seiten</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Sites</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Sites</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Sites</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Sites</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Configurate</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Configurate</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Configurate</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Konfigurieren</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Configurate</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Configurate</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Configurate</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Configurate</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Hold</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Hold</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Hold</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Halten</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Hold</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Hold</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Hold</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Hold</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Activate</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Activate</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Activate</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Aktivieren</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Activate</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Activate</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Activate</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Activate</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Delete</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Delete</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Delete</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Delete</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Löschen</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Löschen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Delete</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Delete</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Delete</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Delete</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Delete</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Delete</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>confirm_delete_site</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Are you sure to delete this site?</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Are you sure to delete this site?</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Sind Sie sicher, diese Webseite zu löschen?</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Are you sure to delete this site?</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Are you sure to delete this site?</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Are you sure to delete this site?</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Are you sure to delete this site?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Site generator</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Site generator</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Site generator</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Seite Generator</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Site generator</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Site generator</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Site generator</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Site generator</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>step_id</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Step %id%</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Step %id%</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Schritt %id%</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Step %id%</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Step %id%</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Step %id%</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Step %id%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Delete page</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Delete page</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Delete page</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Löschen Sie die Seite</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Delete page</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Delete page</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Delete page</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Delete page</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Are you sure?</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Are you sure?</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Are you sure?</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Sind Sie sicher?</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Are you sure?</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Are you sure?</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Are you sure?</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Are you sure?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>(Re)Generate</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>(Re)Generate</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>(Re)Generate</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>(Re) Generieren</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>(Re)Generate</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>(Re)Generate</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>(Re)Generate</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>(Re)Generate</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Download</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Download</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Download</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Download</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Herunterladen</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Herunterladen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Download</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Download</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Download</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Download</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Download</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Download</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Generate</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Generate</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Generate</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Generieren</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Generate</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Generate</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Generate</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Generate</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>ticket_created</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Ticket has been created</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Ticket has been created</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Ticket wurde erstellt</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Ticket has been created</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Ticket has been created</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Ticket has been created</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Ticket has been created</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>ticket_updated</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Ticket has been updated</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Ticket has been updated</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Ticket wurde aktualisiert</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Ticket has been updated</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Ticket has been updated</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Ticket has been updated</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Ticket has been updated</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>ticket_closed</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Ticket has been closed</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Closed</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Ticket has been closed</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Geschlossen</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Ticket wurde geschlossen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Closed</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Ticket has been closed</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Closed</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Ticket has been closed</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Ticket has been closed</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Ticket has been closed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>message_sent</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Message has been sent</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Message has been sent</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Nachricht wurde gesendet</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Message has been sent</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Message has been sent</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Message has been sent</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Message has been sent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>message_updated</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Message has been updated</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Message has been updated</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Nachricht wurde aktualisiert</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Message has been updated</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Message has been updated</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Message has been updated</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Message has been updated</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Ticket list</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Ticket list</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Ticket list</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Liste des Tickets</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Ticket list</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Ticket list</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Ticket list</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Ticket list</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>New ticket</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>New ticket</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>New ticket</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>New ticket</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Neues Ticket</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Neues Ticket</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>New ticket</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>New ticket</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>New ticket</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>New ticket</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>New ticket</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>New ticket</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Close</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Close</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Close</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Schließen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Close</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Close</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Close</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Close</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>ticket_id</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Ticket #%id%</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Ticket #%id%</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Ticket #%id%</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Ticket #%id%</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Ticket #%id%</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Ticket #%id%</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Ticket #%id%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Close ticket</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Close ticket</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Close ticket</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Schließen Sie Ticket</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Close ticket</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Close ticket</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Close ticket</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Close ticket</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Bearbeiten</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Bearbeiten</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Edit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Edit reply</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Edit reply</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Edit reply</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Bearbeiten  Sie Antwort</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Edit reply</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Edit reply</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Edit reply</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Edit reply</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,1945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmx version="1.4">
+  <header creationtool="Olifant" creationtoolversion="3.0.8.0" datatype="unkown" segtype="paragraph" adminlang="EN-US" srclang="EN-US" creationdate="20120511T212234Z" creationid="FIRST" changedate="20130107T164335Z" changeid="FIRST"/>
+  <body>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Home</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Home</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Home</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Home</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Home</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Home</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Home</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Home</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>rblock_data_center</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Data Center Concept:</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Data Center Concept:</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Rechenzentrum Konzept:</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Data Center Concept:</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Data Center Concept:</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Data Center Concept:</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Data Center Concept:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>rblock_enterprise_class</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Enterprise-Class Equipment</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Enterprise-Class Equipment</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Die Unternehmen-Klasse Ausrüstung</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Enterprise-Class Equipment</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Enterprise-Class Equipment</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Enterprise-Class Equipment</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Enterprise-Class Equipment</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>rblock_state-of-art</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>State-of-Art Data Security</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>State-of-Art Data Security</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Hochmoderne Datensicherheit</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>State-of-Art Data Security</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>State-of-Art Data Security</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>State-of-Art Data Security</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>State-of-Art Data Security</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>rblock_proactive_support</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>24.7 Proactive Support</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>24.7 Proactive Support</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>24/7 Proactiv Support</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>24.7 Proactive Support</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>24.7 Proactive Support</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>24.7 Proactive Support</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>24.7 Proactive Support</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>rblock_ha_ready</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>High-Availability Ready</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>High-Availability Ready</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Hochverfügbarkeit Bereit</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>High-Availability Ready</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>High-Availability Ready</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>High-Availability Ready</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>High-Availability Ready</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>rblock_sla</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>99.9% Uptime SLA</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>99.9% Uptime SLA</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>99.9% Betriebszeit DGV</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>99.9% Uptime SLA</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>99.9% Uptime SLA</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>99.9% Uptime SLA</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>99.9% Uptime SLA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>rblock_latest_news</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Latest news</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Latest news</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>neueste Nachrichten</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Latest news</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Latest news</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Latest news</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Latest news</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Company</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Company</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Company</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Unternehmen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Company</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Company</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Company</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Company</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Products and Services</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Products and Services</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Products and Services</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Produkte und Dienstleistungen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Products and Services</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Products and Services</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Products and Services</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Products and Services</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Partner Programs</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Partner Programs</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Partner Programs</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Partnerprogramme</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Partner Programs</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Partner Programs</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Partner Programs</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Partner Programs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Partners Listing</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Partners Listing</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Partners Listing</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Partner Listing</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Partners Listing</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Partners Listing</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Partners Listing</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Partners Listing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Partner Login</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Partner Login</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Partner Login</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Partner Login</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Partner Login</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Partner Login</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Partner Login</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Partner Login</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Partner Login</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Partner Login</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Partner Login</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Partner Login</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Revenue Share Programs</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Revenue Share Programs</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Revenue Share Programs</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Revenue Share Programme</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Revenue Share Programs</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Revenue Share Programs</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Revenue Share Programs</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Revenue Share Programs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Legal</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Legal</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Legal</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Rechtlich</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Legal</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Legal</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Legal</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Legal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>About our Company</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>About our Company</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>About our Company</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Über unser Unternehmen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>About our Company</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>About our Company</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>About our Company</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>About our Company</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Dedicated Servers</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Dedicated Servers</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Dedicated Servers</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Dedizierte Server</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Dedicated Servers</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Dedicated Servers</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Dedicated Servers</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Dedicated Servers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Revenue Share Program</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Revenue Share Program</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Revenue Share Program</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Revenue Share Programm</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Revenue Share Program</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Revenue Share Program</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Revenue Share Program</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Revenue Share Program</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Terms of Service</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Terms of Service</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Terms of Service</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Arbeitsbedingungen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Terms of Service</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Terms of Service</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Terms of Service</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Terms of Service</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Company news</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Company news</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Company news</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Unternehmensnachrichten</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Company news</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Company news</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Company news</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Company news</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Equipment Colocation</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Equipment Colocation</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Equipment Colocation</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Ausrüstung Colocation</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Equipment Colocation</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Equipment Colocation</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Equipment Colocation</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Equipment Colocation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Partner Application</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Partner Application</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Partner Application</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Partner Anwendung</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Partner Application</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Partner Application</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Partner Application</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Partner Application</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Acceptable use policy</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Acceptable use policy</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Acceptable use policy</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Nutzungsrichtlinie</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Acceptable use policy</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Acceptable use policy</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Acceptable use policy</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Acceptable use policy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Phone and Address</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Phone and Address</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Phone and Address</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Telefon und Adressen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Phone and Address</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Phone and Address</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Phone and Address</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Phone and Address</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>DDoS Protection and Data Security</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>DDoS Protection and Data Security</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>DDoS Protection and Data Security</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>DDoS-Schutz und Datensicherheit</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>DDoS Protection and Data Security</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>DDoS Protection and Data Security</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>DDoS Protection and Data Security</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>DDoS Protection and Data Security</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Sicherheitsgarantie des Unternehmens</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Sicherheitsgarantie des Unternehmens</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Sicherheitsgarantie des Unternehmens
+</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Privacy Policy</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Privacy Policy</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Privacy Policy</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Datenschutzrichtlinie</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Privacy Policy</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Privacy Policy</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Privacy Policy</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Privacy Policy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>About</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>About</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>About</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Über</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>About</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>About</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>About</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>About</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>About Us</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>About Us</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>About Us</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Über uns</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>About Us</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>About Us</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>About Us</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>About Us</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Location</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Location</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Location</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Standort</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Location</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Location</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Location</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Location</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Working at Solar Communications</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Working at Solar Communications</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Working at Solar Communications</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Arbeiten bei Solar Communications</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Working at Solar Communications</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Working at Solar Communications</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Working at Solar Communications</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Working at Solar Communications</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Contact</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Contact</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Contact</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Kontakt</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Contact</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Contact</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Contact</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Contact</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Features</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Features</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Features</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Merkmale</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Features</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Features</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Features</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Features</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Why Solar Communications</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Why Solar Communications</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Why Solar Communications</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Warum Solar Communications</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Why Solar Communications</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Why Solar Communications</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Why Solar Communications</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Why Solar Communications</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Hardware</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Hardware</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Hardware</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Hardware</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Hardware</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Hardware</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Hardware</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Hardware</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Hardware</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Hardware</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Hardware</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Hardware</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Network connectivity</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Network connectivity</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Network connectivity</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Netzwerkverbindung</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Network connectivity</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Network connectivity</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Network connectivity</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Network connectivity</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Sicherheitsgarantie des Unternehmens</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Sicherheitsgarantie des Unternehmens</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Sicherheitsgarantie des Unternehmens
+</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Summary</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Summary</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Summary</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Zusammenfassung</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Summary</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Summary</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Summary</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Summary</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Hardware</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Hardware</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Hardware</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Hardware</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Hardware</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Hardware</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Hardware</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Hardware</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Hardware</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Hardware</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Hardware</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Hardware</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Colocation</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Colocation</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Colocation</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Colocation</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Colocation</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Colocation</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Colocation</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Colocation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>DDoS Protection</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>DDoS Protection</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>DDoS Protection</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>DDoS-Schutz</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>DDoS Protection</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>DDoS Protection</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>DDoS Protection</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>DDoS Protection</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Cloud Solutions</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Cloud Hosting and CDN</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Cloud Hosting and CDN</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Cloud Hosting and CDN</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Cloud Hosting and CDN</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Cloud Hosting and CDN</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Cloud Hosting and CDN</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Cloud Hosting and CDN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Cluster Solutions</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Cluster Solutions</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Cluster Solutions</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Cluster-Lösungen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Cluster Solutions</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Cluster Solutions</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Cluster Solutions</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Cluster Solutions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Press</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Press</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Press</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Presse</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Press</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Press</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Press</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Press</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Partners Listining</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Partners Listing</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Partners Listing</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Partner Listing</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Partners Listing</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Partners Listing</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Partners Listing</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Partners Listing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Partner Login</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Partner Login</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Partner Login</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Partner Login</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Partner Login</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Partner Login</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Partner Login</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Partner Login</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Partner Login</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Partner Login</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Partner Login</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Partner Login</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Help</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Help</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Help</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Hilfe</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Help</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Help</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Help</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Help</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Knowledge Base</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Knowledge Base</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Knowledge Base</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Knowledge Base</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Informationsbank</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Informationsbank</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Knowledge Base</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Knowledge Base</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Knowledge Base</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Knowledge Base</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Knowledge Base</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Knowledge Base</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Frequently Asked Questions</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Frequently Asked Questions</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Frequently Asked Questions</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Frequently Asked Questions</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Häufig gestellte Fragen</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Häufig gestellte Fragen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Frequently Asked Questions</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Frequently Asked Questions</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Frequently Asked Questions</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Frequently Asked Questions</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Frequently Asked Questions</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Frequently Asked Questions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Network Status</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Network Status</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Network Status</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Netzwerk Status</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Network Status</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Network Status</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Network Status</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Network Status</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>24/7 Customer Service</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>24/7 Customer Service</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>24/7 Customer Service</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>24/7 Kundenbetreuung</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>24/7 Customer Service</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>24/7 Customer Service</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>24/7 Customer Service</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>24/7 Customer Service</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>24x7 Customer Service</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>24x7 Customer Service</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>24x7 Customer Service</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>24x7 Kundenbetreuung</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>24x7 Customer Service</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>24x7 Customer Service</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>24x7 Customer Service</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>24x7 Customer Service</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Language</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Language:</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Language:</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Sprache:</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Language:</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Language:</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Language:</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Language:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>See also</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>See also:</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>See also:</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Siehe auch:</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>See also:</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>See also:</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>See also:</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>See also:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Data-center address</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Data-center address</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Data-center address</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Adresse des Rechenzentrums</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Data-center address</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Data-center address</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Data-center address</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Data-center address</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Knowledge Base</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Knowledge Base</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Knowledge Base</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Knowledge Base</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Informationsbank</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Informationsbank</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Knowledge Base</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Knowledge Base</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Knowledge Base</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Knowledge Base</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Knowledge Base</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Knowledge Base</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Frequently Asked Questions</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Frequently Asked Questions</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Frequently Asked Questions</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Frequently Asked Questions</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Häufig gestellte Fragen</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Häufig gestellte Fragen</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Frequently Asked Questions</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Frequently Asked Questions</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Frequently Asked Questions</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Frequently Asked Questions</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Frequently Asked Questions</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Frequently Asked Questions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Contact us</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Contact us</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Contact us</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Kontaktieren Sie uns</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Contact us</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Contact us</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Contact us</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Contact us</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Contact details</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Contact details</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Contact details</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Kontaktangaben</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Contact details</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Contact details</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Contact details</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Contact details</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Sicherheitsgarantie des Unternehmens</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Sicherheitsgarantie des Unternehmens</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Sicherheitsgarantie des Unternehmens
+</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Business Safety Guarantee</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Future Ready</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Future Ready</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Future Ready</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Future Ready</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Future Ready</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Future Ready</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Future Ready</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Future Ready</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Key vendors</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Key vendors:</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Key vendors:</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Haupt-Anbieter:</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Key vendors:</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Key vendors:</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Key vendors:</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Key vendors:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Technical details</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Technical details</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Technical details</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Technische Details</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Technical details</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Technical details</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Technical details</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Technical details</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Brochure</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Brochure</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Brochure</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Prospekt</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Brochure</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Brochure</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Brochure</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Brochure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Locate a distributor</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Locate a distributor</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Locate a distributor</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Ermitteln Sie einen Händler</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Locate a distributor</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Locate a distributor</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Locate a distributor</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Locate a distributor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Service Level Agreement</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Service Level Agreement</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Service Level Agreement</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Leistungsvertrag</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Service Level Agreement</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Service Level Agreement</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Service Level Agreement</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Service Level Agreement</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Support Overview</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Support Overview</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Support Overview</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Support Übersicht</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Support Overview</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Support Overview</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Support Overview</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Support Overview</seg>
+      </tuv>
+    </tu>
+    <tu>
+        <tuv xml:lang="EN-US">
+            <seg>Are_you_ambitious</seg>
+        </tuv>
+        <tuv xml:lang="RU-RU">
+            <seg>Are you ambitious and would like to try yourself in new technologies field? Our company offers ready to use business solutions.</seg>
+        </tuv>
+        <tuv xml:lang="EN-UK">
+            <seg>Are you ambitious and would like to try yourself in new technologies field? Our company offers ready to use business solutions.</seg>
+        </tuv>
+        <tuv xml:lang="DE-DE">
+            <seg>Are you ambitious and would like to try yourself in new technologies field? Our company offers ready to use business solutions.</seg>
+        </tuv>
+        <tuv xml:lang="ES-ES">
+            <seg>Are you ambitious and would like to try yourself in new technologies field? Our company offers ready to use business solutions.</seg>
+        </tuv>
+        <tuv xml:lang="FR-FR">
+            <seg>Are you ambitious and would like to try yourself in new technologies field? Our company offers ready to use business solutions.</seg>
+        </tuv>
+        <tuv xml:lang="CH-CH">
+            <seg>Are you ambitious and would like to try yourself in new technologies field? Our company offers ready to use business solutions.</seg>
+        </tuv>
+        <tuv xml:lang="IT-IT">
+            <seg>Are you ambitious and would like to try yourself in new technologies field? Our company offers ready to use business solutions.</seg>
+        </tuv>
+    </tu>
+  </body>
+</tmx>

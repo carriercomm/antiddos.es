@@ -1,0 +1,1 @@
+<?php if($operator||$close) echo 'online'; ?>

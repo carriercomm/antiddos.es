@@ -1,0 +1,4949 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+<header creationtool="Olifant" creationtoolversion="3.0.8.0" datatype="unkown" segtype="paragraph" adminlang="EN-US" srclang="EN-US" o-tmf="" creationdate="20120511T212234Z" creationid="FIRST" changedate="20131206T201911Z" changeid="User">
+</header>
+<body>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_activation_account_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Добро пожаловать на сайт %site_name%!</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - account activation required</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Konto-Aktivierung erforderlich</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - account activation required</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - account activation required</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - account activation required</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - account activation required</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_activation_auto_account_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>%site_name% - Создать новый аккаунт</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - new account registered</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Neues Konto registriert</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - new account registered</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - new account registered</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - new account registered</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - new account registered</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_activation_account_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Здравствуйте, %name%!
+Вас привествует, %site_name%. 
+
+Благодарим вас за интерес, проявленный к нашим продуктам и услугам. 
+Мы надеемся на сотрудничество и готовы предложить вам высокое качество и отличный сервис! 
+
+Пожалуйста, сохраните это сообщение. Параметры вашей учетной записи:
+
+Ваш логин: %login%
+Ваш пароль: %password%
+
+Для завершения регистрации, пожалуйста, пройдите по данной ссылке:
+
+%link%
+
+Благодарим за сотрудничество!
+Если вы получили это письмо случайно, то просто проигнорируйте это письмо. 
+
+С уважением, %site_name%.
+</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+
+Thank you for your interest in products and services of %site_name%. 
+
+We are confident that we will meet your expectations and establish ourselves 
+as your preferred partner in provision of high technology services for 
+personal or business use.
+
+Your registration is almost complete.
+To complete registration and activate your account click on the link below.
+
+%link%
+
+Make sure that your login information is stored securely.
+
+Your Login: %email_address%
+Your Password: %password%
+
+Once again, our team thanks you for registering.
+We will be glad to answer your questions 24/7.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte %name%,
+
+Vielen Dank für Ihr Interesse an unseren Produkten und Dienste von %site_name%. 
+
+Wir sind zuversichtlich, dass wir Ihre Erwartungen erfüllen und uns
+als Ihren bevorzugten Partner bei der Bereitstellung von High-Tech-Dienstleistungen für
+persönliche oder geschäftliche Nutzung etablieren.
+
+Ihre Registrierung ist fast abgeschlossen.
+Um die Registrierung abzuschließen und Ihr Konto zu aktivieren klicken Sie auf den Link.
+
+%link%
+
+Stellen Sie sicher, dass Ihre Login-Daten sicher gespeichert ist.
+
+Ihr Login: %email_address%
+Ihr Passwort: %password%
+
+Noch einmal vielen Dank für Ihre Registrierung.
+Wir freuen uns, auf Ihre Fragen 24/7 zu beantworten.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+
+Thank you for your interest in products and services of %site_name%. 
+
+We are confident that we will meet your expectations and establish ourselves 
+as your preferred partner in provision of high technology services for 
+personal or business use.
+
+Your registration is almost complete.
+To complete registration and activate your account click on the link below.
+
+%link%
+
+Make sure that your login information is stored securely.
+
+Your Login: %login%
+Your Password: %password%
+
+Once again, our team thanks you for registering.
+We will be glad to answer your questions 24/7.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+
+Thank you for your interest in products and services of %site_name%. 
+
+We are confident that we will meet your expectations and establish ourselves 
+as your preferred partner in provision of high technology services for 
+personal or business use.
+
+Your registration is almost complete.
+To complete registration and activate your account click on the link below.
+
+%link%
+
+Make sure that your login information is stored securely.
+
+Your Login: %email_address%
+Your Password: %password%
+
+Once again, our team thanks you for registering.
+We will be glad to answer your questions 24/7.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+
+Thank you for your interest in products and services of %site_name%. 
+
+We are confident that we will meet your expectations and establish ourselves 
+as your preferred partner in provision of high technology services for 
+personal or business use.
+
+Your registration is almost complete.
+To complete registration and activate your account click on the link below.
+
+%link%
+
+Make sure that your login information is stored securely.
+
+Your Login: %email_address%
+Your Password: %password%
+
+Once again, our team thanks you for registering.
+We will be glad to answer your questions 24/7.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+
+Thank you for your interest in products and services of %site_name%. 
+
+We are confident that we will meet your expectations and establish ourselves 
+as your preferred partner in provision of high technology services for 
+personal or business use.
+
+Your registration is almost complete.
+To complete registration and activate your account click on the link below.
+
+%link%
+
+Make sure that your login information is stored securely.
+
+Your Login: %email_address%
+Your Password: %password%
+
+Once again, our team thanks you for registering.
+We will be glad to answer your questions 24/7.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_activation_auto_account_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уважаемый(ая) %name%,
+
+Благодарим Вас за проявленный интерес к продуктам и услугам %site_name%. 
+
+Мы уверены, что оправдаем Ваши ожидания и станем Вашим основным партнером в предоставлении высокотехнологичных услуг для частного или корпоративного использования. 
+
+Регистрация завершена.
+
+Убедитесь в безопасном хранении регистрационных данных.
+
+Ваш логин: %login%
+Ваш пароль: %password%
+
+Еще раз благодарим за регистрацию.
+Рады ответить на Ваши вопросы 24/7.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+
+Thank you for your interest in products and services of %site_name%. 
+
+We are confident that we will meet your expectations and establish ourselves 
+as your preferred partner in provision of high technology services for 
+personal or business use.
+
+Your registration is complete.
+
+Make sure that your login information is stored securely.
+
+Your Login: %email_address%
+Your Password: %password%
+
+Once again, our team thanks you for registering.
+We will be glad to answer your questions 24/7.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Seht geehrte %name%,
+
+Vielen Dank für Ihr Interesse an unseren Produkten und Dienste von %site_name%. 
+
+Wir sind zuversichtlich, dass wir Ihre Erwartungen erfüllen und uns
+als Ihren bevorzugten Partner bei der Bereitstellung von High-Tech-Dienstleistungen für
+persönliche oder geschäftliche Nutzung etablieren.
+
+Ihre Regstierung ist abgeschlossen.
+
+Stellen Sie sicher, dass Ihre Login-Daten sicher gespeichert ist.
+
+Ihr Login: %email_address%
+Ihr Passwort: %password%
+
+Noch einmal vielen Dank für Ihre Registrierung.
+Wir freuen uns, auf Ihre Fragen 24/7 zu beantworten.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+
+Thank you for your interest in products and services of %site_name%. 
+
+We are confident that we will meet your expectations and establish ourselves 
+as your preferred partner in provision of high technology services for 
+personal or business use.
+
+Your registration is complete.
+
+Make sure that your login information is stored securely.
+
+Your Login: %login%
+Your Password: %password%
+
+Once again, our team thanks you for registering.
+We will be glad to answer your questions 24/7.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+
+Thank you for your interest in products and services of %site_name%. 
+
+We are confident that we will meet your expectations and establish ourselves 
+as your preferred partner in provision of high technology services for 
+personal or business use.
+
+Your registration is complete.
+
+Make sure that your login information is stored securely.
+
+Your Login: %email_address%
+Your Password: %password%
+
+Once again, our team thanks you for registering.
+We will be glad to answer your questions 24/7.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+
+Thank you for your interest in products and services of %site_name%. 
+
+We are confident that we will meet your expectations and establish ourselves 
+as your preferred partner in provision of high technology services for 
+personal or business use.
+
+Your registration is complete.
+
+Make sure that your login information is stored securely.
+
+Your Login: %email_address%
+Your Password: %password%
+
+Once again, our team thanks you for registering.
+We will be glad to answer your questions 24/7.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+
+Thank you for your interest in products and services of %site_name%. 
+
+We are confident that we will meet your expectations and establish ourselves 
+as your preferred partner in provision of high technology services for 
+personal or business use.
+
+Your registration is complete.
+
+Make sure that your login information is stored securely.
+
+Your Login: %email_address%
+Your Password: %password%
+
+Once again, our team thanks you for registering.
+We will be glad to answer your questions 24/7.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_registration_account_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Добро пожаловать на %site_name%!</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Welcome to %site_name%!</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Willkommen zu %site_name%!</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Welcome to %site_name%!</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Welcome to %site_name%!</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Welcome to %site_name%!</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Welcome to %site_name%!</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_registration_account_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Добро пожаловать на %site_name%! 
+Мы рады приветствовать вас в качестве нашего зарегистрированного клиента. 
+
+Теперь вы имеете постоянный доступ к предлагаемым нами товарам и услугам. 
+Мы надеемся на долгосрочное и плодотворное сотрудничество. 
+
+Техническая служба поддержки к вашим услугам 24 часа 7 дней в неделю. 
+Пожалуйста, при возникновению любых вопросов обращайтесь к нам. Мы будем рады вам помочь!
+
+Yours sincerely,
+%site_name% team.
+</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>
+We are glad to see you as our registered customer.
+
+Now, you have full access to products and services that we offer.
+We look forward for long-term  mutually beneficial cooperation.
+
+Technical support is available 24/7.
+If you have any questions please feel free to contacts us. We will be glad to assist you!
+
+Yours sincerely,
+%site_name% team. 
+</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>
+Wir freuen uns, Sie als unseren registrierten Kunden zu sehen.
+
+Jetzt haben Sie vollen Zugriff auf Produkte und Dienstleistungen, die anbieten wir.
+Wir freuen uns für die langfristige gegenseitig vorteilhafte Zusammenarbeit.
+
+Technischer Support ist 24/7 verfügbar.
+
+Wenn Sie irgendwelche Fragen haben, zögern Sie nicht, uns zu kontaktieren. 
+Wir würden uns freuen, Sie zu unterstützen!
+
+Mit freundlichen Grüßen
+%site_name% Team. 
+</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>
+We are glad to see you as our registered customer.
+
+Now, you have full access to products and services that we offer.
+We look forward for long-term  mutually beneficial cooperation.
+
+Technical support is available 24/7.
+If you have any questions please feel free to contacts us. We will be glad to assist you!
+
+Yours sincerely,
+%site_name% team. 
+</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>
+We are glad to see you as our registered customer.
+
+Now, you have full access to products and services that we offer.
+We look forward for long-term  mutually beneficial cooperation.
+
+Technical support is available 24/7.
+If you have any questions please feel free to contacts us. We will be glad to assist you!
+
+Yours sincerely,
+%site_name% team. 
+</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>
+We are glad to see you as our registered customer.
+
+Now, you have full access to products and services that we offer.
+We look forward for long-term  mutually beneficial cooperation.
+
+Technical support is available 24/7.
+If you have any questions please feel free to contacts us. We will be glad to assist you!
+
+Yours sincerely,
+%site_name% team. 
+</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>
+We are glad to see you as our registered customer.
+
+Now, you have full access to products and services that we offer.
+We look forward for long-term  mutually beneficial cooperation.
+
+Technical support is available 24/7.
+If you have any questions please feel free to contacts us. We will be glad to assist you!
+
+Yours sincerely,
+%site_name% team. 
+</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_password_recovery_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Востановление пароля от учетной записи.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - password recovery</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Passwort-Wiederherstellung</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - password recovery</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - password recovery</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - password recovery</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - password recovery</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_password_recovery_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Ваш пароль был изменен. 
+Ваш логин:        %username%
+Ваш новый пароль: %password%
+Пожалуйста, сохраните это письмо.
+
+С уважением, %site_name%.
+			</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+
+You have received this email as part of password reset request recently submitted at %site_name%.
+
+Your login: %email_address%
+New password: %password%
+
+If you did not make this request, please contact our customer support as soon as possible.
+
+Yours sincerely,
+%site_name% team </seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte %name%,
+
+Sie haben diese E-Mail als Teil der Anfrage für Passwort-Rückstellung, die at %site_name% eingereicht wurde, empfangen.
+
+Ihr Login: %email_address%
+Neues Passwort: %password%
+
+Wenn Sie nicht diese Anfrage stellen, kontaktieren Sie bitte unsere Kundenbetreuung so bald wie möglich.
+
+Mit freundlichen Grüßen
+%site_name% Team </seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+
+You have received this email as part of password reset request recently submitted at %site_name%.
+
+Your login: %username%
+New password: %password%
+
+If you did not make this request, please contact our customer support as soon as possible.
+
+Yours sincerely,
+%site_name% team </seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+
+You have received this email as part of password reset request recently submitted at %site_name%.
+
+Your login: %email_address%
+New password: %password%
+
+If you did not make this request, please contact our customer support as soon as possible.
+
+Yours sincerely,
+%site_name% team </seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+
+You have received this email as part of password reset request recently submitted at %site_name%.
+
+Your login: %email_address%
+New password: %password%
+
+If you did not make this request, please contact our customer support as soon as possible.
+
+Yours sincerely,
+%site_name% team </seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+
+You have received this email as part of password reset request recently submitted at %site_name%.
+
+Your login: %email_address%
+New password: %password%
+
+If you did not make this request, please contact our customer support as soon as possible.
+
+Yours sincerely,
+%site_name% team </seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_livechat_create_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Служба поддержки %site_name%. Чат создан.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - chat session has been started</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Chat Session ist gestartet worden</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - chat session has been started</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - chat session has been started</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - chat session has been started</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - chat session has been started</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_livechat_create_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Здравствуйте, %name%!
+
+Благодарим вас за обращение к нам!
+%date%, %time% вами был создан чат для общения со службой поддержки. 
+
+Для перехода в чат перейдите по этой ссылке:
+%link% 
+
+Чат будет активен до тех пор, пока вы не нажмете кнопку 'выйти из чата'. 
+
+С уважением, %site_name%.
+</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+
+Thank you for contacting %site_name%.
+
+%date%, %time% a chat has been initialized to communicate with Customer Support.
+
+To proceed to chat please click on the link below:
+
+%link% 
+
+Chat will be active as long as "Leave Chat" button has not been pressed.
+
+Yours sincerely,
+%site_name% team</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte %name%,
+
+Vielen Dank für die Kontaktaufnahme %site_name%.
+
+Am %date%, %time% wurde ein Chat initialisiert mit Kundenbetreuung zu kommunizieren.
+
+Um zu chatten, klicken Sie bitte auf den untenstehenden Link:
+
+%link% 
+
+Chat ist aktiv bis "Lassen Chat"-Taste nicht gedrückt ist.
+
+Mit Freundlichen Grüßen
+%site_name% Team</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+
+Thank you for contacting %site_name%.
+
+%date%, %time% a chat has been initialized to communicate with Customer Support.
+
+To proceed to chat please click on the link below:
+
+%link% 
+
+Chat will be active as long as "Leave Chat" button has not been pressed.
+
+Yours sincerely,
+%site_name% team</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+
+Thank you for contacting %site_name%.
+
+%date%, %time% a chat has been initialized to communicate with Customer Support.
+
+To proceed to chat please click on the link below:
+
+%link% 
+
+Chat will be active as long as "Leave Chat" button has not been pressed.
+
+Yours sincerely,
+%site_name% team</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+
+Thank you for contacting %site_name%.
+
+%date%, %time% a chat has been initialized to communicate with Customer Support.
+
+To proceed to chat please click on the link below:
+
+%link% 
+
+Chat will be active as long as "Leave Chat" button has not been pressed.
+
+Yours sincerely,
+%site_name% team</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+
+Thank you for contacting %site_name%.
+
+%date%, %time% a chat has been initialized to communicate with Customer Support.
+
+To proceed to chat please click on the link below:
+
+%link% 
+
+Chat will be active as long as "Leave Chat" button has not been pressed.
+
+Yours sincerely,
+%site_name% team</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_livechat_answer_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Служба поддержки %site_name%. Получен ответ.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - you have a new answer</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Sie haben eine neue Antwort</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - you have a new answer</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - you have a new answer</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - you have a new answer</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - you have a new answer</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_livechat_answer_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Вас приветствует служба поддержки сайта %site_name%.
+				
+%date%, %time% посредством чата мы получили ваш запрос и подготовили на него ответ. 
+
+Ниже вы можете прочитать ответ на ваше сообщение:
+
+%answer%
+
+Также, пройдя по данной ссылке, вы можете продолжить общение со службой поддержки:
+
+%link%
+
+Мы будем рады вам помочь!
+С уважением, %site_name%.
+----------------------------------------------------------------------------
+[ ! ] Do not reply to this email directly, please visit the link above to continue the chat.
+----------------------------------------------------------------------------
+</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+
+Greetings from Customer Support of %site_name%.
+On %date%, %time% your request has been received via chat. An answer to your request is ready.
+
+Below you can see the answer to your message: 
+
+---------------------------------------------
+
+%answer%
+
+---------------------------------------------
+
+Please visit the link below to review the answer to your request.
+
+%link%
+
+We are always glad to assist you!
+
+Yours sincerely,
+%site_name% team
+----------------------------------------------------------------------------
+[ ! ] Do not reply to this email directly, please visit the link above to continue the chat.
+----------------------------------------------------------------------------</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte %name%,
+
+Viele Grüße von Kundenbetreuung von %site_name%.
+Am %date%, %time% Ihre Anfrage wurde via Chat erhalten. Eine Antwort auf Ihre Anfrage ist bereit.
+
+Hier können Sie die Antwort auf Ihre Anfrage sehen: 
+
+---------------------------------------------
+
+%answer%
+
+---------------------------------------------
+
+Besuchen Sie bitte den Link unten, um die Antwort auf Ihre Anfrage überzuprüfen.
+
+%link%
+
+Wir freuen immer uns, Sie zu unterstützen!
+
+Mit freundlichen Grüßen
+%site_name% Team
+----------------------------------------------------------------------------
+[ ! ] Antworten Sie nicht auf diese E-Mail direkt, besuchen Sie bitte den folgenden Link, um den Chat fortzusetzen.
+----------------------------------------------------------------------------</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+
+Greetings from Customer Support of %site_name%.
+On %date%, %time% your request has been received via chat. An answer to your request is ready.
+
+Please visit the link below to review the answer to your request.
+
+%link%
+
+We are always glad to assist you!
+
+Yours sincerely,
+%site_name% team
+----------------------------------------------------------------------------
+[ ! ] Do not reply to this email directly, please visit the link above to continue the chat.
+----------------------------------------------------------------------------</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+
+Greetings from Customer Support of %site_name%.
+On %date%, %time% your request has been received via chat. An answer to your request is ready.
+
+Below you can see the answer to your message: 
+
+---------------------------------------------
+
+%answer%
+
+---------------------------------------------
+
+Please visit the link below to review the answer to your request.
+
+%link%
+
+We are always glad to assist you!
+
+Yours sincerely,
+%site_name% team
+----------------------------------------------------------------------------
+[ ! ] Do not reply to this email directly, please visit the link above to continue the chat.
+----------------------------------------------------------------------------</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+
+Greetings from Customer Support of %site_name%.
+On %date%, %time% your request has been received via chat. An answer to your request is ready.
+
+Below you can see the answer to your message: 
+
+---------------------------------------------
+
+%answer%
+
+---------------------------------------------
+
+Please visit the link below to review the answer to your request.
+
+%link%
+
+We are always glad to assist you!
+
+Yours sincerely,
+%site_name% team
+----------------------------------------------------------------------------
+[ ! ] Do not reply to this email directly, please visit the link above to continue the chat.
+----------------------------------------------------------------------------</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+
+Greetings from Customer Support of %site_name%.
+On %date%, %time% your request has been received via chat. An answer to your request is ready.
+
+Below you can see the answer to your message: 
+
+---------------------------------------------
+
+%answer%
+
+---------------------------------------------
+
+Please visit the link below to review the answer to your request.
+
+%link%
+
+We are always glad to assist you!
+
+Yours sincerely,
+%site_name% team
+----------------------------------------------------------------------------
+[ ! ] Do not reply to this email directly, please visit the link above to continue the chat.
+----------------------------------------------------------------------------</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_news</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>%site_name% Новости</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - newsletter</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Newsletter</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - newsletter</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - newsletter</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - newsletter</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - newsletter</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_balance_insufficient_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Внимание. Недостаточный баланс.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - attention, insufficient balance</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Achtung, unzureichendes Guthaben</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - attention, insufficient balance</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - attention, insufficient balance</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - attention, insufficient balance</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - attention, insufficient balance</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_balance_insufficient_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Здравствуйте, %name%:
+
+Напоминаем Вам, что на вашем счету недостаточно средств для оплаты следующего платежного периода. 
+Стоимость следующего платежного периода составляет %order_total_amount% CHF. 
+
+Ваш текущий баланс: %current_balance% CHF
+Необходимо дополнительно внести на баланс: %dept% CHF
+
+Чтобы попасть в свой кабинет, пройдите, пожалуйста по этой ссылке. 
+
+%partner_site_url%
+
+Надеемся, что вы своевременно пополните баланс и продолжите сотрудничество с нами.
+
+Напоминаем Вам, что техническая служба поддержки к вашим услугам 24 часа 7 дней в неделю. 
+Пожалуйста, при возникновению любых вопросов обращайтесь к нам. Мы будем рады вам помочь!
+
+С уважением, %partner_site_name%.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+
+This is a reminder that you have insufficient funds to cover next payment. 
+The amount due in the next billing period is %order_total_amount% CHF.
+
+Your current balance: %current_balance% CHF
+Required additional deposit:  %dept% CHF
+
+Please, follow this link to enter your account.
+
+%partner_site_url%
+
+We look forward for a timely deposit and  hope to continue our beneficial cooperation.
+
+We would like to remind you that our customer support is glad to assist you 24/7! 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte %name%,
+
+Dies ist eine Erinnerung daran, dass Sie unzureichende Geldmittel haben, um nächste Bezahlung zu decken. 
+Der fällige Betrag in den nächsten Abrechnungszeitraum is%order_total_amount% CHF.
+
+Ihr Guthaben: %current_balance% CHF
+Erforderliche zusätzliche Einzahlung:  %dept% CHF
+
+Folgen Sie bitte diesem Link, um Ihr Konto einzugehen.
+
+%partner_site_url%
+
+Wir freuen uns auf eine rechtzeitige Einzahlung und hoffen, unsere vorteilhafte Zusammenarbeit fortzusetzen.
+
+Wir möchten Sie daran erinnern, dass unsere Kundenbetreuung freut sich, Sie 24/7 zu unterstützen! 
+Zögern Sie bitte nicht, uns zu kontaktieren, wenn Sie irgendwelche Fragen oder Besorgnisse haben. 
+
+Mit freundlichen Grüßen
+%partner_site_name% Team</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+
+This is a reminder that you have insufficient funds to cover next payment. 
+The amount due in the next billing period is %order_total_amount% CHF.
+
+Your current balance: %current_balance% CHF
+Required additional deposit:  %dept% CHF
+
+Please, follow this link to enter your account.
+
+%partner_site_url%
+
+We look forward for a timely deposit and  hope to continue our beneficial cooperation.
+
+We would like to remind you that our customer support is glad to assist you 24/7! 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+
+This is a reminder that you have insufficient funds to cover next payment. 
+The amount due in the next billing period is %order_total_amount% CHF.
+
+Your current balance: %current_balance% CHF
+Required additional deposit:  %dept% CHF
+
+Please, follow this link to enter your account.
+
+%partner_site_url%
+
+We look forward for a timely deposit and  hope to continue our beneficial cooperation.
+
+We would like to remind you that our customer support is glad to assist you 24/7! 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+
+This is a reminder that you have insufficient funds to cover next payment. 
+The amount due in the next billing period is %order_total_amount% CHF.
+
+Your current balance: %current_balance% CHF
+Required additional deposit:  %dept% CHF
+
+Please, follow this link to enter your account.
+
+%partner_site_url%
+
+We look forward for a timely deposit and  hope to continue our beneficial cooperation.
+
+We would like to remind you that our customer support is glad to assist you 24/7! 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+
+This is a reminder that you have insufficient funds to cover next payment. 
+The amount due in the next billing period is %order_total_amount% CHF.
+
+Your current balance: %current_balance% CHF
+Required additional deposit:  %dept% CHF
+
+Please, follow this link to enter your account.
+
+%partner_site_url%
+
+We look forward for a timely deposit and  hope to continue our beneficial cooperation.
+
+We would like to remind you that our customer support is glad to assist you 24/7! 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_suspension_warning_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Внимание. Недостаточный баланс.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - attention, insufficient balance (final notification)</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Achtung, unzureichendes Guthaben (letzte Ankündigung)</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - attention, insufficient balance (final notification)</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - attention, insufficient balance (final notification)</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - attention, insufficient balance (final notification)</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - attention, insufficient balance (final notification)</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_suspension_warning_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Здравствуйте, %name%:
+
+На Вашем счету недостаточно средств для оплаты следующего платежного периода. 
+Несмотря на все наши уведомления о необходимости пополнить баланс, средств на Ваш счет не поступило. 
+В случае, если если задолженность не будет погашена, оказание услуг будет автоматически приостановлено в течение 24 часов. 
+Настоятельно рекомендуем вам немедленно пополнить баланс во избежание нежелательного отключения от услуг. 
+
+Чтобы попасть в свой кабинет, пройдите, пожалуйста по этой ссылке. 
+
+%partner_site_url%
+
+Мы надеемся на дальнейшее сотрудничество!
+
+Напоминаем Вам, что техническая служба поддержки к вашим услугам 24 часа 7 дней в неделю. 
+Пожалуйста, при возникновению любых вопросов обращайтесь к нам. Мы будем рады вам помочь!
+
+С уважением, %partner_site_name%.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+
+Balance at your account is insufficient to cover next billing period.
+
+Despite of several notifications no funds have been added to your account.
+If amount due is not paid within 24 yours, the service will be automatically suspended. 
+
+To avoid suspension of service, we strongly recommend you to make a deposit immediately.
+
+Your current balance: %current_balance% CHF
+Required additional deposit:  %dept% CHF
+
+Please follow the link below to enter your account:
+
+%partner_site_url%
+
+We hope to continue our cooperation in the future!
+
+We would like to remind you that our customer support is glad to assist you 24/7. 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte %name%,
+
+Guthaben Ihres Konto ist unzureichend, um nächste Abrechnungszeitraum zu decken.
+
+Trotz mehrer Ankündigungen sind keine Geldmittel um Ihrem Konto hinzugefügt worden.
+Wenn fälliger Betrag nicht innerhalb von 24 Stunden bezahlt ist, wird die Dienstleistung automatisch ausgesetzt werden. 
+
+Um Suspendierung der Dienstleistung zu vermeiden, empfehlen wir Ihnen, eine Einzahlung sofort zu machen.
+
+Ihr Guthaben: %current_balance% CHF
+Erforderliche zusätzliche Einzahlung:  %dept% CHF
+
+Folgen Sie bitte diesem Link, um Ihr Konto einzugehen:
+
+%partner_site_url%
+
+Wir hoffen, unsere Zusammenarbeit auch in Zukunft fortzusetzen!
+
+
+Wir möchten Sie daran erinnern, dass unsere Kundenbetreuung freut sich, Sie 24/7 zu unterstützen! 
+Zögern Sie bitte nicht, uns zu kontaktieren, wenn Sie irgendwelche Fragen oder Besorgnisse haben. 
+ 
+
+Mit freundlichen Grüßen
+%partner_site_name% Team</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+
+Balance at your account is insufficient to cover next billing period.
+
+Despite of several notifications no funds have been added to your account.
+If amount due is not paid within 24 yours, the service will be automatically suspended. 
+
+To avoid suspension of service, we strongly recommend you to make a deposit immediately.
+
+Your current balance: %current_balance% CHF
+Required additional deposit:  %dept% CHF
+
+Please follow the link below to enter your account:
+
+%partner_site_url%
+
+We hope to continue our cooperation in the future!
+
+We would like to remind you that our customer support is glad to assist you 24/7. 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+
+Balance at your account is insufficient to cover next billing period.
+
+Despite of several notifications no funds have been added to your account.
+If amount due is not paid within 24 yours, the service will be automatically suspended. 
+
+To avoid suspension of service, we strongly recommend you to make a deposit immediately.
+
+Your current balance: %current_balance% CHF
+Required additional deposit:  %dept% CHF
+
+Please follow the link below to enter your account:
+
+%partner_site_url%
+
+We hope to continue our cooperation in the future!
+
+We would like to remind you that our customer support is glad to assist you 24/7. 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+
+Balance at your account is insufficient to cover next billing period.
+
+Despite of several notifications no funds have been added to your account.
+If amount due is not paid within 24 yours, the service will be automatically suspended. 
+
+To avoid suspension of service, we strongly recommend you to make a deposit immediately.
+
+Your current balance: %current_balance% CHF
+Required additional deposit:  %dept% CHF
+
+Please follow the link below to enter your account:
+
+%partner_site_url%
+
+We hope to continue our cooperation in the future!
+
+We would like to remind you that our customer support is glad to assist you 24/7. 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+
+Balance at your account is insufficient to cover next billing period.
+
+Despite of several notifications no funds have been added to your account.
+If amount due is not paid within 24 yours, the service will be automatically suspended. 
+
+To avoid suspension of service, we strongly recommend you to make a deposit immediately.
+
+Your current balance: %current_balance% CHF
+Required additional deposit:  %dept% CHF
+
+Please follow the link below to enter your account:
+
+%partner_site_url%
+
+We hope to continue our cooperation in the future!
+
+We would like to remind you that our customer support is glad to assist you 24/7. 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_suspension_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Заказы приостановлены.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - service(s) has been suspended</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Dienstleistung(en) ist ausgesetzt worden</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - service(s) has been suspended</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - service(s) has been suspended</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - service(s) has been suspended</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - service(s) has been suspended</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_suspension_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Здравствуйте, %name%:
+
+Ваши заказы были приостановлены из-за недостаточных средств:
+
+Заказ(ы): %order_list%
+
+С уважением, %partner_site_name%.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+
+Despite of several notifications no funds have been added to your account.
+Your service(s) has been suspended because of insufficient balance:
+
+Order(s): %order_list%
+
+We would like to remind you that our customer support is glad to assist you 24/7! 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte %name%,
+
+Trotz mehrer Ankündigungen sind keine Geldmittel um Ihrem Konto hinzugefügt worden.
+Ihre Dienstleistung(en) ist wegen des unzureichenden Geuthaben ausgesetzt worden:
+
+Bestellung(en): %order_list%
+
+Wir möchten Sie daran erinnern, dass unsere Kundenbetreuung freut sich, Sie 24/7 zu unterstützen! 
+Zögern Sie bitte nicht, uns zu kontaktieren, wenn Sie irgendwelche Fragen oder Besorgnisse haben. 
+
+Mit freundlichen Grüßen
+%partner_site_name% Team</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+
+Despite of several notifications no funds have been added to your account.
+Your service(s) has been suspended because of insufficient balance:
+
+Order(s): %order_list%
+
+We would like to remind you that our customer support is glad to assist you 24/7! 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+
+Despite of several notifications no funds have been added to your account.
+Your service(s) has been suspended because of insufficient balance:
+
+Order(s): %order_list%
+
+We would like to remind you that our customer support is glad to assist you 24/7! 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+
+Despite of several notifications no funds have been added to your account.
+Your service(s) has been suspended because of insufficient balance:
+
+Order(s): %order_list%
+
+We would like to remind you that our customer support is glad to assist you 24/7! 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+
+Despite of several notifications no funds have been added to your account.
+Your service(s) has been suspended because of insufficient balance:
+
+Order(s): %order_list%
+
+We would like to remind you that our customer support is glad to assist you 24/7! 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_resume_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Заказы восстановлены.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - service(s) has been resumed.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Dienstleistung(en) ist  wieder aufgenommen worden.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - service(s) has been resumed.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - service(s) has been resumed.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - service(s) has been resumed.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - service(s) has been resumed.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_resume_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Здравствуйте, %name%:
+
+Ваши заказы были восстановлены:
+
+%order_list%
+
+С уважением, %partner_site_name%.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+
+Your service(s) has been resumed:
+
+%order_list%
+
+Thank you for doing business with %partner_site_name%!
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte %name%,
+
+Ihre Dienstleistung(en) ist  wieder aufgenommen worden:
+
+%order_list%
+
+Vielen Dank für das Geschäft mit %partner_site_name%!
+
+Mit freundlichen Grüßen
+%partner_site_name% Team</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+
+Your service(s) has been resumed:
+
+%order_list%
+
+Thank you for doing business with %partner_site_name%!
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+
+Your service(s) has been resumed:
+
+%order_list%
+
+Thank you for doing business with %partner_site_name%!
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+
+Your service(s) has been resumed:
+
+%order_list%
+
+Thank you for doing business with %partner_site_name%!
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+
+Your service(s) has been resumed:
+
+%order_list%
+
+Thank you for doing business with %partner_site_name%!
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_server_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>%site_name% - заказ сервера выполнен</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - server order has been processed</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Bestellung des Server ist verarbeitet worden</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - server order has been processed</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - server order has been processed</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - server order has been processed</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - server order has been processed</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_server_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Увважаемый(ая) %name%,
+
+Спасибо за покупку.
+
+Ваш выделенный сервер установлен и готов к работе.
+
+Ниже представлена вся необходимая информация для начала работы с выделенным сервером, такая как IP адреса, имя пользователя, пароль и дополнительная информация о панели управления и доступе к интерфейсам IPMI/KVM. 
+
+ID сервера: %server_name%
+Основной IP адрес: %main_ip%
+Login/Password: 
+
+%access%
+
+Дополнительные IP адреса:
+%additional_ips%
+
+Панель управления:
+
+%panel%
+
+IPMI/KVM (remote power and screen/keyboard/mouse control):
+
+https://%ipmi_ip%
+
+Login/Password: 
+%ipmi_login% / %ipmi_password%
+
+Коментарии инженера:
+
+%tech_comment%
+
+Напоминаем, что служба поддержки клиентов всегда рада оказать Вам помощь 24/7. 
+Звоните нам, в случае возникновения вопросов или проблем.  
+
+Искренне Ваши,
+%partner_site_name%.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+
+Thank you for this purchase.
+
+Your Dedicated Server setup has been completed and now ready to use.
+
+Below you will find all necessary information to start using dedicated 
+server such as: IP addresses, login, password and additional data on 
+control panel and IPMI/KVM interface access.
+
+Server ID: %server_name%
+Main IP address: %main_ip%
+Login/Password: 
+
+%access%
+
+Additional IP addresses:
+%additional_ips%
+
+Control Panel:
+
+%panel%
+
+IPMI/KVM (remote power and screen/keyboard/mouse control):
+
+https://%ipmi_ip%
+
+Login/Password: 
+%ipmi_login% / %ipmi_password%
+
+Engineer's comment:
+
+%tech_comment%
+
+We would like to remind you that our customer support is glad to assist you 24/7. 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name%.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte %name%,
+
+Danke für diesen Einkauf.
+
+Die Einstellung des Ihres Dedizierten Server ist abgeschlossen und jetzt einsatzbereit.
+
+Darunter finden Sie alle notwendige Informationen, um die Verwendung des Dedizierten Servers zu starten: IP-Adressen, Login, Passwort und 
+zusätzliche Daten auf Szstemsteuerung und IPMI/KVM Schnittstelle Zugang.
+
+Server ID: %server_name%
+Haupt- IP-Adresse: %main_ip%
+Login/Passwort: 
+
+%access%
+
+Zusätzliche IP-Adressen:
+%additional_ips%
+
+Systemsteuerung:
+
+%panel%
+
+IPMI/KVM (Remote Power und Bildschirm / Tastatur / Maus-Steuerung):
+
+https://%ipmi_ip%
+
+Login/Passwort: 
+%ipmi_login% / %ipmi_password%
+
+Kommentar von Ingenieur:
+
+%tech_comment%
+
+Wir möchten Sie daran erinnern, dass unsere Kundenbetreuung freut sich, Sie 24/7 zu unterstützen! 
+Zögern Sie bitte nicht, uns zu kontaktieren, wenn Sie irgendwelche Fragen oder Besorgnisse haben. 
+
+Mit freundlichen Grüßen
+%partner_site_name%.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+
+Thank you for this purchase.
+
+Your Dedicated Server setup has been completed and now ready to use.
+
+Below you will find all necessary information to start using dedicated 
+server such as: IP addresses, login, password and additional data on 
+control panel and IPMI/KVM interface access.
+
+Server ID: %server_name%
+Main IP address: %main_ip%
+Login/Password: 
+
+%access%
+
+Additional IP addresses:
+%additional_ips%
+
+Control Panel:
+
+%panel%
+
+IPMI/KVM (remote power and screen/keyboard/mouse control):
+
+https://%ipmi_ip%
+
+Login/Password: 
+%ipmi_login% / %ipmi_password%
+
+Engineer's comment:
+
+%tech_comment%
+
+We would like to remind you that our customer support is glad to assist you 24/7. 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name%.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+
+Thank you for this purchase.
+
+Your Dedicated Server setup has been completed and now ready to use.
+
+Below you will find all necessary information to start using dedicated 
+server such as: IP addresses, login, password and additional data on 
+control panel and IPMI/KVM interface access.
+
+Server ID: %server_name%
+Main IP address: %main_ip%
+Login/Password: 
+
+%access%
+
+Additional IP addresses:
+%additional_ips%
+
+Control Panel:
+
+%panel%
+
+IPMI/KVM (remote power and screen/keyboard/mouse control):
+
+https://%ipmi_ip%
+
+Login/Password: 
+%ipmi_login% / %ipmi_password%
+
+Engineer's comment:
+
+%tech_comment%
+
+We would like to remind you that our customer support is glad to assist you 24/7. 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name%.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+
+Thank you for this purchase.
+
+Your Dedicated Server setup has been completed and now ready to use.
+
+Below you will find all necessary information to start using dedicated 
+server such as: IP addresses, login, password and additional data on 
+control panel and IPMI/KVM interface access.
+
+Server ID: %server_name%
+Main IP address: %main_ip%
+Login/Password: 
+
+%access%
+
+Additional IP addresses:
+%additional_ips%
+
+Control Panel:
+
+%panel%
+
+IPMI/KVM (remote power and screen/keyboard/mouse control):
+
+https://%ipmi_ip%
+
+Login/Password: 
+%ipmi_login% / %ipmi_password%
+
+Engineer's comment:
+
+%tech_comment%
+
+We would like to remind you that our customer support is glad to assist you 24/7. 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name%.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+
+Thank you for this purchase.
+
+Your Dedicated Server setup has been completed and now ready to use.
+
+Below you will find all necessary information to start using dedicated 
+server such as: IP addresses, login, password and additional data on 
+control panel and IPMI/KVM interface access.
+
+Server ID: %server_name%
+Main IP address: %main_ip%
+Login/Password: 
+
+%access%
+
+Additional IP addresses:
+%additional_ips%
+
+Control Panel:
+
+%panel%
+
+IPMI/KVM (remote power and screen/keyboard/mouse control):
+
+https://%ipmi_ip%
+
+Login/Password: 
+%ipmi_login% / %ipmi_password%
+
+Engineer's comment:
+
+%tech_comment%
+
+We would like to remind you that our customer support is glad to assist you 24/7. 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name%.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_cloud_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>%site_name% - заказ в облачном хостинге выполнен</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - cloud order has been processed</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Bestellung des Cloud ist verarbeitet worden</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - cloud order has been processed</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - cloud order has been processed</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - cloud order has been processed</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - cloud order has been processed</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_cloud_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уважаемый(ая) %name%,
+
+Спасибо за покупку.
+
+Ваша облачная инфраструктура установленна и готова к использованию.
+
+Ниже приведена информация о доступе к панели управления Вашего дата центра.  
+В панели управления Вы можете создавать новые виртуальные машины, по необходимости изменять распределение ресурсов для каждой из них и просматривать статистику использования Вашей облачной инфраструктуры. 
+
+Детали доступа:
+
+%link%
+Login/Password:
+
+%login% / %password%
+
+Вы можете приобрести дополнительные ресурсы для инфраструктуры облака:
+
+Максимальное кол-во виртуальных устройств: %max_virtual_appliances%
+Кол-во ядер ЦП: %cpu-cores% x %core_multiplier%
+ОЗУ: %ram% MB
+Дисковое пространство: %disk-space% GB
+Пропускная способность: %bandwidth% GB
+IPv4 адреса: %ipv4-addresses%
+
+Каждая системная конфигурация может быть использована для одной или более виртуальных машин. Количество виртуальных машин не может превышать количество процессоров. Если в конфигурации системы более одного поцессора , то может быть заказано несколько виртуальных машин . На каждую виртуальную машину требуется не менее одного процессора. 
+
+
+Напоминаем, что служба поддержки клиентов всегда рада оказать Вам помощь 24/7. 
+Звоните нам, в случае возникновения вопросов или проблем.  
+
+Искрене Ваши,
+%partner_site_name%.
+</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+
+Thank you for this purchase.
+
+Your Cloud Infrastructure setup has been completed and now ready for use.
+
+Below you will find information to access control panel of your virtual data center. 
+In control panel you can create new virtual machines, modify resource allocation 
+of each existing virtual machine as needed and view statistics of 
+your Cloud Infrastructure usage.
+
+Access details:
+
+%link%
+Login/Password:
+
+%login% / %password%
+
+Purchased resources available for use with Cloud Infrastructure:
+
+Max. Virtual Appliances: %max_virtual_appliances%
+CPU Cores: %cpu-cores% x %core_multiplier%
+RAM: %ram% MB
+Disk Space: %disk-space% GB
+Bandwidth: %bandwidth% GB
+IPv4 Addresses: %ipv4-addresses%
+
+Each system resource configuration can be used for one or more virtual machines. Amount of 
+virtual machines cannot exceed the amount of CPUs.  If system resource configuration includes
+more than one CPU,  more than one virtual machine can be ordered. At least one CPU per one 
+virtual machine. 
+
+
+We would like to remind you that our customer support is glad to assist you 24/7. 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name%.
+</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte%name%,
+
+Danke für diesen Einkauf.
+
+Die Einstellung der Cloud Infrastruktur ist abgeschlossen und jetzt einsatzbereit.
+
+Darunter finden Sie Informationen, um auf die Systemsteuerung Ihres virtuellen Rechenzentrums zugreifen. 
+In Systemsteuerung können Sie neue virtuelle Maschinen schaffen, ändern Ressourcenallokation
+jeder vorhandenen virtuellen Maschine nach Bedarf und sehen Statistiken
+Ihrer Cloud-Infrastruktur-Nutzung.
+
+Zugang Details:
+
+%link%
+Login/Passwort:
+
+%login% / %password%
+
+Erworbene verfügbare Ressourcen für die Verwendung mit Cloud-Infrastruktur:
+
+Max. Virtuelle Geräte: %max_virtual_appliances%
+Prozessor Kerne: %cpu-cores% x %core_multiplier%
+RAM: %ram% MB
+Speicherplatz: %disk-space% GB
+Bandbreite: %bandwidth% GB
+IPv4 Adressen: %ipv4-addresses%
+
+Jede System Ressource Konfiguration kann für eine oder mehrere virtuelle Maschinen verwendet werden. Anzahl der
+virtuelle Maschinen können nicht über den Betrag von Prozessoren. Wenn System-Ressource-Konfiguration enthält
+mehr als ein Prozessor, kann mehr als eine virtuelle Maschine bestellt werden. Mindestens ein Prozessor pro eine
+virtuelle Maschine.
+
+
+Wir möchten Sie daran erinnern, dass unsere Kundenbetreuung freut sich, Sie 24/7 zu unterstützen! 
+Zögern Sie bitte nicht, uns zu kontaktieren, wenn Sie irgendwelche Fragen oder Besorgnisse haben. 
+
+Mit freundlichen Grüßen
+%partner_site_name%.
+</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+
+Thank you for this purchase.
+
+Your Cloud Infrastructure setup has been completed and now ready for use.
+
+Below you will find information to access control panel of your virtual data center. 
+In control panel you can create new virtual machines, modify resource allocation 
+of each existing virtual machine as needed and view statistics of 
+your Cloud Infrastructure usage.
+
+Access details:
+
+%link%
+Login/Password:
+
+%login% / %password%
+
+Purchased resources available for use with Cloud Infrastructure:
+
+%cloud_resources%
+
+Each system resource configuration can be used for one or more virtual machines. Amount of 
+virtual machines cannot exceed the amount of CPUs.  If system resource configuration includes
+more than one CPU,  more than one virtual machine can be ordered. At least one CPU per one 
+virtual machine. 
+
+
+We would like to remind you that our customer support is glad to assist you 24/7. 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name%.
+</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+
+Thank you for this purchase.
+
+Your Cloud Infrastructure setup has been completed and now ready for use.
+
+Below you will find information to access control panel of your virtual data center. 
+In control panel you can create new virtual machines, modify resource allocation 
+of each existing virtual machine as needed and view statistics of 
+your Cloud Infrastructure usage.
+
+Access details:
+
+%link%
+Login/Password:
+
+%login% / %password%
+
+Purchased resources available for use with Cloud Infrastructure:
+
+Max. Virtual Appliances: %max_virtual_appliances%
+CPU Cores: %cpu-cores% x %core_multiplier%
+RAM: %ram% MB
+Disk Space: %disk-space% GB
+Bandwidth: %bandwidth% GB
+IPv4 Addresses: %ipv4-addresses%
+
+Each system resource configuration can be used for one or more virtual machines. Amount of 
+virtual machines cannot exceed the amount of CPUs.  If system resource configuration includes
+more than one CPU,  more than one virtual machine can be ordered. At least one CPU per one 
+virtual machine. 
+
+
+We would like to remind you that our customer support is glad to assist you 24/7. 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name%.
+</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+
+Thank you for this purchase.
+
+Your Cloud Infrastructure setup has been completed and now ready for use.
+
+Below you will find information to access control panel of your virtual data center. 
+In control panel you can create new virtual machines, modify resource allocation 
+of each existing virtual machine as needed and view statistics of 
+your Cloud Infrastructure usage.
+
+Access details:
+
+%link%
+Login/Password:
+
+%login% / %password%
+
+Purchased resources available for use with Cloud Infrastructure:
+
+Max. Virtual Appliances: %max_virtual_appliances%
+CPU Cores: %cpu-cores% x %core_multiplier%
+RAM: %ram% MB
+Disk Space: %disk-space% GB
+Bandwidth: %bandwidth% GB
+IPv4 Addresses: %ipv4-addresses%
+
+Each system resource configuration can be used for one or more virtual machines. Amount of 
+virtual machines cannot exceed the amount of CPUs.  If system resource configuration includes
+more than one CPU,  more than one virtual machine can be ordered. At least one CPU per one 
+virtual machine. 
+
+
+We would like to remind you that our customer support is glad to assist you 24/7. 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name%.
+</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+
+Thank you for this purchase.
+
+Your Cloud Infrastructure setup has been completed and now ready for use.
+
+Below you will find information to access control panel of your virtual data center. 
+In control panel you can create new virtual machines, modify resource allocation 
+of each existing virtual machine as needed and view statistics of 
+your Cloud Infrastructure usage.
+
+Access details:
+
+%link%
+Login/Password:
+
+%login% / %password%
+
+Purchased resources available for use with Cloud Infrastructure:
+
+Max. Virtual Appliances: %max_virtual_appliances%
+CPU Cores: %cpu-cores% x %core_multiplier%
+RAM: %ram% MB
+Disk Space: %disk-space% GB
+Bandwidth: %bandwidth% GB
+IPv4 Addresses: %ipv4-addresses%
+
+Each system resource configuration can be used for one or more virtual machines. Amount of 
+virtual machines cannot exceed the amount of CPUs.  If system resource configuration includes
+more than one CPU,  more than one virtual machine can be ordered. At least one CPU per one 
+virtual machine. 
+
+
+We would like to remind you that our customer support is glad to assist you 24/7. 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name%.
+</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_protection_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>%site_name% - заказ на  ddos защиту выполнен</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - ddos protection order has been processed</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Bestellung des DDoS-Schutz ist verarbeitet worden</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - ddos protection order has been processed</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - ddos protection order has been processed</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - ddos protection order has been processed</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - ddos protection order has been processed</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_protection_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>client_notify_email_service_delivery_protection_body</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>client_notify_email_service_delivery_protection_body</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>client_notify_email_service_delivery_protection_body</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>client_notify_email_service_delivery_protection_body</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>client_notify_email_service_delivery_protection_body</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>client_notify_email_service_delivery_protection_body</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>client_notify_email_service_delivery_protection_body</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_colocation_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>%site_name% - заказ Колокейшн выполнен</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - colocation order has been processed</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Bestellung der Colocation ist verarbeitet worden</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - colocation order has been processed</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - colocation order has been processed</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - colocation order has been processed</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - colocation order has been processed</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_colocation_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уважаемый(ая) %name%,
+
+Спасибо за покупку!
+
+Ваше оборудование установленно и готово к использованию.
+
+Ниже Вы найдете информацию и замечания от нашей команды, касательно установки Вашего оборудования.
+
+Коментарии инженера:
+
+%tech_comment%
+
+
+Напоминаем, что служба поддержки клиентов всегда рада оказать Вам помощь 24/7. 
+Звоните нам, в случае возникновения вопросов или проблем.  
+
+Искренне Ваши,
+%partner_site_name%.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+
+Thank you for this purchase.
+
+Your Colocation Infrastructure setup has been completed and now ready for use.
+
+Below you will find information and remarks from our team regarding the installation.
+
+Engineer's comment:
+
+%tech_comment%
+
+
+We would like to remind you that our customer support is glad to assist you 24/7. 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name%.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte %name%,
+
+Danke für diesen Einkauf.
+
+Die Einstellung der Colocation Infrastruktur ist abgeschlossen und jetzt einsatzbereit.
+
+Darunter finden Sie Informationen und Hinweise aus unserem Team in Bezug auf die Installation.
+
+Kommentar von Ingenieur:
+
+%tech_comment%
+
+
+Wir möchten Sie daran erinnern, dass unsere Kundenbetreuung freut sich, Sie 24/7 zu unterstützen! 
+Zögern Sie bitte nicht, uns zu kontaktieren, wenn Sie irgendwelche Fragen oder Besorgnisse haben. 
+
+Mit freundlichen Grüßen
+%partner_site_name%.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+
+Thank you for this purchase.
+
+Your Colocation Infrastructure setup has been completed and now ready for use.
+
+Below you will find information and remarks from our team regarding the installation.
+
+Engineer's comment:
+
+%tech_comment%
+
+
+We would like to remind you that our customer support is glad to assist you 24/7. 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name%.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+
+Thank you for this purchase.
+
+Your Colocation Infrastructure setup has been completed and now ready for use.
+
+Below you will find information and remarks from our team regarding the installation.
+
+Engineer's comment:
+
+%tech_comment%
+
+
+We would like to remind you that our customer support is glad to assist you 24/7. 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name%.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+
+Thank you for this purchase.
+
+Your Colocation Infrastructure setup has been completed and now ready for use.
+
+Below you will find information and remarks from our team regarding the installation.
+
+Engineer's comment:
+
+%tech_comment%
+
+
+We would like to remind you that our customer support is glad to assist you 24/7. 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name%.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+
+Thank you for this purchase.
+
+Your Colocation Infrastructure setup has been completed and now ready for use.
+
+Below you will find information and remarks from our team regarding the installation.
+
+Engineer's comment:
+
+%tech_comment%
+
+
+We would like to remind you that our customer support is glad to assist you 24/7. 
+Please feel free to contact us if you have any questions or concerns. 
+
+Yours sincerely,
+%partner_site_name%.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_license_renew_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>%license_name% Лицензия (%ip%) обновлена - %site_name%</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%license_name% License (%ip%) has been renewed - %site_name%</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%license_name% Lizenz (%ip%) ist erneuert worden - %site_name%</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%license_name% License (%ip%) has been renewed - %site_name%</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%license_name% License (%ip%) has been renewed - %site_name%</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%license_name% License (%ip%) has been renewed - %site_name%</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%license_name% License (%ip%) has been renewed - %site_name%</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_license_renew_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уважаемый(ая) %name%,
+
+Мы рады сообщить Вам, что лицензия %license_name% обновлена на указанный ниже период.
+
+Пожалуйста, сохраните данное сообщение, так как оно содержит номер заказа и может понадобиться в случае обращения в службу поддержки клиентов. 
+
+Обновленная лицензия: %license_name%
+Действительна в течении: %from% - %to%
+IP адрес оборудования: %ip%
+Номер заказа: %order_id%
+
+Вам будет предъявлен счет согласно Вашему заказу, в сответствии с Вашим способом оплаты.
+
+Если у Вас есть вопросы по поводу Вашего заказа, пожалуйста, свяжитесь с нами посредством создания запроса в службу поддержки клиентов 24/7.
+
+С наилучшими пожеланиями,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+
+We are pleased to inform you that your %license_name% software license
+has been successfully renewed for the period stated below.
+
+Please be sure to keep this email for your records as it contains your order
+number and should be referenced for any customer support.
+
+Renewed License: %license_name%
+Valid during: %from% - %to%
+Hardware IP address: %ip%
+Order number: %order_id%
+
+Your payment method will be charged according to the items purchased.
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte %name%,
+
+Wir freuen uns, Ihnen zu informieren, dass Ihre %license_name% Software-Lizenz erfolgreich für 
+den Zeitraum, der darunter ist, erneuert worden ist.
+
+Bewahren Sie bitte diese E-Mail für Ihre Unterlagen, wie sie Ihre Bestellungsnummer enthält
+und sollte für irgendeine Kundenbetreuung verwiesen werden.
+
+Erneute Lizenz: %license_name%
+Gültig während: %from% - %to%
+Hardware IP-Adresse: %ip%
+Bestellungsnummer: %order_id%
+
+Ihre Zahlungsmethode wird nach der gekauften Artikel berechnet werden.
+
+Wenn Sie Fragen über Ihrer Bestellung haben, kontaktieren Sie uns bitte durch Vorlage
+ein neues Ticket in unsere 24/7 Kundenbetreuung.
+
+Mit besten Grüßen
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+
+We are pleased to inform you that your %license_name% software license
+has been successfully renewed for the period stated below.
+
+Please be sure to keep this email for your records as it contains your order
+number and should be referenced for any customer support.
+
+Renewed License: %license_name%
+Valid during: %from% - %to%
+Hardware IP address: %ip%
+Order number: %order_id%
+
+Your payment method will be charged according to the items purchased.
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+
+We are pleased to inform you that your %license_name% software license
+has been successfully renewed for the period stated below.
+
+Please be sure to keep this email for your records as it contains your order
+number and should be referenced for any customer support.
+
+Renewed License: %license_name%
+Valid during: %from% - %to%
+Hardware IP address: %ip%
+Order number: %order_id%
+
+Your payment method will be charged according to the items purchased.
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+
+We are pleased to inform you that your %license_name% software license
+has been successfully renewed for the period stated below.
+
+Please be sure to keep this email for your records as it contains your order
+number and should be referenced for any customer support.
+
+Renewed License: %license_name%
+Valid during: %from% - %to%
+Hardware IP address: %ip%
+Order number: %order_id%
+
+Your payment method will be charged according to the items purchased.
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+
+We are pleased to inform you that your %license_name% software license
+has been successfully renewed for the period stated below.
+
+Please be sure to keep this email for your records as it contains your order
+number and should be referenced for any customer support.
+
+Renewed License: %license_name%
+Valid during: %from% - %to%
+Hardware IP address: %ip%
+Order number: %order_id%
+
+Your payment method will be charged according to the items purchased.
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_license_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>%license_name% Лицензия (%ip%) активированна - %site_name%</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%license_name% License (%ip%) has been activated - %site_name%</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%license_name% Lizenz (%ip%) ist aktiviert worden - %site_name%</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%license_name% License (%ip%) has been activated - %site_name%</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%license_name% License (%ip%) has been activated - %site_name%</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%license_name% License (%ip%) has been activated - %site_name%</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%license_name% License (%ip%) has been activated - %site_name%</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_license_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уважаемый(ая) %name%,
+
+Мы рады сообщить, что Ваш заказ успешно получен и выполнен командой %site_name%. 
+Пожалуйста, сохраните данное сообщение, так как оно содержит номер заказа и может понадобиться в случае обращения в службу поддержки клиентов.  
+
+Приобретённая лицензия: %license_name%
+Действительно в течении: %from% - %to%
+IP адрес оборудования: %ip%
+
+Вам будет предъявлен счет согласно Вашему заказу, в сответствии с Вашим способом оплаты.
+
+Если у Вас есть вопросы по поводу Вашего заказа, пожалуйста, свяжитесь с нами посредством создания запроса в службу поддержки клиентов 24/7.
+
+С наилучшими пожеланиями
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+
+We are pleased to inform you that your order has been successfully received 
+and processed by %site_name%. Please be sure to keep this email for your 
+records as it contains your order number and should be referenced for any 
+customer support.
+
+Purchased License: %license_name%
+Valid during: %from% - %to%
+Hardware IP address: %ip%
+
+Your payment method will be charged according to the items purchased.
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte %name%,
+
+Wir freuen uns, Ihnen zu informieren, dass Ihre Bestellung erfolgreich empfangen worden ist
+und von % site_name% verarbeitet ist. Bewahren Sie bitte diese E-Mail für Ihre Unterlagen, wie sie Ihre Bestellungsnummer
+enthält und sollte für irgendeine Kundenbetreuung verwiesen werden.
+
+Erworbene Lizenz: %license_name%
+Gültig während: %from% - %to%
+Hardware IP-Adresse: %ip%
+
+Ihre Zahlungsmethode wird nach der gekauften Artikel berechnet werden.
+
+Wenn Sie Fragen über Ihrer Bestellung haben, kontaktieren Sie uns bitte durch Vorlage
+ein neues Ticket in unsere 24/7 Kundenbetreuung.
+
+Mit besten Grüßen
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+
+We are pleased to inform you that your order has been successfully received 
+and processed by %site_name%. Please be sure to keep this email for your 
+records as it contains your order number and should be referenced for any 
+customer support.
+
+Purchased License: %license_name%
+Valid during: %from% - %to%
+Hardware IP address: %ip%
+
+Your payment method will be charged according to the items purchased.
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+
+We are pleased to inform you that your order has been successfully received 
+and processed by %site_name%. Please be sure to keep this email for your 
+records as it contains your order number and should be referenced for any 
+customer support.
+
+Purchased License: %license_name%
+Valid during: %from% - %to%
+Hardware IP address: %ip%
+
+Your payment method will be charged according to the items purchased.
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+
+We are pleased to inform you that your order has been successfully received 
+and processed by %site_name%. Please be sure to keep this email for your 
+records as it contains your order number and should be referenced for any 
+customer support.
+
+Purchased License: %license_name%
+Valid during: %from% - %to%
+Hardware IP address: %ip%
+
+Your payment method will be charged according to the items purchased.
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+
+We are pleased to inform you that your order has been successfully received 
+and processed by %site_name%. Please be sure to keep this email for your 
+records as it contains your order number and should be referenced for any 
+customer support.
+
+Purchased License: %license_name%
+Valid during: %from% - %to%
+Hardware IP address: %ip%
+
+Your payment method will be charged according to the items purchased.
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_license_cancel_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>%license_name% Срок лицензии (%ip%) истёк - %site_name%</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%license_name% License (%ip%) is expired - %site_name%</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%license_name% Lizenz (%ip%) ist abgelaufen - %site_name%</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%license_name% License (%ip%) is expired - %site_name%</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%license_name% License (%ip%) is expired - %site_name%</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%license_name% License (%ip%) is expired - %site_name%</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%license_name% License (%ip%) is expired - %site_name%</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_license_cancel_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уважаемый(ая) %name%,
+
+Срок действия лицензии (%license_name%) для IP %ip% истек и деактивирован.
+
+Автоматическое обновление невозможно по причине недостаточного баланса или отмены заказа.
+
+Если у Вас есть вопросы по поводу Вашего заказа, пожалуйста, свяжитесь с нами посредством создания запроса в службу поддержки клиентов 24/7.
+
+С наилучшими пожеланиями
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+
+The license (%license_name%) for IP address %ip% was expired and now deactivated.
+
+Automated renewal is not possible because of low balance or order cancellation.
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte %name%,
+
+Die Lizenz (%license_name%) für IP-Adresse %ip% war abgelaufen und ist jetzt deaktiviert.
+
+Automatische Verlängerung ist nicht wegen des niedrigen Guthabens oder Stornierung der Bestellung möglich.
+
+Wenn Sie Fragen über Ihrer Bestellung haben, kontaktieren Sie uns bitte durch Vorlage
+ein neues Ticket in unsere 24/7 Kundenbetreuung.
+
+Mit besten Grüßen
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+
+The license (%license_name%) for IP address %ip% was expired and now deactivated.
+
+Automated renewal is not possible because of low balance or order cancellation.
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+
+The license (%license_name%) for IP address %ip% was expired and now deactivated.
+
+Automated renewal is not possible because of low balance or order cancellation.
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+
+The license (%license_name%) for IP address %ip% was expired and now deactivated.
+
+Automated renewal is not possible because of low balance or order cancellation.
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+
+The license (%license_name%) for IP address %ip% was expired and now deactivated.
+
+Automated renewal is not possible because of low balance or order cancellation.
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_camfrog_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>%site_name% - заказ camfrog выполнен</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - camfrog order has been processed</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Bestellung des Camfrog ist verarbeitet worden</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - camfrog order has been processed</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - camfrog order has been processed</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - camfrog order has been processed</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - camfrog order has been processed</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_camfrog_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уважаемый(ая) %name%,
+
+Спасибо за покупку.
+
+Ваше оборудование установлено и готово к использованию.
+
+Ниже Вы найдете информацию и замечания от нашей команды, касательно установки Вашего оборудования.
+
+%room_url%
+
+Login/Password: 
+%room_login% / %room_password%
+
+Если у Вас есть вопросы по поводу Вашего заказа, пожалуйста, свяжитесь с нами посредством создания запроса в службу поддержки клиентов 24/7.
+
+С наилучшими пожеланиями,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+
+Thank you for this purchase.
+
+Your Colocation Infrastructure setup has been completed and now ready for use.
+
+Below you will find information and remarks from our team regarding the installation.
+
+%room_url%
+
+Login/Password: 
+%room_login% / %room_password%
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte %name%,
+
+Danke für diesen Einkauf.
+
+Die Einstellung der Colocation Infrastruktur ist abgeschlossen und jetzt einsatzbereit.
+
+Darunter finden Sie Informationen und Hinweise aus unserem Team in Bezug auf die Installation.
+
+%room_url%
+
+Login/Passwort: 
+%room_login% / %room_password%
+
+Wenn Sie Fragen über Ihrer Bestellung haben, kontaktieren Sie uns bitte durch Vorlage
+ein neues Ticket in unsere 24/7 Kundenbetreuung.
+
+Mit besten Grüßen
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+
+Thank you for this purchase.
+
+Your Colocation Infrastructure setup has been completed and now ready for use.
+
+Below you will find information and remarks from our team regarding the installation.
+
+%room_url%
+
+Login/Password: 
+%room_login% / %room_password%
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+
+Thank you for this purchase.
+
+Your Colocation Infrastructure setup has been completed and now ready for use.
+
+Below you will find information and remarks from our team regarding the installation.
+
+%room_url%
+
+Login/Password: 
+%room_login% / %room_password%
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+
+Thank you for this purchase.
+
+Your Colocation Infrastructure setup has been completed and now ready for use.
+
+Below you will find information and remarks from our team regarding the installation.
+
+%room_url%
+
+Login/Password: 
+%room_login% / %room_password%
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+
+Thank you for this purchase.
+
+Your Colocation Infrastructure setup has been completed and now ready for use.
+
+Below you will find information and remarks from our team regarding the installation.
+
+%room_url%
+
+Login/Password: 
+%room_login% / %room_password%
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_ticket_create_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>%site_name% - запрос создан</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - ticket has been created</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Ticket ist erstellt worden</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - ticket has been created</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - ticket has been created</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - ticket has been created</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - ticket has been created</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_ticket_create_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уважаемый(ая) %name%,
+
+Спасибо за обращение к %site_name%.
+
+%date%, %time% был создан запрос для службы поддержки клиентов
+Нажмите на ссылку, чтобы проследовать к запросу.
+
+%link% 
+
+С уважением,
+команда %site_name%</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+
+Thank you for contacting %site_name%.
+
+%date%, %time% a ticket has been initialized to communicate with Customer Support.
+
+To proceed to ticket please click on the link below:
+
+%link% 
+
+Yours sincerely,
+%site_name% team</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte %name%,
+
+Vielen Dank für die Kontaktaufnahme %site_name%.
+
+%date%, %time% wurde ein Ticket initialisiert mit Kundenbetreuung zu kommunizieren.
+
+Um Ticket fortzusetzen, klicken Sie bitte auf den untenstehenden Link:
+.
+
+%link% 
+
+Mit freundlichen Grüßen
+%site_name% team</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+
+Thank you for contacting %site_name%.
+
+%date%, %time% a ticket has been initialized to communicate with Customer Support.
+
+To proceed to ticket please click on the link below:
+
+%link% 
+
+Yours sincerely,
+%site_name% team</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+
+Thank you for contacting %site_name%.
+
+%date%, %time% a ticket has been initialized to communicate with Customer Support.
+
+To proceed to ticket please click on the link below:
+
+%link% 
+
+Yours sincerely,
+%site_name% team</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+
+Thank you for contacting %site_name%.
+
+%date%, %time% a ticket has been initialized to communicate with Customer Support.
+
+To proceed to ticket please click on the link below:
+
+%link% 
+
+Yours sincerely,
+%site_name% team</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+
+Thank you for contacting %site_name%.
+
+%date%, %time% a ticket has been initialized to communicate with Customer Support.
+
+To proceed to ticket please click on the link below:
+
+%link% 
+
+Yours sincerely,
+%site_name% team</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_ticket_answer_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>%site_name% - у Вас новый ответ</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - you have a new answer</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Sie haben eine neue Antwort</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - you have a new answer</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - you have a new answer</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - you have a new answer</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - you have a new answer</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_ticket_answer_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уважаемый(ая) %name%,
+
+Вас приветствует служба поддержки %site_name%.
+%date%, %time% был получен Ваш запрос в чате. Ответ готов.
+
+---------------------------------------------
+
+Ниже вы увидите ответ на свой вопрос: 
+
+---------------------------------------------
+
+%answer%
+
+Пожалуйста, пройдите по ссылке, чтобы увидеть ответ на свой запрос.
+
+%link%
+
+Мы всегда рады помочь Вам!
+
+Всегда Ваши
+команда %site_name%
+----------------------------------------------------------------------------
+[ ! ] Do not reply to this email directly, please login to control panel and reply inside the ticket.
+----------------------------------------------------------------------------</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+
+Greetings from Customer Support of %site_name%.
+On %date%, %time% your request has been received via chat. An answer to your request is ready.
+
+Below you can see the answer to your message: 
+
+---------------------------------------------
+
+%answer%
+
+---------------------------------------------
+
+Please visit the link below to review the answer to your request.
+
+%link%
+
+We are always glad to assist you!
+
+Yours sincerely,
+%site_name% team
+----------------------------------------------------------------------------
+[ ! ] Do not reply to this email directly, please login to control panel and reply inside the ticket.
+----------------------------------------------------------------------------</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte %name%,
+
+Viele Grüße von Kundenbetreuung von %site_name%.
+Am %date%, %time% Ihre Anfrage wurde via Chat erhalten. Eine Antwort auf Ihre Anfrage ist bereit.
+
+Hier können Sie die Antwort auf Ihre Anfrage sehen: 
+
+---------------------------------------------
+
+%answer%
+
+---------------------------------------------
+
+Besuchen Sie bitte den Link unten, um die Antwort auf Ihre Anfrage überzuprüfen.
+
+%link%
+
+Wir freuen immer uns, Sie zu unterstützen!
+
+Mit freundlichen Grüße
+%site_name% team
+----------------------------------------------------------------------------
+[ ! ] Antworten Sie nicht auf diese E-Mail direkt, melden Sie bitte sich an Szstemsteuerung und antworten innerhalb des Ticket.
+---------------------------------------------------------------------------</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+
+Greetings from Customer Support of %site_name%.
+On %date%, %time% your request has been received via chat. An answer to your request is ready.
+
+Below you can see the answer to your message: 
+
+%answer%
+
+Please visit the link below to review the answer to your request.
+
+%link%
+
+We are always glad to assist you!
+
+Yours sincerely,
+%site_name% team
+----------------------------------------------------------------------------
+[ ! ] Do not reply to this email directly, please login to control panel and reply inside the ticket.
+----------------------------------------------------------------------------</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+
+Greetings from Customer Support of %site_name%.
+On %date%, %time% your request has been received via chat. An answer to your request is ready.
+
+Below you can see the answer to your message: 
+
+---------------------------------------------
+
+%answer%
+
+---------------------------------------------
+
+Please visit the link below to review the answer to your request.
+
+%link%
+
+We are always glad to assist you!
+
+Yours sincerely,
+%site_name% team
+----------------------------------------------------------------------------
+[ ! ] Do not reply to this email directly, please login to control panel and reply inside the ticket.
+----------------------------------------------------------------------------</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+
+Greetings from Customer Support of %site_name%.
+On %date%, %time% your request has been received via chat. An answer to your request is ready.
+
+Below you can see the answer to your message: 
+
+---------------------------------------------
+
+%answer%
+
+---------------------------------------------
+
+Please visit the link below to review the answer to your request.
+
+%link%
+
+We are always glad to assist you!
+
+Yours sincerely,
+%site_name% team
+----------------------------------------------------------------------------
+[ ! ] Do not reply to this email directly, please login to control panel and reply inside the ticket.
+----------------------------------------------------------------------------</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+
+Greetings from Customer Support of %site_name%.
+On %date%, %time% your request has been received via chat. An answer to your request is ready.
+
+Below you can see the answer to your message: 
+
+---------------------------------------------
+
+%answer%
+
+---------------------------------------------
+
+Please visit the link below to review the answer to your request.
+
+%link%
+
+We are always glad to assist you!
+
+Yours sincerely,
+%site_name% team
+----------------------------------------------------------------------------
+[ ! ] Do not reply to this email directly, please login to control panel and reply inside the ticket.
+----------------------------------------------------------------------------</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_ticket_initiate_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>%site_name% - ticket has been created</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - ticket has been created</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Ticket ist erstellt worden</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - ticket has been created</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - ticket has been created</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - ticket has been created</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - ticket has been created</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_ticket_initiate_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Dear %name%,
+
+%date%, %time% a ticket has been initialized to communicate from Customer Support.
+
+To proceed to ticket please click on the link below:
+
+%link% 
+
+Yours sincerely,
+%site_name% team</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+
+%date%, %time% a ticket has been initialized to communicate from Customer Support.
+
+To proceed to ticket please click on the link below:
+
+%link% 
+
+Yours sincerely,
+%site_name% team</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte %name%,
+
+%date%, %time% wurde ein Ticket initialisiert mit Kundenbetreuung zu kommunizieren.
+
+Um Ticket fortzusetzen, klicken Sie bitte auf den untenstehenden Link:
+
+%link% 
+
+Mit freundlichen Grüße
+%site_name% team</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+
+%date%, %time% a ticket has been initialized to communicate from Customer Support.
+
+To proceed to ticket please click on the link below:
+
+%link% 
+
+Yours sincerely,
+%site_name% team</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+
+%date%, %time% a ticket has been initialized to communicate from Customer Support.
+
+To proceed to ticket please click on the link below:
+
+%link% 
+
+Yours sincerely,
+%site_name% team</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+
+%date%, %time% a ticket has been initialized to communicate from Customer Support.
+
+To proceed to ticket please click on the link below:
+
+%link% 
+
+Yours sincerely,
+%site_name% team</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+
+%date%, %time% a ticket has been initialized to communicate from Customer Support.
+
+To proceed to ticket please click on the link below:
+
+%link% 
+
+Yours sincerely,
+%site_name% team</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_cloud_trial_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>%site_name% - Уведомление о заказе бесплатного тестирования</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - Free trial order notice</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Bestellung der kostenlose Testversion Ankündigung</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - Free trial order notice</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - Free trial order notice</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - Free trial order notice</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - Free trial order notice</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_cloud_trial_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уважаемый,  %name%.
+
+Ваш запрос от %date%, %time% на тестирование %order% в течении 7 дней должен быть одобрен администратором. 
+Процедура займет некоторое время. Вы будете информированы о статусе запроса посредством e-mail. В случае одобрения Вашего запроса, детали хостинга будут указаны в том же e-mail.
+Будьте внимательны при заполнении регистрационной формы. Указанные контактные данные должны совпадать с реальными. Возможно с Вами свяжется представитель %site_name%.
+
+С уважением,
+коллектив %site_name%. </seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+
+Your request for a free 7 day Cloud server trial must be approved by administrator of %site_name%.
+This procedure takes some time. You will be informed about the status of your request via e-mail. 
+If request is approved you will get details on hosting at the same e-mail. 
+Please make sure that contact details in your profile are valid. Possibly you would be contacted by our representative.
+
+Yours sincerely,
+%site_name% team   </seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte %name%,
+
+Ihre Anfrage für eine kostenlose 7 Tage Cloud-Server-Testversion muss von den Administrator von% site_name% genehmigt werden.
+Dieser Vorgang dauert einige Zeit. Sie werden über den Status Ihrer Anfrage per E-Mail informiert werden.
+Wenn ein Antrag genehmigt ist, erhalten Sie Details über Hosting in der gleichen E-Mail.
+Stellen Sie bitte sicher, dass Kontaktdaten in Ihrem Profil gültig sind. Möglicherweise würden Sie von unserem Vertreter kontaktiert werden.
+
+Mit freundlichen Grüßen
+%site_name% Team   </seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+
+Your request for Cloud 7 days free trial must be approved by administrator of %site_name%.
+This procedure takes some time. You will be informed about the status of your request via e-mail.
+If request is approved you will get details on hosting at the same e-mail.
+Please make sure that contact details in your profile are valid. Possibly you would be contacted by our representative.
+
+Yours sincerely,
+%site_name% team   </seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+
+Your request for a free 7 day Cloud server trial must be approved by administrator of %site_name%.
+This procedure takes some time. You will be informed about the status of your request via e-mail. 
+If request is approved you will get details on hosting at the same e-mail. 
+Please make sure that contact details in your profile are valid. Possibly you would be contacted by our representative.
+
+Yours sincerely,
+%site_name% team   </seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+
+Your request for a free 7 day Cloud server trial must be approved by administrator of %site_name%.
+This procedure takes some time. You will be informed about the status of your request via e-mail. 
+If request is approved you will get details on hosting at the same e-mail. 
+Please make sure that contact details in your profile are valid. Possibly you would be contacted by our representative.
+
+Yours sincerely,
+%site_name% team   </seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+
+Your request for a free 7 day Cloud server trial must be approved by administrator of %site_name%.
+This procedure takes some time. You will be informed about the status of your request via e-mail. 
+If request is approved you will get details on hosting at the same e-mail. 
+Please make sure that contact details in your profile are valid. Possibly you would be contacted by our representative.
+
+Yours sincerely,
+%site_name% team   </seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_syncserver_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Создание TSync контейнера</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>TSync container creation</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>TSync Container Erstellung</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>TSync container creation</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>TSync container creation</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>TSync container creation</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>TSync container creation</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_syncserver_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уважаемый %name%.
+Спасибо за то, что воспользовались услугами нашей компании.
+Ваш заказ #%order_id% контейнера BTSync выполнен.
+Размер контейнера BTSync: %size% GB
+Ключ от контейнера BTSync с полными правами доступа: %secret%
+Ключ от контейнера BTSync с правами доступа только для чтения: %secret_ro%
+Мы рады будем отвеитть на любые Ваши вопросы. Обращайтесь в любое время 24/7.
+С уважением,
+Администрация %site_name%</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+Thank you for choosing our company.
+Your order #%order_id% of BTSync container has been processed.
+BTSync container size: %size% GB
+BTSync container Full-access key: %secret%
+BTSync read-only key: %secret_ro%
+Should you have any questions do not hesitate to contact us at any time. We are available 24/7.
+Sincerely,
+%site_name%  administration</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte %name%,
+Danke für die Wahl unseres Unternehmens.
+Ihre Bestellung #%order_id% des BTSync Container ist verabbeitet worden.
+BTSync Container Größe: %size% GB
+BTSync Container Voll-Zugriffsschlüssel: %secret%
+BTSync Nur-Lese-Schlüssel: %secret_ro%
+Wenn Sie Fragen haben, zögern Sie nicht, uns jederzeit zu kontaktieren. Wir sind 24/7 verfügbar.
+Mit freundlichen Grüße
+%site_name%  Administration</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+Thank you for choosing our company.
+Your order #%order_id% of BTSync container has been processed.
+BTSync container size: %size% GB
+BTSync container Full-access key: %secret%
+BTSync read-only key: %secret_ro%
+Should you have any questions do not hesitate to contact us at any time. We are available 24/7.
+Sincerely,
+%site_name%  administration</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+Thank you for choosing our company.
+Your order #%order_id% of BTSync container has been processed.
+BTSync container size: %size% GB
+BTSync container Full-access key: %secret%
+BTSync read-only key: %secret_ro%
+Should you have any questions do not hesitate to contact us at any time. We are available 24/7.
+Sincerely,
+%site_name%  administration</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+Thank you for choosing our company.
+Your order #%order_id% of BTSync container has been processed.
+BTSync container size: %size% GB
+BTSync container Full-access key: %secret%
+BTSync read-only key: %secret_ro%
+Should you have any questions do not hesitate to contact us at any time. We are available 24/7.
+Sincerely,
+%site_name%  administration</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+Thank you for choosing our company.
+Your order #%order_id% of BTSync container has been processed.
+BTSync container size: %size% GB
+BTSync container Full-access key: %secret%
+BTSync read-only key: %secret_ro%
+Should you have any questions do not hesitate to contact us at any time. We are available 24/7.
+Sincerely,
+%site_name%  administration</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_cloud_confirmation_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>%site_name% - заказ облачного хостинга</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - Cloud hosting order</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Bestellung des Cloud Hosting</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - Cloud hosting order</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - Cloud hosting order</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - Cloud hosting order</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - Cloud hosting order</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_cloud_confirmation_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уважаемый(ая),  %name%.
+
+Спасибо за то, что воспользовались услугами нашей компании.
+
+Детали облачного хостинга будут высланы Вам на адрес электронной почты после подтверждения заказа.
+
+Пожалуйста, убедитесь в правильности телефонного номера, указанного в свойствах Вашего аккаунта.
+Наш оператор свяжется с Вами по телефону в ближайшее время.
+
+С уважением,
+коллектив %site_name%.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+Thank you for choosing our services. Cloud hosting details will be sent to you via email after order confirmation.
+Please, make sure that you indicated correct phone number in profile details. Our operator will call you in order to confirm the order.
+
+Yours sincerely,
+%site_name% team   </seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte %name%,
+Vielen Dank für Ihr Interesse an unseren Dienste. Cloud-Hosting Details werden Ihnen per E-Mail nach Bestellbestätigung gesendet werden.
+Stellen Sie bitte sicher, dass Sie richtige Telefonnummer im Profil Details angegeben haben. Unser Betreiber wird Sie anrufen, um die Bestellung zu bestätigen.
+
+Mit freundlichen Grüße
+%site_name% Team   </seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+Thank you for choosing our services. Cloud hosting details will be sent to you via email after order confirmation.
+Please, make sure that you indicated correct phone number in profile details. Our operator will call you in order to confirm the order.
+
+Yours sincerely,
+%site_name% team   </seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+Thank you for choosing our services. Cloud hosting details will be sent to you via email after order confirmation.
+Please, make sure that you indicated correct phone number in profile details. Our operator will call you in order to confirm the order.
+
+Yours sincerely,
+%site_name% team   </seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+Thank you for choosing our services. Cloud hosting details will be sent to you via email after order confirmation.
+Please, make sure that you indicated correct phone number in profile details. Our operator will call you in order to confirm the order.
+
+Yours sincerely,
+%site_name% team   </seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+Thank you for choosing our services. Cloud hosting details will be sent to you via email after order confirmation.
+Please, make sure that you indicated correct phone number in profile details. Our operator will call you in order to confirm the order.
+
+Yours sincerely,
+%site_name% team   </seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_cloud_trial_suspension_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>%site_name% - Сообщение об отключение сервиса</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - Notification of Service termination</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Ankündigung von Dienstleistung-Beendigung</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - Notification of Service termination</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - Notification of Service termination</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - Notification of Service termination</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - Notification of Service termination</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_cloud_trial_suspension_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уважаемый,  %name%.
+
+Администрация  %site_name% сообщает, что Ваш срок бесплатного использования %order_list% истек, и сервис отключен за неуплату.
+
+С уважением,
+коллектив %partner_site_name%.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+
+This is to inform you that the 7 day trial period for %order_list% is finished and service has been terminated because of nonpayment.
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte %name%,
+
+Wir informieren Sie, dass die 7-Tage Testversionzeit für %order_list% beendet ist und die Dienstleistung wegen der Nichtszahlung beendet wurde.
+
+Mit freundlichen Grüßen
+%partner_site_name% Team</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+
+This is to inform you that the 7 day trial period for %order_list% is finished and service has been terminated because of nonpayment.
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+
+This is to inform you that the 7 day trial period for %order_list% is finished and service has been terminated because of nonpayment.
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+
+This is to inform you that the 7 day trial period for %order_list% is finished and service has been terminated because of nonpayment.
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+
+This is to inform you that the 7 day trial period for %order_list% is finished and service has been terminated because of nonpayment.
+
+Yours sincerely,
+%partner_site_name% team</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_syncserver_trial_suspension_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>%site_name% - Сообщение об отключение сервиса</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - Notification of Service termination</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Ankündigung von Dienstleistung-Beendigung</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - Notification of Service termination</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - Notification of Service termination</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - Notification of Service termination</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - Notification of Service termination</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_syncserver_trial_suspension_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уважаемый, %name%.
+ Контейнер BTSync, предоставленный Вам на 24 часа для бесплатного тестирования, заблокирован.  Вы можете изменить биллинговый период, размер контейнера и внести за него оплату через панель управления на сайте %partner_site_name%. Контейнер может быть активирован в течении семи дней.
+ С уважением,
+ администрация %partner_site_name%
+</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+Trial BTSync container has been suspended due to nonpayment for the next period. You may change billing period, the size of your BTSync container and pay for it by accessing its properties via Control Panel at %partner_site_name% website. The container can be activated within next seven days.
+Sincerely,
+%partner_site_name% team.
+</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte %name%,
+Testversion des BTSync Container wurde wegen Nichtzahlung für die nächste Periode ausgesetzt. Sie können Abrechnungszeitraum, die Größe Ihres BTSync Container ändern und bezahlen sie durch den Zugriff auf seine Eigenschaften via die Systemsteuerung auf %partner_site_% Webseite. Der Container kann im nächsten sieben Tage aktiviert werden.
+Mit freundlichen Grüßen
+%partner_site_name% Team.
+</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+Trial BTSync container has been suspended due to nonpayment for the next period. You may change billing period, the size of your BTSync container and pay for it by accessing its properties via Control Panel at %partner_site_name% website. The container can be activated within next seven days.
+Sincerely,
+%partner_site_name% team.
+</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+Trial BTSync container has been suspended due to nonpayment for the next period. You may change billing period, the size of your BTSync container and pay for it by accessing its properties via Control Panel at %partner_site_name% website. The container can be activated within next seven days.
+Sincerely,
+%partner_site_name% team.
+</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+Trial BTSync container has been suspended due to nonpayment for the next period. You may change billing period, the size of your BTSync container and pay for it by accessing its properties via Control Panel at %partner_site_name% website. The container can be activated within next seven days.
+Sincerely,
+%partner_site_name% team.
+</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+Trial BTSync container has been suspended due to nonpayment for the next period. You may change billing period, the size of your BTSync container and pay for it by accessing its properties via Control Panel at %partner_site_name% website. The container can be activated within next seven days.
+Sincerely,
+%partner_site_name% team.
+</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_trial_refused_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уведомление об отказе бесплатного тестирования</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Free trial refuse notice</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Ankündigung des Abfall der kostenlosen Testversion</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Free trial refuse notice</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Free trial refuse notice</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Free trial refuse notice</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Free trial refuse notice</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_trial_refused_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уважаемый,  %name%.
+Ваш запрос от %date%, %time% на тестирование %order% в течении 7 дней был отклонен по следующей причине:
+
+%reason%
+
+С уважением,
+коллектив %site_name%. </seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear  %name%,
+This is to inform that  your request for 7 days free trial of %order% %date%,
+%time%   has been refused.
+The reason for refuse:
+
+%reason%
+
+Yours sincerely,
+%site_name% team </seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte  %name%,
+Dies ist zu informieren, dass Ihre Anfrage für 7 Tage kostenlose Testversion von %order% %date%,
+% time% abgelehnt wurde.
+Der Grund für Abfall:
+
+%reason%
+
+Mit freundlichen Grüßen
+%site_name% Team </seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear  %name%,
+This is to inform that  your request for 7 days free trial of %order% %date%,
+%time%   has been refused.
+The reason for refuse:
+
+%reason%
+
+Yours sincerely,
+%site_name% team </seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear  %name%,
+This is to inform that  your request for 7 days free trial of %order% %date%,
+%time%   has been refused.
+The reason for refuse:
+
+%reason%
+
+Yours sincerely,
+%site_name% team </seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear  %name%,
+This is to inform that  your request for 7 days free trial of %order% %date%,
+%time%   has been refused.
+The reason for refuse:
+
+%reason%
+
+Yours sincerely,
+%site_name% team </seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear  %name%,
+This is to inform that  your request for 7 days free trial of %order% %date%,
+%time%   has been refused.
+The reason for refuse:
+
+%reason%
+
+Yours sincerely,
+%site_name% team </seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_cloud_refused_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Заказа Облачного Хостинга</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Cloud hosting order</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Bestellung des Cloud Hosting</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Cloud hosting order</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Cloud hosting order</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Cloud hosting order</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Cloud hosting order</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_cloud_refused_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уважаемый,  %name%.
+
+К сожалению Ваш заказ на облачный хостинг был отклонен.
+
+Причины отказа:
+
+%reason%
+
+В случае возникновения вопросов или комментариев по данному поводу, обращайтесь к нам в любое время. Мы всегда рады будем Вам ответить.
+
+С уважением,
+коллектив %site_name%. </seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear  %name%,
+
+Unfortunately, your order on Cloud hosting has been disapproved.
+The reason for disapproval is:
+
+%reason%
+
+Should you have any questions or comments do not hesitate to contact us.
+
+Yours sincerely,
+%site_name% team </seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte(r) %name%,
+
+Leider wurde Ihre Bestellung auf Cloud-Hosting abgelehnt.
+Der Grund für die Ablehnung ist:
+
+%reason%
+
+Wenn Sie Fragen oder Anmerkungen haben, zögern Sie nicht, uns zu kontaktieren.
+
+Mit freundlichen Grüße
+%site_name% Team </seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear  %name%,
+
+Unfortunately, your order on Cloud hosting has been disapproved.
+The reason for disapproval is:
+
+%reason%
+
+Should you have any questions or comments do not hesitate to contact us.
+
+Yours sincerely,
+%site_name% team </seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear  %name%,
+
+Unfortunately, your order on Cloud hosting has been disapproved.
+The reason for disapproval is:
+
+%reason%
+
+Should you have any questions or comments do not hesitate to contact us.
+
+Yours sincerely,
+%site_name% team </seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear  %name%,
+
+Unfortunately, your order on Cloud hosting has been disapproved.
+The reason for disapproval is:
+
+%reason%
+
+Should you have any questions or comments do not hesitate to contact us.
+
+Yours sincerely,
+%site_name% team </seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear  %name%,
+
+Unfortunately, your order on Cloud hosting has been disapproved.
+The reason for disapproval is:
+
+%reason%
+
+Should you have any questions or comments do not hesitate to contact us.
+
+Yours sincerely,
+%site_name% team </seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_custom_email_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>
+%message%
+
+С уважением,
+коллектив %site_name%. </seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>
+%message%
+
+Yours sincerely,
+%site_name% team </seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>
+%message%
+
+Mit freundlichen Grüßen
+%site_name% Team </seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>
+%message%
+
+Yours sincerely,
+%site_name% team </seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>
+%message%
+
+Yours sincerely,
+%site_name% team </seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>
+%message%
+
+Yours sincerely,
+%site_name% team </seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>
+%message%
+
+Yours sincerely,
+%site_name% team </seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_camfrog_renew_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>%site_name% -  Заказ Camfrog был возобновлен</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - camfrog order has been renewed</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Camfrog Bestellung ist erneuert worden</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - camfrog order has been renewed</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - camfrog order has been renewed</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - camfrog order has been renewed</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - camfrog order has been renewed</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_camfrog_renew_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уважаемый (ая) %name%,
+
+Мы рады сообщить Вам, что Ваш заказ Camfrog
+успешно продлен на срок, который указан ниже.
+
+Пожалуйста, не забудьте сохранить это письмо в своем архиве, поскольку он содержит 
+номер Вашего заказа, и может понадобиться для технической поддержки.
+
+Действителен: %from% - %to%
+Номер заказа: %order_id%
+
+Способ оплаты определяется в соответствии с приобретенными товарами.
+
+Если у Вас возникнут вопросы относительно Вашего заказа, пожалуйста, отправьте 
+новый билет в нашу круглосуточную поддержку.
+
+C уважением,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+
+We are pleased to inform you that your camfrog order
+has been successfully renewed for the period stated below.
+
+Please be sure to keep this email for your records as it contains your order
+number and should be referenced for any customer support.
+
+Valid during: %from% - %to%
+Order number: %order_id%
+
+Your payment method will be charged according to the items purchased.
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte(r) %name%,
+
+Wir freuen uns, Ihnen zu informieren, dass Ihre Camfrog Bestellung 
+erfolgreich für den Zeitraum, die darunter ist, erneuert wurde.
+
+Bewahren Sie bitte diese E-Mail für Ihre Unterlagen, wie sie Ihre Bestellungsnummer
+enthält und sollte für irgendeine Kundenbetreuung verwiesen werden.
+
+Gültig während: %from% - %to%
+Bestellungsnummer: %order_id%
+
+Ihre Zahlungsmethode wird nach der gekauften Artikel berechnet werden.
+
+Wenn Sie Fragen über Ihrer Bestellung haben, kontaktieren Sie uns bitte durch Vorlage
+ein neues Ticket in unsere 24/7 Kundenbetreuung.
+
+Mit besten Grüßen
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+
+We are pleased to inform you that your camfrog order
+has been successfully renewed for the period stated below.
+
+Please be sure to keep this email for your records as it contains your order
+number and should be referenced for any customer support.
+
+Valid during: %from% - %to%
+Order number: %order_id%
+
+Your payment method will be charged according to the items purchased.
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+
+We are pleased to inform you that your camfrog order
+has been successfully renewed for the period stated below.
+
+Please be sure to keep this email for your records as it contains your order
+number and should be referenced for any customer support.
+
+Valid during: %from% - %to%
+Order number: %order_id%
+
+Your payment method will be charged according to the items purchased.
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+
+We are pleased to inform you that your camfrog order
+has been successfully renewed for the period stated below.
+
+Please be sure to keep this email for your records as it contains your order
+number and should be referenced for any customer support.
+
+Valid during: %from% - %to%
+Order number: %order_id%
+
+Your payment method will be charged according to the items purchased.
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+
+We are pleased to inform you that your camfrog order
+has been successfully renewed for the period stated below.
+
+Please be sure to keep this email for your records as it contains your order
+number and should be referenced for any customer support.
+
+Valid during: %from% - %to%
+Order number: %order_id%
+
+Your payment method will be charged according to the items purchased.
+
+If you have any questions about your order, please contact us by submitting 
+a new ticket to our 24/7 Customer Support.
+
+Best Regards,
+%site_name%</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_voucher_send_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>%site_name% - ваучер</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name% - voucher</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>%site_name% - Gutschein</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name% - voucher</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name% - voucher</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name% - voucher</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name% - voucher</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_voucher_send_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уважаемый, %user_name%!
+
+Мы рады предоставить Вам ваучер для будущих покупок. 
+Введите код ваучера (%number%) в поле оформления заказа и получите скидку в размере %discount%% на весь период пользования заказанным продуктом.
+
+Для использования ваучера, вы должны авторизоваться. 
+
+С уважением,
+Коллектив %site_name%</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %user_name%,
+
+We are glad to grant you a Voucher for future purchases. 
+Enter the Voucher's code (%number%) in the new product order form and get %discount%% discount for the whole period of using this product.
+
+In order to use a voucher you have to  sign in.
+
+Sincerely,
+%site_name% team</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte(r) %user_name%,
+
+Wir freuen uns, Ihnen einen Gutschein für zukünftige Einkäufe zu gewähren.
+Geben Sie den Gutschein-Code (% number%) in das neue Produkt Bestellformular ein und erhalten %discount%% Rabatt für den gesamten Zeitraum der Verwendung dieses Produkts.
+
+Um einen Gutschein zu nutzen, müssen Sie sich anmelden.
+
+Mit freundlichen Grüßen
+%site_name% Team</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %user_name%,
+
+We are glad to grant you a Voucher for future purchases. 
+Enter the Voucher's code (%number%) in the new product order form and get %discount%% discount for the whole period of using this product.
+
+In order to use a voucher you have to  sign in.
+
+Sincerely,
+%site_name% team</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %user_name%,
+
+We are glad to grant you a Voucher for future purchases. 
+Enter the Voucher's code (%number%) in the new product order form and get %discount%% discount for the whole period of using this product.
+
+In order to use a voucher you have to  sign in.
+
+Sincerely,
+%site_name% team</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %user_name%,
+
+We are glad to grant you a Voucher for future purchases. 
+Enter the Voucher's code (%number%) in the new product order form and get %discount%% discount for the whole period of using this product.
+
+In order to use a voucher you have to  sign in.
+
+Sincerely,
+%site_name% team</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %user_name%,
+
+We are glad to grant you a Voucher for future purchases. 
+Enter the Voucher's code (%number%) in the new product order form and get %discount%% discount for the whole period of using this product.
+
+In order to use a voucher you have to  sign in.
+
+Sincerely,
+%site_name% team</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_generated_invoice_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Счет на оплату за за следующий период</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Invoice for the next billing period</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Rechnung für den nächsten Monat</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Invoice for the next month</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Invoice for the next month</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Invoice for the next month</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Invoice for the next month</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_generated_invoice_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уважаемый(ая), %customer_name%.
+
+     В приложении счет на оплату %invoice_number% за ваши заказы.
+     Пожалуйста, оплатите данный счет в течении следующих 14 дней.
+
+     С уважением,
+     %website%</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %customer_name%,
+
+     Please, find attached invoice %invoice_number% for your orders.
+     You are kindly asked to pay the invoice within next 14 days.
+
+     Sincerely,
+     %website%</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte(r) %customer_name%,
+
+     Finden Sie bitte die angefügte Rechnung %invoice_number% für Ihre Bestellungen.
+     Sie werden gebeten, die Rechnung innerhalb von nächsten 14 Tagen zu zahlen.
+
+     Mit freundlichen Grüße
+     %website%</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %customer_name%,
+
+     Please, find attached invoice %invoice_number% for your orders.
+     You are kindly asked to pay the invoice within next 14 days.
+
+     Sincerely,
+     %website%</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %customer_name%,
+
+     Please, find attached invoice %invoice_number% for your orders.
+     You are kindly asked to pay the invoice within next 14 days.
+
+     Sincerely,
+     %website%</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %customer_name%,
+
+     Please, find attached invoice %invoice_number% for your orders.
+     You are kindly asked to pay the invoice within next 14 days.
+
+     Sincerely,
+     %website%</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %customer_name%,
+
+     Please, find attached invoice %invoice_number% for your orders.
+     You are kindly asked to pay the invoice within next 14 days.
+
+     Sincerely,
+     %website%</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_reseller_request_approve_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>%site_name%. Запрос на реселлерсвто одобрен.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>%site_name%. Becoming a reseller has been approved.</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Ihre Anfrage, einen Vertriebspartner von% sitename% zu werden, wurde genehmigt.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>%site_name%. Becoming a reseller has been approved.</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>%site_name%. Becoming a reseller has been approved.</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>%site_name%. Becoming a reseller has been approved.</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>%site_name%. Becoming a reseller has been approved.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>mail_client_reseller_request_approve_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уважаемый, %name%.
+Ваш запрос на то, чтобы стать реселлером %site_name% был одобрен. Активируйте API реселлера в панели управления на нашем сайте в вкладке «Настройки».
+
+С данного момента Вам предоставлена скидка в размере 20% на все наши товары и услуги. Для осуществления продаж в автоматическом режиме, Вам необходимо иметь на балансе учетной записи достаточное количество средств.
+
+Если у Вас возникнут какие-либо вопросы, обращайтесь в службу поддержки в любое время. Мы работаем в круглосуточном режиме.
+
+С уважением,
+Администрация  %site_name%</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+Your request on becoming a reseller of %site_name% has been approved.
+
+Please, proceed to your Control Panel at %site_name% and activate reseller’s API at Settings section.
+
+As a reseller you have permanent 20% discount on all of our products and services. In order to sell in automatic mode via our API you need to have enough funds at your account’s balance.
+
+Should you have any questions do not hesitate to contact us at any time. Our support team is available 24/7.
+
+Sincerely,
+Administration of %site_name%</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte(r) %username%,
+
+
+Ihre Anfrage, einen Vertriebspartner von% sitename% zu werden, wurde genehmigt.
+
+Gehen Sie bitte zu Ihrer Systemsteuerung auf %sitename% und aktivieren Sie API des Vertriebspartner in Einstellungen.
+
+Als den Vertriebspartner haben Sie dauerhaft 20% Rabatt auf alle unsere Produkte und Dienstleistungen. Um in Automatikbetrieb via API verzukaufen, brauchen Sie genug Geldmittel auf Guthaben Ihres Kontos.
+
+Wenn Sie Fragen haben, zögern Sie nicht, uns jederzeit zu kontaktieren. 
+Unser Support Team ist 24/7 verfügbar.
+
+Mit freundlichen Grüßen,
+Verwaltung von %sitename%</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+Your request on becoming a reseller of %site_name% has been approved.
+
+Please, proceed to your Control Panel at %site_name% and activate reseller’s API at Settings section.
+
+As a reseller you have permanent 20% discount on all of our products and services. In order to sell in automatic mode via our API you need to have enough funds at your account’s balance.
+
+Should you have any questions do not hesitate to contact us at any time. Our support team is available 24/7.
+
+Sincerely,
+Administration of %site_name%</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+Your request on becoming a reseller of %site_name% has been approved.
+
+Please, proceed to your Control Panel at %site_name% and activate reseller’s API at Settings section.
+
+As a reseller you have permanent 20% discount on all of our products and services. In order to sell in automatic mode via our API you need to have enough funds at your account’s balance.
+
+Should you have any questions do not hesitate to contact us at any time. Our support team is available 24/7.
+
+Sincerely,
+Administration of %site_name%</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+Your request on becoming a reseller of %site_name% has been approved.
+
+Please, proceed to your Control Panel at %site_name% and activate reseller’s API at Settings section.
+
+As a reseller you have permanent 20% discount on all of our products and services. In order to sell in automatic mode via our API you need to have enough funds at your account’s balance.
+
+Should you have any questions do not hesitate to contact us at any time. Our support team is available 24/7.
+
+Sincerely,
+Administration of %site_name%</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+Your request on becoming a reseller of %site_name% has been approved.
+
+Please, proceed to your Control Panel at %site_name% and activate reseller’s API at Settings section.
+
+As a reseller you have permanent 20% discount on all of our products and services. In order to sell in automatic mode via our API you need to have enough funds at your account’s balance.
+
+Should you have any questions do not hesitate to contact us at any time. Our support team is available 24/7.
+
+Sincerely,
+Administration of %site_name%</seg>
+</tuv>
+</tu>
+<tu>
+<prop type="x-olf-flag">1</prop>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_cdn_deposit_insufficient_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уважаемый (ая) %name%,
+Баланс Вашего аккаунта на %partner_site_name% составляет %amount% CHF.
+Пожалуйста, поплните баланс, чтобы продолжать пользоваться CDN услугой.
+С уважением,
+Администрация %partner_site_name%</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+Your balance at your account at %partner_site_name% is %amount% CHF.
+Please, add enough funds in order to keep on using our CDN service.
+Sincerely,
+Administration of %partner_site_name%</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte(r) %name%,
+Ihr Guthaben Ihres Kontos auf %partner_site_name% ist %amount% CHF.
+Bitte, aktualisieren Sie Ihr Konto, um sich an der Nutzung unserer CDN-Service zu halten.
+Mit freundlichen Grüßen,
+Verwaltung der %partner_site_name%</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+Your balance at your account at %partner_site_name% is %amount% CHF.
+Please, add enough funds in order to keep on using our CDN service.
+Sincerely,
+Administration of %partner_site_name%</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+Your balance at your account at %partner_site_name% is %amount% CHF.
+Please, add enough funds in order to keep on using our CDN service.
+Sincerely,
+Administration of %partner_site_name%</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+Your balance at your account at %partner_site_name% is %amount% CHF.
+Please, add enough funds in order to keep on using our CDN service.
+Sincerely,
+Administration of %partner_site_name%</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+Your balance at your account at %partner_site_name% is %amount% CHF.
+Please, add enough funds in order to keep on using our CDN service.
+Sincerely,
+Administration of %partner_site_name%</seg>
+</tuv>
+</tu>
+<tu>
+<prop type="x-olf-flag">1</prop>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_cdn_title</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Новый заказ CDN </seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>New CDN order</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Neue CDN Bestellung</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>New CDN order</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>New CDN order</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>New CDN order</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>New CDN order</seg>
+</tuv>
+</tu>
+<tu>
+<prop type="x-olf-flag">1</prop>
+<tuv xml:lang="EN-US">
+<seg>client_notify_email_service_delivery_cdn_body</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Уважаемый (ая) %name%,
+Благодарим Вас за покупку услуги CDN.
+Ваше CDN хост имя: %cdn_hostname%
+
+Добавьте CNAME для имени хоста CDN, которое можно использовать для просмотра контента.
+%cname%
+.
+Если у Вас есть возникнут какие-либо вопросы, Вы можете связаться с нами в любое время. Мы работаем для Вас 24 часа в чутки, 7 дней в неделю.
+С уважением,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Dear %name%,
+Thank you for purchasing CDN service from our company.
+Your CDN hostname: %cdn_hostname%
+
+Add a CNAME for the CDN Hostname which can then be used to view the contents.
+%cname%
+
+Should you have any questions do not hesitate to contact us at any moment. We are available 24/7.
+Yours sincerely,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Sehr geehrte(r) %name%,
+Vielen Dank für Ihren EInkauf von CDN-Service bei uns.
+Ihr CDN Hostname: %cdn_hostname%
+
+Fügen Sie einen CNAME hinzu für die CDN-Hostname, um den Inhalt anzusehen.
+%cname%
+
+Für eventuelle Fragen stehen wir Ihnen jederzeit zur Verfügung. Wir sind 24/7 verfügbar.
+
+Mit freundlichen Grüßen,
+%site_name%.</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Dear %name%,
+Thank you for purchasing CDN service from our company.
+Your CDN hostname: %cdn_hostname%
+
+Add a CNAME for the CDN Hostname which can then be used to view the contents.
+%cname%
+
+Should you have any questions do not hesitate to contact us at any moment. We are available 24/7.
+Yours sincerely,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Dear %name%,
+Thank you for purchasing CDN service from our company.
+Your CDN hostname: %cdn_hostname%
+
+Add a CNAME for the CDN Hostname which can then be used to view the contents.
+%cname%
+
+Should you have any questions do not hesitate to contact us at any moment. We are available 24/7.
+Yours sincerely,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Dear %name%,
+Thank you for purchasing CDN service from our company.
+Your CDN hostname: %cdn_hostname%
+
+Add a CNAME for the CDN Hostname which can then be used to view the contents.
+%cname%
+
+Should you have any questions do not hesitate to contact us at any moment. We are available 24/7.
+Yours sincerely,
+%site_name%</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Dear %name%,
+Thank you for purchasing CDN service from our company.
+Your CDN hostname: %cdn_hostname%
+
+Add a CNAME for the CDN Hostname which can then be used to view the contents.
+%cname%
+
+Should you have any questions do not hesitate to contact us at any moment. We are available 24/7.
+Yours sincerely,
+%site_name%</seg>
+</tuv>
+</tu>
+</body>
+</tmx>

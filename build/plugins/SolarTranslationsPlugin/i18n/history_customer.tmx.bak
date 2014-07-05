@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+<header creationtool="Olifant" creationtoolversion="3.0.8.0" datatype="unkown" segtype="paragraph" adminlang="EN-US" srclang="EN-US" o-tmf="" creationdate="20120511T212234Z" creationid="FIRST" changedate="20131206T210901Z" changeid="FIRST">
+</header>
+<body>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_history_order_new</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Новый заказ #%order_id% создан.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>New order #%order_id% has been created</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Neue Bestellung #%order_id% ist geschaffen worden</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>New order #%order_id% has been created</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>New order #%order_id% has been created</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>New order #%order_id% has been created</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>New order #%order_id% has been created</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_history_order_update</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Заказ #%order_id% изменен.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Order #%order_id% has been changed</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Bestellung #%order_id% ist geändert worden</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Order #%order_id% has been changed</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Order #%order_id% has been changed</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Order #%order_id% has been changed</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Order #%order_id% has been changed</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_history_order_suspend</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Заказ #%order_id% приостановлен.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Order #%order_id% has been suspended</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Bestellung #%order_id% ist abgehängt worden</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Order #%order_id% has been suspended</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Order #%order_id% has been suspended</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Order #%order_id% has been suspended</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Order #%order_id% has been suspended</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_history_order_resume</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Заказ #%order_id% востановлен.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Order #%order_id% has been restored</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Bestellung #%order_id% ist wiederhergestellt worden</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Order #%order_id% has been restored</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Order #%order_id% has been restored</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Order #%order_id% has been restored</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Order #%order_id% has been restored</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_history_invoice_new</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Счет #%invoice_id% создан.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Invoice #%invoice_id% has been created</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Rechnung #%invoice_id% ist geschaffen worden</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Invoice #%invoice_id% has been created</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Invoice #%invoice_id% has been created</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Invoice #%invoice_id% has been created</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Invoice #%invoice_id% has been created</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_history_invoice_paid</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Счет #%invoice_id% оплачен.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Invoice #%invoice_id% has been paid</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Rechnung #%invoice_id% ist bezahlt worden</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Invoice #%invoice_id% has been paid</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Invoice #%invoice_id% has been paid</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Invoice #%invoice_id% has been paid</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Invoice #%invoice_id% has been paid</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_history_invoice_cancel</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Счет #%invoice_id% отменен.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Invoice #%invoice_id% cancelled</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Rechnung #%invoice_id% gelöscht</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Invoice #%invoice_id% cancelled</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Invoice #%invoice_id% cancelled</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Invoice #%invoice_id% cancelled</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Invoice #%invoice_id% cancelled</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_history_order_cancel</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Заказ #%order_id% отменён.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Order #%order_id% has been cancelled</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Bestellung #%order_id% ist storniert worden</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Order #%order_id% has been cancelled</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Order #%order_id% has been cancelled</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Order #%order_id% has been cancelled</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Order #%order_id% has been cancelled</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_history_deposit</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Увеличен баланс.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Balance has been increased</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Guthaben ist erhöht worden</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Balance has been increased</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Balance has been increased</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Balance has been increased</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Balance has been increased</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_history_withdrawal</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Списание баланса. Оплата за заказ #%order_id%, период %months% месяц(а)(ев).</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Balance has been decreased. Payment for order #%order_id%, period %months% month(s).</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Guthaben ist verringert worden. Bezahlung für Bestellung #%order_id%, Zeitraum %months% Monat(e).</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Balance has been decreased. Payment for order #%order_id%, period %months% month(s).</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Balance has been decreased. Payment for order #%order_id%, period %months% month(s).</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Balance has been decreased. Payment for order #%order_id%, period %months% month(s).</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Balance has been decreased. Payment for order #%order_id%, period %months% month(s).</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_history_manual_deposit</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Изменен баланс.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Balance has been updated</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Guthaben ist aktualisiert worden</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Balance has been updated</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Balance has been updated</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Balance has been updated</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Balance has been updated</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_history_manual_withdrawal</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Изменен баланс.</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Balance has been updated</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Guthaben ist aktualisiert worden</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Balance has been updated</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Balance has been updated</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Balance has been updated</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Balance has been updated</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_history_order_terminate</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg />
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Order #%order_id% has been terminated</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Bestellung #%order_id% ist annulliert worden</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Order #%order_id% has been terminated</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Order #%order_id% has been terminated</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Order #%order_id% has been terminated</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Order #%order_id% has been terminated</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_history_order_prolong</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Заказ #%order_id% продлен</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg>Order #%order_id% has been prolonged</seg>
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg>Bestellung #%order_id% ist verlängert worden</seg>
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg>Order #%order_id% has been prolonged</seg>
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg>Order #%order_id% has been prolonged</seg>
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg>Order #%order_id% has been prolonged</seg>
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg>Order #%order_id% has been prolonged</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="EN-US">
+<seg>client_history_cdn_deposit</seg>
+</tuv>
+<tuv xml:lang="RU-RU">
+<seg>Пополнение CDN депозита</seg>
+</tuv>
+<tuv xml:lang="EN-UK">
+<seg />
+</tuv>
+<tuv xml:lang="DE-DE">
+<seg />
+</tuv>
+<tuv xml:lang="ES-ES">
+<seg />
+</tuv>
+<tuv xml:lang="FR-FR">
+<seg />
+</tuv>
+<tuv xml:lang="CH-CH">
+<seg />
+</tuv>
+<tuv xml:lang="IT-IT">
+<seg />
+</tuv>
+</tu>
+</body>
+</tmx>

@@ -1,0 +1,17 @@
+
+
+
+<?php include_partial('orderDetails', array('order' => $order, 'product' => $product, 'addons' => $addons)) ?>
+
+
+<<<<<<< HEAD
+<div style="padding: 20px 30px;" align=right>
+<a class="zbutton" href="<?php echo url_for('@order_edit?id=' . $order->id) ?>"><?php t('order_edit_conf')?></a>
+<a class="zbutton" href="<?php echo url_for('@order_billing_edit?id=' . $order->id) ?>"><?php t('order_change_billing')?></a>
+=======
+<div style="padding: 0px 40px 20px 40px;" align=right>
+<a class="zbutton" href="<?php echo url_for('@order_edit?id=' . $order->id) ?>"><?php t('Edit configuration')?></a>
+<a class="zbutton" href="<?php echo url_for('@order_billing_edit?id=' . $order->id) ?>"><?php t('Change billing period')?></a>
+>>>>>>> ce8a9c04d96c1d332e286475c30121e7f268f50e
+</div>
+

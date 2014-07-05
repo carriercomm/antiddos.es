@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmx version="1.4">
+  <header creationtool="Olifant" creationtoolversion="3.0.8.0" datatype="unkown" segtype="paragraph" adminlang="EN-US" srclang="EN-US" creationdate="20120511T212234Z" creationid="FIRST" changedate="20130107T164335Z" changeid="FIRST"/>
+  <body>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Terms of Service</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Соглашение об использовании</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Terms of Service Agreement</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Terms of Service Agreement</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Terms of Service Agreement</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Terms of Service Agreement</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Terms of Service Agreement</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Terms of Service Agreement</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>tos_content</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Это Соглашение об Использовании предназначены для наших клиентов ('Клиент','Вы') для четкого понимания что разрешено
+при использовании любых услуг и продуктов %site%. Пользование любыми услугам и продуктами %site% подразумевает
+согласие Клиента с данным Соглашением и обязывает соблюдать все указанные в нем правила, в противном случае
+отменить все подписки на услуги %site%.
+
+&lt;h5&gt;Контент&lt;/h5&gt;Покупатель соглашается что все услуги предоставляемые %site% могут быть использованы только для легальных целей. Покупатель гарантирует что весь контент на сервере и деятельность с его сетевого оборудования, размещенного у нас, согласуется с международными законами и регулированием. %site% оставляет за собой право в расследовании и прекращении работы услуг предоставляемых покупателю в случае нарушения Соглашения об Использовании.
+		
+&lt;B&gt;Список запрещенных материалов включающий в себя, но не ограничивающийся:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;IRC боты.&lt;/li&gt;&lt;li&gt;Warez сайты.&lt;/li&gt;&lt;li&gt;Proxy скрипты.&lt;/li&gt;&lt;li&gt;Пиратское программное обеспечение.&lt;/li&gt;&lt;li&gt;Взломанное программное обеспечение.&lt;/li&gt;&lt;li&gt;HYIP&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;Политика предоставления защиты от DDoS атак&lt;/h5&gt;Бесплатная защита от DDoS атак, предоставляемая с Выеделенными и Облачнымм Серверами, применима только к Серверам и другому оборудованию, расположенному в дата-центре компании. Клиентам запрещается проксировать или туннелировать траффик через защищенные от DDoS атак Серверы компанни. Нарушение политики предоставления защиты от DDoS атак влечет за собой прекращение предоставления услуг клиенту и отключение его Серверов в течение 24-х часов.
+
+&lt;h5&gt;Вредоносные программы&lt;/h5&gt;Размещение и распространение программного обеспечения в целях эксплуатирования уязвимостей, нарушения конфидициальности интернет пользователей, отключения или нарушение функционирования компьютерных сетей или индивидуальных компьютеров абсолютно неприемлимо.
+
+&lt;B&gt;Список запрещенного програмного обеспечения включает в себя но не ограничивается:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Вирусы&lt;/li&gt;&lt;li&gt;Троянские черви и шпионские программы&lt;/li&gt;&lt;li&gt;Вредоносные программы в исходном или скомпилированном виде&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;Защищено Авторскими Правами&lt;/h5&gt;Хостинг и распространение MP3 или музыки вцелом, а также видео, текста или товарных знаков, защищённых авторскими правами
+запрещено.
+
+&lt;h5&gt;СПАМ&lt;/h5&gt;Отправка идентичных, нежелательных сообщений электронной почты, будь то коммерческие или нет, к более чем одному получателю вызывает значительное раздражение
+интернет-сообщества. %site% требует абсолютной нетерпимости к нежелательной коммерческой электронной почты или спама через нашу сеть. Клиенты %site% не могут использовать или разрешать другим лицам использовать в нашей сети распространение спама. Любой клиент, отправляющий спам-сообщения, будет блокирован.
+
+&lt;h5&gt;Оплата&lt;/h5&gt;Стандартный платежный цикл составляет 1 месяц. %site% работает по принципу предоплаты. Счет-фактуры высылаются за 7 дней до конца платежного цикла.
+Счета должны быть оплачены в срок. Неоплаченные счета будут приостановлены если оплата просрочена на 3 дня и более. Так же вы будете вынуждены заплатить 100 Eur за восстановление неоплаченного счёта. Счета, просроченные на 10 дней и более будут автоматически удалены..
+
+Первый счет-фактура будет включать в себя все первоначальные затраты, включая затраты на установку (если это применимо).
+
+&lt;h5&gt;Возвраты&lt;/h5&gt;%site% не производит возвратов по продажам. Все покупки являются окончательными. Компания %site% не производит выплат по неиспользованиею оплаченного времени.
+
+&lt;h5&gt;Обязанности&lt;/h5&gt;%site% не несёт ответственности за любые повреждения или потери данных, которые могут возникнуть в результате 
+использования наших услуг. %site% не несет ответственности за любые убытки, которые возникают от неправильного использования 
+или злоупотребления со стороны клиента или оборудования и в результате потери данных.
+
+Ни при каких обстоятельствах клиент не может обвинять %site% в потере данных. Поддержание резервной копии собственных данных Заказчиком - это его ответственность.
+
+Клиент несет ответственность за использование оборудование %site% в лизинге и должен использовать его аккуратно. Повреждение в результате перегрузки может привести к финансовой ответственности заказчика.
+
+%site% не несет ответственность за повреждение или прерывания обслуживания третьих сторон, по таким причинам как DDOS атака, взлом, кража, от последствий вредоносных программ или форс-мажорных обстоятельств.
+
+&lt;h5&gt;Окончание&lt;/h5&gt;%site% оставляет за собой право по своему усмотрению и без предварительного уведомления отказать, прекратить или приостановить услуги, предоставляемые клиенту в случае нарушения этого соглашения в случае задерженной более чем на 3 дня оплатой. По окончании обслуживания никаких выплат не осуществляется.
+
+Клиент может прекратить действие учетной записи, уведомив об этом %site% или или же оставив текущие счета неоплаченными. Если счет не оплачивается услуга будет прекращена по умолчанию.
+
+&lt;h5&gt;Действующее Законодательство&lt;/h5&gt;Это Соглашение должно интерпретироваться и толковаться в соответствии с, и в регулировании с законодательством
+Швейцарии. Стороны должны подчиняться исключительно юрисдикции Швейцарского суда.
+
+%site% reserves the right to modify this agreement as needed without notice, and customer agree that by using %site% services, You have fully read, fully understood and agree to these TOS.
+</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>These Terms of Service ('TOS') are intended to provide our customers ('Customer','You','Your') with clear understanding of what is allowed 
+while using any services by %url% ('%site%'). Use of any services by %site% constitutes to agreement to TOS and 
+obligation to comply with all policies in this TOS or must otherwise and cancel their service with %site%.
+
+&lt;h5&gt;Content&lt;/h5&gt;Customer agrees that all services provided by %site% can be used exclusively for lawful purposes. Customer guarantees that the content and activities hosted and transmitted comply with all applicable laws and regulations. %site% reserves the right to investigate and terminate any account found in violation of TOS.
+
+&lt;b&gt;List of banned material includes, but not limited to:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;IRC Bots.&lt;/li&gt;&lt;li&gt;Warez Sites.&lt;/li&gt;&lt;li&gt;Proxy script.&lt;/li&gt;&lt;li&gt;Pirated Software.&lt;/li&gt;&lt;li&gt;Hacked programs.&lt;/li&gt;&lt;li&gt;HYIP&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;DDoS protection&lt;/h5&gt;DDoS protection that is provided with Dedicated Servers and Cloud Hosting Servers is applicable to on-site equipment only and is not available for remote 3-rd party Servers that are not hosted with %site%. Customers are not allowed to proxy or tunnel IP traffic through DDoS protected servers hosted within %site% network. Violation of DDoS protection terms will result in service termination within 24-hour time frame.
+
+&lt;h5&gt;Malicious programs&lt;/h5&gt;Hosting and distribution of software that intends to cause security breaches, violate privacy of fellow internet users, disrupt computer networks or individual computers is absolutely unacceptable.
+
+&lt;b&gt;List of banned software includes, but not limited to:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Viruses&lt;/li&gt;&lt;li&gt;Troyan Horses and Worms&lt;/li&gt;&lt;li&gt;Other Malicious programs&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;Copyrighted Material&lt;/h5&gt;Hosting and distribution of copyrighted MP3, copyrighted music, copyrighted video, copyrighted text or trademark infringement 
+is expressly prohibited.
+
+&lt;h5&gt;SPAM&lt;/h5&gt;Sending identical, unsolicited email message, whether commercial or not, to more than one recipient causes significant annoyance to
+internet community. %site% takes a zero tolerance approach to Unsolicited Commercial Email or SPAM through our network. Customers of %site% may not use, or permit others to use, our network to partake in SPAM distribution. Any Customer who sends out SPAM will have their account terminated without notice.
+
+&lt;h5&gt;Billing&lt;/h5&gt;Unless otherwise indicated all prices are stated in CHF. Payments can be made in CHF, USD and EUR.
+
+Minimal service term is 1 month. 
+
+Standard billing cycle is 1 month. %site% operated on a prepaid bases. Invoices will be sent 7 days prior to the end of 
+the billing cycle. Invoices have to be paid by the due date. Unpaid orders will be suspended once the account becomes 3 days
+overdue and you will be responsible for 100 CHF fee to resume service. 10 day overdue orders are permanently terminated. 
+
+You may make payment for several months in advance.
+
+The first invoice will include all initial coasts, including installation costs (if applicable).
+
+&lt;h5&gt;Refunds&lt;/h5&gt;%site% not does provide refunds. All sales are final. We do not refund any part of our billing fees for any unused time.
+
+In case over ddos attack max bandwidth exceeds the stated ddos protection service level, the company reserves a right to null-route the server for 24 hours, including Protected Server service, with excessive DDoS attack over 10 gigabit per second or 4 million packets per second with the DDoS Protected Server offered. The refund will be issued for the remaining service period.     
+
+
+&lt;h5&gt;Liability&lt;/h5&gt;%site% will not be held liable for any damages or data loss that arise from the use of our services. %site% is not liable 
+for any damages that occur from misuse and abuse by customer of equipment and resulting date loss.
+
+Under no circumstances shall the customer hold %site% responsible for any loss of data. It is the sole responsibility of Customer to maintain Customer's own backup of any and all data.
+
+Customer is responsible for usage of equipment leased from %site% with due care. Damage due to overload may result in customer's financial liability.
+
+%site% will not be liable for damage or interruption of service caused third parties such as dos-attacks, hacking, malware or Force Majeure.
+
+&lt;h5&gt;Termination&lt;/h5&gt;%site% reserves the right to refuse, terminate, or suspend the Services being provided to Customer at our sole discretion without prior notification if %site% found customer to be in breach of current TOS, current invoice is 3 or more days overdue. No refund will be issued upon termination.
+
+Customer may terminate the account by notifying %site% or by leaving the current invoice unpaid. If the invoice is unpaid the service will be terminated by default.
+
+&lt;h5&gt;Governing Law&lt;/h5&gt;This Agreement shall be interpreted and construed according to, and governed by, the laws of Switzerland and the parties submit to 
+the exclusive jurisdiction of the Swiss Courts.
+
+&lt;h5&gt;%site%&lt;/h5&gt;%site% reserves the right to modify this agreement as needed without notice, and customer agree that by using %site% services, You have fully read, fully understood and agree to these TOS.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>These Terms of Service ('TOS') are intended to provide our customers ('Customer','You','Your') with clear understanding of what is allowed 
+while using any services by %url% ('%site%'). Use of any services by %site% constitutes to agreement to TOS and 
+obligation to comply with all policies in this TOS or must otherwise and cancel their service with %site%.
+
+&lt;h5&gt;Content&lt;/h5&gt;Customer agrees that all services provided by %site% can be used exclusively for lawful purposes. Customer guarantees that the content and activities hosted and transmitted comply with all applicable laws and regulations. %site% reserves the right to investigate and terminate any account found in violation of TOS.
+
+&lt;b&gt;List of banned material includes, but not limited to:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;IRC Bots.&lt;/li&gt;&lt;li&gt;Warez Sites.&lt;/li&gt;&lt;li&gt;Proxy script.&lt;/li&gt;&lt;li&gt;Pirated Software.&lt;/li&gt;&lt;li&gt;Hacked programs.&lt;/li&gt;&lt;li&gt;HYIP&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;DDoS protection&lt;/h5&gt;DDoS protection that is provided with Dedicated Servers and Cloud Hosting Servers is applicable to on-site equipment only and is not available for remote 3-rd party Servers that are not hosted with %site%. Customers are not allowed to proxy or tunnel IP traffic through DDoS protected servers hosted within %site% network. Violation of DDoS protection terms will result in service termination within 24-hour time frame.
+
+&lt;h5&gt;Malicious programs&lt;/h5&gt;Hosting and distribution of software that intends to cause security breaches, violate privacy of fellow internet users, disrupt computer networks or individual computers is absolutely unacceptable.
+
+&lt;b&gt;List of banned software includes, but not limited to:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Viruses&lt;/li&gt;&lt;li&gt;Troyan Horses and Worms&lt;/li&gt;&lt;li&gt;Other Malicious programs&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;Copyrighted Material&lt;/h5&gt;Hosting and distribution of copyrighted MP3, copyrighted music, copyrighted video, copyrighted text or trademark infringement 
+is expressly prohibited.
+
+&lt;h5&gt;SPAM&lt;/h5&gt;Sending identical, unsolicited email message, whether commercial or not, to more than one recipient causes significant annoyance to
+internet community. %site% takes a zero tolerance approach to Unsolicited Commercial Email or SPAM through our network. Customers of %site% may not use, or permit others to use, our network to partake in SPAM distribution. Any Customer who sends out SPAM will have their account terminated without notice.
+
+&lt;h5&gt;Billing&lt;/h5&gt;Unless otherwise indicated all prices are stated in CHF. Payments can be made in CHF, USD and EUR.
+
+Minimal service term is 1 month. 
+
+Standard billing cycle is 1 month. %site% operated on a prepaid bases. Invoices will be sent 7 days prior to the end of 
+the billing cycle. Invoices have to be paid by the due date. Unpaid orders will be suspended once the account becomes 3 days
+overdue and you will be responsible for 100 CHF fee to resume service. 10 day overdue orders are permanently terminated. 
+
+You may make payment for several months in advance.
+
+The first invoice will include all initial coasts, including installation costs (if applicable).
+
+&lt;h5&gt;Refunds&lt;/h5&gt;%site% not does provide refunds. All sales are final. We do not refund any part of our billing fees for any unused time.
+
+In case over ddos attack max bandwidth exceeds the stated ddos protection service level, the company reserves a right to null-route the server for 24 hours, including Protected Server service, with excessive DDoS attack over 10 gigabit per second or 4 million packets per second with the DDoS Protected Server offered. The refund will be issued for the remaining service period.     
+
+
+&lt;h5&gt;Liability&lt;/h5&gt;%site% will not be held liable for any damages or data loss that arise from the use of our services. %site% is not liable 
+for any damages that occur from misuse and abuse by customer of equipment and resulting date loss.
+
+Under no circumstances shall the customer hold %site% responsible for any loss of data. It is the sole responsibility of Customer to maintain Customer's own backup of any and all data.
+
+Customer is responsible for usage of equipment leased from %site% with due care. Damage due to overload may result in customer's financial liability.
+
+%site% will not be liable for damage or interruption of service caused third parties such as dos-attacks, hacking, malware or Force Majeure.
+
+&lt;h5&gt;Termination&lt;/h5&gt;%site% reserves the right to refuse, terminate, or suspend the Services being provided to Customer at our sole discretion without prior notification if %site% found customer to be in breach of current TOS, current invoice is 3 or more days overdue. No refund will be issued upon termination.
+
+Customer may terminate the account by notifying %site% or by leaving the current invoice unpaid. If the invoice is unpaid the service will be terminated by default.
+
+&lt;h5&gt;Governing Law&lt;/h5&gt;This Agreement shall be interpreted and construed according to, and governed by, the laws of Switzerland and the parties submit to 
+the exclusive jurisdiction of the Swiss Courts.
+
+&lt;h5&gt;%site%&lt;/h5&gt;%site% reserves the right to modify this agreement as needed without notice, and customer agree that by using %site% services, You have fully read, fully understood and agree to these TOS.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>These Terms of Service ('TOS') are intended to provide our customers ('Customer','You','Your') with clear understanding of what is allowed 
+while using any services by %url% ('%site%'). Use of any services by %site% constitutes to agreement to TOS and 
+obligation to comply with all policies in this TOS or must otherwise and cancel their service with %site%.
+
+&lt;h5&gt;Content&lt;/h5&gt;Customer agrees that all services provided by %site% can be used exclusively for lawful purposes. Customer guarantees that the content and activities hosted and transmitted comply with all applicable laws and regulations. %site% reserves the right to investigate and terminate any account found in violation of TOS.
+
+&lt;b&gt;List of banned material includes, but not limited to:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;IRC Bots.&lt;/li&gt;&lt;li&gt;Warez Sites.&lt;/li&gt;&lt;li&gt;Proxy script.&lt;/li&gt;&lt;li&gt;Pirated Software.&lt;/li&gt;&lt;li&gt;Hacked programs.&lt;/li&gt;&lt;li&gt;HYIP&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;DDoS protection&lt;/h5&gt;DDoS protection that is provided with Dedicated Servers and Cloud Hosting Servers is applicable to on-site equipment only and is not available for remote 3-rd party Servers that are not hosted with %site%. Customers are not allowed to proxy or tunnel IP traffic through DDoS protected servers hosted within %site% network. Violation of DDoS protection terms will result in service termination within 24-hour time frame.
+
+&lt;h5&gt;Malicious programs&lt;/h5&gt;Hosting and distribution of software that intends to cause security breaches, violate privacy of fellow internet users, disrupt computer networks or individual computers is absolutely unacceptable.
+
+&lt;b&gt;List of banned software includes, but not limited to:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Viruses&lt;/li&gt;&lt;li&gt;Troyan Horses and Worms&lt;/li&gt;&lt;li&gt;Other Malicious programs&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;Copyrighted Material&lt;/h5&gt;Hosting and distribution of copyrighted MP3, copyrighted music, copyrighted video, copyrighted text or trademark infringement 
+is expressly prohibited.
+
+&lt;h5&gt;SPAM&lt;/h5&gt;Sending identical, unsolicited email message, whether commercial or not, to more than one recipient causes significant annoyance to
+internet community. %site% takes a zero tolerance approach to Unsolicited Commercial Email or SPAM through our network. Customers of %site% may not use, or permit others to use, our network to partake in SPAM distribution. Any Customer who sends out SPAM will have their account terminated without notice.
+
+&lt;h5&gt;Billing&lt;/h5&gt;Unless otherwise indicated all prices are stated in CHF. Payments can be made in CHF, USD and EUR.
+
+Minimal service term is 1 month. 
+
+Standard billing cycle is 1 month. %site% operated on a prepaid bases. Invoices will be sent 7 days prior to the end of 
+the billing cycle. Invoices have to be paid by the due date. Unpaid orders will be suspended once the account becomes 3 days
+overdue and you will be responsible for 100 CHF fee to resume service. 10 day overdue orders are permanently terminated. 
+
+You may make payment for several months in advance.
+
+The first invoice will include all initial coasts, including installation costs (if applicable).
+
+&lt;h5&gt;Refunds&lt;/h5&gt;%site% not does provide refunds. All sales are final. We do not refund any part of our billing fees for any unused time.
+
+In case over ddos attack max bandwidth exceeds the stated ddos protection service level, the company reserves a right to null-route the server for 24 hours, including Protected Server service, with excessive DDoS attack over 10 gigabit per second or 4 million packets per second with the DDoS Protected Server offered. The refund will be issued for the remaining service period.     
+
+
+&lt;h5&gt;Liability&lt;/h5&gt;%site% will not be held liable for any damages or data loss that arise from the use of our services. %site% is not liable 
+for any damages that occur from misuse and abuse by customer of equipment and resulting date loss.
+
+Under no circumstances shall the customer hold %site% responsible for any loss of data. It is the sole responsibility of Customer to maintain Customer's own backup of any and all data.
+
+Customer is responsible for usage of equipment leased from %site% with due care. Damage due to overload may result in customer's financial liability.
+
+%site% will not be liable for damage or interruption of service caused third parties such as dos-attacks, hacking, malware or Force Majeure.
+
+&lt;h5&gt;Termination&lt;/h5&gt;%site% reserves the right to refuse, terminate, or suspend the Services being provided to Customer at our sole discretion without prior notification if %site% found customer to be in breach of current TOS, current invoice is 3 or more days overdue. No refund will be issued upon termination.
+
+Customer may terminate the account by notifying %site% or by leaving the current invoice unpaid. If the invoice is unpaid the service will be terminated by default.
+
+&lt;h5&gt;Governing Law&lt;/h5&gt;This Agreement shall be interpreted and construed according to, and governed by, the laws of Switzerland and the parties submit to 
+the exclusive jurisdiction of the Swiss Courts.
+
+&lt;h5&gt;%site%&lt;/h5&gt;%site% reserves the right to modify this agreement as needed without notice, and customer agree that by using %site% services, You have fully read, fully understood and agree to these TOS.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>These Terms of Service ('TOS') are intended to provide our customers ('Customer','You','Your') with clear understanding of what is allowed 
+while using any services by %url% ('%site%'). Use of any services by %site% constitutes to agreement to TOS and 
+obligation to comply with all policies in this TOS or must otherwise and cancel their service with %site%.
+
+&lt;h5&gt;Content&lt;/h5&gt;Customer agrees that all services provided by %site% can be used exclusively for lawful purposes. Customer guarantees that the content and activities hosted and transmitted comply with all applicable laws and regulations. %site% reserves the right to investigate and terminate any account found in violation of TOS.
+
+&lt;b&gt;List of banned material includes, but not limited to:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;IRC Bots.&lt;/li&gt;&lt;li&gt;Warez Sites.&lt;/li&gt;&lt;li&gt;Proxy script.&lt;/li&gt;&lt;li&gt;Pirated Software.&lt;/li&gt;&lt;li&gt;Hacked programs.&lt;/li&gt;&lt;li&gt;HYIP&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;DDoS protection&lt;/h5&gt;DDoS protection that is provided with Dedicated Servers and Cloud Hosting Servers is applicable to on-site equipment only and is not available for remote 3-rd party Servers that are not hosted with %site%. Customers are not allowed to proxy or tunnel IP traffic through DDoS protected servers hosted within %site% network. Violation of DDoS protection terms will result in service termination within 24-hour time frame.
+
+&lt;h5&gt;Malicious programs&lt;/h5&gt;Hosting and distribution of software that intends to cause security breaches, violate privacy of fellow internet users, disrupt computer networks or individual computers is absolutely unacceptable.
+
+&lt;b&gt;List of banned software includes, but not limited to:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Viruses&lt;/li&gt;&lt;li&gt;Troyan Horses and Worms&lt;/li&gt;&lt;li&gt;Other Malicious programs&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;Copyrighted Material&lt;/h5&gt;Hosting and distribution of copyrighted MP3, copyrighted music, copyrighted video, copyrighted text or trademark infringement 
+is expressly prohibited.
+
+&lt;h5&gt;SPAM&lt;/h5&gt;Sending identical, unsolicited email message, whether commercial or not, to more than one recipient causes significant annoyance to
+internet community. %site% takes a zero tolerance approach to Unsolicited Commercial Email or SPAM through our network. Customers of %site% may not use, or permit others to use, our network to partake in SPAM distribution. Any Customer who sends out SPAM will have their account terminated without notice.
+
+&lt;h5&gt;Billing&lt;/h5&gt;Unless otherwise indicated all prices are stated in CHF. Payments can be made in CHF, USD and EUR.
+
+Minimal service term is 1 month. 
+
+Standard billing cycle is 1 month. %site% operated on a prepaid bases. Invoices will be sent 7 days prior to the end of 
+the billing cycle. Invoices have to be paid by the due date. Unpaid orders will be suspended once the account becomes 3 days
+overdue and you will be responsible for 100 CHF fee to resume service. 10 day overdue orders are permanently terminated. 
+
+You may make payment for several months in advance.
+
+The first invoice will include all initial coasts, including installation costs (if applicable).
+
+&lt;h5&gt;Refunds&lt;/h5&gt;%site% not does provide refunds. All sales are final. We do not refund any part of our billing fees for any unused time.
+
+In case over ddos attack max bandwidth exceeds the stated ddos protection service level, the company reserves a right to null-route the server for 24 hours, including Protected Server service, with excessive DDoS attack over 10 gigabit per second or 4 million packets per second with the DDoS Protected Server offered. The refund will be issued for the remaining service period.     
+
+
+&lt;h5&gt;Liability&lt;/h5&gt;%site% will not be held liable for any damages or data loss that arise from the use of our services. %site% is not liable 
+for any damages that occur from misuse and abuse by customer of equipment and resulting date loss.
+
+Under no circumstances shall the customer hold %site% responsible for any loss of data. It is the sole responsibility of Customer to maintain Customer's own backup of any and all data.
+
+Customer is responsible for usage of equipment leased from %site% with due care. Damage due to overload may result in customer's financial liability.
+
+%site% will not be liable for damage or interruption of service caused third parties such as dos-attacks, hacking, malware or Force Majeure.
+
+&lt;h5&gt;Termination&lt;/h5&gt;%site% reserves the right to refuse, terminate, or suspend the Services being provided to Customer at our sole discretion without prior notification if %site% found customer to be in breach of current TOS, current invoice is 3 or more days overdue. No refund will be issued upon termination.
+
+Customer may terminate the account by notifying %site% or by leaving the current invoice unpaid. If the invoice is unpaid the service will be terminated by default.
+
+&lt;h5&gt;Governing Law&lt;/h5&gt;This Agreement shall be interpreted and construed according to, and governed by, the laws of Switzerland and the parties submit to 
+the exclusive jurisdiction of the Swiss Courts.
+
+&lt;h5&gt;%site%&lt;/h5&gt;%site% reserves the right to modify this agreement as needed without notice, and customer agree that by using %site% services, You have fully read, fully understood and agree to these TOS.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>These Terms of Service ('TOS') are intended to provide our customers ('Customer','You','Your') with clear understanding of what is allowed 
+while using any services by %url% ('%site%'). Use of any services by %site% constitutes to agreement to TOS and 
+obligation to comply with all policies in this TOS or must otherwise and cancel their service with %site%.
+
+&lt;h5&gt;Content&lt;/h5&gt;Customer agrees that all services provided by %site% can be used exclusively for lawful purposes. Customer guarantees that the content and activities hosted and transmitted comply with all applicable laws and regulations. %site% reserves the right to investigate and terminate any account found in violation of TOS.
+
+&lt;b&gt;List of banned material includes, but not limited to:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;IRC Bots.&lt;/li&gt;&lt;li&gt;Warez Sites.&lt;/li&gt;&lt;li&gt;Proxy script.&lt;/li&gt;&lt;li&gt;Pirated Software.&lt;/li&gt;&lt;li&gt;Hacked programs.&lt;/li&gt;&lt;li&gt;HYIP&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;DDoS protection&lt;/h5&gt;DDoS protection that is provided with Dedicated Servers and Cloud Hosting Servers is applicable to on-site equipment only and is not available for remote 3-rd party Servers that are not hosted with %site%. Customers are not allowed to proxy or tunnel IP traffic through DDoS protected servers hosted within %site% network. Violation of DDoS protection terms will result in service termination within 24-hour time frame.
+
+&lt;h5&gt;Malicious programs&lt;/h5&gt;Hosting and distribution of software that intends to cause security breaches, violate privacy of fellow internet users, disrupt computer networks or individual computers is absolutely unacceptable.
+
+&lt;b&gt;List of banned software includes, but not limited to:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Viruses&lt;/li&gt;&lt;li&gt;Troyan Horses and Worms&lt;/li&gt;&lt;li&gt;Other Malicious programs&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;Copyrighted Material&lt;/h5&gt;Hosting and distribution of copyrighted MP3, copyrighted music, copyrighted video, copyrighted text or trademark infringement 
+is expressly prohibited.
+
+&lt;h5&gt;SPAM&lt;/h5&gt;Sending identical, unsolicited email message, whether commercial or not, to more than one recipient causes significant annoyance to
+internet community. %site% takes a zero tolerance approach to Unsolicited Commercial Email or SPAM through our network. Customers of %site% may not use, or permit others to use, our network to partake in SPAM distribution. Any Customer who sends out SPAM will have their account terminated without notice.
+
+&lt;h5&gt;Billing&lt;/h5&gt;Unless otherwise indicated all prices are stated in CHF. Payments can be made in CHF, USD and EUR.
+
+Minimal service term is 1 month. 
+
+Standard billing cycle is 1 month. %site% operated on a prepaid bases. Invoices will be sent 7 days prior to the end of 
+the billing cycle. Invoices have to be paid by the due date. Unpaid orders will be suspended once the account becomes 3 days
+overdue and you will be responsible for 100 CHF fee to resume service. 10 day overdue orders are permanently terminated. 
+
+You may make payment for several months in advance.
+
+The first invoice will include all initial coasts, including installation costs (if applicable).
+
+&lt;h5&gt;Refunds&lt;/h5&gt;%site% not does provide refunds. All sales are final. We do not refund any part of our billing fees for any unused time.
+
+In case over ddos attack max bandwidth exceeds the stated ddos protection service level, the company reserves a right to null-route the server for 24 hours, including Protected Server service, with excessive DDoS attack over 10 gigabit per second or 4 million packets per second with the DDoS Protected Server offered. The refund will be issued for the remaining service period.     
+
+
+&lt;h5&gt;Liability&lt;/h5&gt;%site% will not be held liable for any damages or data loss that arise from the use of our services. %site% is not liable 
+for any damages that occur from misuse and abuse by customer of equipment and resulting date loss.
+
+Under no circumstances shall the customer hold %site% responsible for any loss of data. It is the sole responsibility of Customer to maintain Customer's own backup of any and all data.
+
+Customer is responsible for usage of equipment leased from %site% with due care. Damage due to overload may result in customer's financial liability.
+
+%site% will not be liable for damage or interruption of service caused third parties such as dos-attacks, hacking, malware or Force Majeure.
+
+&lt;h5&gt;Termination&lt;/h5&gt;%site% reserves the right to refuse, terminate, or suspend the Services being provided to Customer at our sole discretion without prior notification if %site% found customer to be in breach of current TOS, current invoice is 3 or more days overdue. No refund will be issued upon termination.
+
+Customer may terminate the account by notifying %site% or by leaving the current invoice unpaid. If the invoice is unpaid the service will be terminated by default.
+
+&lt;h5&gt;Governing Law&lt;/h5&gt;This Agreement shall be interpreted and construed according to, and governed by, the laws of Switzerland and the parties submit to 
+the exclusive jurisdiction of the Swiss Courts.
+
+&lt;h5&gt;%site%&lt;/h5&gt;%site% reserves the right to modify this agreement as needed without notice, and customer agree that by using %site% services, You have fully read, fully understood and agree to these TOS.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>These Terms of Service ('TOS') are intended to provide our customers ('Customer','You','Your') with clear understanding of what is allowed 
+while using any services by %url% ('%site%'). Use of any services by %site% constitutes to agreement to TOS and 
+obligation to comply with all policies in this TOS or must otherwise and cancel their service with %site%.
+
+&lt;h5&gt;Content&lt;/h5&gt;Customer agrees that all services provided by %site% can be used exclusively for lawful purposes. Customer guarantees that the content and activities hosted and transmitted comply with all applicable laws and regulations. %site% reserves the right to investigate and terminate any account found in violation of TOS.
+
+&lt;b&gt;List of banned material includes, but not limited to:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;IRC Bots.&lt;/li&gt;&lt;li&gt;Warez Sites.&lt;/li&gt;&lt;li&gt;Proxy script.&lt;/li&gt;&lt;li&gt;Pirated Software.&lt;/li&gt;&lt;li&gt;Hacked programs.&lt;/li&gt;&lt;li&gt;HYIP&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;DDoS protection&lt;/h5&gt;DDoS protection that is provided with Dedicated Servers and Cloud Hosting Servers is applicable to on-site equipment only and is not available for remote 3-rd party Servers that are not hosted with %site%. Customers are not allowed to proxy or tunnel IP traffic through DDoS protected servers hosted within %site% network. Violation of DDoS protection terms will result in service termination within 24-hour time frame.
+
+&lt;h5&gt;Malicious programs&lt;/h5&gt;Hosting and distribution of software that intends to cause security breaches, violate privacy of fellow internet users, disrupt computer networks or individual computers is absolutely unacceptable.
+
+&lt;b&gt;List of banned software includes, but not limited to:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Viruses&lt;/li&gt;&lt;li&gt;Troyan Horses and Worms&lt;/li&gt;&lt;li&gt;Other Malicious programs&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;Copyrighted Material&lt;/h5&gt;Hosting and distribution of copyrighted MP3, copyrighted music, copyrighted video, copyrighted text or trademark infringement 
+is expressly prohibited.
+
+&lt;h5&gt;SPAM&lt;/h5&gt;Sending identical, unsolicited email message, whether commercial or not, to more than one recipient causes significant annoyance to
+internet community. %site% takes a zero tolerance approach to Unsolicited Commercial Email or SPAM through our network. Customers of %site% may not use, or permit others to use, our network to partake in SPAM distribution. Any Customer who sends out SPAM will have their account terminated without notice.
+
+&lt;h5&gt;Billing&lt;/h5&gt;Unless otherwise indicated all prices are stated in CHF. Payments can be made in CHF, USD and EUR.
+
+Minimal service term is 1 month. 
+
+Standard billing cycle is 1 month. %site% operated on a prepaid bases. Invoices will be sent 7 days prior to the end of 
+the billing cycle. Invoices have to be paid by the due date. Unpaid orders will be suspended once the account becomes 3 days
+overdue and you will be responsible for 100 CHF fee to resume service. 10 day overdue orders are permanently terminated. 
+
+You may make payment for several months in advance.
+
+The first invoice will include all initial coasts, including installation costs (if applicable).
+
+&lt;h5&gt;Refunds&lt;/h5&gt;%site% not does provide refunds. All sales are final. We do not refund any part of our billing fees for any unused time.
+
+In case over ddos attack max bandwidth exceeds the stated ddos protection service level, the company reserves a right to null-route the server for 24 hours, including Protected Server service, with excessive DDoS attack over 10 gigabit per second or 4 million packets per second with the DDoS Protected Server offered. The refund will be issued for the remaining service period.     
+
+
+&lt;h5&gt;Liability&lt;/h5&gt;%site% will not be held liable for any damages or data loss that arise from the use of our services. %site% is not liable 
+for any damages that occur from misuse and abuse by customer of equipment and resulting date loss.
+
+Under no circumstances shall the customer hold %site% responsible for any loss of data. It is the sole responsibility of Customer to maintain Customer's own backup of any and all data.
+
+Customer is responsible for usage of equipment leased from %site% with due care. Damage due to overload may result in customer's financial liability.
+
+%site% will not be liable for damage or interruption of service caused third parties such as dos-attacks, hacking, malware or Force Majeure.
+
+&lt;h5&gt;Termination&lt;/h5&gt;%site% reserves the right to refuse, terminate, or suspend the Services being provided to Customer at our sole discretion without prior notification if %site% found customer to be in breach of current TOS, current invoice is 3 or more days overdue. No refund will be issued upon termination.
+
+Customer may terminate the account by notifying %site% or by leaving the current invoice unpaid. If the invoice is unpaid the service will be terminated by default.
+
+&lt;h5&gt;Governing Law&lt;/h5&gt;This Agreement shall be interpreted and construed according to, and governed by, the laws of Switzerland and the parties submit to 
+the exclusive jurisdiction of the Swiss Courts.
+
+&lt;h5&gt;%site%&lt;/h5&gt;%site% reserves the right to modify this agreement as needed without notice, and customer agree that by using %site% services, You have fully read, fully understood and agree to these TOS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Privacy Policy</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Политика Конфиденциальности</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Privacy Policy</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Privacy Policy</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Privacy Policy</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Privacy Policy</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Privacy Policy</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Privacy Policy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>policy_content</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Сохранение вашей конфиденциальности очень важно для нас.
+На этой странице вы сможете узнать больше о том какую информацию мы сохраняем для обработки.
+
+&lt;h5&gt;Сохраняемая Информация&lt;/h5&gt;Мы собираем только минимальное количество необходимой информации о клиенте для возможности предоставить услугу или продукт.
+Следующая информация может обрабатываться во время контакта с агента по продажам или во время регистрации в системе:
+&lt;ul&gt;&lt;li&gt;- Имя, электроный почтовый ящик, почтовый адрес, номер телефона&lt;/li&gt;&lt;li&gt;Финансовая информация (названия учетных записей платежных аккаунтов)&lt;/li&gt;&lt;li&gt;Информация из профиля %site%. Имя, Фамилия, Учетная запись, пароль&lt;/li&gt;&lt;li&gt;Информация о приобретенных услугах и продуктах&lt;/li&gt;&lt;li&gt;Название компании (если применимо)&lt;/li&gt;&lt;/ul&gt;
+В рамках общепринятых правил по борьбе с нелегальной деятельностью, мы также сохраняем IP адрес, информацию о системе и о типе браузера
+
+&lt;h5&gt;Использование Информации&lt;/h5&gt;Собранная сайтом информация сохраняется для использования в целях учета пользователей, для предоставления сервисных услуг и поддержки, а также в целях оптимизации программного обеспечения веб-сайта в соответствии с настройками пользователей. Мы принимаем во внимание важность сохранения конфиденциальности хранимых данных и полностью блокируем неавторизованный доступ к ним.
+
+&lt;h5&gt;Подписка на новости&lt;/h5&gt;Зарегистрированные пользователи могут получать рассылки от нашей компании с информацией об улучшениях, новых сервисах или специальных предложениях. Если вы не хотите получать такие сообщения, пожалуйста следуйте инструкциям в письме по отказу от рассылок или свяжитесь с нами.
+
+&lt;h5&gt;Общий доступ&lt;/h5&gt;Хотя мы прилагаем все усилия, чтобы сохранить конфиденциальность пользователей, мы, возможно, должны будем раскрыть вашу личную информацию в следующих ситуациях:
+&lt;ul&gt;&lt;li&gt;Когда этого требует закон.&lt;/li&gt;&lt;li&gt;Когда мы верим что разглашение информации требуется для того чтобы защитить нашу безопасность или безопасность других, для расследования преступлений или по запросу судебных органов.&lt;/li&gt;&lt;li&gt;При передаче прав на деятельность %site%. в процессе слияния или поглощения. В этом случае мы проведем оповещение и предоставим варианты ваших действий.&lt;/li&gt;&lt;li&gt;Когда вы дали нам согласие на раскрытие определенной личной информации.&lt;/li&gt;&lt;/ul&gt;
+Так как мы являемся авторизованным партнером и представителем Solar Communications GmbH. мы предоставляем всю необходимую информацию требуемую для выполнения вашего заказа им.
+
+&lt;h5&gt;Безопасность&lt;/h5&gt;Безопасность ваших личных данных - это наша первостепенная задача. Когда вы совершаете ваш заказ онлайн, передаваемая информация, включая номер кредитной карты, защищается с использованием технологии шифрования Secure Socket Layer (SSL). Это предотвращает любые возможности пути перехвата личных данных и обеспечивает полную безопасность и сохранность данных клиентов.
+
+&lt;h5&gt;Обновление персональной информации&lt;/h5&gt;Чтобы обновить вашу информацию пожалуйста напишите нам.
+
+&lt;h5&gt;Улучшения&lt;/h5&gt;%site%. оставляет за собой право изменить эту Политику путем обновления ее на нашем сайте. Мы просим вас переодически проверять наш сайт на предмет изменений в этой политике. Если вы являетесь нашим клиентом, пожалуйста имейте ввиду что любое изменение в услових пользования автоматически вступают в силу с момента опубликования.
+
+&lt;h5&gt;Почтовый адрес&lt;/h5&gt;Вы можете связаться с нами если у вас возникли вопросы касательно нашей политики конфиденциальности используя детали ниже:
+
+Solar Communications GmbH.
+
+Fluelastrasse 51
+8047 Zurich
+Switzerland
+
+Тел: +41 (0)79 4540481
+Факс: +41 (0)79 4540481
+</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Your Privacy is very important to us.
+This page discloses how we collect and use the information about you.
+
+&lt;h5&gt;Information Collected&lt;/h5&gt;We collect the minimum amount of information about you in order to provide you the service you have expressed interest in.
+
+The following information is collected at the time of contact with our sales representative and/or registered for service:
+&lt;ul&gt;&lt;li&gt;Your Name, email, mailing address, phone number, address&lt;/li&gt;&lt;li&gt;Financial Information (Credit Card information)&lt;/li&gt;&lt;li&gt;Your %site%. Surname, account number, password&lt;/li&gt;&lt;li&gt;Information regarding the services your have chosen&lt;/li&gt;&lt;li&gt;Company name (if applicable)&lt;/li&gt;&lt;/ul&gt;
+As universally accepted practice, we automatically collect and store in log files your IP address, browser type and operating system.
+
+&lt;h5&gt;Information Use&lt;/h5&gt;The information collected is used for billing, to provide service and support to our customers and to optimize our website according to customer preferences. All reasonable precautions are taken to prevent unauthorized access to this information.
+
+&lt;h5&gt;Newsletter&lt;/h5&gt;Established members may occasionally receive information on services, special deals, and a newsletter. To avoid such communication please follow unsubscribe instructions in the email or contact us.
+
+&lt;h5&gt;Sharing&lt;/h5&gt;Though we make every effort to preserve user privacy, we may need to disclose personal information in the following situations:
+&lt;ul&gt;&lt;li&gt;when required by law.&lt;/li&gt;&lt;li&gt;when we believe that disclosure is necessary to protect our or your safety or the safety of others, investigate fraud, or respond to a government request.&lt;/li&gt;&lt;li&gt;when %site%. is a party in merger or acquisition. In this case we will notify you by email with options you may have.&lt;/li&gt;&lt;li&gt;when you have given us consent to disclose certain personal information.&lt;/li&gt;&lt;/ul&gt;
+As we are an Authorized Partner of Solar Communications GmbH we may provide the essential information regarding your order so that service can be provided to you.
+
+&lt;h5&gt;Security&lt;/h5&gt;The security of your personal information is our top priority. When you place an order online, your information, including your credit card number, is protected using Secure Socket Layer (SSL) encryption technology. This encrypts order data and is designed to aid in ensuring the accuracy and security of that customer information.
+&lt;h5&gt;Updating Personal Information&lt;/h5&gt;To update your record with us, please contact us.
+
+&lt;h5&gt;Amendments&lt;/h5&gt;%site%. reserves the right to change this Policy simply by posting such changes on our site. We encourage you to periodically check our site for changes to this Policy since your continued use of the site following any changes to this Policy will be deemed to constitute your acceptance of such change.
+
+&lt;h5&gt;Post address&lt;/h5&gt;You can contact us about this privacy statement by writing or email us at the address below:
+
+Solar Communications GmbH.
+
+Fluelastrasse 51
+8047 Zurich
+Switzerland
+
+Phone: +41 (0)79 4540481
+Fax: +41 (0)79 4540481
+</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Your Privacy is very important to us.
+This page discloses how we collect and use the information about you.
+
+&lt;h5&gt;Information Collected&lt;/h5&gt;We collect the minimum amount of information about you in order to provide you the service you have expressed interest in.
+
+The following information is collected at the time of contact with our sales representative and/or registered for service:
+&lt;ul&gt;&lt;li&gt;Your Name, email, mailing address, phone number, address&lt;/li&gt;&lt;li&gt;Financial Information (Credit Card information)&lt;/li&gt;&lt;li&gt;Your %site%. Surname, account number, password&lt;/li&gt;&lt;li&gt;Information regarding the services your have chosen&lt;/li&gt;&lt;li&gt;Company name (if applicable)&lt;/li&gt;&lt;/ul&gt;
+As universally accepted practice, we automatically collect and store in log files your IP address, browser type and operating system.
+
+&lt;h5&gt;Information Use&lt;/h5&gt;The information collected is used for billing, to provide service and support to our customers and to optimize our website according to customer preferences. All reasonable precautions are taken to prevent unauthorized access to this information.
+
+&lt;h5&gt;Newsletter&lt;/h5&gt;Established members may occasionally receive information on services, special deals, and a newsletter. To avoid such communication please follow unsubscribe instructions in the email or contact us.
+
+&lt;h5&gt;Sharing&lt;/h5&gt;Though we make every effort to preserve user privacy, we may need to disclose personal information in the following situations:
+&lt;ul&gt;&lt;li&gt;when required by law.&lt;/li&gt;&lt;li&gt;when we believe that disclosure is necessary to protect our or your safety or the safety of others, investigate fraud, or respond to a government request.&lt;/li&gt;&lt;li&gt;when %site%. is a party in merger or acquisition. In this case we will notify you by email with options you may have.&lt;/li&gt;&lt;li&gt;when you have given us consent to disclose certain personal information.&lt;/li&gt;&lt;/ul&gt;
+As we are an Authorized Partner of Solar Communications GmbH we may provide the essential information regarding your order so that service can be provided to you.
+
+&lt;h5&gt;Security&lt;/h5&gt;The security of your personal information is our top priority. When you place an order online, your information, including your credit card number, is protected using Secure Socket Layer (SSL) encryption technology. This encrypts order data and is designed to aid in ensuring the accuracy and security of that customer information.
+&lt;h5&gt;Updating Personal Information&lt;/h5&gt;To update your record with us, please contact us.
+
+&lt;h5&gt;Amendments&lt;/h5&gt;%site%. reserves the right to change this Policy simply by posting such changes on our site. We encourage you to periodically check our site for changes to this Policy since your continued use of the site following any changes to this Policy will be deemed to constitute your acceptance of such change.
+
+&lt;h5&gt;Post address&lt;/h5&gt;You can contact us about this privacy statement by writing or email us at the address below:
+
+Solar Communications GmbH.
+
+Fluelastrasse 51
+8047 Zurich
+Switzerland
+
+Phone: +41 (0)79 4540481
+Fax: +41 (0)79 4540481
+</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Your Privacy is very important to us.
+This page discloses how we collect and use the information about you.
+
+&lt;h5&gt;Information Collected&lt;/h5&gt;We collect the minimum amount of information about you in order to provide you the service you have expressed interest in.
+
+The following information is collected at the time of contact with our sales representative and/or registered for service:
+&lt;ul&gt;&lt;li&gt;Your Name, email, mailing address, phone number, address&lt;/li&gt;&lt;li&gt;Financial Information (Credit Card information)&lt;/li&gt;&lt;li&gt;Your %site%. Surname, account number, password&lt;/li&gt;&lt;li&gt;Information regarding the services your have chosen&lt;/li&gt;&lt;li&gt;Company name (if applicable)&lt;/li&gt;&lt;/ul&gt;
+As universally accepted practice, we automatically collect and store in log files your IP address, browser type and operating system.
+
+&lt;h5&gt;Information Use&lt;/h5&gt;The information collected is used for billing, to provide service and support to our customers and to optimize our website according to customer preferences. All reasonable precautions are taken to prevent unauthorized access to this information.
+
+&lt;h5&gt;Newsletter&lt;/h5&gt;Established members may occasionally receive information on services, special deals, and a newsletter. To avoid such communication please follow unsubscribe instructions in the email or contact us.
+
+&lt;h5&gt;Sharing&lt;/h5&gt;Though we make every effort to preserve user privacy, we may need to disclose personal information in the following situations:
+&lt;ul&gt;&lt;li&gt;when required by law.&lt;/li&gt;&lt;li&gt;when we believe that disclosure is necessary to protect our or your safety or the safety of others, investigate fraud, or respond to a government request.&lt;/li&gt;&lt;li&gt;when %site%. is a party in merger or acquisition. In this case we will notify you by email with options you may have.&lt;/li&gt;&lt;li&gt;when you have given us consent to disclose certain personal information.&lt;/li&gt;&lt;/ul&gt;
+As we are an Authorized Partner of Solar Communications GmbH we may provide the essential information regarding your order so that service can be provided to you.
+
+&lt;h5&gt;Security&lt;/h5&gt;The security of your personal information is our top priority. When you place an order online, your information, including your credit card number, is protected using Secure Socket Layer (SSL) encryption technology. This encrypts order data and is designed to aid in ensuring the accuracy and security of that customer information.
+&lt;h5&gt;Updating Personal Information&lt;/h5&gt;To update your record with us, please contact us.
+
+&lt;h5&gt;Amendments&lt;/h5&gt;%site%. reserves the right to change this Policy simply by posting such changes on our site. We encourage you to periodically check our site for changes to this Policy since your continued use of the site following any changes to this Policy will be deemed to constitute your acceptance of such change.
+
+&lt;h5&gt;Post address&lt;/h5&gt;You can contact us about this privacy statement by writing or email us at the address below:
+
+Solar Communications GmbH.
+
+Fluelastrasse 51
+8047 Zurich
+Switzerland
+
+Phone: +41 (0)79 4540481
+Fax: +41 (0)79 4540481
+</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Your Privacy is very important to us.
+This page discloses how we collect and use the information about you.
+
+&lt;h5&gt;Information Collected&lt;/h5&gt;We collect the minimum amount of information about you in order to provide you the service you have expressed interest in.
+
+The following information is collected at the time of contact with our sales representative and/or registered for service:
+&lt;ul&gt;&lt;li&gt;Your Name, email, mailing address, phone number, address&lt;/li&gt;&lt;li&gt;Financial Information (Credit Card information)&lt;/li&gt;&lt;li&gt;Your %site%. Surname, account number, password&lt;/li&gt;&lt;li&gt;Information regarding the services your have chosen&lt;/li&gt;&lt;li&gt;Company name (if applicable)&lt;/li&gt;&lt;/ul&gt;
+As universally accepted practice, we automatically collect and store in log files your IP address, browser type and operating system.
+
+&lt;h5&gt;Information Use&lt;/h5&gt;The information collected is used for billing, to provide service and support to our customers and to optimize our website according to customer preferences. All reasonable precautions are taken to prevent unauthorized access to this information.
+
+&lt;h5&gt;Newsletter&lt;/h5&gt;Established members may occasionally receive information on services, special deals, and a newsletter. To avoid such communication please follow unsubscribe instructions in the email or contact us.
+
+&lt;h5&gt;Sharing&lt;/h5&gt;Though we make every effort to preserve user privacy, we may need to disclose personal information in the following situations:
+&lt;ul&gt;&lt;li&gt;when required by law.&lt;/li&gt;&lt;li&gt;when we believe that disclosure is necessary to protect our or your safety or the safety of others, investigate fraud, or respond to a government request.&lt;/li&gt;&lt;li&gt;when %site%. is a party in merger or acquisition. In this case we will notify you by email with options you may have.&lt;/li&gt;&lt;li&gt;when you have given us consent to disclose certain personal information.&lt;/li&gt;&lt;/ul&gt;
+As we are an Authorized Partner of Solar Communications GmbH we may provide the essential information regarding your order so that service can be provided to you.
+
+&lt;h5&gt;Security&lt;/h5&gt;The security of your personal information is our top priority. When you place an order online, your information, including your credit card number, is protected using Secure Socket Layer (SSL) encryption technology. This encrypts order data and is designed to aid in ensuring the accuracy and security of that customer information.
+&lt;h5&gt;Updating Personal Information&lt;/h5&gt;To update your record with us, please contact us.
+
+&lt;h5&gt;Amendments&lt;/h5&gt;%site%. reserves the right to change this Policy simply by posting such changes on our site. We encourage you to periodically check our site for changes to this Policy since your continued use of the site following any changes to this Policy will be deemed to constitute your acceptance of such change.
+
+&lt;h5&gt;Post address&lt;/h5&gt;You can contact us about this privacy statement by writing or email us at the address below:
+
+Solar Communications GmbH.
+
+Fluelastrasse 51
+8047 Zurich
+Switzerland
+
+Phone: +41 (0)79 4540481
+Fax: +41 (0)79 4540481
+</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Your Privacy is very important to us.
+This page discloses how we collect and use the information about you.
+
+&lt;h5&gt;Information Collected&lt;/h5&gt;We collect the minimum amount of information about you in order to provide you the service you have expressed interest in.
+
+The following information is collected at the time of contact with our sales representative and/or registered for service:
+&lt;ul&gt;&lt;li&gt;Your Name, email, mailing address, phone number, address&lt;/li&gt;&lt;li&gt;Financial Information (Credit Card information)&lt;/li&gt;&lt;li&gt;Your %site%. Surname, account number, password&lt;/li&gt;&lt;li&gt;Information regarding the services your have chosen&lt;/li&gt;&lt;li&gt;Company name (if applicable)&lt;/li&gt;&lt;/ul&gt;
+As universally accepted practice, we automatically collect and store in log files your IP address, browser type and operating system.
+
+&lt;h5&gt;Information Use&lt;/h5&gt;The information collected is used for billing, to provide service and support to our customers and to optimize our website according to customer preferences. All reasonable precautions are taken to prevent unauthorized access to this information.
+
+&lt;h5&gt;Newsletter&lt;/h5&gt;Established members may occasionally receive information on services, special deals, and a newsletter. To avoid such communication please follow unsubscribe instructions in the email or contact us.
+
+&lt;h5&gt;Sharing&lt;/h5&gt;Though we make every effort to preserve user privacy, we may need to disclose personal information in the following situations:
+&lt;ul&gt;&lt;li&gt;when required by law.&lt;/li&gt;&lt;li&gt;when we believe that disclosure is necessary to protect our or your safety or the safety of others, investigate fraud, or respond to a government request.&lt;/li&gt;&lt;li&gt;when %site%. is a party in merger or acquisition. In this case we will notify you by email with options you may have.&lt;/li&gt;&lt;li&gt;when you have given us consent to disclose certain personal information.&lt;/li&gt;&lt;/ul&gt;
+As we are an Authorized Partner of Solar Communications GmbH we may provide the essential information regarding your order so that service can be provided to you.
+
+&lt;h5&gt;Security&lt;/h5&gt;The security of your personal information is our top priority. When you place an order online, your information, including your credit card number, is protected using Secure Socket Layer (SSL) encryption technology. This encrypts order data and is designed to aid in ensuring the accuracy and security of that customer information.
+&lt;h5&gt;Updating Personal Information&lt;/h5&gt;To update your record with us, please contact us.
+
+&lt;h5&gt;Amendments&lt;/h5&gt;%site%. reserves the right to change this Policy simply by posting such changes on our site. We encourage you to periodically check our site for changes to this Policy since your continued use of the site following any changes to this Policy will be deemed to constitute your acceptance of such change.
+
+&lt;h5&gt;Post address&lt;/h5&gt;You can contact us about this privacy statement by writing or email us at the address below:
+
+Solar Communications GmbH.
+
+Fluelastrasse 51
+8047 Zurich
+Switzerland
+
+Phone: +41 (0)79 4540481
+Fax: +41 (0)79 4540481
+</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Your Privacy is very important to us.
+This page discloses how we collect and use the information about you.
+
+&lt;h5&gt;Information Collected&lt;/h5&gt;We collect the minimum amount of information about you in order to provide you the service you have expressed interest in.
+
+The following information is collected at the time of contact with our sales representative and/or registered for service:
+&lt;ul&gt;&lt;li&gt;Your Name, email, mailing address, phone number, address&lt;/li&gt;&lt;li&gt;Financial Information (Credit Card information)&lt;/li&gt;&lt;li&gt;Your %site%. Surname, account number, password&lt;/li&gt;&lt;li&gt;Information regarding the services your have chosen&lt;/li&gt;&lt;li&gt;Company name (if applicable)&lt;/li&gt;&lt;/ul&gt;
+As universally accepted practice, we automatically collect and store in log files your IP address, browser type and operating system.
+
+&lt;h5&gt;Information Use&lt;/h5&gt;The information collected is used for billing, to provide service and support to our customers and to optimize our website according to customer preferences. All reasonable precautions are taken to prevent unauthorized access to this information.
+
+&lt;h5&gt;Newsletter&lt;/h5&gt;Established members may occasionally receive information on services, special deals, and a newsletter. To avoid such communication please follow unsubscribe instructions in the email or contact us.
+
+&lt;h5&gt;Sharing&lt;/h5&gt;Though we make every effort to preserve user privacy, we may need to disclose personal information in the following situations:
+&lt;ul&gt;&lt;li&gt;when required by law.&lt;/li&gt;&lt;li&gt;when we believe that disclosure is necessary to protect our or your safety or the safety of others, investigate fraud, or respond to a government request.&lt;/li&gt;&lt;li&gt;when %site%. is a party in merger or acquisition. In this case we will notify you by email with options you may have.&lt;/li&gt;&lt;li&gt;when you have given us consent to disclose certain personal information.&lt;/li&gt;&lt;/ul&gt;
+As we are an Authorized Partner of Solar Communications GmbH we may provide the essential information regarding your order so that service can be provided to you.
+
+&lt;h5&gt;Security&lt;/h5&gt;The security of your personal information is our top priority. When you place an order online, your information, including your credit card number, is protected using Secure Socket Layer (SSL) encryption technology. This encrypts order data and is designed to aid in ensuring the accuracy and security of that customer information.
+&lt;h5&gt;Updating Personal Information&lt;/h5&gt;To update your record with us, please contact us.
+
+&lt;h5&gt;Amendments&lt;/h5&gt;%site%. reserves the right to change this Policy simply by posting such changes on our site. We encourage you to periodically check our site for changes to this Policy since your continued use of the site following any changes to this Policy will be deemed to constitute your acceptance of such change.
+
+&lt;h5&gt;Post address&lt;/h5&gt;You can contact us about this privacy statement by writing or email us at the address below:
+
+Solar Communications GmbH.
+
+Fluelastrasse 51
+8047 Zurich
+Switzerland
+
+Phone: +41 (0)79 4540481
+Fax: +41 (0)79 4540481
+</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

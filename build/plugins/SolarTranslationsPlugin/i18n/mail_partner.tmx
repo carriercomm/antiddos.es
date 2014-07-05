@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmx version="1.4">
+  <header creationtool="Olifant" creationtoolversion="3.0.8.0" datatype="unkown" segtype="paragraph" adminlang="EN-US" srclang="EN-US" creationdate="20120511T212234Z" creationid="FIRST" changedate="20130107T164335Z" changeid="FIRST"/>
+  <body>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>mail_partner_activation_account_title</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Welcome to Solar Communications!</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Welcome to Solar Communications!</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Willkommen zu Solar Communications!</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Welcome to Solar Communications!</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Welcome to Solar Communications!</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Welcome to Solar Communications!</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Welcome to Solar Communications!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>mail_partner_activation_account_body</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Dear %name%:
+
+Thank you for choosing the Solar Communications Revenue Share Program.
+
+The final step to complete your registration is e-mail verification.
+To complete registration, click on the link below.
+
+%link%....
+
+If the link did not open the appropriate page, please copy the URL to the 
+new browser tab and try again.
+
+
+Within 24 hours our manager will process the business opportunity membership 
+request. You will receive an email informing of decision on the request. 
+We are confident that your request will be approved.
+
+
+Upon approval a personal assistant will be assigned. All further information 
+to start your own hi-tech business will be provided by personal assistant 
+in a timely manner.
+
+
+We thank you again for choosing Solar Communications.
+
+Solar Communications GmbH
+Swiss Made IT Solutions and Business Opportunities.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Dear %name%:
+
+Thank you for choosing the Solar Communications Revenue Share Program.
+
+The final step to complete your registration is e-mail verification.
+To complete registration, click on the link below.
+
+%link%
+
+If the link did not open the appropriate page, please copy the URL to the 
+new browser tab and try again.
+
+
+Within 24 hours our manager will process the business opportunity membership 
+request. You will receive an email informing of decision on the request. 
+We are confident that your request will be approved.
+
+
+Upon approval a personal assistant will be assigned. All further information 
+to start your own hi-tech business will be provided by personal assistant 
+in a timely manner.
+
+
+We thank you again for choosing Solar Communications.
+
+Solar Communications GmbH
+Swiss Made IT Solutions and Business Opportunities.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Sehr geehrte %name%:
+
+Vielen Dank für die Wahl des Solar Communications Revenue Share Programm.
+
+Der letzte Schritt, um Ihre Anmeldung abzuschließen, ist E-Mail-Überprüfung.
+Um die Registrierung abzuschließen, klicken Sie auf den untenstehenden Link.
+
+%link%
+
+Wenn der Link die entsprechende Seite öffnte nicht, kopieren Sie bitte den URL zur
+neuen Browser-Tab und versuchen Sie noch einmal.
+
+
+Innerhalb von 24 Stunden wird unser Manager verarbeiten die Anfrage an die Geschäftsmöglichkeit Mitgliedschaft.
+Sie werden eine E-Mail, die über der Entscheidung der Anfrage informiert, erhalten. 
+Wir sind zuversichtlich, dass Ihre Anfrage genehmigt werden wird.
+
+
+Nach Genehmigung wid ein persönlicher Assistent zugewiesen werden. Alle weiteren Informationen, wie
+eigene Hi-Tech-Unternehmen zu start, werden von persönliche Assistent 
+in einer fristgerechten Weise bereitgestellt werden.
+
+
+Wir danken Ihnen für Ihre Wahl von Solar Communications noch einmal.
+
+Solar Communications GmbH
+Swiss Made IT Solutions and Business Opportunities.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Dear %name%:
+
+Thank you for choosing the Solar Communications Revenue Share Program.
+
+The final step to complete your registration is e-mail verification.
+To complete registration, click on the link below.
+
+%link%....
+
+If the link did not open the appropriate page, please copy the URL to the 
+new browser tab and try again.
+
+
+Within 24 hours our manager will process the business opportunity membership 
+request. You will receive an email informing of decision on the request. 
+We are confident that your request will be approved.
+
+
+Upon approval a personal assistant will be assigned. All further information 
+to start your own hi-tech business will be provided by personal assistant 
+in a timely manner.
+
+
+We thank you again for choosing Solar Communications.
+
+Solar Communications GmbH
+Swiss Made IT Solutions and Business Opportunities.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Dear %name%:
+
+Thank you for choosing the Solar Communications Revenue Share Program.
+
+The final step to complete your registration is e-mail verification.
+To complete registration, click on the link below.
+
+%link%
+
+If the link did not open the appropriate page, please copy the URL to the 
+new browser tab and try again.
+
+
+Within 24 hours our manager will process the business opportunity membership 
+request. You will receive an email informing of decision on the request. 
+We are confident that your request will be approved.
+
+
+Upon approval a personal assistant will be assigned. All further information 
+to start your own hi-tech business will be provided by personal assistant 
+in a timely manner.
+
+
+We thank you again for choosing Solar Communications.
+
+Solar Communications GmbH
+Swiss Made IT Solutions and Business Opportunities.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Dear %name%:
+
+Thank you for choosing the Solar Communications Revenue Share Program.
+
+The final step to complete your registration is e-mail verification.
+To complete registration, click on the link below.
+
+%link%
+
+If the link did not open the appropriate page, please copy the URL to the 
+new browser tab and try again.
+
+
+Within 24 hours our manager will process the business opportunity membership 
+request. You will receive an email informing of decision on the request. 
+We are confident that your request will be approved.
+
+
+Upon approval a personal assistant will be assigned. All further information 
+to start your own hi-tech business will be provided by personal assistant 
+in a timely manner.
+
+
+We thank you again for choosing Solar Communications.
+
+Solar Communications GmbH
+Swiss Made IT Solutions and Business Opportunities.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Dear %name%:
+
+Thank you for choosing the Solar Communications Revenue Share Program.
+
+The final step to complete your registration is e-mail verification.
+To complete registration, click on the link below.
+
+%link%
+
+If the link did not open the appropriate page, please copy the URL to the 
+new browser tab and try again.
+
+
+Within 24 hours our manager will process the business opportunity membership 
+request. You will receive an email informing of decision on the request. 
+We are confident that your request will be approved.
+
+
+Upon approval a personal assistant will be assigned. All further information 
+to start your own hi-tech business will be provided by personal assistant 
+in a timely manner.
+
+
+We thank you again for choosing Solar Communications.
+
+Solar Communications GmbH
+Swiss Made IT Solutions and Business Opportunities.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>mail_partner_approve_account_title</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Important. Status Notification for Revenue Share Program</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Important. Status Notification for Revenue Share Program</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Wichtig. Status Benachrichtigung für Revenue Share Programm</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Important. Status Notification for Revenue Share Program</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Important. Status Notification for Revenue Share Program</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Important. Status Notification for Revenue Share Program</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Important. Status Notification for Revenue Share Program</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>mail_partner_approve_account_body</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Dear %name%:
+
+Revenue Share Program request status: APPROVED
+Your personal assistant's contact details: Alexandra Leroy, email: alex.leroy@solarcom.ch
+
+Congratulations on your registration in the Revenue Share Program with Solar Communications!
+
+Use your new Partner Login to access the Revenue Share Program Center (RSPC).
+RSPC portal will enable you to start and control your business, configure its parameters, 
+generate and publish new websites and have full access to billing and statistics.
+
+To access the RSPC portal, click the link below.
+
+https://solarcom.ch/en/partnerarea
+
+Following authorization you may familiarize yourself with useful information that contains 
+in RSPC portal, including directories How It Works and First Steps guidelines. If you 
+have additional questions your personal assistant Alexandra Leroy (alex.leroy@solarcom.ch) 
+will be glad to assist you in any way possible.
+
+Additional Benefits: As a partner enrolled in Revenue Share Program, you may take
+advantage of the following programs to successfully operate 
+and promote your business:
+
+1. Receive Certified Partner status followed by your website listing in our partner directory.
+
+Once your new website has been generated by RSPC portal and placed on the web, our team will proceed 
+to test it and confirm compliance with our quality standards. In addition you will receive 
+instructions and undergo training to successfully manage your new business. Upon completion of the 
+above steps Certified Partner status will be assigned to you and information on you and your online 
+shop will be placed in our partner directory. This directory is available to all potential customers 
+visiting Solar Communications website.
+
+2. Enrollment of new partners to Revenue Share Program
+
+By facilitating enrollment of new partners to Revenue Share Program you will receive monthly 
+commission that is calculated as a percent of new partner profit. In addition, registration 
+charge is waived to all partners enrolled as a result of your efforts. We will provide full 
+promotional package and instructions to assist you in your own team building and ensure that 
+you experience dynamic growth and success.
+
+Once again, our team would like to thank you for Revenue Share Program participation.
+
+Solar Communications GmbH
+Swiss Made IT Solutions and Business Opportunities.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Dear %name%:
+
+Revenue Share Program request status: APPROVED
+Your personal assistant's contact details: Alexandra Leroy, email: alex.leroy@solarcom.ch
+
+Congratulations on your registration in the Revenue Share Program with Solar Communications!
+
+Use your new Partner Login to access the Revenue Share Program Center (RSPC).
+RSPC portal will enable you to start and control your business, configure its parameters, 
+generate and publish new websites and have full access to billing and statistics.
+
+To access the RSPC portal, click the link below.
+
+https://solarcom.ch/en/partnerarea
+
+Following authorization you may familiarize yourself with useful information that contains 
+in RSPC portal, including directories How It Works and First Steps guidelines. If you 
+have additional questions your personal assistant Alexandra Leroy (alex.leroy@solarcom.ch) 
+will be glad to assist you in any way possible.
+
+Additional Benefits: As a partner enrolled in Revenue Share Program, you may take
+advantage of the following programs to successfully operate 
+and promote your business:
+
+1. Receive Certified Partner status followed by your website listing in our partner directory.
+
+Once your new website has been generated by RSPC portal and placed on the web, our team will proceed 
+to test it and confirm compliance with our quality standards. In addition you will receive 
+instructions and undergo training to successfully manage your new business. Upon completion of the 
+above steps Certified Partner status will be assigned to you and information on you and your online 
+shop will be placed in our partner directory. This directory is available to all potential customers 
+visiting Solar Communications website.
+
+2. Enrollment of new partners to Revenue Share Program
+
+By facilitating enrollment of new partners to Revenue Share Program you will receive monthly 
+commission that is calculated as a percent of new partner profit. In addition, registration 
+charge is waived to all partners enrolled as a result of your efforts. We will provide full 
+promotional package and instructions to assist you in your own team building and ensure that 
+you experience dynamic growth and success.
+
+Once again, our team would like to thank you for Revenue Share Program participation.
+
+Solar Communications GmbH
+Swiss Made IT Solutions and Business Opportunities.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Sehr geehrte %name%:
+
+Revenue Share Programm Anfrage Status: GENEHMIGT
+Kontaktdaten Ihres persönlichen Assistent: Alexandra Leroy, email: alex.leroy@solarcom.ch
+
+Herzlichen Glückwunsch zu Ihrer Registrierung auf der Revenue Share Programm mit Solar Communications!
+
+Verwenden Sie Ihren neuen Partner Login, um die Revenue Share Programm Center (RSPC) zugreifen.
+RSPC Portal ermöglicht es Ihnen, Ihr Unternehmen zu starten und steuern, ihre Parameter zu konfigurieren,
+neue Webseiten zu generieren und veröffentlichen und  vollen Zugriff auf Abrechnung und Statistik zu haben.
+
+Um die RSPC Portal zugreifen, klicken Sie den Link darunter.
+
+https://solarcom.ch/en/partnerarea
+
+Nach Genehmigung können Sie sich mit nützlichen Informationen, die
+RSPC Portal enthält, einschließlich Verzeichnissen, wie es funktioniert und First Steps Richtlinien, vertraut machen. Wenn Sie
+weitere Fragen haben, wird Ihr persönlicher Assistent Alexandra Leroy (alex.leroy @ solarcom.ch)
+sich freuen, Sie in irgendeiner Weise zu unterstützen.
+
+Zusätzliche Vorteile: Als eingeschriebenen in Revenue Share Programm Partner, können Sie
+Vorteil aus die folgenden Programme zu ziehen, um erfolgreich Ihr Unternehmen zu betreibenund 
+ zu fördern::
+
+1. Sie erhalten den Zertifizierten Partner Status gefolgt von Ihrer Webseite Auflistung in unserem Partner-Verzeichnis.
+
+Sobald Ihre neue Website von RSPC Portal generiert und im Web platziert wurde, wird unser Team fortsetzen,
+um es zu testen und bestätigen die Einhaltung unserer Qualitätsstandards. Außerdem erhalten Sie
+Anweisungen und Training, um erfolgreich Ihr neues Geschäft zu managen. Nach dem Abschluss der obigen Schritte wird der Zertifizierten Partner Status Ihnen zugeordnet werden und Ihre Information und Ihr Online Shop wird in unserem Partnet-Verzeichnis gestellt. Dieses Verzeichnis ist für alle potentiellen Kunden, die Solar Communications Webseite besuchen, verfügbar.
+
+2. Einschreibung neuer Partner zu Revenue Share Programm
+
+Durch die Erleichterung der Einschulung  neuer Partner zu Revenue Share Program erhalten Sie monatlich
+Provision, die als Prozent der neuen Partner-Profit berechnet wird. Außerdem wird Anmeldung
+Gebühr an alle Partner eingeschrieben als Ergebnis Ihrer Bemühungen verzichtet werden. Wir bereitstellen einen volle
+Werbe-Paket und Anweisungen, die Sie in Ihrem eigenen Team-Building zu unterstützen und sicherzustellen, dass
+Sie dynamischen Wachstum und Erfolg erleben.
+
+Noch einmal möchte unser Team Ihnen für Revenue Share Program Teilnahme danken.
+
+Solar Communications GmbH
+Swiss Made IT Solutions and Business Opportunities.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Dear %name%:
+
+Revenue Share Program request status: APPROVED
+Your personal assistant's contact details: Alexandra Leroy, email: alex.leroy@solarcom.ch
+
+Congratulations on your registration in the Revenue Share Program with Solar Communications!
+
+Use your new Partner Login to access the Revenue Share Program Center (RSPC).
+RSPC portal will enable you to start and control your business, configure its parameters, 
+generate and publish new websites and have full access to billing and statistics.
+
+To access the RSPC portal, click the link below.
+
+https://solarcom.ch/en/partnerarea
+
+Following authorization you may familiarize yourself with useful information that contains 
+in RSPC portal, including directories How It Works and First Steps guidelines. If you 
+have additional questions your personal assistant Alexandra Leroy (alex.leroy@solarcom.ch) 
+will be glad to assist you in any way possible.
+
+Additional Benefits: As a partner enrolled in Revenue Share Program, you may take
+advantage of the following programs to successfully operate 
+and promote your business:
+
+1. Receive Certified Partner status followed by your website listing in our partner directory.
+
+Once your new website has been generated by RSPC portal and placed on the web, our team will proceed 
+to test it and confirm compliance with our quality standards. In addition you will receive 
+instructions and undergo training to successfully manage your new business. Upon completion of the 
+above steps Certified Partner status will be assigned to you and information on you and your online 
+shop will be placed in our partner directory. This directory is available to all potential customers 
+visiting Solar Communications website.
+
+2. Enrollment of new partners to Revenue Share Program
+
+By facilitating enrollment of new partners to Revenue Share Program you will receive monthly 
+commission that is calculated as a percent of new partner profit. In addition, registration 
+charge is waived to all partners enrolled as a result of your efforts. We will provide full 
+promotional package and instructions to assist you in your own team building and ensure that 
+you experience dynamic growth and success.
+
+Once again, our team would like to thank you for Revenue Share Program participation.
+
+Solar Communications GmbH
+Swiss Made IT Solutions and Business Opportunities.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Dear %name%:
+
+Revenue Share Program request status: APPROVED
+Your personal assistant's contact details: Alexandra Leroy, email: alex.leroy@solarcom.ch
+
+Congratulations on your registration in the Revenue Share Program with Solar Communications!
+
+Use your new Partner Login to access the Revenue Share Program Center (RSPC).
+RSPC portal will enable you to start and control your business, configure its parameters, 
+generate and publish new websites and have full access to billing and statistics.
+
+To access the RSPC portal, click the link below.
+
+https://solarcom.ch/en/partnerarea
+
+Following authorization you may familiarize yourself with useful information that contains 
+in RSPC portal, including directories How It Works and First Steps guidelines. If you 
+have additional questions your personal assistant Alexandra Leroy (alex.leroy@solarcom.ch) 
+will be glad to assist you in any way possible.
+
+Additional Benefits: As a partner enrolled in Revenue Share Program, you may take
+advantage of the following programs to successfully operate 
+and promote your business:
+
+1. Receive Certified Partner status followed by your website listing in our partner directory.
+
+Once your new website has been generated by RSPC portal and placed on the web, our team will proceed 
+to test it and confirm compliance with our quality standards. In addition you will receive 
+instructions and undergo training to successfully manage your new business. Upon completion of the 
+above steps Certified Partner status will be assigned to you and information on you and your online 
+shop will be placed in our partner directory. This directory is available to all potential customers 
+visiting Solar Communications website.
+
+2. Enrollment of new partners to Revenue Share Program
+
+By facilitating enrollment of new partners to Revenue Share Program you will receive monthly 
+commission that is calculated as a percent of new partner profit. In addition, registration 
+charge is waived to all partners enrolled as a result of your efforts. We will provide full 
+promotional package and instructions to assist you in your own team building and ensure that 
+you experience dynamic growth and success.
+
+Once again, our team would like to thank you for Revenue Share Program participation.
+
+Solar Communications GmbH
+Swiss Made IT Solutions and Business Opportunities.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Dear %name%:
+
+Revenue Share Program request status: APPROVED
+Your personal assistant's contact details: Alexandra Leroy, email: alex.leroy@solarcom.ch
+
+Congratulations on your registration in the Revenue Share Program with Solar Communications!
+
+Use your new Partner Login to access the Revenue Share Program Center (RSPC).
+RSPC portal will enable you to start and control your business, configure its parameters, 
+generate and publish new websites and have full access to billing and statistics.
+
+To access the RSPC portal, click the link below.
+
+https://solarcom.ch/en/partnerarea
+
+Following authorization you may familiarize yourself with useful information that contains 
+in RSPC portal, including directories How It Works and First Steps guidelines. If you 
+have additional questions your personal assistant Alexandra Leroy (alex.leroy@solarcom.ch) 
+will be glad to assist you in any way possible.
+
+Additional Benefits: As a partner enrolled in Revenue Share Program, you may take
+advantage of the following programs to successfully operate 
+and promote your business:
+
+1. Receive Certified Partner status followed by your website listing in our partner directory.
+
+Once your new website has been generated by RSPC portal and placed on the web, our team will proceed 
+to test it and confirm compliance with our quality standards. In addition you will receive 
+instructions and undergo training to successfully manage your new business. Upon completion of the 
+above steps Certified Partner status will be assigned to you and information on you and your online 
+shop will be placed in our partner directory. This directory is available to all potential customers 
+visiting Solar Communications website.
+
+2. Enrollment of new partners to Revenue Share Program
+
+By facilitating enrollment of new partners to Revenue Share Program you will receive monthly 
+commission that is calculated as a percent of new partner profit. In addition, registration 
+charge is waived to all partners enrolled as a result of your efforts. We will provide full 
+promotional package and instructions to assist you in your own team building and ensure that 
+you experience dynamic growth and success.
+
+Once again, our team would like to thank you for Revenue Share Program participation.
+
+Solar Communications GmbH
+Swiss Made IT Solutions and Business Opportunities.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Dear %name%:
+
+Revenue Share Program request status: APPROVED
+Your personal assistant's contact details: Alexandra Leroy, email: alex.leroy@solarcom.ch
+
+Congratulations on your registration in the Revenue Share Program with Solar Communications!
+
+Use your new Partner Login to access the Revenue Share Program Center (RSPC).
+RSPC portal will enable you to start and control your business, configure its parameters, 
+generate and publish new websites and have full access to billing and statistics.
+
+To access the RSPC portal, click the link below.
+
+https://solarcom.ch/en/partnerarea
+
+Following authorization you may familiarize yourself with useful information that contains 
+in RSPC portal, including directories How It Works and First Steps guidelines. If you 
+have additional questions your personal assistant Alexandra Leroy (alex.leroy@solarcom.ch) 
+will be glad to assist you in any way possible.
+
+Additional Benefits: As a partner enrolled in Revenue Share Program, you may take
+advantage of the following programs to successfully operate 
+and promote your business:
+
+1. Receive Certified Partner status followed by your website listing in our partner directory.
+
+Once your new website has been generated by RSPC portal and placed on the web, our team will proceed 
+to test it and confirm compliance with our quality standards. In addition you will receive 
+instructions and undergo training to successfully manage your new business. Upon completion of the 
+above steps Certified Partner status will be assigned to you and information on you and your online 
+shop will be placed in our partner directory. This directory is available to all potential customers 
+visiting Solar Communications website.
+
+2. Enrollment of new partners to Revenue Share Program
+
+By facilitating enrollment of new partners to Revenue Share Program you will receive monthly 
+commission that is calculated as a percent of new partner profit. In addition, registration 
+charge is waived to all partners enrolled as a result of your efforts. We will provide full 
+promotional package and instructions to assist you in your own team building and ensure that 
+you experience dynamic growth and success.
+
+Once again, our team would like to thank you for Revenue Share Program participation.
+
+Solar Communications GmbH
+Swiss Made IT Solutions and Business Opportunities.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>mail_partner_decline_account_title</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Important. Status Notification for Revenue Share Program</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Important. Status Notification for Revenue Share Program</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Wichtig. Status Benachrichtung für Revenue Share Programm</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Important. Status Notification for Revenue Share Program</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Important. Status Notification for Revenue Share Program</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Important. Status Notification for Revenue Share Program</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Important. Status Notification for Revenue Share Program</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>mail_partner_decline_account_body</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Dear %name%:
+		
+Revenue Share Program request status: DECLINED
+
+Thank You very much for Your request to become Solar Communications Partner.
+
+Unfortunately, your request has been declined for at least one of the following reasons:
+
+* Incorrect information provided
+* We were unable to reach you for clarification/additional information
+* Revenue Share Program is unavailable at your geographic location.
+
+If you believe that your request has been mistakenly declined, please contact us:
+
+https://solarcom.ch/en/support_overview
+
+
+We would like to thank you for your time, effort and interest in Revenue Share Program
+ 
+
+Solar Communications GmbH
+Swiss Made IT Solutions and Business Opportunities.	
+	    </seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Dear %name%:
+		
+Revenue Share Program request status: DECLINED
+
+Thank You very much for Your request to become Solar Communications Partner.
+
+Unfortunately, your request has been declined for at least one of the following reasons:
+
+* Incorrect information provided
+* We were unable to reach you for clarification/additional information
+* Revenue Share Program is unavailable at your geographic location.
+
+If you believe that your request has been mistakenly declined, please contact us:
+
+https://solarcom.ch/en/support_overview
+
+
+We would like to thank you for your time, effort and interest in Revenue Share Program
+ 
+
+Solar Communications GmbH
+Swiss Made IT Solutions and Business Opportunities.	
+	    </seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Sehr geehrte %name%:
+		
+Revenue Share Programm Anfrage Status: ABGELEHNT
+
+Vielen Dank für Ihre Anfrage Solar-Kommunikation Partner zu werden.
+
+Leider wurde Ihre Anfrage für mindestens eine der folgenden Gründe abgelehnt:
+
+* Falsche Information unerstützt
+* Wir waren nicht in der Lage, Ihnen für Klärung / zusätzliche Informationen zu erreichen
+* Revenue Share Program ist nicht verfügbar bei Ihren geographischen Standort.
+
+Wenn Sie glauben, dass Ihre Anfrage fälschlicherweise abgelehnt wurde, kontaktieren Sie uns bitte:
+
+https://solarcom.ch/en/support_overview
+
+
+Wir möchten Ihnen für Ihre Zeit, Mühe und Interesse in Revenue Share Program danken
+ 
+
+Solar Communications GmbH
+Swiss Made IT Solutions and Business Opportunities.	
+	    </seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Dear %name%:
+		
+Revenue Share Program request status: DECLINED
+
+Thank You very much for Your request to become Solar Communications Partner.
+
+Unfortunately, your request has been declined for at least one of the following reasons:
+
+* Incorrect information provided
+* We were unable to reach you for clarification/additional information
+* Revenue Share Program is unavailable at your geographic location.
+
+If you believe that your request has been mistakenly declined, please contact us:
+
+https://solarcom.ch/en/support_overview
+
+
+We would like to thank you for your time, effort and interest in Revenue Share Program
+ 
+
+Solar Communications GmbH
+Swiss Made IT Solutions and Business Opportunities.	
+	    </seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Dear %name%:
+		
+Revenue Share Program request status: DECLINED
+
+Thank You very much for Your request to become Solar Communications Partner.
+
+Unfortunately, your request has been declined for at least one of the following reasons:
+
+* Incorrect information provided
+* We were unable to reach you for clarification/additional information
+* Revenue Share Program is unavailable at your geographic location.
+
+If you believe that your request has been mistakenly declined, please contact us:
+
+https://solarcom.ch/en/support_overview
+
+
+We would like to thank you for your time, effort and interest in Revenue Share Program
+ 
+
+Solar Communications GmbH
+Swiss Made IT Solutions and Business Opportunities.	
+	    </seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Dear %name%:
+		
+Revenue Share Program request status: DECLINED
+
+Thank You very much for Your request to become Solar Communications Partner.
+
+Unfortunately, your request has been declined for at least one of the following reasons:
+
+* Incorrect information provided
+* We were unable to reach you for clarification/additional information
+* Revenue Share Program is unavailable at your geographic location.
+
+If you believe that your request has been mistakenly declined, please contact us:
+
+https://solarcom.ch/en/support_overview
+
+
+We would like to thank you for your time, effort and interest in Revenue Share Program
+ 
+
+Solar Communications GmbH
+Swiss Made IT Solutions and Business Opportunities.	
+	    </seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Dear %name%:
+		
+Revenue Share Program request status: DECLINED
+
+Thank You very much for Your request to become Solar Communications Partner.
+
+Unfortunately, your request has been declined for at least one of the following reasons:
+
+* Incorrect information provided
+* We were unable to reach you for clarification/additional information
+* Revenue Share Program is unavailable at your geographic location.
+
+If you believe that your request has been mistakenly declined, please contact us:
+
+https://solarcom.ch/en/support_overview
+
+
+We would like to thank you for your time, effort and interest in Revenue Share Program
+ 
+
+Solar Communications GmbH
+Swiss Made IT Solutions and Business Opportunities.	
+	    </seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

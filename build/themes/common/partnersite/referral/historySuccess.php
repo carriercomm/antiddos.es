@@ -1,0 +1,1 @@
+<?php include_partial('referral/history_table_'.$type, array('history' => $history)) ?>

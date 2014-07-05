@@ -1,0 +1,162 @@
+
+
+
+<table width="" border="0" cellpadding="5" cellspacing="0"><tr>
+<td width=240 valign=top align=center>
+<a href="" class="logo"><img src="https://server-cloud.com/images/partner/fresh/commonlogo.png" border=0 width=200></a>
+</td>
+</td>
+<td width=800 valign=top>
+&nbsp;
+</td>
+<td width=250 valign=bottom align=right>
+
+<table><tr>
+<td><input class="inputt"></td>
+<td><input type="submit" class="button red small" value="FIND"></td>
+</tr></table>
+
+</td>
+</tr><tr>
+<td width=240 valign=top>
+
+
+
+<div class="div_mainmenu">
+
+
+<a href="">Blog</a>
+<hr>
+<a href="">Site</a>
+<hr>
+<a href="">Products</a>
+<hr>
+<a href="">Cart</a>
+<hr>
+<a href="">Contacts</a>
+<hr>
+
+<a href="<?php echo url_for('@news_rss')?>" class="link"><img src="<?php echo solar_template_image_url('rss_32.png') ?>" width=32 height=32 alt="RSS News" border=0>
+
+</div>
+
+</td>
+<td width=800 valign=top>
+
+<div class="div_content">
+
+
+
+<div class="subject"><?php echo $post->title ?></div>
+<font class="time"><?php t('Published on:')?> <font class="date"><?php echo format_date($post->created_at, 'D') ?></font> by <font class="autor"><?php echo $post->author ?></font></font>
+<br><br>
+<div class="text">
+
+<?php echo prepare_news($post->content) ?>
+
+
+<br><br>
+<<<<<<< HEAD
+=======
+<a class="readmore" href="<?php echo url_for('@blog_view?id='.$post->getId())?>"><?php t('Read More')?></a>
+>>>>>>> d0b15bf86fffcc9907208eed5dc42779a45e29d3
+<a href="" class="readmore">Read comments</a>
+</div>
+
+<hr>
+                              <div style="padding: 0px 0px 0px 0px">
+                                  <table>
+                                      <tr>
+                                          <td>
+
+                                              <!-- Place this tag where you want the +1 button to render -->
+                                              <g:plusone size="medium"></g:plusone>
+
+                                              <!-- Place this render call where appropriate -->
+                                              <script type="text/javascript">
+                                                  (function() {
+                                                      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                                                      po.src = 'https://apis.google.com/js/plusone.js';
+                                                      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                                                  })();
+                                              </script>
+                                          </td>
+                                          <td>
+                                              <div class="fb-like" data-send="false" data-href="<?php echo url_for('@blog_view?id='.$post->getId(), true)?>" data-send="false" data-layout="button_count" data-show-faces="true"></div>
+                                          </td>
+                                          <td>
+                                              <a href="https://twitter.com/share" class="twitter-share-button" data-url="<?php echo url_for('@blog_view?id='.$post->getId(), true)?>">Tweet</a>
+                                              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                                          </td>
+                                      </tr>
+                                  </table>
+                              </div>
+
+
+
+<hr><br>
+
+        
+
+</div>
+
+
+</td>
+<td width=250 valign=top>
+
+<div class="div_menu">
+
+
+<div class="sub1" style="margin-top: 0px;">Last posts</div>
+<div class="pre_sub1">
+
+                    <?php foreach ($recent_posts as $post): ?>
+                          <a href="<?php echo url_for('@blog_view?id='.$post['id']) ?>"><?php echo $post['title'] ?></a><hr>
+                    <?php endforeach ?>
+
+</div>
+
+
+<div class="sub1">CATEGORIES</div>
+<div class="pre_sub1">
+
+                    <?php foreach ($categories as $cat): ?>
+                          <a href="<?php echo url_for('@blog_view_by_category?category='.$cat['name']) ?>"><?php echo $cat['name'] ?></a><hr>
+                    <?php endforeach ?>
+
+</div>
+
+<div class="sub1">Tags</div>
+<div class="pre_sub1">
+                    <div class="tags"><?php echo blog_tags_array($tags)?></div>
+</div>
+
+
+<div class="sub1">Autors</div>
+<div class="pre_sub1">
+                    Autor<hr>
+
+</div>
+
+
+
+<div class="sub1">About</div>
+<div class="pre_sub1">
+
+Download this and more Blogger Templates at . For tutorials, tips and tricks about Blogger visit our Blog.
+A normal paragrapha eam labores imperdiet, apeirian democritum ei nam, doming neglegentur ad vis. Ne malorum ceteros feugait quo, ius ea liber offendit placerat, est habemus aliquyam legendos id.
+
+
+</div>
+
+
+</div>
+
+</td>
+</tr></table>
+
+
+
+
+
+

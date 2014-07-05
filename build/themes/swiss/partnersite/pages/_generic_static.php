@@ -1,0 +1,1 @@
+<?php t('generic')?> <?php echo include_partial('pages/' . $pagename) ?>

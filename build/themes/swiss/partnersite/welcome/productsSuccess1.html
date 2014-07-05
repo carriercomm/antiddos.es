@@ -1,0 +1,614 @@
+<style>
+.hrdash { color: #999999;height:1px;border-top:0px;border-style:dashed; border-left: 0px; border-right: 0px; }
+</style>
+
+<style>
+.slider_pre { margin-top: 91px; margin-right: 130px; }
+</style>
+
+<?php slot('slider_title') ?><font class="hh_02"><?php echo t('text_head_product_1') ?></font><?php end_slot() ?>
+<?php slot('slider_text') ?><font class="hh_01"><?php echo t('text_head_product_2') ?></font><?php end_slot() ?>
+
+
+
+
+						
+					<!-- Main group -->
+    <div class="main">
+				
+				<div class="main-background">
+						<img src="/css/partner/swiss/images/mainback.png" />
+				</div>	
+						
+				<!-- Region main-top -->
+				<div class="main-top">
+						<div class="main-top-inner">
+								<h3><?php t('Products and Services')?></h3>
+<?php t('welcome_site_provides_full',array('%site%'=>$site->getName()))?>
+								<br>
+
+							
+								
+							
+								
+								<div class="major-tabs">
+										
+										<div class="major links-group">
+												<div class="tab active first" id="tab-1"><span>Overview</span></div>
+												<div class="tab last" id="tab-2"><span>Compare</span></div>
+										</div>
+										
+										<div class="major content-group">
+												
+											
+											
+										
+										
+												<!-- Content of first tab - Table server configurations -->
+												
+												<div class="content active tab-1">
+														<div class="servers-slider">
+																<div class="servers-slider-background">
+																		<div class="back-1"></div>
+																</div>
+																<div class="list_carousel">
+																		<ul id="servers-carousel">
+																		
+																		
+																		
+																	<!-- Camfrog products -->		
+																		
+																		<?php $i = 0 ?>
+<?php foreach($configs as $config): ?>
+<?php $i++ ?>
+
+<?php if(!$config->available) continue; ?>
+																				<li class="item-slider">
+																						<div class="title-group">
+																						
+																								
+																								<span class="servers-title">Protected Camfrog</span>
+																								<span class="servers-title-pseudo"><?php echo $config->name ?></span>
+																						</div>
+																						<div class="price-group">
+																								<div class="price-euro">
+																										<span class="badge">&#8364</span>
+																										<span class="price"><?php echo eur($config->price) ?></span>
+																										<span class="period">/month</span>
+																								</div>
+																								<div class="price-other">
+																										<span class="price"><?php echo $config->price ?></span>
+																										<span class="badge">CHF</span>
+																										<span class="separator">/</span>
+																										<span class="price"><?php echo usd($config->price) ?></span>
+																										<span class="badge">USD</span>
+																								</div>
+																						</div>
+																						<div class="servers-description">Max users:<?php include_partial('productfield', array('value' => $config->max_users)) ?><br><?php t('Camfrog WebPanel',array('%site%'=>$site->getName())) ?><br><?php t('Yes',array('%site%'=>$site->getName())) ?></div>
+																						<div class="servers-link">
+																								<a href=""><?php t('Configuration')?></a>
+																								<span class="hint" style="display: none;"><?php t('Max Users',array('%site%'=>$site->getName())) ?>:<?php include_partial('productfield', array('value' => $config->max_users)) ?><br><?php t('Camfrog WebPanel',array('%site%'=>$site->getName())) ?><br><?php t('Yes',array('%site%'=>$site->getName())) ?><br><?php t('Protection',array('%site%'=>$site->getName())) ?>: <?php t('Up to 30',array('%site%'=>$site->getName())) ?><br><?php t('Setup',array('%site%'=>$site->getName())) ?>:<?php echo t('Instant',array('%site%'=>$site->getName())) ?> &
+<?php echo t('Free',array('%site%'=>$site->getName())) ?><span></span></span>
+																						</div>
+																						<div class="servers-order form">
+																								<div class="back-item"></div>
+																								<form>
+																										<div class="submit-container">
+																										<input type="submit" id="add-cart-submit" value="<?php t('Buy')?>">
+																										</div>
+																								</form>
+																						</div>
+																						<div class="server-item-shadow"></div>
+																						<div class="server-item-border"></div>
+																				</li>
+																				
+																				<?php endforeach ?>	
+																				
+																				<!-- END Camfrog products -->
+
+																				<!-- Server products -->
+																				
+																				<?php $i = 0 ?>
+<?php foreach($configs as $config): ?>
+<?php $i++ ?>
+
+<?php if(!$config->available) continue; ?>
+																				
+																				<li class="item-slider">
+																						<div class="title-group">
+
+																						<?php if($config->hot): ?>
+
+																						<div class="servers-hot"></div><?php endif ?>
+<?php if($config->new): ?>
+
+<div class="servers-new"></div>
+
+
+<?php endif ?>
+																								<span class="servers-title"><?php echo $config->name ?></span>
+																								<span class="servers-title-pseudo">DDoS Protected Dedicated Server</span>
+																						</div>
+																						<div class="price-group">
+																								<div class="price-euro">
+																										<span class="badge">Є</span>
+																										<span class="price"><?php echo eur($config->price) ?></span>
+																										<span class="period">/month</span>
+																								</div>
+																								<div class="price-other">
+																										<span class="price"><?php echo $config->price ?></span>
+																										<span class="badge">CHF</span>
+																										<span class="separator">/</span>
+																										<span class="price"><?php echo usd($config->price) ?></span>
+																										<span class="badge">USD</span>
+																								</div>
+																						</div>
+																						<div class="servers-description"><?php include_partial('productfield', array('value' => $config->cpu)) ?><br><?php include_partial('productfield', array('value' => $config->ram)) ?><br><?php include_partial('productfield', array('value' => $config->storage)) ?></div>
+																						<div class="servers-link">
+																								<a href=""><?php t('Configuration')?></a>
+																								<span class="hint" style="display: none;"><?php include_partial('productfield', array('value' => $config->cpu)) ?><br><?php include_partial('productfield', array('value' => $config->ram)) ?><br><?php include_partial('productfield', array('value' => $config->storage)) ?><br><?php include_partial('productfield', array('value' => $config->raid)) ?><span></span></span>
+																						</div>
+																						<div class="servers-order form">
+																								<div class="back-item"></div>
+																								<form>
+																										<div class="submit-container">
+																												<input type="submit" id="add-cart-submit" value="<?php t('Buy')?>">
+																										</div>
+																								</form>
+																						</div>
+																						<div class="server-item-shadow"></div>
+																						<div class="server-item-border"></div>
+																				</li>
+																				
+																				<?php endforeach ?>
+																				
+																				
+																				<!-- END server products -->
+																					
+																				<!-- Cloud products -->					
+																				<?php $i = 0 ?>
+<?php foreach($configs as $config): ?>
+<?php $i++ ?>
+
+<?php if(!$config->available) continue; ?>
+																				
+																				<li class="item-slider">
+																						<div class="title-group">
+																						
+																						<?php if($config->hot): ?>
+
+																						<div class="servers-hot"></div><?php endif ?>
+<?php if($config->new): ?>
+
+<div class="servers-new"></div>
+
+
+<?php endif ?>
+																								<span class="servers-title"><?php echo $config->name ?></span>
+																								<span class="servers-title-pseudo">Instant Cloud Server</span>
+																						</div>
+																						<div class="price-group">
+																								<div class="price-euro">
+																										<span class="badge">Є</span>
+																										<span class="price"><?php echo eur($config->price) ?></span>
+																										<span class="period">/month</span>
+																								</div>
+																								<div class="price-other">
+																										<span class="price"><?php echo price($config->price) ?></span>
+																										<span class="badge">CHF</span>
+																										<span class="separator">/</span>
+																										<span class="price"><?php echo usd($config->price) ?></span>
+																										<span class="badge">USD</span>
+																								</div>
+																						</div>
+																						<div class="servers-description"><?php t('CPU')?>:<?php include_partial('productfield', array('value' => $config->cpu)) ?><br><?php t('RAM')?>:<?php include_partial('productfield', array('value' => $config->ram)) ?><br><?php t('Storage')?>:<?php include_partial('productfield', array('value' => $config->storage)) ?></div>
+																						<div class="servers-link">
+																								<a href=""><?php t('Configuration')?></a>
+																								<span class="hint" style="display: none;"><?php t('CPU')?>:<?php include_partial('productfield', array('value' => $config->cpu)) ?><br><?php t('CORES')?:<?php include_partial('productfield', array('value' => $config->cores)) ?><br><?php t('RAM')?>:<?php include_partial('productfield', array('value' => $config->ram)) ?><br><?php t('Storage')?>:<?php include_partial('productfield', array('value' => $config->storage)) ?><br><?php t('Bandwidth')?>:<?php include_partial('productfield', array('value' => $config->bandwidth)) ?>, 10 Gbit/s<span></span></span>
+																						</div>
+																						<div class="servers-order form">
+																								<div class="back-item"></div>
+																								<form>
+																										<div class="submit-container">
+																												<input type="submit" id="add-cart-submit" value="<?php t('Buy')?>">
+																										</div>
+																								</form>
+																						</div>
+																						<div class="server-item-shadow"></div>
+																						<div class="server-item-border"></div>
+																				</li>
+																				
+																				
+																				
+																				
+																				<?php endforeach ?>
+																				
+																					<!-- END Cloud products -->		
+																							
+																						<!-- Collocation products -->		
+																									
+																				<?php $i = 0 ?>
+<?php foreach($configs as $config): ?>
+<?php $i++ ?>
+
+<?php if(!$config->available) continue; ?>
+																				
+																				<li class="item-slider">
+																						<div class="title-group">
+																								<span class="servers-title"><?php echo $config->name ?></span>
+																								<span class="servers-title-pseudo">Protected Colocation in Switzerland</span>
+																						</div>
+																						<div class="price-group">
+																								<div class="price-euro">
+																										<span class="badge">Є</span>
+																										<span class="price"><?php echo eur($config->price) ?></span>
+																										<span class="period">/month</span>
+																								</div>
+																								<div class="price-other">
+																										<span class="price">Setup</span>
+																										<span class="badge">Fee</span>
+																										<span class="separator">/</span>
+																										<span class="price"><?php echo price_ex(eur($config->setup_fee), 'EUR') ?></span>
+																										<span class="badge">EUR</span>
+																								</div>
+																						</div>
+																						<div class="servers-description"><br>Intel Xeon Six-Core<br>2.40 GHz</div>
+																						<div class="servers-link">
+																								<a href=""><?php t('Configuration')?></a>
+																								<span class="hint" style="display: none;"><?php t('Space')?>: <?php echo limit($config->space) ?><br><?php t('Bandwidth')?>:<?php echo product_field($config->bandwidth) ?><br><?php t('Overage fee each Mb/s')?>:<?php echo price_ex(eur($config->getAddonPriceBySlug('bandwidth-overage')), 'EUR') ?><br><?php t('Power')?>: <?php echo product_field($config->power) ?><br><?php t('Overage fee each Amp')?>: <?php echo price_ex(eur($config->power_overage), 'EUR') ?><br><?php t('Network')?>: <?php product_field($config->network) ?><br><?php t('Contract')?>: <?php echo $config->min_billing_cycle ?> <?php echo (string)$config->min_billing_cycle > 1 ? __('months') : __('month') ?><span></span></span>
+																						</div>
+																						<div class="servers-order form">
+																								<div class="back-item"></div>
+																								<form>
+																										<div class="submit-container">
+																												<input type="submit" id="add-cart-submit" value="<?php t('Buy')?>">
+																										</div>
+																								</form>
+																						</div>
+																						<div class="server-item-shadow"></div>
+																						<div class="server-item-border"></div>
+																				</li>
+																				
+																				
+																				
+																				<?php endforeach ?>
+																				
+																					<!-- END Collocation products -->	
+																					
+																					
+																						<!-- DDOS products -->		
+																					
+																				<?php $i = 0 ?>
+<?php foreach($configs as $config): ?>
+<?php $i++ ?>
+
+<?php if(!$config->available) continue; ?>
+																				
+																				<li class="item-slider">
+																						<div class="title-group">
+																								<span class="servers-title"><?php echo $config->name ?></span>
+																								<span class="servers-title-pseudo">Customized DDoS Protection</span>
+																						</div>
+																						<div class="price-group">
+																								<div class="price-euro">
+																										<span class="badge">Є</span>
+																										<span class="price"><?php echo eur($config->price) ?></span>
+																										<span class="period">/month</span>
+																								</div>
+																								<div class="price-other">
+																										<span class="price">Setup</span>
+																										<span class="badge">Fee</span>
+																										<span class="separator">/</span>
+																										<span class="price"><?php echo price_ex(eur($config->setup_fee), 'EUR') ?></span>
+																										<span class="badge">EUR</span>
+																								</div>
+																						</div>
+																						<div class="servers-description"><br><?php t('Max websites')?>: <?php echo limit($config->max_websites) ?><br>
+<?php t('Max domains')?>: <?php echo limit($config->max_domains) ?><br>
+<?php t('Max subdomains')?>: <?php echo limit($config->max_subdomains) ?></div>
+																						<div class="servers-link">
+																								<a href=""><?php t('Configuration')?></a>
+																								<span class="hint" style="display: none;"><?php t('Max websites')?>: <?php echo limit($config->max_websites) ?><br>
+<?php t('Max domains')?>: <?php echo limit($config->max_domains) ?><br>
+<?php t('Max subdomains')?>: <?php echo limit($config->max_subdomains) ?><br>
+<?php t('Protocols')?>: <?php echo str_replace(', ', '<br>', $config->protocols) ?> <br>
+<?php t('DNS hosting')?>: <?php include_partial('global/check', array('value' => $config->dns_hosting)) ?><br>
+<?php t('Content caching')?>: <?php include_partial('global/check', array('value' => $config->content_caching)) ?><br>
+<?php t('cart_incoming_smtp')?>: <?php include_partial('global/check', array('value' => $config->smtp_protection)) ?><span></span></span>
+																						</div>
+																						<div class="servers-order form">
+																								<div class="back-item"></div>
+																								<form>
+																										<div class="submit-container">
+																												<input type="submit" id="add-cart-submit" value="<?php t('Buy')?>">
+																										</div>
+																								</form>
+																						</div>
+																						<div class="server-item-shadow"></div>
+																						<div class="server-item-border"></div>
+																				</li>
+																				
+																				
+																				
+																				<?php endforeach ?>
+																					<!-- END DDOS products -->	
+																				
+																				
+																		</ul>
+																		<a id="prev" class="prev" href="#">&lt;</a>
+																		<a id="next" class="next" href="#">&gt;</a>
+																</div>
+														</div>
+												</div>
+												<!-- End content of first tab -->
+												
+												<!-- Content of thecond tab - servers slider --> 	
+												<div class="content tab-2">
+														<div class="overview-table">
+																<table>
+																		<thead>
+																				<tr>
+																						<th class="name" width="120">Name</th>
+																						<th class="cpu" width="120">CPU</th>
+																						<th class="cores" width="60">Cores</th>
+																						<th class="ram" width="60">RAM</th>
+																						<th class="storage" width="110">Storage</th>
+																						<th class="raid" width="130">Raid</th>
+																						<th class="price" colspan="3" width="260">Price per month</th>
+																				</tr>
+																		</thead>
+																		<tbody>
+																				<tr class="odd first">
+																						<td class="server-info name">Alpha</td>  
+																						<td class="server-info cpu">E5645<br>Intel Xeon Six-Core<br>2.40 GHz</td>
+																						<td class="server-info cores">6<br>12 HT</td>
+																						<td class="server-info ram">12 GB</td>
+																						<td class="server-info storage">2 x 2 TB<br>SATA 2</td>
+																						<td class="server-info raid">Internal<br>Adaptec / Intel</td>
+																						<td class="server-info price">
+																								<div class="price-euro">
+																										<span class="badge">&#8364</span>
+																										<span class="price">328.02</span>
+																								</div>
+																								<div class="price-other">
+																										<span class="price">/361 CHF</span><br>
+																										<span class="price">/386.27 USD</span>
+																								</div>
+																						</td>
+																						<td class="server-info buy"><span><a href="" class="buynow">Order</a></span></td>
+																				</tr>
+																				<tr class="even">
+																						<td class="server-info name">Alpha</td>  
+																						<td class="server-info cpu">E5645<br>Intel Xeon Six-Core<br>2.40 GHz</td>
+																						<td class="server-info cores">6<br>12 HT</td>
+																						<td class="server-info ram">12 GB</td>
+																						<td class="server-info storage">2 x 2 TB<br>SATA 2</td>
+																						<td class="server-info raid">Internal<br>Adaptec / Intel</td>
+																						<td class="server-info price">
+																								<div class="price-euro">
+																										<span class="badge">&#8364</span>
+																										<span class="price">328.02</span>
+																								</div>
+																								<div class="price-other">
+																										<span class="price">/361 CHF</span><br>
+																										<span class="price">/386.27 USD</span>
+																								</div></td>
+																						<td class="server-info buy"><span><a href="" class="buynow">Order</a></span></td>
+																				</tr>
+																				<tr class="even">
+																						<td class="server-info name">Alpha</td>  
+																						<td class="server-info cpu">E5645<br>Intel Xeon Six-Core<br>2.40 GHz</td>
+																						<td class="server-info cores">6<br>12 HT</td>
+																						<td class="server-info ram">12 GB</td>
+																						<td class="server-info storage">2 x 2 TB<br>SATA 2</td>
+																						<td class="server-info raid">Internal<br>Adaptec / Intel</td>
+																						<td class="server-info price">
+																								<div class="price-euro">
+																										<span class="badge">&#8364</span>
+																										<span class="price">328.02</span>
+																								</div>
+																								<div class="price-other">
+																										<span class="price">/361 CHF</span><br>
+																										<span class="price">/386.27 USD</span>
+																								</div></td>
+																						<td class="server-info buy"><span><a href="" class="buynow">Order</a></span></td>
+																				</tr>
+																				<tr class="even">
+																						<td class="server-info name">Alpha</td>  
+																						<td class="server-info cpu">E5645<br>Intel Xeon Six-Core<br>2.40 GHz</td>
+																						<td class="server-info cores">6<br>12 HT</td>
+																						<td class="server-info ram">12 GB</td>
+																						<td class="server-info storage">2 x 2 TB<br>SATA 2</td>
+																						<td class="server-info raid">Internal<br>Adaptec / Intel</td>
+																						<td class="server-info price">
+																								<div class="price-euro">
+																										<span class="badge">&#8364</span>
+																										<span class="price">328.02</span>
+																								</div>
+																								<div class="price-other">
+																										<span class="price">/361 CHF</span><br>
+																										<span class="price">/386.27 USD</span>
+																								</div></td>
+																						<td class="server-info buy"><span><a href="" class="buynow">Order</a></span></td>
+																				</tr>
+																				<tr class="even">
+																						<td class="server-info name">Alpha</td>  
+																						<td class="server-info cpu">E5645<br>Intel Xeon Six-Core<br>2.40 GHz</td>
+																						<td class="server-info cores">6<br>12 HT</td>
+																						<td class="server-info ram">12 GB</td>
+																						<td class="server-info storage">2 x 2 TB<br>SATA 2</td>
+																						<td class="server-info raid">Internal<br>Adaptec / Intel</td>
+																						<td class="server-info price">
+																								<div class="price-euro">
+																										<span class="badge">&#8364</span>
+																										<span class="price">328.02</span>
+																								</div>
+																								<div class="price-other">
+																										<span class="price">/361 CHF</span><br>
+																										<span class="price">/386.27 USD</span>
+																								</div></td>
+																						<td class="server-info buy"><span><a href="" class="buynow">Order</a></span></td>
+																				</tr>
+																				<tr class="even">
+																						<td class="server-info name">Alpha</td>  
+																						<td class="server-info cpu">E5645<br>Intel Xeon Six-Core<br>2.40 GHz</td>
+																						<td class="server-info cores">6<br>12 HT</td>
+																						<td class="server-info ram">12 GB</td>
+																						<td class="server-info storage">2 x 2 TB<br>SATA 2</td>
+																						<td class="server-info raid">Internal<br>Adaptec / Intel</td>
+																						<td class="server-info price">
+																								<div class="price-euro">
+																										<span class="badge">&#8364</span>
+																										<span class="price">328.02</span>
+																								</div>
+																								<div class="price-other">
+																										<span class="price">/361 CHF</span><br>
+																										<span class="price">/386.27 USD</span>
+																								</div></td>
+																						<td class="server-info buy"><span><a href="" class="buynow">Order</a></span></td>
+																				</tr>
+																				<tr class="even">
+																						<td class="server-info name">Alpha</td>  
+																						<td class="server-info cpu">E5645<br>Intel Xeon Six-Core<br>2.40 GHz</td>
+																						<td class="server-info cores">6<br>12 HT</td>
+																						<td class="server-info ram">12 GB</td>
+																						<td class="server-info storage">2 x 2 TB<br>SATA 2</td>
+																						<td class="server-info raid">Internal<br>Adaptec / Intel</td>
+																						<td class="server-info price">
+																								<div class="price-euro">
+																										<span class="badge">&#8364</span>
+																										<span class="price">328.02</span>
+																								</div>
+																								<div class="price-other">
+																										<span class="price">/361 CHF</span><br>
+																										<span class="price">/386.27 USD</span>
+																								</div></td>
+																						<td class="server-info buy"><span><a href="" class="buynow">Order</a></span></td>
+																				</tr>
+																				<tr class="even">
+																						<td class="server-info name">Alpha</td>  
+																						<td class="server-info cpu">E5645<br>Intel Xeon Six-Core<br>2.40 GHz</td>
+																						<td class="server-info cores">6<br>12 HT</td>
+																						<td class="server-info ram">12 GB</td>
+																						<td class="server-info storage">2 x 2 TB<br>SATA 2</td>
+																						<td class="server-info raid">Internal<br>Adaptec / Intel</td>
+																						<td class="server-info price">
+																								<div class="price-euro">
+																										<span class="badge">&#8364</span>
+																										<span class="price">328</span>
+																								</div>
+																								<div class="price-other">
+																										<span class="price">/361 CHF</span><br>
+																										<span class="price">/386.27 USD</span>
+																								</div></td>
+																						<td class="server-info buy"><span><a href="" class="buynow">Order</a></span></td>
+																				</tr>
+																				<tr class="even">
+																						<td class="server-info name">Alpha</td>  
+																						<td class="server-info cpu">E5645<br>Intel Xeon Six-Core<br>2.40 GHz</td>
+																						<td class="server-info cores">6<br>12 HT</td>
+																						<td class="server-info ram">12 GB</td>
+																						<td class="server-info storage">2 x 2 TB<br>SATA 2</td>
+																						<td class="server-info raid">Internal<br>Adaptec / Intel</td>
+																						<td class="server-info price">
+																								<div class="price-euro">
+																										<span class="badge">&#8364</span>
+																										<span class="price">328.02</span>
+																								</div>
+																								<div class="price-other">
+																										<span class="price">/361 CHF</span><br>
+																										<span class="price">/386.27 USD</span>
+																								</div></td>
+																						<td class="server-info buy"><span><a href="" class="buynow">Order</a></span></td>
+																				</tr>
+																				<tr class="even last">
+																						<td class="server-info name">Alpha</td>  
+																						<td class="server-info cpu">E5645<br>Intel Xeon Six-Core<br>2.40 GHz</td>
+																						<td class="server-info cores">6<br>12 HT</td>
+																						<td class="server-info ram">12 GB</td>
+																						<td class="server-info storage">2 x 2 TB<br>SATA 2</td>
+																						<td class="server-info raid">Internal<br>Adaptec / Intel</td>
+																						<td class="server-info price">
+																								<div class="price-euro">
+																										<span class="badge">&#8364</span>
+																										<span class="price">328</span>
+																								</div>
+																								<div class="price-other">
+																										<span class="price">/361 CHF</span><br>
+																										<span class="price">/386.27 USD</span>
+																								</div></td>
+																						<td class="server-info buy"><span><a href="" class="buynow">Order</a></span></td>
+																				</tr>
+																		</tbody>
+																</table>
+														</div>
+												</div>
+												<!-- End content of thecond tab --> 
+												
+												
+											
+												
+												
+										</div>
+										
+								</div>
+								
+						</div>
+				</div>
+				<!-- End region main-top -->
+								
+								
+				
+				<!-- Region main-central -->
+				<div class="main-central">
+						<div class="main-central-inner">
+								
+								<div class="block free-servers">
+										<img src="/css/partner/swiss/images/PP-blockall-back.png" height="134"/>
+										<div class="title">Protecting every server. Free of charge.</div>
+										<div class="description">Free DDoS protection up to 10 gbps with purchase of any server.</div>
+								</div>
+								
+						</div>
+				</div>
+				<!-- End region main-central -->
+				
+				
+
+<div class="content2">
+
+<div class="product server">
+<h3><?php t('Dedicated Servers')?></h3>
+<div style="padding: 0px 11px 11px 0px;"><font class="products"><p align="justify"><?php t('welcome_fully_managed_servers')?></font></div>
+<br>
+<a href="<?php echo url_for('@server_config_list') ?>" class="xbutton blue"><?php t('Learn more')?></a>
+</div>
+
+<hr class="hr_line">
+</td><td width=50%>
+
+<div class="product colo">
+<h3><?php t('Colocation')?></h3>
+<div style="padding: 0px 11px 11px 0px;"><font class="products"><p align="justify"><?php t('welcome_place_your_own_equipment',array('%site%'=>$site->getName()))?></font></div>
+<br>
+<a href="<?php echo url_for('@colocation_config_list') ?>" class="xbutton blue"><?php t('Learn more')?></a>
+</div>
+
+<hr class="hr_line">
+
+<div class="product ddos">
+<h3><?php t('DDoS Protection and Data Security')?></h3>
+<div style="padding: 0px 11px 11px 0px;"><font class="products"><p align="justify"><?php t('welcome_any_type_solution',array('%site%'=>$site->getName()))?></font></div> 
+<br>
+<a href="<?php echo url_for('@protection_config_list') ?>" class="xbutton blue"><?php t('Learn more')?></a>
+</div>
+
+<hr class="hr_line">
+
+<div class="product cloud">
+<h3><?php t('Cloud Solutions')?></h3>
+<div style="padding: 0px 11px 11px 0px;"><font class="products"><?php t('welcome_the_world_never',array('%site%'=>$site->getName()))?></font></div>
+<div style="padding: 0px 11px 11px 0px;"><font class="products"><p align="justify"><?php t('welcome_the_world_never',array('%site%'=>$site->getName()))?></font></div>
+<br>
+<a href="<?php echo url_for('@cloud_config_list') ?>" class="xbutton blue"><?php t('Learn more')?></a>
+</div>

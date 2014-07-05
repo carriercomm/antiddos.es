@@ -1,0 +1,1 @@
+<?php include_partial('pages/about-us', array('site' => $site)) ?>

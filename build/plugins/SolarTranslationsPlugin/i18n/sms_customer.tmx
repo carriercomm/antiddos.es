@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmx version="1.4">
+  <header creationtool="Olifant" creationtoolversion="3.0.8.0" datatype="unkown" segtype="paragraph" adminlang="EN-US" srclang="EN-US" creationdate="20120511T212234Z" creationid="FIRST" changedate="20130107T164335Z" changeid="FIRST"/>
+  <body>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>client_notify_sms_suspension_warning_body</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Dear %name%:
+
+Balance at your account is insufficient to cover next billing period.
+Despite of several notifications no funds have been added to your account.
+If amount due is not paid within 24 yours, the service will be automatically suspended. 
+To avoid suspension of service, we strongly recommend you to make a deposit immediately.
+
+Your current balance: %current_balance% CHF
+Required additional deposit:  %dept% CHF
+
+Please follow the link below to enter your account:
+
+%partner_site_url%
+
+We hope to continue our cooperation in the future!
+
+We would like to remind you that our customer support is glad to assist you 24/7. Please feel free to contact us if you have any questions or concerns. 
+
+Best Regards, %partner_site_name%.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Notification from %partner_site_name%.
+
+Service will be suspended within 24 hours.
+Current balance: %current_balance% CHF. 
+Amount required to avoid suspension: %dept% CHF. </seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Benachrichtigung aus %partner_site_name%.
+
+Dienst wird innerhalb von 24 Stunden ausgesetzt werden.
+Aktuell Guthaben: %current_balance% CHF. 
+Betrag erforderlich, die Aussetzung zu vermeiden: %dept% CHF. </seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Notification from %partner_site_name%.
+
+Service will be suspended within 24 hours.
+Current balance: %current_balance% CHF. 
+Amount required to avoid suspension: %dept% CHF. </seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Notification from %partner_site_name%.
+
+Service will be suspended within 24 hours.
+Current balance: %current_balance% CHF. 
+Amount required to avoid suspension: %dept% CHF. </seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Notification from %partner_site_name%.
+
+Service will be suspended within 24 hours.
+Current balance: %current_balance% CHF. 
+Amount required to avoid suspension: %dept% CHF. </seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Notification from %partner_site_name%.
+
+Service will be suspended within 24 hours.
+Current balance: %current_balance% CHF. 
+Amount required to avoid suspension: %dept% CHF. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>client_notify_sms_balance_insufficient_body</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Dear %name%:
+
+This is a reminder that you have insufficient funds to cover next payment. 
+The amount due in the next billing period is %order_total_amount% CHF.
+
+Your current balance: %current_balance% CHF
+Required additional deposit:  %dept% CHF
+
+Please, follow this link to enter your account.
+
+%partner_site_url%
+
+We look forward for a timely deposit and  hope to continue our beneficial cooperation.
+
+We would like to remind you that our customer support is glad to assist you 24/7! Please feel free to contact us if you have any questions or concerns. 
+
+Best Regards, %partner_site_name%.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Notification from %partner_site_name%.
+
+Insufficient balance for service renewal.
+Current balance: %current_balance% CHF. 
+Recharge your account by: %dept% CHF.
+
+Thank you in advance for timely payment.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Benachrichtigung aus %partner_site_name%.
+
+Unzureichend Guthaben für Dienst-Wiederherstellung.
+Aktuell Guthaben: %current_balance% CHF. 
+Laden Sie Ihr Konto nach von: %dept% CHF.
+
+Vielen Dank im Voraus für die rechtzeitige Zahlung.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Notification from %partner_site_name%.
+
+Insufficient balance for service renewal.
+Current balance: %current_balance% CHF. 
+Recharge your account by: %dept% CHF.
+
+Thank you in advance for timely payment.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Notification from %partner_site_name%.
+
+Insufficient balance for service renewal.
+Current balance: %current_balance% CHF. 
+Recharge your account by: %dept% CHF.
+
+Thank you in advance for timely payment.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Notification from %partner_site_name%.
+
+Insufficient balance for service renewal.
+Current balance: %current_balance% CHF. 
+Recharge your account by: %dept% CHF.
+
+Thank you in advance for timely payment.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Notification from %partner_site_name%.
+
+Insufficient balance for service renewal.
+Current balance: %current_balance% CHF. 
+Recharge your account by: %dept% CHF.
+
+Thank you in advance for timely payment.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>client_notify_sms_cdn_deposit_insufficient_body</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Notification from %partner_site_name%.
+
+Insufficient balance for service renewal.
+Current CDN deposit: %amount% CHF.
+Recharge your account.
+
+Thank you in advance for timely payment.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Notification from %partner_site_name%.
+
+Insufficient balance for service renewal.
+Current CDN deposit: %amount% CHF.
+Recharge your account.
+
+Thank you in advance for timely payment.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Notification from %partner_site_name%.
+
+Insufficient balance for service renewal.
+Current CDN deposit: %amount% CHF.
+Recharge your account.
+
+Thank you in advance for timely payment.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Notification from %partner_site_name%.
+
+Insufficient balance for service renewal.
+Current CDN deposit: %amount% CHF.
+Recharge your account.
+
+Thank you in advance for timely payment.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Notification from %partner_site_name%.
+
+Insufficient balance for service renewal.
+Current CDN deposit: %amount% CHF.
+Recharge your account.
+
+Thank you in advance for timely payment.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Notification from %partner_site_name%.
+
+Insufficient balance for service renewal.
+Current CDN deposit: %amount% CHF.
+Recharge your account.
+
+Thank you in advance for timely payment.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Notification from %partner_site_name%.
+
+Insufficient balance for service renewal.
+Current CDN deposit: %amount% CHF.
+Recharge your account.
+
+Thank you in advance for timely payment.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>client_notify_sms_suspension_body</seg>
+      </tuv>
+      <tuv xml:lang="RU-RU">
+        <seg>Dear %name%:
+
+Your order(s) has been suspended because of insufficient balance:
+
+Order(s): %order_list%
+
+Best Regards, %partner_site_name%.</seg>
+      </tuv>
+      <tuv xml:lang="EN-UK">
+        <seg>Notification from %partner_site_name%.
+
+The following service/s has been suspended for non-payment.
+
+Service list:
+
+%order_list%
+
+To resume service recharge your account.</seg>
+      </tuv>
+      <tuv xml:lang="DE-DE">
+        <seg>Benachrichtigung aus %partner_site_name%.
+
+Folgende Leistung(en) ist für Nicht-Zahlung ausgesetzt worden.
+
+Dienst Liste:
+
+%order_list%
+
+Um den Dienst wieder aufzunehmen, laden Sie Ihr Konto nach.</seg>
+      </tuv>
+      <tuv xml:lang="ES-ES">
+        <seg>Notification from %partner_site_name%.
+
+The following service/s has been suspended for non-payment.
+
+Service list:
+
+%order_list%
+
+To resume service recharge your account.</seg>
+      </tuv>
+      <tuv xml:lang="FR-FR">
+        <seg>Notification from %partner_site_name%.
+
+The following service/s has been suspended for non-payment.
+
+Service list:
+
+%order_list%
+
+To resume service recharge your account.</seg>
+      </tuv>
+      <tuv xml:lang="CH-CH">
+        <seg>Notification from %partner_site_name%.
+
+The following service/s has been suspended for non-payment.
+
+Service list:
+
+%order_list%
+
+To resume service recharge your account.</seg>
+      </tuv>
+      <tuv xml:lang="IT-IT">
+        <seg>Notification from %partner_site_name%.
+
+The following service/s has been suspended for non-payment.
+
+Service list:
+
+%order_list%
+
+To resume service recharge your account.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

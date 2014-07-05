@@ -1,0 +1,1 @@
+<tr><td class="his s1" width=160><?php t('Max. Users')?>:</td><td class="his s2"><?php include_partial('welcome/productfield', array('value' => $product->max_users)) ?></td></tr>
