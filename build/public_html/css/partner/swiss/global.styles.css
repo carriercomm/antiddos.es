@@ -1955,7 +1955,7 @@ tr.error {}
 #block-banner-main {margin: 0px; height: 145px; padding: 0px;background:url(images/banner-index.jpg) no-repeat left top; }
 #block-banner-main .block-inner {display: table; margin: 0px; width: 100%;height: 100%;}
 #block-banner-main .block-content { display: table-cell; padding-left: 290px; vertical-align: middle; color: #fff; line-height: 1.1;}
-#block-banner-main .block-content h2{font-size: 36px; font-weight: bold; margin: 0px;}
+#block-banner-main .block-content h2{font-size: 36px; font-weight: bold; text-transform: uppercase; margin: 0px;}
 #block-banner-main .block-content p{font-size: 16px; font-weight: 400; margin: 0px;}
 
 /* =============================================================================
@@ -2028,7 +2028,7 @@ tr.error {}
 #primary-menu-bar > ul.menu li > ul.menu li.first a { border-top: none; }
 #primary-menu-bar > ul.menu li > ul.menu li.last a { border-bottom: none; }
 
-#primary-menu-bar > ul.menu li > ul.information { min-width: 155%; padding: 0 37px; }
+#primary-menu-bar > ul.menu li > ul.information { min-width: 250px; padding: 0 37px; }
 #primary-menu-bar > ul.menu li > ul.information h4 { font-size: 12px; font-weight: normal; color: #d3d3d3; text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.75); border-bottom: 1px solid #151515; padding: 18px 0; margin: 0; }
 #primary-menu-bar > ul.menu li > ul.information div { border-top: 1px solid #3b3b3b; padding: 18px 0; float: left; width: 100%; }
 #primary-menu-bar > ul.menu li > ul.information div ol { margin: 0; padding: 0; list-style-image: url(images/triangle-right.png); float: left; }

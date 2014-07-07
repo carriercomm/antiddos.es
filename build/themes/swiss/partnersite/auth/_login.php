@@ -5,6 +5,7 @@
 <a href="<?php echo url_for('@balance') ?>" class="xbutton blue"><?php t('Control Panel') ?></a>
 <a href="<?php echo url_for('@newcart_list') ?>" class="xbutton blue"><?php t('View cart') ?></a>
 <a href="<?php echo url_for('@logout') ?>" class="xbutton red"><?php t('Log out') ?></a>
+<?php include_partial('global/inbox') ?>
 </div>
 
 <?php else: ?>
