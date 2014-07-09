@@ -1,31 +1,47 @@
-<div class="startcontent"></div>
+<!-- region: Content -->
+	<div id="columns" class="columns clearfix">
+		<div id="content-column" class="content-column" role="main">
+			<div class="content-inner">
+				
+				<section id="main-content">
+					<!-- region: Main Content -->
+					<div id="content" class="region page-terms-of-services">
 
-<style>
-.slider_pre { margin-top: 87px; margin-right: 140px; }
-</style>
+					<div id="main-content-header" class="clearfix">
+						<h1 id="page-title"><?php t('Privacy Policy') ?></h1>
+						<div class="submitted">
+      						<time pubdate="" datetime="1299094295"><?php t('updated May 12, 2014') ?></time>    
+      					</div>
 
-<?php slot('slider_title') ?><font class="hh_02"><?php echo t('text_head_policy_1') ?></font><?php end_slot() ?>
-<?php slot('slider_text') ?><font class="hh_02"><?php echo t('text_head_policy_2') ?></font><?php end_slot() ?>
-<div class="bodycontent">
+						<div id="breadcrumb" class="clearfix">
+							<ol id="crumbs" class="clearfix">
+								<li class="crumb crumb-first"><a href="index.html" title="" class="active-trail"><?php t('Home') ?></a></li>
+								<li class="crumb crumb-last"><?php t('Privacy Policy') ?></li>
+							</ol>
+						</div>
+					</div>
 
+						<!-- block: Products -->
+						<div id="block-antiddos-top-image" class="block clearfix">
+							<div class="block-inner">
+								<div class="block-content"><img src="/images/term_services.jpg"></div>
+							</div>
+						</div>
+						<!-- end block: Products -->
 
-<style>
-<!--
-.h5 { margin: 0px; }
-ul li { }
-ul { margin: 0px; padding: 0px; margin-left: 30px; margin-top: 10px; }
--->
-</style>
-
-
-<h1 class="h1_white"><?php tos('Privacy Policy')?></h1>
-
-<div class="" align="center"> 
-<div class="content">
-<?php tos('policy_content',array('%site%'=>$site->getName(),'%url%'=>str_replace('http://','',$site->getUrl())))?>
-<br>
-</div>
-</div>
-
-
-</div>
+						<div id="block-system-main" class="block block-system no-title">  
+							<article id="node" class="node node-article">
+								<div class="node-content">
+								<?php tos('policy_content',array('%site%'=>$site->getName(),'%url%'=>str_replace('http://','',$site->getUrl())))?>
+								</div>
+							</article>
+						</div>	
+					</div>
+			           <!-- end region: Main Content -->
+				</section><!-- /end #main-content -->
+				
+			</div><!-- /end .content-inner -->
+		</div><!-- /end #content-column -->
+				
+	</div><!-- /end #columns -->
+<!-- end region: Content -->

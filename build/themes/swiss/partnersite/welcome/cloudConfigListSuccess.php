@@ -1,688 +1,697 @@
-
-<style>
-
-.tdbar_st3_left { background:url('/images/partner/swiss/slider6_01.jpg') repeat-x right top; height:372px;}
-.tdbar_st3_center { background:url('/images/partner/swiss/slider6_02.jpg') repeat-x 0 0; height:372px; width: 980px;}
-.tdbar_st3_right { background:url('/images/partner/swiss/slider6_03.jpg') repeat-x left top; height:372px;}
-
-.menubarleft { background: url('/images/partner/swiss/slider6_04.jpg') repeat-x right top; width: 100%; height: 29px;}
-.menubarright { background: url('/images/partner/swiss/slider6_06.jpg') repeat-x left top;  width: 100%; height: 29px; }
-
-.content, .bodycontent { margin-top: 15px; line-height: 22px;
-line-height: 15px;
-background: url('/images/partner/swiss/startcontent.png') no-repeat left top;
-background: url('/images/partner/swiss/startcontent.png') no-repeat left top, url('/images/partner/swiss/contentbar.png') repeat-x 0px 10px;
-width: 100%;
-height: 48px;
-width: auto;
-height: auto;
-padding: 8px 0px 0px 0px; }
-
-</style>
-
-<?php slot('slider_title') ?><font class="hh_02"><?php echo t('text_head_cloud_1') ?></font><?php end_slot() ?>
-<?php slot('slider_text') ?><font class="hh_02"><?php echo t('text_head_cloud_2') ?></font><?php end_slot() ?>
-
-
-
-				<!-- Region main-top -->
-			
-						<div class="main-top-inner">
-								
-								<div class="major-tabs">
-										
-										<div class="major links-group">
-												<div class="tab active first" id="tab-1"><span><?php t('Cloud Details')?></span></div>
-												<div class="tab last" id="tab-2"><span><?php t('Compare Servers')?></span></div>
-										</div>
-										
-										<div class="major content-group">
-												
-												<!-- Content of first tab - Table server configurations -->
-												<div class="content active tab-1">
-														<div class="servers-slider">
-																<div class="servers-slider-background">
-																		<div class="back-1"></div>
-																</div>
-																<div class="list_carousel">
-																		<ul id="servers-carousel">
-		
-																		
-																			<li class="item-slider">
-																						<div class="title-group"><div class="servers-not"></div>
-									<span class="servers-title"><font color="#F57815">Cloud Trial</font></span>
-																								<span class="servers-title-pseudo"><?php t('Free')?> <?php t('Instant Cloud')?></span>
-																						</div>
-																						<div class="price-group"><img src="/images/partner/swiss/cloud_server.jpg" alt="DDOS Protected Cloud" height="65">
-																								<div class="price-euro">
-																									<span class="badge"></span>
-																									
-																									<span class="price">7 days <?php t('Free')?> trial</span>
-																										<span class="period"></span>
-																								</div>
-																								<div class="price-other">
-																										<span class="price">-</span>
-																										<span class="badge">CHF</span>
-																										<span class="separator">/</span>
-																										<span class="price">-</span>
-																										<span class="badge">USD</span>
-																								</div>
-																						</div>
-																						<div class="servers-description">2.4 Ghz Intel Xeon - 512 MB DDR3 RAM - 10 GB SAN HDD - 500 GB Bandwidth - 10 Gbit/s - <?php echo t('Instant',array('%site%'=>$site->getName())) ?> <?php t('Setup',array('%site%'=>$site->getName())) ?></div>
-																						<div class="servers-link">
-																								<a href=""><?php t('Configuration')?></a>
-																								<span class="hint" style="display: none;">
-																								CPU: 2.4 Ghz Intel Xeon	<br>
-																								Cores:	1 <br>
-																								Processing Power: 2.4 GHz  <br>
-																								Maximum Servers:	1 <br>
-																								More CPU Cores: available<br>
-RAM:	512 MB<br>
-Storage:	10 GB <br>
-Storage Grade: High-Availability SAN<br>
-Bandwidth:	500GB <br>  
-Network: 10 Gigabit Public & Private Networks <br>
-Anti DDoS: yes<br>
-DDos Protection: 10 Gigabit multi layer<span></span></span>
-																						</div>
-																						<div class="servers-order form">
-																								<div class="back-item"></div>
-																								<form>
-																										<div class="submit-container">
-																												<input type="button" id="add-cart-submit" value="<?php t('Free')?> <?php t('Cloud')?>" onclick="location.href='<?php echo url_for('@show_page?name=free-vps') ?>';" />
-																										</div>
-																								</form>
-																						</div>
-																						<div class="server-item-shadow"></div>
-																						<div class="server-item-border"></div>
-																				</li>
-																		
-																				<!-- Cloud products -->					
-														
-<?php $i = 0 ?>
-<?php foreach($configs as $config): ?>
-<?php $i++ ?>
-
-<?php if(!$config->available) continue; ?>
-
-																				
-																				<li class="item-slider">
-																						<div class="title-group">
-
-																						<?php if($config->hot): ?>
-
-																						<div class="servers-hot"></div><?php endif ?>
-<?php if($config->new): ?>
-
-<div class="servers-new"></div>
-
-
-<?php endif ?>
-																								<span class="servers-title"><?php echo $config->name ?></span>
-																								<span class="servers-title-pseudo">Instant Protected Cloud</span>
-																						</div>
-																						<div class="price-group"><img src="/images/partner/swiss/cloud_server.jpg" alt="DDOS Protected Cloud" height="65">
-																								<div class="price-euro">
-																										<span class="badge">&#8364;</span>
-																										<span class="price"><?php echo eur($config->price) ?></span>
-																										<span class="period">/month</span>
-																								</div>
-																								<div class="price-other">
-																										<span class="price"><?php echo price($config->price) ?></span>
-																										<span class="badge">CHF</span>
-																										<span class="separator">/</span>
-																										<span class="price"><?php echo usd($config->price) ?></span>
-																										<span class="badge">USD</span>
-																								</div>
-																						</div>
-																						<div class="servers-description"><?php include_partial('productfield', array('value' => $config->cpu)) ?> - <?php include_partial('productfield', array('value' => $config->ram)) ?> MB RAM - <?php include_partial('productfield', array('value' => $config->storage)) ?> GB HDD - <?php include_partial('productfield', array('value' => $config->bandwidth)) ?> TB <?php t('Bandwidth')?>, 10 Gbit/s, <?php echo t('Instant',array('%site%'=>$site->getName())) ?> <?php t('Setup',array('%site%'=>$site->getName())) ?></div>
-																						<div class="servers-link">
-																								<a href=""><?php t('Configuration')?></a>
-																								<span class="hint" style="display: none;"><?php include_partial('productfield', array('value' => $config->cpu)) ?> <br> <?php t('CORES')?>:<?php include_partial('productfield', array('value' => $config->cores)) ?><br><?php t('RAM')?>:<?php include_partial('productfield', array('value' => $config->ram)) ?>  MB<br> <?php t('Storage')?>:<?php include_partial('productfield', array('value' => $config->storage)) ?> TB<br><?php t('Bandwidth')?>:<?php include_partial('productfield', array('value' => $config->bandwidth)) ?> TB, 10 Gbit/s<span></span></span>
-																						</div>
-																						<div class="servers-order form">
-																								<div class="back-item"></div>
-																								<form>
-																										<div class="submit-container">
-																												<input type="button" id="add-cart-submit" value="<?php t('Buy')?>" onclick="location.href='<?php echo url_for('@newcart_item_new?product_id=' . $config->id) ?>';" />
-																										</div>
-																								</form>
-																						</div>
-																						<div class="server-item-shadow"></div>
-																						<div class="server-item-border"></div>
-																				</li>
-																				
-																				
-																				
-																				
-																				<?php endforeach ?>
-																				
-																					<!-- END Cloud products -->		
-																		
-																					
-																					
-																					
-																				
-																		</ul>
-																		</ul>
-																		<a id="prev" class="prev" href="#">&lt;</a>
-																		<a id="next" class="next" href="#">&gt;</a>
-																</div>
-														</div>
-												</div>
-												<!-- End content of first tab -->
-												
-												<!-- Content of thecond tab - servers slider -->
-												
-												
-												<div class="content tab-2">
-														
-														<div class="overview-table">
-																			
-																			
-																	<br><br>
-																			<!-- cloud products -->		<table>
-																		<thead>
-																				<tr>
-																						<th class="name" width="160"><?php t('Cloud Server')?></th>
-																						<th class="cpu" width="140" ><?php t('CPU') ?></th>
-																						<th class="cores" width="80" > <?php t('Cores')?> </th>
-																						<th class="ram" width="80" ><?php t('RAM')?></th>
-																						<th class="storage" width="120" ><?php t('Storage')?></th>
-																						<th class="raid" width="130" ><?php t('Bandwidth')?></th>
-																						<th class="price" colspan="3" width="260" align="left"><?php t('Price') ?></th>
-																				</tr></thead>
-																		<tbody>
-														
-<?php $i = 0 ?>
-<?php foreach($configs as $config): ?>
-<?php $i++ ?>
-
-<?php if(!$config->available) continue; ?>
-
-
-																				<tr class="even">
-																						<td class="server-info name"><?php echo $config->name ?><?php if($config->hot): ?>
-
-																						<div class="servers-hot"></div><?php endif ?>
-<?php if($config->new): ?>
-
-<div class="servers-new"></div>
-
-
-<?php endif ?></td>  
-																						<td class="server-info cpu"><?php include_partial('productfield', array('value' => $config->cpu)) ?></td>
-																						<td class="server-info cores"><?php include_partial('productfield', array('value' => $config->cores)) ?></td>
-																						<td class="server-info ram" ><?php include_partial('productfield', array('value' => $config->ram)) ?>  MB</td>
-																						<td class="server-info storage" ><?php include_partial('productfield', array('value' => $config->storage)) ?></td>
-																						<td class="server-info raid" ><?php include_partial('productfield', array('value' => $config->bandwidth)) ?> TB, 10 Gbit/s</td>
-																						<td class="server-info price" colspan="2">
-																								<div class="price-euro">
-																										<span class="badge">&#8364</span>
-																										<span class="price"><?php echo eur($config->price) ?></span>
-																								</div>
-																								<div class="price-other">
-																								
-																								</div>
-																						</td>
-																						<td class="server-info buy"><span><a href="<?php echo url_for('@newcart_item_new?product_id=' . $config->id) ?>" class="buynow1"><?php t('Buy')?></a></span></td>
-																				</tr>
-																				<?php endforeach ?>	
-																				
-																				<!-- end cloud products -->
-																				
-																				<tr class="odd"><td colspan=9></td></tr>
-																				
-																				</tbody>
-																</table></div>
-																	
-																<table>
-																	<thead>
-																				<tr>
-																						
-																						<th class="price" colspan="9" width="940" align="center">Each Dedicated Server and Cloud Server comes with a wide choice of operating systems</th>
-																				</tr></thead>
-																		<tbody>
-																
-																
-																			<tr class="odd"><td colspan=9><img src="/images/partner/swiss/linux_windows_freebsd.gif" width=940></td></tr>
-																				
-																		</tbody>
-																		
-																		
-																		
-																</table>
-
-																<br>
-																<table>
-																	<thead>
-																				<tr>
-																						
-																						<th class="price" colspan="9" width="940" align="center">Our 100% protected Cloud Servers and Instant Clouds are equipped with top performing hardware</th>
-																				</tr></thead>
-																		<tbody>
-																
-																
-																					<tr class="odd"><td colspan=9><img src="/images/partner/swiss/cloudcom_hardware.gif" width=940></td></tr>
-																						
-																		</tbody>
-																		
-																		
-																		
-																</table><br>
-																	<table>
-																	<thead>
-																				<tr>
-																						
-																						<th class="price" colspan="9" width="940" align="center">Each Cloudcom Server and Protected Cloud comes with free administration tools</th>
-																				</tr></thead>
-																		<tbody>
-																
-																
-																						
-																							<tr class="odd"><td colspan=9><img src="/images/partner/swiss/remote_administer.jpg" width=940></td></tr>
-																		</tbody>
-																		
-																		
-																		
-																</table>
-																
-																<br>
-																							
-																							
-														</div>
-												</div>
-												<!-- End content of thecond tab -->
-												
-										</div>
-										
-								</div>
-								
-						</div>
-				</div></div>
-				<!-- End region main-top -->
+<!-- region: Content -->
+	<div id="columns" class="columns clearfix">
+		<div id="content-column" class="content-column" role="main">
+			<div class="content-inner">
 				
-				<!-- Region main-central -->
-				<div class="main-central">
-						<div class="main-central-inner">
+				<section id="main-content">
+					<!-- region: Main Content -->
+					<div id="content" class="region page-cloud-hosting">
 
-<div style="height: 130px; display: block;">								
-								<div class="block free-servers" style="position: absolute; width: 100%; left: 0;">
-										<img src="/css/partner/swiss/images/PP-blockall-back.png" height="134"/>
-	<div class="title"><?php t('100 Cloud')?></div>
-										<div class="description"><?php t('DDoS any Cloud')?></div>
-										
-								</div>
-</div>
-								
+					<div id="main-content-header" class="clearfix">
+						<h1 id="page-title"><?php t('Cloud hosting') ?></h1>
+
+						<div id="breadcrumb" class="clearfix">
+							<ol id="crumbs" class="clearfix">
+								<li class="crumb crumb-first"><a href="index.html" title="" class="active-trail"><?php t('Home') ?></a></li>
+								<li class="crumb crumb-last"><?php t('Cloud hosting') ?></li>
+							</ol>
 						</div>
-		
-				<!-- End region main-central -->
+					</div>
+
+						<!-- block: Products -->
+						<div id="block-antiddos-top-image" class="block clearfix">
+							<div class="block-inner">
+								<div class="block-content"><img src="/images/cloud.jpg"></div>
+							</div>
+						</div>
+						<!-- end block: Products -->
+
+						<div id="block-system-main" class="block block-system no-title">  
+							<article id="node" class="node node-article">
+								<div class="node-content">
+									<div class="row first clearfix">
+										<p class="cloud-title"><?php t('There are considerable reasons why one should choose Cloud Hosting over traditional VPS') ?></p>
+										<p><?php t('Here are just some of them. With data mirroring, multiple tier-1 upstream providers, redundant power sources with automatic switch-over and free DDoS protection Cloud Hosting is the best solution to host a mission-critical front-end website or service. Cloud hosting architecture guarantees highest uptime and makes data loss virtually impossible - all for a very reasonable budget. If you are new to Cloud hosting solutions, try one of our servers for a whole calendar week free of charge! Please be advised that ID and phone verification may be required to process a free trial order. Click on the right to request free 7-day trial.') ?></p>
+									</div>
+									<div class="row clearfix cloud-content">
+										<div>
+											<p class="cloud-title"><?php t('Billing period & discount selector') ?></p>
+											<p><?php t('CoinsHost encourages its clients to choose longer billing periods for their convenience. Longer billing period will also allow you to save considerable amount of money as maximum discount for a 12-month period is 22%.') ?></p>
+											<div class="billing-selector">
+										<!-- Block slider discount-->
+												<div class="block discount-counter">
+											
+													<div class="mail-amount-mail-wrp">
+														<div id="dis-scale">
+															<div class="size-item1" ></div>
+															<div class="size-item2" ></div>
+															<div class="size-item3" ></div>
+															<div class="size-item4"></div>
+															<div class="size-item5"></div>
+															<div class="size-item6"></div>
+															<div class="size-item7"></div>
+															<div class="size-item8"></div>
+															<div class="size-item9"></div>
+															<div class="size-item10"></div>
+														</div>
+														<div id="billing-slider"></div>
+														<div class="monthinner">
+															<span id="month_number_order">6</span><?php t('month(s)') ?>
+														</div>
+														<ul class="b-designation-of-mailboxes">	
+															<li class="e-item-designation-of-mailboxes e-item-designation_1"><?php t('0%') ?></li>
+															<li class="e-item-designation-of-mailboxes e-item-designation_2"><?php t('2%') ?></li>
+															<li class="e-item-designation-of-mailboxes e-item-designation_3"><?php t('4%') ?></li>
+															<li class="e-item-designation-of-mailboxes e-item-designation_4"><?php t('6%') ?></li>
+															<li class="e-item-designation-of-mailboxes e-item-designation_5"><?php t('8%') ?></li>
+															<li class="e-item-designation-of-mailboxes e-item-designation_6 active"><?php t('10%') ?></li>
+															<li class="e-item-designation-of-mailboxes e-item-designation_7"><?php t('12%') ?></li>
+															<li class="e-item-designation-of-mailboxes e-item-designation_8"><?php t('14%') ?></li>
+															<li class="e-item-designation-of-mailboxes e-item-designation_9"><?php t('16%') ?></li>
+															<li class="e-item-designation-of-mailboxes e-item-designation_10"><?php t('18%') ?></li>
+															<li class="e-item-designation-of-mailboxes e-item-designation_11"><?php t('20%') ?></li>
+															<li class="e-item-designation-of-mailboxes e-item-designation_12"><?php t('22%') ?></li>
+														</ul>
+														<input id="month-vallue" type="hidden" name="month" VALUE="6">
+														<input id="discount-vallue" type="hidden" name="discount" VALUE="10">
+													</div>
+												</div>
+											</div>
+										</div>
+										<div>
+											<p class="cloud-title"><?php t('Server types') ?></p>
+											<p><?php t('Please, select server group and type from table.') ?></p>
+											<div id="dedicated-tab" class="tab-container vertical">
+												<ul class='etabs'>
+													<li class='tab'><a href="#game-tabs1"><?php t('Protected cloud servers') ?></a></li>
+												</ul>
+												<div id="game-tabs1" class="table-shadow">
+													<table class="servers-table">
+														
+														<tr><th class="name"><?php t('Name') ?></th><th><?php t('CPU') ?></th><th class="cores"><?php t('Cores') ?></th><th><?php t('RAM') ?></th><th><?php t('Storage') ?></th><th><?php t('Bandwidth') ?></th><th><?php t('Monthly price') ?></th><th></th></tr>
+														
+														<tr><td class="name"><p class="table-title"><?php t('Cloud Trial') ?></p><?php t('Free for 7 days')?></td><td class="cpu"><?php t('2.4 Ghz Intel Xeon') ?></td><td><?php t('2') ?></td><td class="ram"><?php t('512 MB DDR3 RAM') ?></td><td><?php t('10 GB') ?></td><td><?php t('500 TB, Bandwidth 10 Gbit/s') ?></td><td><?php t('7 days free trial')?></td><td class="submit"><input type="button" value="Try" onclick="location.href='<?php echo url_for('@show_page?name=free-vps') ?>';"/></td></tr>
+														
+														<?php $i = 0 ?>
+														<?php foreach($configs as $config): ?>
+														<?php $i++ ?>
+														<?php if(!$config->available) continue; ?>
+														
+   														<tr><td class="name"><p class="table-title"><?php if($config->hot): ?><img src="/images/hot.png"><?php endif ?><?php if($config->new): ?><img src="/images/new.png"><?php endif ?><?php echo $config->name ?></p></td><td class="cpu"><?php include_partial('productfield', array('value' => $config->cpu)) ?></td><td><?php include_partial('productfield', array('value' => $config->cores)) ?></td><td class="ram"><?php include_partial('productfield', array('value' => $config->ram)) ?></td><td><?php include_partial('productfield', array('value' => $config->storage)) ?></td><td><?php include_partial('productfield', array('value' => $config->bandwidth)) ?> <?php t(' TB Bandwidth, 10 Gbit/s') ?></td><td><?php echo eur($config->price) ?> €</td><td class="submit"><input type="button" value="Buy" onclick="location.href='<?php echo url_for('@newcart_item_new?product_id=' . $config->id) ?>';"/></td></tr>
+														
+														<?php endforeach ?>
+														
+													</table>
+												</div>
+											</div>
+										</div>
+										<div class="cloud-personal">
+											<img src="/images/personal.png">
+											<div class="text">
+												<a class="big"><?php t('Personal cloud server') ?></a> 
+												<a class="small"><?php t('Configure your own cloud server configuration') ?></a>
+											</div>
+											<img src="/images/cloud-personal.jpg">
+										</div>
+										<div class="cloud-system">
+											<p class="cloud-title"><?php t('Operating system selection') ?></p>
+											<p><?php t('Choose an OS to be installed on your server from a wide list of Windows licenses and Linux distributives. All Linux servers will be deployed with root access via SSH.') ?></p>
+										</div>
+										<div>
+											<div class="dedicated-seevers-selects">
+												<div class="operating-system-select cloud-select">
+													<p class="operating-system-select-text cloud-select-text"><?php t('Select OS:') ?></p><div class="windows-select type-select"><div class="windows-select-text"><p class="operating-system-select-title"><?php t('Please select OS') ?></p></div></div>
+													<div class="custom-select-list">
+														<ul class="custom-select cloud-custom select-os">
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Arch Linux') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Centos') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('ClearOS') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CloudLinux') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Debian') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Elastix') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Fedora') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('FreeBSD') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Gentoo') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('openSUSE') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('R1Soft') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Scientific Linux') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('SME Server') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('PBXWare') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Enterprise Linux') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Xen: Windows 2003 x64') ?> </p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('KVM: Windows 2003 x64') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Xen: Windows 2003 x86') ?></p></div></li>
+															<li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('KVM: Windows 2003 x86') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Xen: Windows 2008 x64') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('KVM: Windows 2008 x64') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Xen: Windows 2008 x86') ?> </p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('KVM: Windows 2008 x86') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Xen & KVM: Windows 7 x64') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Xen & KVM: Windows XP') ?></p></div></li>
+										                    <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('JumpBox') ?></p></div></li>
+									                    </ul>
+								                    </div>
+												</div>
+											</div>
+											<div class="dedicated-seevers-selects">
+													<div class="operating-system-select cloud-select">
+														<p class="operating-system-select-text cloud-select-text"><?php t('Select version:') ?></p>
+														<div class="windows-select modification-select disable"><div class="windows-select-text"><p class="operating-system-select-title"><?php t('Please  select OS before version') ?></p></div>
+														</div>
+													</div>
+							                        <div class="os-modification">
+							                            <div class="custom-select-list" os="Arch Linux">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Arch Linux 2010.05 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Arch Linux 2010.05 x86') ?></p></div></li>
+									                        </ul>
+								                        </div>
+							                            <div class="custom-select-list" os="Centos">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 4.9 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.3 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.3 Trixbox 2.6.2.3 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.4 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.4 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.5 Apache x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.5 Cherokee x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.5 cPanel x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.5 GlusterFS x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.5 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.5 LAMPP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.5 LAMPP x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.5 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.5 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.5 Minimal x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.5 Minimal x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.5 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.5 OpenVZ x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.5 Optimized and Hardened LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.5 Optimized and Hardened LLMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.5 Optimized and Hardened LNMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.5 Optimized and Hardened MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.5 Optimized and Hardened x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.5 Plesk x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.5 Plesk x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.5 Trixbox 2.8.0.4 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.6 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.6 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.6 Apache x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.6 Apache x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.6 cPanel OneClickSSL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.6 cPanel x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.6 HAproxy_1.3.25 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.6 HAproxy_1.4.15 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.6 ISPmanager x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.6 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.6 LAMP x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.6 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.6 MySQL x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.6 Optimized_Hardened_LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.6 Optimized_Hardened_LLMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.6 Optimized_Hardened_LNMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.6 Optimized_Hardened_MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.6 Optimized_Hardened x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.6 Plesk x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.7 Apache x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.7 Apache x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.7 cPanel x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.7 kernel_3.x x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.7 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.7 LAMP x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.7 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.7 MySQL x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.7 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.7 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 5.8 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.0 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.0 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.0 Apache x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.0 Apache x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.0 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.0 LAMP x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.0 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.0 MySQL x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.1 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.1 Apache x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.1 Apache x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.1 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.1 LAMP x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.1 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.1 MySQL x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.2 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.2 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.2 Apache x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.2 Apache x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.2 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.2 LAMP x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.2 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CentOS 6.2 MySQL x86') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="ClearOS">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('ClearOS 5.1 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('ClearOS 5.1 x86 Antispam') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('ClearOS 5.1 x86 MySQL') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('ClearOS 5.1 x86 OpenVPN') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('ClearOS 5.1 x86 Web Proxy') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('ClearOS 5.1 x86 Web Server') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('ClearOS 5.2.sp1 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('ClearOS 5.2.sp1 Antispam x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('ClearOS 5.2.sp1 MySQL x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('ClearOS 5.2.sp1 OpenVPN x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('ClearOS 5.2.sp1 WebProxy x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('ClearOS 5.2.sp1 WebServer x86') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="CloudLinux">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CloudLinux Server 5.5 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CloudLinux Server 5.5 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CloudLinux Server 5.5 x64 Apache') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CloudLinux Server 5.5 x64 cPanel, WHM') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CloudLinux Server 5.5 x64 ISPmanager') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CloudLinux Server 5.5 x64 LAMP') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CloudLinux Server 5.6 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CloudLinux Server 5.6 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CloudLinux Server 5.6 Apache x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CloudLinux Server 5.6 cPanel OneClickSSL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CloudLinux Server 5.6 ISPmanager x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CloudLinux Server 5.6 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CloudLinux Server 5.6 Plesk x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CloudLinux Server 5.7 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CloudLinux Server 5.7 Apache x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CloudLinux Server 5.7 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CloudLinux Server 5.7 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CloudLinux Server 6.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CloudLinux Server 6.1 Apache x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CloudLinux Server 6.1 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('CloudLinux Server 6.1 MySQL x64') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="Debian">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Debian 5.0 Galera and phpMyAdmin x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Debian 5.0 ISP Admin x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Debian 5.0 Magento x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Debian 5.0 Mailcleaner_2010_beta3 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Debian 5.0 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Debian 5.0 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Debian 6.0.0 Cherokee x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Debian 6.0.0 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Debian 6.0.0 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Debian 6.0.0 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Debian 6.0 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Debian 6.3 vyatta x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Debian 6.3 vyatta x86') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="Elastix">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Elastix 1.6.0 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Elastix 2.0.0 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Elastix 2.0.3 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Elastix 2.2 x64') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="Fedora">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Fedora 13 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Fedora 13 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Fedora 14 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Fedora 14 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Fedora 15 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Fedora 15 x86') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="FreeBSD">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('FreeBSD 8.2_HVMPV x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('FreeBSD 9.0_HVMPV x64') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="Gentoo">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Gentoo 10.1_2.6.34 Apache x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Gentoo 10.1_2.6.34 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Gentoo 10.1_2.6.34 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Gentoo 10.1_2.6.34 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Gentoo 10.1 Apache x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Gentoo 10.1 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Gentoo 10.1 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Gentoo 10.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Gentoo 12.0 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Gentoo 2008.0 x64') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="openSUSE">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('openSUSE 11.2 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('openSUSE 11.2 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('openSUSE 11.3 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('openSUSE 11.3 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('openSUSE 11.4 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('openSUSE 11.4 x86') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="R1Soft">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('R1SOFT CDP') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="Red Hat">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 5.5 Hardened x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 5.5 Hardened x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 5.5 LAMPP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 5.5 LAMPP x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 5.5 Plesk x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 5.5 Plesk x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 5.5 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 5.5 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 5.6 Hardened x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 5.6 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 5.6 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 5.6 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 5.7 Apache x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 5.7 Apache x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 5.7 Hardened x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 5.7 Hardened x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 5.7 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 5.7 LAMP x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 5.7 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 5.7 MySQL x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 5.7 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 5.7 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.0 Hardened x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.0 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.0 Minimal x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.0 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.0 OELS_6 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.0 OELS_6 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.0 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.1 Apache x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.1 Apache x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.1 haproxy_stunnel x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.1 Hardened x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.1 Hardened x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.1 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.1 LAMP x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.1 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.1 MySQL x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.1 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.2 Apache x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.2 Hardened x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.2 Hardened x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.2 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.2 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Red Hat Enterprise Linux 6.2 x64') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="Scientific Linux">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Scientific Linux 6.0 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Scientific Linux 6.0 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Scientific Linux 6.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Scientific Linux 6.1 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Scientific Linux 6.2 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Scientific Linux 6.2 x86') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="SME Server">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('SME Server 8.0beta6 x86') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="PBXWare">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('PBXware 3.0 x64') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="Enterprise Linux">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Enterprise Linux Server release 5.5 LAMPP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Enterprise Linux Server release 5.5 LAMPP x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Enterprise Linux Server release 5.5 Plesk x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Enterprise Linux Server release 5.5 Plesk x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Enterprise Linux Server release 5.5 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Enterprise Linux Server release 5.5 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Enterprise Linux Server release 5.6 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Enterprise Linux Server release 5.6 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Enterprise Linux Server release 5.6 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Enterprise Linux Server release 6.0 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Enterprise Linux Server release 6.0 Minimal x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Enterprise Linux Server release 6.0 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Enterprise Linux Server release 6.0 x64') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="Ubuntu">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 10.04 Apache x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 10.04 Cherokee x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 10.04 GlusterFS x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 10.04 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 10.04 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 10.04 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 10.10 Apache x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 10.10 Apache x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 10.10 Cherokee x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 10.10 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 10.10 LAMP x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 10.10 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 10.10 MySQL x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 10.10 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 10.10 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 11.04 Apache x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 11.04 Apache x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 11.04 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 11.04 LAMP x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 11.04 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 11.04 MySQL x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 11.04 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 11.04 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 11.10 Apache x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 11.10 Apache x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 11.10 LAMP x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 11.10 LAMP x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 11.10 MySQL x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 11.10 MySQL x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 11.10 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 11.10 x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 11.2 turnkey x86') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Ubuntu 8.04 x64') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="Xen: Windows 2003 x64">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x64 Enterprise') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x64 Enterprise, IIS, DNS') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x64 Enterprise R2') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x64 Enterprise R2, IIS, DNS') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x64 Standard') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x64 Standard, IIS, DNS') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x64 Standard, SQL') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x64 Standard R2') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x64 Standard R2, IIS, DNS') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x64 Standard R2, SQL') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="KVM: Windows 2003 x64">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x64 Standard') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x64 Standard R2') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x64 Enterprise') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x64 Enterprise R2') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="Xen: Windows 2003 x86">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x86 DC') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x86 DC R2') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x86 Enterprise') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x86 Enterprise, IIS, DNS') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x86 Enterprise, SQL') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x86 Enterprise R2') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x86 Enterprise R2, IIS, DNS') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x86 Enterprise R2, SQL') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x86 Standard, IIS, DNS') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x86 Standard R2') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x86 Standard R2, SQL') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="KVM: Windows 2003 x86">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x86 Standard') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x86 Standard R2') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x86 DC') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x86 DC R2') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2003 x86 Enterprise R2') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="Xen: Windows 2008 x64">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x64 Web R2') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x64 DC R2') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x64 Enterprise R2') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x64 Enterprise R2, IIS') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x64 Enterprise R2, SQL') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x64 Standard R2') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x64 Standard R2, IIS') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x64 Standard, IIS, DNS') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x64 Standard R2, SQL') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('PWindows 2008 x64 Standard R2, IIS, SQLer') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x64 Standard R2, Plesk10') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="KVM: Windows 2008 x64">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x64 Standard') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x64 Standard R2') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x64 DC') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x64 DC R2') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x64 Web') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x64 Web R2') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x64 Enterprise') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x64 Enterprise R2') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="Xen: Windows 2008 x86">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x86 Web') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x86 DC') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x86 Enterprise, IIS, DNS') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x86 Enterprise, IIS, WSP3') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title">-</p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="KVM: Windows 2008 x86">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x86 Standard') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x86 DC') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x86 Web') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 2008 x86 Enterprise') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="Xen & KVM: Windows 7 x64">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows 7 x64 Professional') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														<div class="custom-select-list" os="Xen & KVM: Windows XP">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Windows XP Professional x86') ?></p></div></li>
+									                        </ul>
+								                        </div>
+														 <div class="custom-select-list" os="JumpBox">
+															<ul class="custom-select cloud-custom os-modification">
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox alfresco 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox asterisk 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox bugzilla 1.7.2 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox cacti 1.7.2 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox deki 1.6.3 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox dimdim 1.1.4 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox dokuwiki 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox drupal 1.1.19 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox drupal6 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox drupal7 1.7.3 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox dspace 1.7.2 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox elgg 1.7.3 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox foswiki 1.1.6 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox gallery 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox gallery3 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox glpi 1.7.2 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox glpi 1.7.2 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox joomla 1.1.5 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox joomla15 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox joomla16 1.7.2 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox knowledgetree 1.1.10 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox lampd 1.7.4 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox lappd 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox liferay 1.7.0 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox limesurvey 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox magento 1.7.2 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox mantis 1.7.3 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox mediawiki 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox moinmoin 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox moodle 1.7.4 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox movabletype 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox movabletype 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox nagios 1.1.9 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox nagios3 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox omeka 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox openemm 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox openfire 1.7.0 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox openldap 1.7.0 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox openvpn 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox orangehrm 1.5.0 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox otrs 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox phpbb 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox pmwiki 1.7.3 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox postgresqld 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox projectpier 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox punbb 1.7.2 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox redmine 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox rubyonrails 1.7.0 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox sakai 1.5.0 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox silverstripe 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox snaplogic 1.1.2 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox statusnet 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox sugarcrm 1.1.6 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox sugarcrm5 1.1.18 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox sugarcrm6 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox tikiwiki 1.7.3 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox tomcat 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox trac 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox tracks 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox twiki 1.1.3 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox vtigercrm 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox wordpress 1.7.1 x64') ?></p></div></li>
+										                        <li><div class="custom-select-text"><p class="operating-system-select-title"><?php t('Jumpbox zenoss 1.7.1 x64') ?></p></div></li>
+									                        </ul>
+								                        </div>
+							                        </div>
+											</div>
+										</div>
+									</div>
+
+									<div class="row clearfix cloud-list">
+										<div class="cloud-instant">
+											<p class="cloud-title"><?php t('Instant Deployment') ?></p>
+											<p class=""><?php t('It takes just a few minutes to deploy a new Cloud Server or clone an existing one. The whole process is fully automated and requires no special technical knowledge.') ?></p>
+											<p class="cloud-title"><?php t('Easy Scalability') ?></p>
+											<p class=""><?php t('Should you need more resources for your web application or website, Cloud Hosting platform allows you to dynamically increase and decrease RAM, CPU and disk space with a few simple clicks and reboot. Start with a smaller package and grow when needed.') ?></p>
+											<p class="cloud-title"><?php t('High Availability') ?></p>
+											<p class=""><?php t('Our cloud nodes have a self-healing architecture and automatic hypervisor failover with multi-layered security. Data-center infrastructure has been designed with redundancy in mind to avoid any power outage or network connection problems.') ?></p>
+											<p class="cloud-title"><?php t('Free DDoS Protection') ?></p>
+											<p class=""><?php t('Each Cloud server is protected from all types of DDoS attacks scaling up to 10 Gb/s or 4 Mpps. This level of protection is enough to mitigate against 96% of all attacks that were registered as of Q3 2013.') ?></p>
+										</div>
+										<div class="cloud-cost">
+											<p class="cloud-title"><?php t('Cost Efficiency') ?></p>
+											<p class=""><?php t('Cloud Hosting is billed on pay-as-you-go basis, so you can pay only for resources that you need at the moment and add or remove them when needed with few clicks.') ?></p>
+											<p class="cloud-title"><?php t('Mirrored Data Storage') ?></p>
+											<p class=""><?php t('Encrypted copies of your data are stored on multiple physical servers that are protected from power outages and network connection problems. In an unlikely event of one physical server malfunction you will still be able to run your Cloud Server from other physical servers on our Cloud network.') ?></p>
+											<p class="cloud-title"><?php t('Save money with Light mode') ?></p>
+											<p class=""><?php t('Download OnApp™ application for your iOS or Android device to manage and monitor Cloud nodes on the go. This fully-functional app will allow you to manage virtual machines, add resources, schedule backups and much more.') ?></p>
+										</div>
+									</div>
+									<div class="row last clearfix cloud">
+										<p class="cloud-title-list"><?php t('iOS and Android Apps') ?></p>
+										<p><?php t('Without any doubt you can pay for CoinsHost products and services with Bitcoin (BTC), Litecoin (LTC) and Nextcoin (NXT). We treat decentralized currencies based on encryption as completely legit payment methods and encourage our clients to pay with them. Besides these P2P currencies, we accept a wide range of other payment methods and digital currencies. These include but are not limited to: PayPal, VISA, MasterCard, American Express, Discover, Bank Wire, WebMoney and Perfect Money.') ?></p>
+									</div>
+								</div>
+							</article>
+						</div>	
+					</div>
+			           <!-- end region: Main Content -->
+				</section><!-- /end #main-content -->
 				
-		
-				<!-- Region main-central -->
-				<div class="main-bottom">
-						<div class="main-bottom-inner">	
-
-
-
-<div class="content" style="padding: 20px;">
-
-<table border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td width="480" valign="top">
-
-<?php t('cloud_textbox_01',array('%site%'=>$site->getName()))?> 
-
-      <br>
-      <br>
-      <div align="center"> <img src="/images/partner/clouddiag.png"></div>
-      <br>
-    </td>
-    <td valign="top"> 
-      <table border="0" cellpadding="0" cellspacing="0">
-        <tr valign="top"> 
-          <td width="40">&nbsp;</td>
-          <td width="330"> <b><font size="3"><p align="justify"><?php t('Cloud Hosting hardware components')?></font></b><br>
-            <br>
-            <table width="100%" border="0">
-              <tr valign="top"> 
-                <td colspan="2"><img src="/images/partner/grey.png" width="100%" height="1"></td>
-              </tr>
-              <tr valign="top"> 
-                <td width="21%"><br>
-                  <div style="padding: 5px 0px 0px 0px"><img src="/images/partner/xeon.png"></div>
-                </td>
-                <td width="79%"><font face="Arial, Helvetica, sans-serif"><br>
-<?php t('we_use_intel')?>
-<br>
-                  <br>
-                  </font></td>
-              </tr>
-              <tr valign="top"> 
-                <td colspan="2"><img src="/images/partner/grey.png" width="100%" height="1"></td>
-              </tr>
-              <tr valign="top"> 
-                <td width="21%"><br>
-                  <div style="padding: 5px 0px 0px 0px"><img src="/images/partner/arista.png"></div>
-                </td>
-                <td width="79%"><font face="Arial, Helvetica, sans-serif"><br>
-
-<?php t('10ge_arista')?>
-<br>
-                  <br>
-                  </font></td>
-              </tr>
-              <tr valign="top"> 
-                <td colspan="2"><img src="/images/partner/grey.png" width="100%" height="1"></td>
-              </tr>
-              <tr valign="top"> 
-                <td width="21%"><br>
-                  <div style="padding: 5px 0px 0px 0px"><img src="/images/partner/a10.png"></div>
-                </td>
-                <td width="79%"><font face="Arial, Helvetica, sans-serif"><br>
-<?php t('a10networks_copy')?>
-<br>
-                  <br>
-                  </font></td>
-              </tr>
-              <tr valign="top"> 
-                <td colspan="2"><img src="/images/partner/grey.png" width="100%" height="1"></td>
-              </tr>
-              <tr valign="top"> 
-                <td width="21%"><br>
-                  <div style="padding: 5px 0px 0px 0px"><img src="/images/partner/coraid.png"></div>
-                </td>
-                <td width="79%"><font face="Arial, Helvetica, sans-serif"><br>
-
-<?php t('coraid_and_copy')?>
-<br>
-                  <br>
-                  </font></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr valign="top"> 
-          <td width="40">&nbsp;</td>
-          <td width="330"> 
-            <div align="right"><a class="minia" href="<?php echo url_for('@show_page?name=hardware-platform') ?>"><?php t('Read more about hardware we use')?></a> &raquo;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
-
-
-
-<br><br>
-<?php t('cloud_textbox_04',array('%site%'=>$site->getName()))?> 
-
-
-<Br>
-
-</div>
-<div class="endcontent"></div>
-
-<div class="content" style="padding: 20px;">
-
-
-
-
-
-<?php t('cloud_textbox_03',array('%site%'=>$site->getName()))?> 
-
-
-
-
-<br><br>
-
-<table border="0"  cellpadding="6" cellspacing="0" width=100% height=32>
-
-<tr>
-
-<td class="server_title"><?php t('Name')?></td>
-<td width=90 class="server_title"><?php t('CPU')?></td>
-<td width=90 class="server_title"><?php t('CORES')?></td>
-<td width=90 class="server_title"><?php t('RAM')?></td>
-<td width=90 class="server_title"><?php t('Storage')?></td>
-<td width=90 class="server_title"><?php t('Bandwidth')?></td>
-<td colspan="2" class="server_title" width=50><?php t('Price')?> <?php t('per month')?></td>
-</tr>
-
-</table>
-
-<div style="font-size: 0px; height: 7px; padding: 0px 0px 0px 20px;"></div>
-
-<?php $i = 0 ?>
-<?php foreach($configs as $config): ?>
-<?php $i++ ?>
-
-<?php if(!$config->available) continue; ?>
-
-<div class="server_div">
-
-<table border="0"  cellpadding="0" cellspacing="0" width=100% height=50>
-<tr>
-
-<td class="server_name">
-
-<table cellpadding="0" cellspacing="0" width=100% ><tr>
-<td width=40><img src="<?php echo solar_template_image_url('cloud.png') ?>" width=30></td>
-<td>
-<font class="server_name_font"><?php echo $config->name ?></font>
-</td><td>
-<?php if($config->hot): ?>&nbsp;&nbsp;<img src="<?php echo solar_template_image_url('hot.png') ?>" ><?php endif ?>
-<?php if($config->new): ?>&nbsp;&nbsp;<img src="<?php echo solar_template_image_url('new.png') ?>" ><?php endif ?>
-</td></tr></table>
-
-</td>
-
-<td width=90 class="server_info"><?php include_partial('productfield', array('value' => $config->cpu)) ?></td>
-<td width=90 class="server_info"><?php include_partial('productfield', array('value' => $config->cores)) ?></td>
-<td width=90 class="server_info"><?php include_partial('productfield', array('value' => $config->ram)) ?> <?php t('MB')?></td>
-<td width=90 class="server_info"><?php include_partial('productfield', array('value' => $config->storage)) ?> <?php t('GB')?></td>
-<td width=90 class="server_info"><?php include_partial('productfield', array('value' => $config->bandwidth)) ?> <?php t('GB')?><br>10 Gbit/s</td>
-<td width=70 class="server_price">
-
-<font class="chf"><?php echo eur($config->price) ?> EUR</font><br>
-<font class="usd"><?php echo usd($config->price) ?> USD</font><br> 
-<font class="eur"><?php echo price($config->price) ?> CHF</font><br>
-
-
-</td>
-<td width=140 class="server_info"><a href="<?php echo url_for('@newcart_item_new?product_id=' . $config->id) ?>" class="buynow"><?php t('Buy')?></a></td>
-
-</tr>
-</table>
-
-
-</div>
-
-<?php endforeach ?>
-
-<div align="left" style="padding: 20px 0px 0px 20px"><br><a class="minic" href="<?php echo url_for('@newcart_item_new?product_id=' . $custom_config->id) ?>">Build your own custom Cloud</a> &raquo;</div><br>
-<div align="left" style="padding: 20px 0px 0px 20px"><br><img src="https://server-cloud.r.worldssl.net/images/partner/fresh/cloud_os_templates.png">&nbsp;&nbsp;<a class="minic" href="<?php echo url_for('@cloud_templates') ?>"><?php t('More than 200 OS and Jumpbox templates')?></a> &raquo;</div>
-
-
-
-
-
-
-</div>
-
-<script>
-    $('#discount-slider').discountSlider({
-        'servers' : new Array(<?php $s=''; foreach($configs as $key=>$config) { $s .= strtolower("'$config->name', "); } echo trim($s, ', '); ?>),
-        'prices' : new Array(<?php $s=''; foreach($configs as $key=>$config) { $s .= "'$config->price', "; } echo trim($s, ', '); ?>),
-        'usd' : <?php echo sfConfig::get('solar_usd_rate') ?>,
-        'eur' : <?php echo sfConfig::get('solar_eur_rate') ?>,
-        'discount_per_month' : <?php echo $basic_discount ?>
-    })
-</script>
-
-<div class="endcontent"></div>
-
-
-<div class="content"  style="padding: 20px;">
-
-
-<h3><?php t('Major Advantages of Cloud Hosting')?></h3>
-<table align="center" border="0" cellpadding="0" cellspacing="0" width=100%>
-  <tr valign="top"> 
-    <td width="48%"><b><?php t('Prompt Delivery')?></b><br>
-<?php t('system_resources_and_provided')?>
-<br>
-      <br>
-      <b><?php t('Guaranteed Redundancy')?></b><br>
-<?php t('all_cloud_nodes')?>
-<br>
-      <br>
-      <b><?php t('Hybrid Environments')?></b><br>
-<?php t('dedicatrd_network_enables')?>
-<br>
-      <br>
-      <b><?php t('Good for budget')?></b><br>
-<?php t('pay_only_for_the_capacity')?>
-       <br><br>
-      <b><?php t('Performance')?></b><br>
-
-<?php t('based_on_interl_and_copy_xeon')?>
-<br><br>
-      <b><?php t('control_iphone_android')?></b><br>
-
-<?php t('stay_with_your_cloud')?>
-     </td>
-    <td width="50">&nbsp;</td>
-    <td><b><?php t('KVM over IP')?></b><br>
-
-<?php t('instant_access_to_kvm')?>
-<br>
-      <br>
-      <b><?php t('Easy Upgrades')?></b><br>
-
-<?php t('ability_to_initially')?>
-<br>
-      <br>
-      <b><?php t('Image Library')?></b><br>
-<?php t('more_than_200')?>
-<br>
-      <br>
-      <b><?php t('Control Panel & Self-Service')?></b><br>
-      <?php t('every_aspect_of_your_cloud')?>
-      <br><br><b><?php t('Automated Recovery')?></b><br>
-<?php t('designed_to_automatically')?>
-</td>
-      </tr>
-</table><br>
-
-
-
-</div>
-
-
-</div>
-<div class="endcontent"></div>
-
-<div class="content"  style="padding: 20px;">
-
-
-
-
-
-<h3><?php t('welcome_prices_for_upgrades')?></h3>
-
-<?php include_partial('welcome/addons', array('addons' => $addons)) ?>
-
-
-
-
-<?php slot('kf_server_0') ?>
-
-
-<div class="ft cloud" style="padding: 20px 0px 0px 20px">
-
-<font class="point big"><?php t('Why go Cloud?')?></font>
-<div style="height: 16px; font-size: 0px;"></div>
-
-<table cellpadding="0" cellspacing="0" border=0><tr><td nowrap class="ft_font">
-<font class="point middle"><?php t('Full Server Control')?></font><br>
-<font class="point middle"><?php t('High-Availibility')?></font><br>
-<font class="point middle"><?php t('Elastic Performance')?></font><br>
-<font class="point middle"><?php t('Pay As You Go')?></font><br>
-<font class="point middle"><?php t('Self-healing Storage')?></font><br>
-
-</td><td width=40> </td><td nowrap class="ft_font">
-
-<font class="point middle"><?php t('Xen Hypervisor')?></font><br>
-<font class="point middle"><?php t('Console Access')?></font><br>
-<font class="point middle"><?php t('Rapid Deployment')?></font><br>
-<font class="point middle"><?php t('Multiple OS supported')?></font><br>
-<font class="point middle"><?php t('64-bit architecture')?></font><br>
-</td></tr></table>
-
-</div>
-
-<?php end_slot() ?>
-
-<?php slot('kf_server_1') ?>
-
-<div class="ft cloud2">
-
-<font class="point big"><?php t('Bandwidth')?></font>
-
-<div style="height: 16px; font-size: 0px;"></div>
-	
-<font class="point middle"><?php t('Free in-house bandwidth')?></font><br>
-<font class="point middle"><?php t('10 gbit/s LAN port')?></font><br>
-<font class="point middle"><?php t('Multi-homed connection')?></font><br>
-<font class="point middle"><?php t('Fully redundant')?></font><br>
-<font class="point middle"><?php t('99.9% Uptime SLA')?></font><br>
-
-
-</div>
-
-<?php end_slot() ?>
-
-<?php slot('kf_server_title_0') ?>
-<?php t('Why go Cloud?')?>
-<?php end_slot() ?>
-
-<?php slot('kf_server_title_1') ?>
-<?php t('Bandwidth')?>
-<?php end_slot() ?>
-
-<br>
-
-</div>
-
-
-<br>
-
-
-<div class="content_clear" align=left style="width: 100%;">
-<center>
-
-<table><tr><td>
-<?php include_partial('welcome/kf_server') ?>
-</td></tr></table>
-</div>
-
-
-
-
-
-
-<div class="content" style="padding: 20px;">
-
-
-<?php t('cloud_textbox_02',array('%site%'=>$site->getName()))?> 
-
-
-</div>
-
-
-
-
-
+			</div><!-- /end .content-inner -->
+		</div><!-- /end #content-column -->
+				
+	</div><!-- /end #columns -->
+<!-- end region: Content -->

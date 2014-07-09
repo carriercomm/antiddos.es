@@ -2241,9 +2241,7 @@ tr.error {}
 .e-item-designation_12 {left: 700px;}
 .protect-plan { float: left; margin-top: 0 !important; }
 .protect-plan .products-grid{padding: 0px;list-style: none;position: relative;}
-.protect-plan .biling-plan.first,
-.protect-plan .biling-plan.second{margin: 0 13px 0 0;}
-.protect-plan .biling-plan { list-style: none;width: 278px;display: inline;float: left; min-height: 1035px; }
+.protect-plan .biling-plan { list-style: none; margin: 5px; width: 278px;display: inline;float: left; min-height: 1035px; }
 .protect-plan .biling-plan .border-inner {position: relative; background: #FFF;box-sizing: border-box;width: 100%;line-height: 1.2;box-shadow: 0 0 5px #F5F5F5;color: #5D5D5D;font-size: 12px;}
 .protect-plan .biling-plan .border-inner .title-group {color: #FFF; width: 100%;padding: 22px 20px 20px;box-sizing: border-box;height: 90px;background-color: #333F4F;background-repeat: no-repeat;background-position: top right;}
 .protect-plan .biling-plan .border-inner .title-group .servers-title { font-size: 30px;font-weight: bold;}
@@ -2323,8 +2321,8 @@ tr.error {}
 .cpec-list .cpec-inner-list table tbody tr td:first-child{ width: 30%;color: #6C6C6C;}
 .cpec-inner-list table tbody tr:nth-child(2n+2){background: transparent;}
 .boolin {display: block; width: 16px; height: 16px; box-sizing: border-box; overflow: hidden;text-indent: -9999px;}
-.boolin.true {background: url(images/plus.png) no-repeat center;}
-.boolin.false {background: url(images/minus.png) no-repeat center;}
+.boolin.Yes {background: url(images/plus.png) no-repeat center;}
+.boolin.No {background: url(images/minus.png) no-repeat center;}
 /* =============================================================================
  *   Page faq
  * ========================================================================== */
@@ -2402,8 +2400,10 @@ tr.error {}
 .servers-table .cpu { width: 70px;}
 .servers-table .ram { width: 100px;}
 .servers-table td.submit input {background: #35404d url(images/submit.png) 15px no-repeat; text-align: right; padding-right: 15px; width: 85px; height: 35px; border: none; border-radius: 3px; color: white; font-weight: bold; z-index: 1;}
+.servers-table td.submit input[disabled] {opacity:0.8;}
 .servers-table td.submit { position: relative;}
 .servers-table td.submit input:hover { background: #f57815 url(images/submit.png) 15px no-repeat;}
+.servers-table td.submit input[disabled]:hover { background: #35404d url(images/submit.png) 15px no-repeat; }
 .servers-table .name { padding: 0 0 0 30px !important;}
 .servers-table .raid { width: 70px;}
 .servers-table .protection { width: 90px;}

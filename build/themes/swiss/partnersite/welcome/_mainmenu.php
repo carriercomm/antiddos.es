@@ -7,16 +7,16 @@
 					<a href="<?php echo url_for('@show_page?name=about-us') ?>" title="<?php t('About us') ?>"><?php t('About us') ?></a>
 					<ul class="menu clearfix">
 						<li class="first">
-							<a href="#" title="<?php t('FAQ') ?>"><?php t('FAQ') ?></a>
+							<a href="<?php echo url_for('@show_page?name=faq') ?>" title="<?php t('FAQ') ?>"><?php t('FAQ') ?></a>
 						</li>
 						<li>
-							<a href="#" title="<?php t('Terms of Service') ?>"><?php t('Terms of Service') ?></a>
+							<a href="<?php echo url_for('@show_page?name=terms-of-service') ?>" title="<?php t('Terms of Service') ?>"><?php t('Terms of Service') ?></a>
 						</li>
 						<li>
-							<a href="#" title="<?php t('Privacy Policy') ?>"><?php t('Privacy Policy') ?></a>
+							<a href="<?php echo url_for('@show_page?name=privacy-policy') ?>" title="<?php t('Privacy Policy') ?>"><?php t('Privacy Policy') ?></a>
 						</li>
 						<li class="last">
-							<a href="#" title="<?php t('Reviews') ?>"><?php t('Reviews') ?></a>
+							<a href="<?php echo url_for('@show_page?name=reviews') ?>" title="<?php t('Reviews') ?>"><?php t('Reviews') ?></a>
 						</li>
 					</ul>
 				</li>
@@ -57,7 +57,7 @@
 					</ul>
 				</li>
 				<li class="expanded">
-					<a href="#" title=""><?php t('All products')?></a>
+					<a href="<?php echo url_for('@show_page?name=products') ?>" title=""><?php t('All products')?></a>
 					<ul class="menu clearfix">
 						<li class="first">
 							<a href="<?php echo url_for('@server_config_list') ?>" title="<?php t('Dedicated Servers')?>"><?php t('Dedicated Servers')?></a>
@@ -72,13 +72,13 @@
 							<a href="<?php echo url_for('@colocation_config_list') ?>" title="<?php t('Collocation in Switzerland')?>"><?php t('Hardware colocation')?></a>
 						</li>
 						<li>
-							<a href="#" title=""><?php t('Control panels')?></a>
+							<a href="<?php echo url_for('@show_page?name=contol-panels') ?>" title=""><?php t('Control panels')?></a>
 						</li>
 						<li>
 							<a href="<?php echo url_for('@show_page?name=bitsync') ?>" title=""><?php t('BitTorrent Sync')?></a>
 						</li>
 						<li>
-							<a href="#" title=""><?php t('Content Delivery Network')?></a>
+							<a href="<?php echo url_for('@show_page?name=cdn') ?>" title=""><?php t('Content Delivery Network')?></a>
 						</li>
 						<li class="last">
 							<a href="<?php echo url_for('@gameservers_config_list') ?>" title="<?php t('DDoS Protected Game Servers')?>"><?php t('Game Servers')?></a>
@@ -86,10 +86,10 @@
 					</ul>
 				</li>
 				<li>
-					<a href="#" title=""><?php t('Contacts')?></a>
+					<a href="<?php echo url_for('@show_page?name=contact-us') ?>" title=""><?php t('Contacts')?></a>
 				</li>
 				<li class="last">
-					<a href="#" title=""><?php t('Blog')?></a>
+					<a href="<?php echo url_for('@show_page?name=blog') ?>" title=""><?php t('Blog')?></a>
 				</li>
 			</ul>
 		</div>

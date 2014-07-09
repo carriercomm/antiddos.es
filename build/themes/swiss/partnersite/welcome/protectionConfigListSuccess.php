@@ -1,365 +1,277 @@
+<!-- region: Content -->
+	<div id="columns" class="columns clearfix">
+		<div id="content-column" class="content-column" role="main">
+			<div class="content-inner">
+				
+				<section id="main-content">
+					<!-- region: Main Content -->
+					<div id="content" class="region page-ddos-protection">
 
-<style>
+					<div id="main-content-header" class="clearfix">
+						<h1 id="page-title"><?php t('DDoS protection') ?></h1>
 
-.tdbar_st3_left { background:url('/images/partner/swiss/slider4_01.jpg') repeat-x right top; height:372px;}
-.tdbar_st3_center { background:url('/images/partner/swiss/slider4_02.jpg') repeat-x 0 0; height:372px; width: 980px;}
-.tdbar_st3_right { background:url('/images/partner/swiss/slider4_03.jpg') repeat-x left top; height:372px;}
-
-.menubarleft { background: url('/images/partner/swiss/slider4_04.jpg') repeat-x right top; width: 100%; height: 29px;}
-.menubarright { background: url('/images/partner/swiss/slider4_06.jpg') repeat-x left top;  width: 100%; height: 29px; }
-.four-div {
-border-top: 6px solid rgb(242, 242, 243);
-border-radius: 10px;
-width: 900px;}
-.four-div-inner {
-background: white;
-border-radius: 10px;
-border-bottom: 3px solid rgb(236, 192, 168);
-}
-.slider_title {
-font-family: "MyFont";
-font-size: 36px;
-}
-.slider_text {
-font-family: "MyFont";
-font-size: 23px;
-}
-</style>
-
-	<link type="text/css" rel="stylesheet" href="/css/partner/swiss/css/style-ddos.css" />
-			<script type="text/javascript" src="/css/partner/swiss/js/jscript.ddos.js"></script>	
-<?php slot('slider_title') ?><font class="hh_02"><?php echo t('text_head_ddos_1') ?></font><?php end_slot() ?>
-<?php slot('slider_text') ?><font class="hh_02"><?php echo t('text_head_ddos_2') ?></font><?php end_slot() ?>
-<style>
-.four-div {
-border-top: 7px solid rgb(176, 202, 255);
-border-radius: 10px;
-width: 900px;}
-
-
-.four-div #link-1 {
-	background: url(/css/partner/swiss/images/ddos-icons/icmp-hover.png) center  30px no-repeat;
-}
-
-.four-div #link-2 {
-	background: url(/css/partner/swiss/images/ddos-icons/udp-hover.png) center 30px no-repeat;
-}
-
-.four-div #link-3 {
-	background: url(/css/partner/swiss/images/ddos-icons/syn-hover.png) center  30px no-repeat;
-}
-
-.four-div #link-4 {
-	background: url(/css/partner/swiss/images/ddos-icons/get-hover.png) center 30px no-repeat;
-}
-
-.four-div #link-5 {
-	background: url(/css/partner/swiss/images/ddos-icons/frag-hover.png) center  30px no-repeat;
-}
-
-.four-div #link-6 {
-	background: url(/css/partner/swiss/images/ddos-icons/dns-hover.png) center 30px no-repeat;
-}
-
-.four-div #link-7 {
-	background: url(/css/partner/swiss/images/ddos-icons/4m-hover.png) center  30px no-repeat;
-}
-
-.four-div #link-8 {
-	background: url(/css/partner/swiss/images/ddos-icons/10gb-hover.png) center 30px no-repeat;
-}
-
-.four-div #link-1:hover {
-	background: url(/css/partner/swiss/images/ddos-icons/icmp.png) center  30px no-repeat;
-}
-
-.four-div #link-2:hover {
-	background: url(/css/partner/swiss/images/ddos-icons/udp.png) center 30px no-repeat;
-}
-
-.four-div #link-3:hover {
-	background: url(/css/partner/swiss/images/ddos-icons/syn.png) center  30px no-repeat;
-}
-
-.four-div #link-4:hover {
-	background: url(/css/partner/swiss/images/ddos-icons/get.png) center 30px no-repeat;
-}
-
-.four-div #link-5:hover {
-	background: url(/css/partner/swiss/images/ddos-icons/frag.png) center  30px no-repeat;
-}
-
-.four-div #link-6:hover {
-	background: url(/css/partner/swiss/images/ddos-icons/dns.png) center 30px no-repeat;
-}
-
-.four-div #link-7:hover {
-	background: url(/css/partner/swiss/images/ddos-icons/4m.png) center  30px no-repeat;
-}
-
-.four-div #link-8:hover {
-	background: url(/css/partner/swiss/images/ddos-icons/10gb.png) center 30px no-repeat;
-}
-
-.four-div-inner {
-background: #e8f7fb;
-border-radius: 10px;
-border-bottom: 3px solid rgb(193, 201, 233);
-}
-</style>
-<div class="content" style="width: 100%;">
-
-								<!-- Block  main four link -->
-								<div class="four-links four-div">
-																
-										<!-- Block four link inner-->
-										<div class="four-div-inner links-group">
-												<div class="first-link link" id="link-1">
-																<div class="inner-link">	
-																<a href="<?php echo url_for('@show_page?name=free-ddos-protection') ?>">Flood Protected</a>
-																</div>
-												</div>
-												<div class="second-link link" id="link-2">
-																<div class="inner-link">
-																<a href="<?php echo url_for('@show_page?name=free-ddos-protection') ?>">UDP Protection</a>
-																</div>
-												</div>
-												<div class="third-link link" id="link-3">
-																<div class="inner-link">
-																<a href="<?php echo url_for('@show_page?name=free-ddos-protection') ?>">SYN Protection</a>
-																</div>
-												</div>
-												<div class="four-link link" id="link-4">
-																<div class="inner-link">
-																<a href="<?php echo url_for('@show_page?name=free-ddos-protection') ?>">TCP Protection</a>
-																</div>
-												</div>
-												<div class="four-link link" id="link-5">
-																<div class="inner-link">
-																<a href="<?php echo url_for('@show_page?name=free-ddos-protection') ?>">Frag Protection</a>
-																</div>
-												</div>
-												<div class="four-link link" id="link-6">
-																<div class="inner-link">
-																<a href="<?php echo url_for('@show_page?name=free-ddos-protection') ?>">Attack Protection</a>
-																</div>
-												</div>
-												<div class="four-link link" id="link-7">
-																<div class="inner-link">
-																<a href="<?php echo url_for('@show_page?name=free-ddos-protection') ?>">to 12M packets</a>
-																</div>
-												</div>
-												<div class="four-link link" id="link-8">
-																<div class="inner-link">
-																<a href="<?php echo url_for('@show_page?name=free-ddos-protection') ?>">to 30 Gbit</a>
-																</div>
-												</div>
-												
-										</div>
-										<!-- End block  main four link inner --></div>
-<br>
-
-<table width=910 cellpadding="0" cellspacing="0" border=0><tr><td valign=top>
-
-<p align="justify">
-<?php t('ddos_textbox_01',array('%site%'=>$site->getName()))?>
-
-
-
-
-</td><td width=20> </td><td valign=top width=270>
-
-
-<div class="ft mini" style="height: 100px;">
-<font class="point big" style="font-size: 16px;"><?php t('Your business protected')?></font><br>
-<div style="height: 10px; font-size: 0px;"></div>
-<font class="newpoint middle"><?php t('Instant setup')?></font><br>
-<font class="newpoint middle"><?php t('Setup assistance')?></font><br>
-<font class="newpoint middle"><?php t('Stay with your current ISP')?></font><br>
-</div>
-
-<br>
-
-<div class="ft mini" style="height: 140px";>
-
-<font class="newpoint big" style="font-size: 16px;"><?php t('Key Features')?></font><br>
-<div style="height: 10px; font-size: 0px;"></div>
-<font class="newpoint middle"><?php t('All types of attacks')?></font><br>
-<font class="newpoint middle"><?php t('Innovative technology')?></font><br>
-<font class="newpoint middle"><?php t('Automatic detection')?></font><br>
-<font class="newpoint middle"><?php t('Fully transparent')?></font><br>
-<font class="newpoint middle"><?php t('Remote protection')?></font><br>
-<font class="newpoint middle"><?php t('99.9% uptime SLA')?></font><br>
-
-
-</td></tr></table>
-
-
-</div>
-
-	<!-- Region main-central -->
-				<div class="main-central">
-						<div class="main-central-inner">
-
-<div style="height: 130px; display: block;">								
-								<div class="block free-servers" style="position: absolute; width: 100%; left: 0;">
-										<img src="/css/partner/swiss/images/PP-blockall-back.png" height="134"/>
-										<div class="title"><?php t('100 Protection')?></div>
-										<div class="description"><?php t('DDoS any Protection')?></div>
-								</div>
-</div>
-								
+						<div id="breadcrumb" class="clearfix">
+							<ol id="crumbs" class="clearfix">
+								<li class="crumb crumb-first"><a href="index.html" title="" class="active-trail"><?php t('Home') ?></a></li>
+								<li class="crumb crumb-last"><?php t('DDoS protection') ?></li>
+							</ol>
 						</div>
-		
-				<!-- End region main-central -->
+					</div>
 
-<div class="content"> 
+						<!-- block: Products -->
+						<div id="block-antiddos-top-image" class="block clearfix">
+							<div class="block-inner">
+								<div class="block-content"><img src="/images/ddos-protection.jpg"></div>
+							</div>
+						</div>
+						<!-- end block: Products -->
 
-
-
-<font class="addontitle"><?php t('Select DDoS Protection package')?></font><br><br>
-
-<?php t('ddos_boxtext_03',array('%site%'=>$site->getName()))?><br><br>
-
-<table border="0"  cellpadding="0" cellspacing="0" width=100%>
-<tr>
-
-<?php $i = 0 ?>
-<?php foreach($configs as $config): ?>
-<?php $i++; ?>
-<?php if(!$config->available) continue; ?>
-<td width=32% align=center valign=top>
-<!-- block -->
-
-<table  width="100%" border="0" cellpadding="0" cellspacing="0">
-	<tr>
-	 <td align=center class="ddos_name"><?php echo $config->name ?></td>
-	</tr>
-
-<tr><td bgcolor="#3484af" align=left class="ddos_box_2">
-
-
-
-<table width=100% height=150 cellpadding="0" cellspacing="0" border=0 >
-
-<tr><td colspan=2 height=24 align=left><font size="3" color="#BADBE8"><strong><?php t('Price')?></strong></font></td></tr>
-<tr><td  align=left width=100 valign=top height=50><font color="#BADBE8"><?php t('Monthly fee')?></font></td><td align=right> 
-<font class="chf"><?php echo eur($config->price) ?> EUR</font></font><br>
-<font class="usd"><font color="#CCCCCC"><?php echo usd($config->price)?> USD<br><?php echo price_ex($config->price) ?></font></font>
-
-</td></tr>
-<tr><td  colspan=2> </td></tr>
-<tr><td  align=left valign=top  height=50><font color="#BADBE8"><?php t('Setup fee')?></font></td><td align=right valign=top>
-<font class="chf"><?php echo price_ex(eur($config->setup_fee), 'EUR') ?></font></font><Br>
-<font class="usd"><font color="#CCCCCC"><?php echo price_ex(usd($config->setup_fee), 'USD') ?></font></font><br>
-<font class="usd"><font color="#CCCCCC"><?php echo price_ex($config->setup_fee) ?></font></font>
-
-
-</td></tr>
-</table>
-
-
-
-
-</td></tr>
-
-
-	<tr>
-		<td bgcolor="#eefbff" align=center background="/images/partner/fresh/boxbg2.png">
-		
-<br>
-<table width=86%cellpadding="5" cellspacing="0" border=0 >
-
-<tr><td colspan=2 height=40 align=left ><b><font size="3"><?php t('Configuration')?></font></b></td></tr>
-
-
-<tr><td  align=left width=120><?php t('Max websites')?></td><td align=left > <?php echo limit($config->max_websites) ?></td></tr>
-<tr><td align=left ><?php t('Max domains')?></td><td align=left > <?php echo limit($config->max_domains) ?></td></tr>
-<tr><td align=left ><?php t('Max subdomains')?></td><td align=left > <?php echo limit($config->max_subdomains) ?></td></tr>
-<tr><td  align=left valign=top height=58><?php t('Protocols')?> </td><td valign=top align=left ><?php echo str_replace(', ', '<br>', $config->protocols) ?></td> </tr>
-<tr><td align=left ><?php t('DNS hosting')?></td><td align=left ><?php include_partial('global/check', array('value' => $config->dns_hosting)) ?></td></tr>
-<tr><td align=left ><?php t('Content caching')?></td><td align=left ><?php include_partial('global/check', array('value' => $config->content_caching)) ?>
-<tr><td  align=left valign=top><?php t('cart_incoming_smtp')?></td><td valign=top align=left ><?php include_partial('global/check', array('value' => $config->smtp_protection)) ?>
-</table>
-<br>
-</td></tr><tr><td bgcolor="#D9DCE9" align=center background="/images/partner/fresh/boxbg3.png">
-
-<br>
-<table width=86% cellpadding="4" cellspacing="0">
-<tr><td colspan=2 height=40 align=left><b><font size="3"><?php t('Limits')?></font></b></td></tr>
-<tr><td align=left><?php t('Max. Packets/s')?></td><td align=left><?php echo limit($config->limit_packets) ?></td></tr>
-<tr><td align=left><?php t('Max. Requests/s')?></td><td align=left><?php echo limit($config->limit_requests) ?></td></tr>
-<tr><td align=left><?php t('Max. Attack Bandwidth')?></td><td align=left><?php echo limit($config->limit_attack_bandwidth) ?></td></tr>
-<tr><td align=left><?php t('Max. Clean Bandwidth')?></td><td align=left><?php echo limit($config->limit_clean_bandwidth) ?></td></tr>
-</table>
-<br>
-</td></tr><tr><td bgcolor="#EDEDEB" align=center background="/images/partner/fresh/boxbg2.png">
-<br>
-<table width=86% cellpadding="4" cellspacing="0">
-<tr><td colspan=2 height=50 align=left><b><font size="3"><?php t('Upgrades / Overage')?></font></b></td></tr>
-<tr><td valign=top align=left><?php t('Attack Bandwidth')?></td><td align=left valign=top>
-<?php echo price_ex(eur($config->getAddonPriceBySlug('attack-bandwidth-overage')), 'EUR') ?><Br>
-<font class="usd"><?php echo price_ex(usd($config->getAddonPriceBySlug('attack-bandwidth-overage')), 'USD') ?> &nbsp;</font><br>
-<font class="usd"><?php echo price_ex($config->getAddonPriceBySlug('attack-bandwidth-overage')) ?> &nbsp;</font>
-
-</td></tr>
-<tr><td valign=top align=left><?php t('Clean Bandwidth')?></td><td align=left valign=top>
-<?php echo price_ex(eur($config->getAddonPriceBySlug('clean-bandwidth-overage')), 'EUR') ?><Br>
-<font class="usd"><?php echo price_ex(usd($config->getAddonPriceBySlug('clean-bandwidth-overage')), 'USD') ?> &nbsp;</font><br>
-<font class="usd"><?php echo price_ex($config->getAddonPriceBySlug('clean-bandwidth-overage')) ?> &nbsp;</font>
-
-</td></tr>
-<tr><td valign=top align=left><?php t('Extra website')?></td><td align=left valign=top>
-<?php echo price_ex(eur($config->getAddonPriceBySlug('extra-websites')), 'EUR') ?><Br>
-<font class="usd"><?php echo price_ex(usd($config->getAddonPriceBySlug('extra-websites')), 'USD') ?> &nbsp;</font><br>
-<font class="usd"><?php echo price_ex($config->getAddonPriceBySlug('extra-websites')) ?> &nbsp;</font>
-
-
-</td></tr>
-<tr><td valign=top align=left><?php t('Extra domain')?></td><td align=left valign=top >
-<?php echo price_ex(eur($config->getAddonPriceBySlug('extra-domains')), 'EUR') ?><Br>
-<font class="usd"><?php echo price_ex(usd($config->getAddonPriceBySlug('extra-domains')), 'USD') ?> &nbsp;</font><br>
-<font class="usd"><?php echo price_ex($config->getAddonPriceBySlug('extra-domains')) ?> &nbsp;</font>
-
-
-</td></tr>
-<tr><td valign=top align=left><?php t('Incoming SMTP protection')?></td><td align=left valign=top>
-<?php echo price_ex(eur($config->getAddonPriceBySlug('smtp-protection')), 'EUR') ?><Br>
-<font class="usd"><?php echo price_ex(usd($config->getAddonPriceBySlug('smtp-protection')), 'USD') ?> &nbsp;</font><br>
-<font class="usd"><?php echo price_ex($config->getAddonPriceBySlug('smtp-protection')) ?> &nbsp;</font>
-
-
-</td></tr>
-</table>
-<br>
-</td></tr>
-<tr><td align=center bgcolor="#D9DCE9" height=3> </td></tr>
-<tr><td align=center bgcolor="#eeeeee"><br><a href="<?php echo url_for('@newcart_item_new?product_id=' . $config->id) ?>" class="buynow"><?php t('Buy')?></a><br></td></tr>
-
-</table>
-
-</td>
-<?php if ($i<count($configs)): ?>
-<td width=20>&nbsp;</td>
-<?php endif ?>
-<?php endforeach ?>
-
-</tr></table>
-
-
-<br>
-
-</div>
-<div class="endcontent"></div>
-<div class="content">
-
-
-<?php t("ddos_textbox_02")?>
-
-<br><br>
-
-
-</div>
-
-
-
+						<div id="block-system-main" class="block block-system no-title">  
+							<article id="node" class="node node-article">
+								<div class="node-content">
+									<div class="row first clearfix charts">
+										
+										<div class="chart-text">
+											<p><?php t('21% growth of Distributed Denial of Service attacks over 1 Gb/s has been reported in Q3 2013. DDoS continues to be a global threat with alarming increases in attack size and duration. Nowadays efficient protection against web threats is as important as high quality hardware and network, especially if you run a mission critical service or application. Based on our vast experience in fighting against online threats, CoinsHost have developed a solution that is capable of mitigating against all types of DDoS attacks with SLA guaranteed result. If you are unsure which DDoS protection plan will meet your requirements best, contact us for <a class="blue" href="#">live help.</a>') ?></p>
+										</div>
+										
+										<div class="charts-box">
+											<ul class="ddos-list">
+												<li class="title-list"><?php t('Mitigation against attacks up to 200 Gb/s') ?></li>
+												<li class="title-list"><?php t('Emergency setup with free technical assistance') ?></li>
+												<li class="title-list"><?php t('No need to change your current hosting') ?></li>
+												<li class="title-list"><?php t('Attack mitigation SLA guarantee') ?></li>
+												<li class="title-list"><?php t('Real-time automatic filter adjustment') ?></li>
+												<li class="title-list"><?php t('Extremely fast filter reaction time') ?></li>
+												<li class="title-list"><?php t('Free protection within our network') ?></li>
+											</ul>
+										</div>
+									</div>
+									<div class="row clearfix billing-selector">
+										<!-- Block slider discount-->
+										<div class="block discount-counter">
+											<div class="slider-body">
+												<h2 class="billing-titile"><?php t('Billing period & discount selector') ?></h2>
+												<p class="some-description"><?php t('CoinsHost encourages its clients to choose longer billing periods for their convenience. Longer billing period will also allow you to save considerable amount of money as maximum discount for a 12-month period is 22%.') ?></p>
+											</div>
+											<div class="mail-amount-mail-wrp">
+												<div id="dis-scale">
+													<div class="size-item1" ></div>
+													<div class="size-item2" ></div>
+													<div class="size-item3" ></div>
+													<div class="size-item4"></div>
+													<div class="size-item5"></div>
+													<div class="size-item6"></div>
+													<div class="size-item7"></div>
+													<div class="size-item8"></div>
+													<div class="size-item9"></div>
+													<div class="size-item10"></div>
+												</div>
+												<div id="billing-slider"></div>
+												<div class="monthinner">
+													<span id="month_number_order">6</span><?php t('month(s)') ?>
+												</div>
+												<ul class="b-designation-of-mailboxes">
+															<li class="e-item-designation-of-mailboxes e-item-designation_1"><?php t('0%') ?></li>
+															<li class="e-item-designation-of-mailboxes e-item-designation_2"><?php t('2%') ?></li>
+															<li class="e-item-designation-of-mailboxes e-item-designation_3"><?php t('4%') ?></li>
+															<li class="e-item-designation-of-mailboxes e-item-designation_4"><?php t('6%') ?></li>
+															<li class="e-item-designation-of-mailboxes e-item-designation_5"><?php t('8%') ?></li>
+															<li class="e-item-designation-of-mailboxes e-item-designation_6 active"><?php t('10%') ?></li>
+															<li class="e-item-designation-of-mailboxes e-item-designation_7"><?php t('12%') ?></li>
+															<li class="e-item-designation-of-mailboxes e-item-designation_8"><?php t('14%') ?></li>
+															<li class="e-item-designation-of-mailboxes e-item-designation_9"><?php t('16%') ?></li>
+															<li class="e-item-designation-of-mailboxes e-item-designation_10"><?php t('18%') ?></li>
+															<li class="e-item-designation-of-mailboxes e-item-designation_11"><?php t('20%') ?></li>
+															<li class="e-item-designation-of-mailboxes e-item-designation_12"><?php t('22%') ?></li>
+													</ul>
+												<input id="month-vallue" type="hidden" name="month" VALUE="6">
+												<input id="discount-vallue" type="hidden" name="discount" VALUE="10">
+											</div>
+										</div>
+									</div>
+									<div class="row clearfix protect-plan">
+										<div class="protect-block-title">
+											<h2 class="billing-titile"><?php t('Protection type plan') ?></h2>
+											<p><?php t('Please, select following protection type plan. Plan details you will see on hover.') ?></p>
+										</div>
+										<ul class="products-grid">
+													
+													<!-- Preloading billing plans -->
+													<?php $i = 0 ?>
+													<?php foreach($configs as $config): ?>
+													<?php $i++; ?>
+													<?php if(!$config->available) continue; ?>
+													
+													<li class="biling-plan">
+														<div class="border-inner">
+															
+															<div class="title-group">
+																<span class="servers-title"><?php echo $config->name; ?></span>
+																<span class="fish1"></span>
+																<span class="servers-title-pseudo"><?php t($config->name . ' DDoS billing plan') ?></span>
+															</div>
+															
+															<div class="about-group">
+																<p><?php t('Full-scale protection from all types of') ?></p>
+																<p><?php t('DDoS attacks for a single website. Pick') ?></p>
+																<p><?php t('this plan if you are sure about type and') ?></p>
+																<p><?php t('rate of the attack that your site is under.') ?></p>
+															</div>
+															
+															<div class="price-group">
+																	<div class="price-euro">
+																		<span class="price">0.00 <?php t('฿') ?></span>
+																		<span class="period"><?php t('/month') ?></span>
+																	</div>
+																	<div class="price-other">
+																		<span class="price"><?php echo price_ex($config->price) ?></span>
+																		<span class="price"><?php echo usd($config->price) ?> <?php t('$') ?></span>
+																		<span class="price"><?php echo eur($config->price) ?> <?php t('€') ?></span>
+																	</div>
+															</div>
+															
+															<div class="price-group-second">
+																	<div class="price-euro">
+																		<span class="price">0.00 <?php t('฿') ?></span>
+																		<span class="period"><?php t('/setup') ?></span>
+																	</div>
+																	<div class="price-other">
+																		<span class="price"><?php echo price_ex($config->setup_fee) ?></span>
+																		<span class="price"><?php echo price_ex(usd($config->setup_fee), '$') ?></span>
+																		<span class="price"><?php echo price_ex(eur($config->setup_fee), '€') ?></span>
+																	</div>
+															</div>
+															
+															<div class="billing-order form">
+																	<form>
+																		<div class="submit-container">
+																			<input type="button" id="add-cart-submit" value="<?php t('Place order') ?>" onclick="location.href='<?php echo url_for('@newcart_item_new?product_id=' . $config->id) ?>';">
+																		</div>
+																	</form>
+																	<div class="read-item">
+																		<a href="#"><?php t('Live help') ?></a>
+																	</div>
+															</div>
+															
+														</div>
+														<div class="cpecification">
+															<h2><?php t('Protection plan configuration') ?></h2>
+															<div class="spac-box">
+																<ul class="cpec-list">
+																	<li class="cpec-inner-list first">
+																		<table class="addons main">
+																				<tbody>
+																				<tr>
+																					<td><?php t('Max. websites') ?></td>
+																					<td><?php echo limit($config->max_websites) ?></td>
+																				</tr>
+																				<tr>
+																					<td><?php t('Max. domains') ?></td>
+																					<td><?php echo limit($config->max_domains) ?></td>
+																				</tr>
+																				<tr>
+																					<td><?php t('Max. subdomains') ?></td>
+																					<td><?php echo limit($config->max_subdomains) ?></td>
+																				</tr>	
+																				<tr>
+																					<td><?php t('Protocols') ?></td>
+																					<td><?php echo str_replace(', ', '<br>', $config->protocols) ?></td>
+																				</tr>
+																								
+																				<tr>
+																					<td><?php t('Protected DNS hosting') ?></td>
+																					<td><span class="boolin <?php include_partial('global/check', array('value' => $config->dns_hosting)) ?>"></span></td>
+																				</tr>
+																				<tr>
+																					<td><?php t('Content caching') ?></td>
+																					<td><span class="boolin <?php include_partial('global/check', array('value' => $config->content_caching)) ?>"></span></td>
+																				</tr>
+																				<tr>
+																					<td><?php t('SMTP protection') ?></td>
+																					<td><span class="boolin <?php include_partial('global/check', array('value' => $config->smtp_protection)) ?>"></span></td>
+																				</tr>
+																			</tbody>
+																		</table>
+																	</li>
+																	<li class="cpec-inner-list last">
+																		<table class="addons second">
+																				<tbody>
+																				<tr>
+																					<td><?php t('Max. packets/s') ?></td>
+																					<td><?php echo limit($config->limit_packets) ?></td>
+																				</tr>
+																				<tr>
+																					<td><?php t('Max. requests/s') ?></td>
+																					<td><?php echo limit($config->limit_requests) ?></td>
+																				</tr>
+																				<tr>
+																					<td><?php t('Max. attack bandwidth') ?></td>
+																					<td><?php echo limit($config->limit_attack_bandwidth) ?></td>
+																				</tr>	
+																				<tr>
+																					<td><?php t('Max. clean bandwidth') ?></td>
+																					<td><?php echo limit($config->limit_clean_bandwidth) ?></td>
+																				</tr>
+																				<tr>
+																					<td><?php t('Attack bandwidth upgrade') ?></td>
+																					<td><?php echo price_ex($config->getAddonPriceBySlug('attack-bandwidth-overage')) ?>&nbsp;&nbsp;<?php echo price_ex(usd($config->getAddonPriceBySlug('attack-bandwidth-overage')), '$') ?>&nbsp;&nbsp;<?php echo price_ex(eur($config->getAddonPriceBySlug('attack-bandwidth-overage')), '€') ?></td>
+																				</tr>
+																				<tr>
+																					<td><?php t('Clean bandwidth upgrade') ?></td>
+																					<td><?php echo price_ex($config->getAddonPriceBySlug('clean-bandwidth-overage')) ?>&nbsp;&nbsp;<?php echo price_ex(usd($config->getAddonPriceBySlug('clean-bandwidth-overage')), '$') ?>&nbsp;&nbsp;<?php echo price_ex(eur($config->getAddonPriceBySlug('clean-bandwidth-overage')), '€') ?></td>
+																				</tr>
+																				<tr>
+																					<td><?php t('Add extra website') ?></td>
+																					<td><?php echo price_ex($config->getAddonPriceBySlug('extra-websites')) ?>&nbsp;&nbsp;<?php echo price_ex(usd($config->getAddonPriceBySlug('extra-websites')), '$') ?>&nbsp;&nbsp;<?php echo price_ex(eur($config->getAddonPriceBySlug('extra-websites')), '€') ?></td>
+																				</tr>
+																				<tr>
+																					<td><?php t('Add extra domain') ?></td>
+																					<td><?php echo price_ex($config->getAddonPriceBySlug('extra-domains')) ?>&nbsp;&nbsp;<?php echo price_ex(usd($config->getAddonPriceBySlug('extra-domains')), '$') ?>&nbsp;&nbsp;<?php echo price_ex(eur($config->getAddonPriceBySlug('extra-domains')), '€') ?></td>
+																				</tr>
+																				<tr>
+																					<td><?php t('Add SMTP protection') ?></td>
+																					<td><?php echo price_ex($config->getAddonPriceBySlug('smtp-protection')) ?>&nbsp;&nbsp;<?php echo price_ex(usd($config->getAddonPriceBySlug('smtp-protection')), '$') ?>&nbsp;&nbsp;<?php echo price_ex(eur($config->getAddonPriceBySlug('smtp-protection')), '€')?></td>
+																				</tr>
+																			</tbody>
+																		</table>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</li>
+													<?php if ($i<count($configs)): ?>
+													<?php endif ?>
+													<?php endforeach ?>
+										</ul>
+									</div>
+									<div class="row last clearfix list">
+										<ul>
+											<li>
+												<p class="title-list"><?php t('Mitigation Techniques') ?></p>
+												<p class="list-content"><?php t('CoinsHost has a vast experience in protecting against application-level and network-level attacks. We host hundreds of servers on our protected network and mitigate against dozens of DDoS attacks every day. Our engineers have developed a custom built self-learning solution based on highly efficient hardware, proven mitigation techniques and proprietary software. CoinsHost will detect, automatically analyse and mitigate against HTTP, UDP, SYN, ICMP floods and all other types of DDoS attacks that scale up to 200 Gb/s.') ?></p>
+											</li>
+											<li>
+												<p class="title-list"><?php t('Protection Setup') ?></p>
+												<p class="list-content"><?php t('There is no rocket science knowledge required on your side to set DDoS protection up. All you need to do is to point your domains DNS A zones to the protected IP address that we will provide you with, or just change your name servers to our name servers and let us do the rest. If you need assistance with this, we will adjust your DNS free of charge, as well as add any custom rules to the firewall. Although we start filtering traffic from the very first packet, please be advised that new DNS entries still take from few minutes to several hours to get propagated across all DNS servers on the web.') ?></p>
+											</li>
+											<li>
+												<p class="title-list"><?php t('Low Latency and Free DDoS Protection') ?></p>
+												<p class="list-content"><?php t('For some applications, services and websites latency is of paramount importance. Unfortunately, remote proxies and tunnels add extra latency as long as they work as a middleman between your site and the web. If latency is important for your online business, please consider moving to one of our Dedicated Servers with free DDoS protection that are hosted on a low-latency redundant network with 15 TB of premium bandwidth included in the price. There are over 20 different hardware configurations for you to choose from.') ?></p>
+											</li>
+											<li>
+												<p class="title-list"><?php t('Payment Methods') ?></p>
+												<p class="list-content"><?php t('Without any doubt you can pay for CoinsHost products and services with Bitcoin (BTC), Litecoin (LTC) and Nextcoin (NXT). We treat decentralized currencies based on encryption as completely legit payment methods and encourage our clients to pay with them. Besides these P2P currencies, we accept a wide range of other payment methods and digital currencies. These include but are not limited to: PayPal, VISA, MasterCard, American Express, Discover, Bank Wire, WebMoney and Perfect Money.') ?></p>
+											</li>
+										</ul>	
+									</div>
+								</div>
+							</article>
+						</div>	
+					</div>
+			           <!-- end region: Main Content -->
+				</section><!-- /end #main-content -->
+			</div><!-- /end .content-inner -->
+		</div><!-- /end #content-column -->
+	</div><!-- /end #columns -->
+<!-- end region: Content -->

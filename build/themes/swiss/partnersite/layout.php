@@ -10,13 +10,16 @@
 	<link type="text/css" rel="stylesheet" href="/css/partner/swiss/global.base.css">
 	<link type="text/css" rel="stylesheet" href="/css/partner/swiss/global.styles.css">
 	<link type="text/css" rel="stylesheet" href="/css/partner/swiss/camera.css">
+	<link type="text/css" rel="stylesheet" href="/css/jquery.mCustomScrollbar.css">
 	<link rel="shortcut icon" type="image/x-icon" href="/css/partner/swiss/images/favicon.ico">
 	
 	<?php //include_javascripts() ?>
-	<script src="/js/jquery-1.7.1.min.js"></script>
-	<script src="/js/jquery.easing.1.3.js"></script>
-	<script src="/js/camera.js"></script>
-	<script src="/js/jquery.responsiveTabs.js"></script>
+	<script type="text/javascript" language="javascript" src="/js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" language="javascript" src="/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" language="javascript" src="/js/jquery-ui-1.10.4.custom.min.js"></script>
+	<script type="text/javascript" language="javascript" src="/js/camera.js"></script>
+	<script type="text/javascript" language="javascript" src="/js/jquery.shorten.js"></script>
+	<script type="text/javascript" language="javascript" src="/js/jquery.responsiveTabs.js"></script>
 	<script type="text/javascript" language="javascript" src="/js/jquery.carouFredSel-6.2.1-packed.js"></script>
 	<!--  <script type="text/javascript" language="javascript" src="/js/jquery.carouFredSel-6.1.0-packed.js"></script>  -->
 	
@@ -25,7 +28,9 @@
 	<script type="text/javascript" language="javascript" src="/js/helper-plugins/jquery.touchSwipe.min.js"></script>
 	<script type="text/javascript" language="javascript" src="/js/helper-plugins/jquery.transit.min.js"></script>
 	<script type="text/javascript" language="javascript" src="/js/helper-plugins/jquery.ba-throttle-debounce.min.js"></script>
-	<script src="/js/antiddos.script.js"></script>
+	<script type="text/javascript" language="javascript" src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" language="javascript" src="/js/antiddos.script.js"></script>
+	<script type="text/javascript" language="javascript" src="/js/ddos-script.js"></script>
 	
 	<!-- Google Analytics counter -->
 	<script type="text/javascript">
