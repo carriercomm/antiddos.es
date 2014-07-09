@@ -167,7 +167,7 @@
 
 <font class="point bigg"><?php t('Custom handling')?></font><br>
 <font class="point bigg"><?php t('Expedited setup')?></font><br>
-<font class="point bigg"><?php t('No presense required')?></font><br>
+<font class="point bigg"><?php t('No presence required')?></font><br>
 <font class="point bigg"><?php t('Equipment purchase')?></font><br>
 
 </div>
@@ -200,7 +200,7 @@
 <font class="point small"><?php t('15 TB bandwidth')?></font><Br>
 <font class="point small"><?php t('Multiple Tier 1 Carriers')?></font><Br>
 <font class="point small"><?php t('Fully redundant')?></font><Br>
-<font class="point small"><?php t('99.9% Uptime')?></font><Br>
+<font class="point small"><?php t('100% Uptime')?></font><Br>
 </div>
 
 <?php end_slot() ?>

@@ -1,12 +1,12 @@
-	<?php $sf_response->addMeta("title", __('meta_title_index', array('%site%'=>sfConfig::get('app_site_name')), 'partner_public')) ?>
-	<?php $sf_response->addMeta("keywords", __("meta_keyword_index", array(), 'partner_public')) ?>
-	<?php $sf_response->addMeta("description", __("meta_desc_index", array('%site%'=>sfConfig::get('app_site_name')), 'partner_public')) ?>
+	<script src="/js/index.script.js"></script>
+<?php $sf_response->addMeta("title", __('meta_title_index', array('%site%'=>sfConfig::get('app_site_name')), 'partner_public')) ?>
+<?php $sf_response->addMeta("keywords", __("meta_keyword_index", array(), 'partner_public')) ?>
+<?php $sf_response->addMeta("description", __("meta_desc_index", array('%site%'=>sfConfig::get('app_site_name')), 'partner_public')) ?>
 	
 	<!-- block: Slider -->
 	<?php include_partial('welcome/slider') ?>
 	<!-- end block: Slider -->
-	</header>
-	<!-- end region: Header -->
+	
 	<!-- region: Content -->
 	<div id="columns" class="columns clearfix">
 		<div id="content-column" class="content-column" role="main">

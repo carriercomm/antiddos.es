@@ -1,0 +1,227 @@
+all:
+  my_cache:
+    class: sfFileCache  # sfFileCache, sfAPCCache, sfXCacheCache, sfEAcceleratorCache, sfSQLiteCache
+    param:
+      automatic_cleaning_factor: 0
+      cache_dir:                 %SF_APP_CACHE_DIR%/solar
+      lifetime:                  86400
+      prefix:                    %SF_APP_DIR%/cache_solar
+  api_url: https://api.solarcom.ch/api.php/
+  api_old_url: https://api.solarcom.ch/api/
+  api_login: 'cloudcom'
+  api_password: '168f9232d9c5aed554bdfa92edd2d162a89d9bfb'
+  api_site_id: 23
+  api_format: xml
+  api_token: s
+  api_cache: false
+  email_address: 'robot@antiddos.es'
+  billing_url: 'https://billing.solarcom.ch/payment_gateways/payment_form/%d/'
+  invoice_payment_url: 'https://solarcom.ch/en/billing/payment/2co/init/%d/'
+  templating: false
+  site:
+    name: 'ANTIDDOS.es'
+    slogan: 'DDoS Protection and DDoS Protected Servers.'
+  .culture:
+    langs: [en,ru,it,fr,es,de]
+  view:
+    default_theme: 'swiss'
+    default_palette: 'blue'
+    default_blog: 'blog_skin_1'
+  custom_resource_domain: ''
+  .arr:
+    pages:
+      about-us:
+        title: 'About Us'
+        meta_title: ''
+        meta_keywords: ''
+        meta_description: ''
+        custom: true
+        menu: [top,bottom]
+        link: ''
+      contact-us:
+        title: 'Contact Us'
+        meta_title: ''
+        meta_keywords: ''
+        meta_description: ''
+        custom: true
+        menu: [top,bottom]
+        link: ''
+      home:
+        title: 'Home'
+        meta_title: ''
+        meta_keywords: ''
+        meta_description: ''
+        custom: false
+        menu: [top]
+        link: '@localized_homepage'
+      products:
+        title: 'All Products'
+        meta_title: ''
+        meta_keywords: ''
+        meta_description: ''
+        custom: false
+        menu: [top]
+        link: '@product_list'
+      news:
+        title: 'News'
+        meta_title: ''
+        meta_keywords: ''
+        meta_description: ''
+        custom: false
+        menu: [top]
+        link: '@news'
+      dedicated-servers:
+        title: 'Dedicated servers'
+        meta_title: ''
+        meta_keywords: ''
+        meta_description: ''
+        custom: false
+        menu: [top,bottom]
+        link: '@server_config_list'
+      ddos-protection:
+        title: 'DDoS Protection'
+        meta_title: ''
+        meta_keywords: ''
+        meta_description: ''
+        custom: false
+        menu: [top,bottom]
+        link: '@protection_config_list'
+      colocation:
+        title: 'Colocation'
+        meta_title: ''
+        meta_keywords: ''
+        meta_description: ''
+        custom: false
+        menu: [top,bottom]
+        link: '@colocation_config_list'
+      cloud-services:
+        title: 'Cloud Services'
+        meta_title: ''
+        meta_keywords: ''
+        meta_description: ''
+        custom: false
+        menu: [top,bottom]
+        link: '@cloud_config_list'
+      network-status:
+        title: 'Network status'
+        meta_title: ''
+        meta_keywords: ''
+        meta_description: ''
+        custom: true
+        menu: [top,bottom]
+        link: ''
+      data-center-location:
+        title: 'Data Center Location'
+        meta_title: ''
+        meta_keywords: ''
+        meta_description: ''
+        custom: true
+        menu: [side]
+        link: ''
+      hardware:
+        title: 'Hardware'
+        meta_title: ''
+        meta_keywords: ''
+        meta_description: ''
+        custom: true
+        menu: [side]
+        link: ''
+      network-connectivity:
+        title: 'Network connectivity'
+        meta_title: ''
+        meta_keywords: ''
+        meta_description: ''
+        custom: true
+        menu: [side]
+        link: ''
+      privacy-policy:
+        title: 'Privacy policy'
+        meta_title: ''
+        meta_keywords: ''
+        meta_description: ''
+        custom: false
+        menu: [top,bottom]
+        link: '@privacy_policy'
+      terms_of_service:
+        title: 'Terms of Service'
+        meta_title: ''
+        meta_keywords: ''
+        meta_description: ''
+        custom: true
+        menu: [top,bottom]
+        link: ''
+      licenses:
+        title: 'Licenses'
+        meta_title: ''
+        meta_keywords: ''
+        meta_description: ''
+        custom: false
+        menu: [top,bottom]
+        link: '@license_config_list'
+      camfrog:
+        title: 'Camfrog'
+        meta_title: ''
+        meta_keywords: ''
+        meta_description: ''
+        custom: false
+        menu: [top,bottom]
+        link: '@camfrog_config_list'
+      faq:
+        title: 'faq'
+        meta_title: 'faq'
+        meta_keywords: ''
+        meta_description: ''
+        custom: true
+        menu: [top,bottom]
+        link: ''
+      reviews:
+        title: 'reviews'
+        meta_title: ''
+        meta_keywords: ''
+        meta_description: ''
+        custom: true
+        menu: [top,bottom]
+        link: ''
+      control-panels:
+        title: 'control panels'
+        meta_title: ''
+        meta_keywords: ''
+        meta_description: ''
+        custom: true
+        menu: [top,bottom]
+        link: ''
+      cdn:
+        title: 'cdn'
+        meta_title: ''
+        meta_keywords: ''
+        meta_description: ''
+        custom: false
+        menu: [top,bottom]
+        link: '@cdn_config_list'
+      bitsync:
+        title: 'bitsync'
+        meta_title: ''
+        meta_keywords: ''
+        meta_description: ''
+        custom: true
+        menu: [top,bottom]
+        link: ''
+
+test:
+  view:
+    theme: 'swiss'
+    palette: 'blue'
+    blog: ''
+
+prod:
+  view:
+    theme: 'swiss'
+    palette: 'standart'
+    blog: ''
+
+dev:
+  view:
+    theme: 'swiss'
+    palette: 'standart'
+    blog: ''
+

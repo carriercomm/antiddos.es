@@ -1818,7 +1818,7 @@ tr.error {}
 #block-antiddos-slider { float: left; width: 100%; margin: 0; max-height: background: #051020; }
 #block-antiddos-slider .block-content { text-align: center; color: #cfcfcf;}
 #block-antiddos-slider .block-inner{margin: 0px;}
-#newslider {overflow: hidden; margin-bottom: 3px !important; min-height: 400px; }
+#newslider {overflow: hidden; margin-bottom: 3px !important; margin-top: -5px; min-height: 400px; }
 #newslider .cameraContents { position: relative; }
 #newslider div.slide-description {text-align: left; display: none; line-height: 1.1;color: #FFF;width: 455px;padding: 35px 25px;box-sizing: border-box;position: absolute;right: 90px;bottom: 120px;background: #666;background: rgba(0, 0, 0, 0.8);}
 #newslider div.slide-description h2 { text-transform: uppercase;margin: 0 0 15px;font-size: 28px; font-weight: bold; font-family: Arial;}
@@ -1985,7 +1985,7 @@ tr.error {}
 #block-antiddos-languages { float: left; clear: none; margin: 0; position: relative; margin: 0; }
 #block-antiddos-languages .block-title { font-size: 11px; color: #7c7c7c; font-weight: bold; letter-spacing: -0.025em; margin: 3px 0; }
 #block-antiddos-languages ul.list-languages { position: absolute; z-index: 2; margin: 0; padding: 10px 35px 9px 15px; height: 22px; overflow: hidden; list-style: none; background: #ffffff; border-radius: 4px; transition: height 0.2s linear 0.1s; transition: height 0.2s linear 0.1s; -webkit-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1); }
-#block-antiddos-languages ul.list-languages.collapsed { height: 246px; }
+#block-antiddos-languages ul.list-languages.collapsed { height: 225px; }
 #block-antiddos-languages ul.list-languages li { height: 22px; width: 32px; margin: 0 0 10px 0; }
 #block-antiddos-languages ul.list-languages li:last-child { margin: 0; }
 #block-antiddos-languages ul.list-languages li a { display: block; text-indent: -9999px; width: 100%; cursor: pointer; height: 100%; -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1); }
@@ -2099,16 +2099,8 @@ tr.error {}
 .page-about-us .list .title-list {font-size: 16px; background: url(images/arrow-list.png) left no-repeat; padding: 0 0 0 15px; color: #393939; }
 .page-about-us .list ul li p {margin: 0;}
 .page-about-us .list .list-content { padding: 0 0 40px 15px;}
-.page-about-us .brand a { height: 50px; display: inline-block;}
-.page-about-us .brand .all-brand {padding-right: 30px; opacity: 0.5;}
-.page-about-us .brand .all-brand.last { padding: 0; }
-.page-about-us .brand .all-brand:hover { opacity: 1; }
-.page-about-us .brand .arista { background: url(images/brand.png) no-repeat; width: 165px;}
-.page-about-us .brand .coraid { background: url(images/brand.png) -205px no-repeat; width: 85px;}
-.page-about-us .brand .cisco { background: url(images/brand.png) -330px no-repeat; width: 75px;}
-.page-about-us .brand .supermicro { background: url(images/brand.png) -440px no-repeat; width: 175px;}
-.page-about-us .brand .intel { background: url(images/brand.png) -640px no-repeat; width: 60px;}
-.page-about-us .brand .networks { background: url(images/brand.png) -730px no-repeat; width: 130px;}
+.page-about-us img.brand { height: 50px; display: inline-block; padding: 15px; opacity: 0.5;}
+.page-about-us img.brand:hover { opacity: 1; }
 .page-about-us .node .node-content .row.list { padding-bottom: 0;}
 .page-about-us .node {margin: 0;}
 

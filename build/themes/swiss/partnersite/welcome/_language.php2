@@ -1,0 +1,21 @@
+<?php use_helper('Solar') ?>
+<?php $route = getCurrentRoute();?>
+<?php foreach (sfConfig::get('global_cultures') as $lang => $descr):?>
+<?php if (($lang=='en')||($lang=='es')||($lang=='ru')||($lang=='fr')||($lang=='de')||($lang=='ch')):?>
+<?php 
+$route['parameters']['sf_culture'] = $lang;      
+$url = sfContext::getInstance()->getController()->getActionStack()->getFirstEntry()->getActionInstance()->generateUrl($route['name'], $route['parameters']);
+?>
+						<ul class="list-languages">
+							<li class="active english"><a href="<?php echo url_for($url)?>"><?php t('English')?></a></li>
+							<li class="german"><a href="<?php echo url_for($url)?>">Deutsch</a></li>
+							<li class="spain"><a href="<?php echo url_for($url)?>">Español</a></li>														
+							<li class="russia"><a href="<?php echo url_for($url)?>">Русский</a></li>
+							<li class="french"><a href="<?php echo url_for($url)?>">français</a></li>
+							<li class="arabic"><a href="<?php echo url_for($url)?>">العربية</a></li>
+							<li class="italian"><a href="<?php echo url_for($url)?>">Italiano</a></li>
+							<li class="china"><a href="<?php echo url_for($url)?>">中國的</a></li>
+						</ul>
+<?php else:?>
+<?php endif?>
+<?php endforeach ?>

@@ -1,5 +1,3 @@
-123
-
 <div class="startcontent"></div>
 
 <style>
@@ -24,7 +22,6 @@ ul { margin: 0px; padding: 0px; margin-left: 30px; margin-top: 10px; }
 
 <div class="" align="center"> 
 <div class="content">
-132132132
 <?php tos('policy_content',array('%site%'=>$site->getName(),'%url%'=>str_replace('http://','',$site->getUrl())))?>
 <br>
 </div>

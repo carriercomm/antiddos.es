@@ -1,7 +1,7 @@
 		<div id="primary-menu-bar" class="nav clearfix">
 			<ul class="menu clearfix">
 				<li class="first">
-					<a href="<?php url_for('@localized_homepage') ?>" title="<?php t('Home') ?>"><?php t('Home') ?></a>
+					<a href="<?php echo url_for('@localized_homepage') ?>" title="<?php t('Home') ?>"><?php t('Home') ?></a>
 				</li>
 				<li class="expanded">
 					<a href="<?php echo url_for('@show_page?name=about-us') ?>" title="<?php t('About us') ?>"><?php t('About us') ?></a>
@@ -75,7 +75,7 @@
 							<a href="#" title=""><?php t('Control panels')?></a>
 						</li>
 						<li>
-							<a href="#" title=""><?php t('BitTorrent Sync')?></a>
+							<a href="<?php echo url_for('@show_page?name=bitsync') ?>" title=""><?php t('BitTorrent Sync')?></a>
 						</li>
 						<li>
 							<a href="#" title=""><?php t('Content Delivery Network')?></a>

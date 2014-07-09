@@ -1,3 +1,4 @@
+>BOTTOM MENU<
 <?php $mkeys = array_keys($sf_data->getRaw('menu')); ?>
 <?php $lastkey = array_pop($mkeys); ?>
 
