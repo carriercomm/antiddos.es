@@ -1,237 +1,227 @@
-
-<style>
-
-.tdbar_st3_left { background:url('/images/partner/swiss/slider2_01.jpg') repeat-x right top; height:372px;}
-.tdbar_st3_center { background:url('/images/partner/swiss/slider2_02.jpg') repeat-x 0 0; height:372px; width: 980px;}
-.tdbar_st3_right { background:url('/images/partner/swiss/slider2_03.jpg') repeat-x left top; height:372px;}
-
-.menubarleft { background: url('/images/partner/swiss/slider2_04.jpg') repeat-x right top; width: 100%; height: 29px;}
-.menubarright { background: url('/images/partner/swiss/slider2_06.jpg') repeat-x left top;  width: 100%; height: 29px; }
-
-</style>
-
-<?php slot('slider_title') ?><font class="hh_02"><?php echo t('text_head_location_1') ?></font><?php end_slot() ?>
-<?php slot('slider_text') ?><font class="hh_02"><?php echo t('text_head_location_2') ?></font><?php end_slot() ?>
-
-
-<div class="content">
-<?php t('colocation_textbox_01',array('%site%'=>$site->getName())) ?>
-<br><br>
-
-</div>
-<div class="endcontent white"></div>
-<div class="content2">
-
-
-
-
-<font class="addontitle">Select Colocation package</font><br><br>
-
-
-<table border="0"  cellpadding="0" cellspacing="0" width=100%>
-<tr>
-
-
-<?php $i = 0 ?>
-<?php foreach($configs as $config): ?>
-<?php $i++ ?>
-<?php if(!$config->available) continue; ?>
-<td width=32% align=center valign=top>
-
-
-
-
-
-<table  width="100%" border="0" cellpadding="0" cellspacing="0">
-	<tr>
-	 <td align=center class="ddos_name"><?php echo $config->name ?></td>
-	</tr>
-
-<tr><td bgcolor="#3484af" align=left class="ddos_box_2">
-
-
-
-<table width=100% height=150 cellpadding="0" cellspacing="0" border=0 >
-
-<tr><td colspan=2 height=24 align=left><font size="3" color="#BADBE8"><strong><?php t('Price')?></strong></font></td></tr>
-<tr><td  align=left width=100 valign=top height=50><font color="#BADBE8"><?php t('Monthly fee')?></font></td><td align=right> 
-<font class="chf"><?php echo eur($config->price) ?> EUR</font></font><br>
-<font class="usd"><font color="#CCCCCC"><?php echo usd($config->price)?> USD<br><?php echo price_ex($config->price) ?> CHF</font></font>
-
-</td></tr>
-<tr><td  colspan=2> </td></tr>
-<tr><td  align=left valign=top  height=50><font color="#BADBE8"><?php t('Setup fee')?></font></td><td align=right valign=top>
-<font class="chf"><?php echo price_ex(eur($config->setup_fee), 'EUR') ?></font></font><Br>
-<font class="usd"><font color="#CCCCCC"><?php echo price_ex(usd($config->setup_fee), 'USD') ?></font></font><br>
-<font class="usd"><font color="#CCCCCC"><?php echo price_ex($config->setup_fee) ?></font></font>
-
-
-</td></tr>
-</table>
-
-
-
-
-</td></tr>
-
-
-	<tr>
-		<td bgcolor="#eefbff" align=center background="/images/partner/fresh/boxbg2.png">
-		
-		
-<br>
-<table width=86% cellpadding="0" cellspacing="0" border=0>
-
-<tr><td colspan=2 height=40 align=left><b><font size="3" face="Arial"><?php t('Configuration')?></font></b></td></tr>
-
-<tr><td width=120 align=left><b><?php t('Space')?></b><br> <?php echo limit($config->space) ?></td></tr>
-
-<tr><td height=2 colspan=2><hr class="hr_colo_line"></td></tr>
-
-<tr><td height=70 align=left valign=top><b><?php t('Bandwidth')?></b><br> <?php echo product_field($config->bandwidth) ?></td></tr>
-
-<tr><td height=2 colspan=2><hr class="hr_colo_line"></td></tr>
-
-<tr><td align=left valign=top><b><?php t('Overage fee each Mb/s')?></b> <br>
-
-<font class="usd"><?php echo price_ex($config->getAddonPriceBySlug('bandwidth-overage')) ?></font><br>
-<font class="chf"><?php echo price_ex(eur($config->getAddonPriceBySlug('bandwidth-overage')), 'EUR') ?></font><br>
-<font class="usd"><?php echo price_ex(usd($config->getAddonPriceBySlug('bandwidth-overage')), 'USD') ?></font>
-
-</td></tr>
-
-<tr><td height=2 colspan=2><hr class="hr_colo_line"></td></tr>
-
-<tr><td align=left><b><?php t('Power')?></b> <br><?php echo product_field($config->power) ?></td></tr>
-
-<tr><td height=2 colspan=2><hr class="hr_colo_line"></td></tr>
-
-<tr><td height=70 align=left valign=top><b><?php t('Overage fee each Amp')?></b> <br>
-
-<font class="usd"><?php echo price_ex($config->power_overage) ?></font><br>
-<font class="chf"><?php echo price_ex(eur($config->power_overage), 'EUR') ?></font><br>
-<font class="usd"><?php echo price_ex(usd($config->power_overage), 'USD') ?></font>
-
-</td></tr>
-
-<tr><td height=2 colspan=2><hr class="hr_colo_line"></td></tr>
-
-<tr><td align=left><b><?php t('Network')?></b> <br><?php product_field($config->network) ?></td></tr>
-
-<tr><td height=2 colspan=2><hr class="hr_colo_line"></td></tr>
-
-<tr><td align=left><b><?php t('Contract')?></b><br> <?php echo $config->min_billing_cycle ?> <?php echo (string)$config->min_billing_cycle > 1 ? __('months') : __('month') ?></td></tr>
-
-
-</td></tr>
-</table>
-
-
-<br>
-</td></tr>
-<tr><td align=center bgcolor="#D9DCE9" height=3> </td></tr>
-<tr><td align=center bgcolor="#EDEDEB"><br><a href="<?php echo url_for('@newcart_item_new?product_id=' . $config->id) ?>" class="buynow"><?php t('Buy')?></a><br></td></tr>
-
-</table>
-
-</td>
-
-
-<td width=20>&nbsp;</td>
-
-
-<?php endforeach ?>
-
-</tr></table>
-
-
-
-<br>
-
-</div>
-<div class="endcontent"></div>
-<div class="content-clear" style="text-align: center; float: center;">
-
-<center>
-
-
-
-
-<?php slot('kf_server_0') ?>
-
-
-<div class="ft colo">
-
-<font class="point big"><?php t('Smooth setup')?></font>
-<div style="height: 16px; font-size: 0px;"></div>
-
-<font class="point bigg"><?php t('Custom handling')?></font><br>
-<font class="point bigg"><?php t('Expedited setup')?></font><br>
-<font class="point bigg"><?php t('No presence required')?></font><br>
-<font class="point bigg"><?php t('Equipment purchase')?></font><br>
-
-</div>
-
-<?php end_slot() ?>
-
-
-<?php slot('kf_server_1') ?>
-
-<div class="ft colo colo2">
-
-<font class="point big"><?php t('Power')?></font>
-<div style="height: 16px; font-size: 0px;"></div>
-
-<font class="point bigg"><?php t('Fully Redundant AC/DC')?></font><br>
-<font class="point bigg"><?php t('Dual-Power Source')?></font><br>
-<font class="point bigg"><?php t('UPS + Diesel Power Backup')?></font><br>
-
-</div>
-
-<?php end_slot() ?>
-
-<?php slot('kf_server_2') ?>
-
-<div class="ft colo colo3">
-
-<font class="point big"><?php t('Bandwidth')?></font>
-<div style="height: 16px; font-size: 0px;"></div>
-<font class="point small"><?php t('Burstable billing')?></font><br>
-<font class="point small"><?php t('15 TB bandwidth')?></font><Br>
-<font class="point small"><?php t('Multiple Tier 1 Carriers')?></font><Br>
-<font class="point small"><?php t('Fully redundant')?></font><Br>
-<font class="point small"><?php t('100% Uptime')?></font><Br>
-</div>
-
-<?php end_slot() ?>
-
-
-
-<?php slot('kf_server_title_0') ?>
-<?php t('Smooth setup')?>
-<?php end_slot() ?>
-
-<?php slot('kf_server_title_1') ?>
-<?php t('Power')?>
-<?php end_slot() ?>
-
-<?php slot('kf_server_title_2') ?>
-<?php t('Bandwidth')?>
-<?php end_slot() ?>
-
-
-
-<table><tr><td>
-<?php include_partial('welcome/kf_server') ?>
-</td></tr></table>
-
-
-</center>
-
-</div>
-
-
-<div class="content">
-<?php t('colocation_textbox_02')?>
-
-</div>
+<!-- region: Content -->
+	<div id="columns" class="columns clearfix">
+		<div id="content-column" class="content-column" role="main">
+			<div class="content-inner">
+				
+				<section id="main-content">
+					<!-- region: Main Content -->
+					<div id="content" class="region page-hardware-protection">
+
+					<div id="main-content-header" class="clearfix">
+						<h1 id="page-title"><?php t('Hardware colocation') ?></h1>
+
+						<div id="breadcrumb" class="clearfix">
+							<ol id="crumbs" class="clearfix">
+								<li class="crumb crumb-first"><a href="index.html" title="" class="active-trail"><?php t('Home') ?></a></li>
+								<li class="crumb crumb-last"><?php t('Hardware colocation') ?></li>
+							</ol>
+						</div>
+					</div>
+
+						<!-- block: Products -->
+						<div id="block-antiddos-top-image" class="block clearfix">
+							<div class="block-inner">
+								<div class="block-content"><img src="/images/hardware.jpg"></div>
+							</div>
+						</div>
+						<!-- end block: Products -->
+
+						<div id="block-system-main" class="block block-system no-title">  
+							<article id="node" class="node node-article">
+								<div class="node-content">
+									<div class="row first clearfix hardware">
+										<p>
+										<?php t('If you are looking to co-locate your equipment in a secure Data Center in Europe that accepts Bitcoin as a payment method, CoinsHost is at your service. We provide colocation hosting for equipment up to 4 standard units in size in a secure and sophisticated Data Center in Zurich, Switzerland. Our Data Center has been built with redundancy in mind: dual power source with automatic switch-over, dedicated UPSs and diesel generators, multiple tier-1 upstream providers and automatic DDoS mitigation system. When we say Downtime is not an option - we do mean it.') ?>
+										</p>
+										<ul class="hardware-list">
+											<li><?php t('Built with redundancy in mind') ?></li>
+											<li><?php t('High on-site security') ?></li>
+											<li><?php t('Low-latency multi-homed network') ?></li>
+											<li><?php t('Full 24/7 control and DC access') ?></li>
+											<li><?php t('Free DDoS protection') ?></li>
+										</ul>
+									</div>
+									<div class="row clearfix protect-plan">
+											<p class="hardware-title"><?php t('Colocation package specification') ?></p>
+											<p><?php t('Please, select following colocation type specification. Details you will see on hover.') ?></p>
+										<ul class="products-grid">
+													
+													<?php $i = 0 ?>
+													<?php foreach($configs as $config): ?>
+													<?php $i++ ?>
+													<?php if(!$config->available) continue; ?>
+													
+													<li class="biling-plan">
+														<div class="border-inner">
+															
+															<div class="title-group">
+																<span class="servers-title"><?php echo $config->name ?></span>
+																<span class="fish1"></span>
+																<span class="servers-title-pseudo"><?php echo $config->name ?> <?php t('package') ?></span>
+															</div>
+															
+															<div class="about-group">
+																<p class="">
+																	<?php t('Colocation space for hardware that fits into two standard rack units. A good deal for dedicated server owners who want to colocate their equipment in a secure DC with free DDoS protection.') ?>
+																</p>
+															</div>
+															
+															<div class="price-group">
+																	<div class="price-euro">
+																			<span class="price">0.00 <?php t('฿') ?></span>
+																			<span class="period"><?php t('/month') ?></span>
+																	</div>
+																	<div class="price-other">
+																			<span class="price"><?php echo price_ex($config->price) ?></span>
+																			<span class="price"><?php echo usd($config->price)?> <?php t('$') ?></span>
+																			<span class="price"><?php echo eur($config->price) ?><?php t('€') ?></span>
+																	</div>
+															</div>
+															
+															<div class="price-group-second">
+																	<div class="price-euro">
+																			<span class="price">0.00 <?php t('฿') ?></span>
+																			<span class="period"><?php t('/setup') ?></span>
+																	</div>
+																	<div class="price-other">
+																			<span class="price"><?php echo price_ex($config->setup_fee) ?></span>
+																			<span class="price"><?php echo price_ex(usd($config->setup_fee), '$') ?></span>
+																			<span class="price"><?php echo price_ex(eur($config->setup_fee), '€') ?></span>
+																	</div>
+															</div>
+															
+															<div class="billing-order form">
+																	<form>
+																			<div class="submit-container">
+																					<input type="button" id="add-cart-submit" value="Place order" onclick="location.href='<?php echo url_for('@newcart_item_new?product_id=' . $config->id) ?>';">
+																			</div>
+																	</form>
+																	<div class="read-item">
+																		<a href="#"><?php t('Live help') ?></a>
+																	</div>
+															</div>
+														</div>
+														<div class="cpecification">
+															<h2><?php t('Colocation package specification') ?></h2>
+															<div class="spac-box">
+																<ul class="cpec-list">
+																	<li class="cpec-inner-list first">
+																		<table class="addons main">
+																				<tbody>
+																				<tr>
+																					<td><?php t('Space') ?></td>
+																					<td><?php echo limit($config->space) ?></td>
+																				</tr>
+																				<tr>
+																					<td><?php t('Bandwidth') ?></td>
+																					<td><?php echo product_field($config->bandwidth) ?></td>
+																				</tr>
+																				<tr>
+																					<td><?php t('Overage fee each Mb/s') ?></td>
+																					<td><?php echo price_ex($config->getAddonPriceBySlug('bandwidth-overage')) ?>&nbsp;&nbsp;<?php echo price_ex(usd($config->getAddonPriceBySlug('bandwidth-overage')), '$') ?>&nbsp;&nbsp;<?php echo price_ex(eur($config->getAddonPriceBySlug('bandwidth-overage')), '€') ?></td>
+																				</tr>	
+																				<tr>
+																					<td><?php t('Power 220v') ?></td>
+																					<td><?php echo product_field($config->power) ?></td>
+																				</tr>
+																								
+																				<tr>
+																					<td><?php t('Overage fee each Amp') ?></td>
+																					<td><?php echo price_ex($config->power_overage) ?>&nbsp;&nbsp;<?php echo price_ex(usd($config->power_overage), '$') ?>&nbsp;&nbsp;<?php echo price_ex(eur($config->power_overage), '€') ?></td>
+																				</tr>
+																				<tr>
+																					<td><?php t('Network') ?></td>
+																					<td><?php product_field($config->network) ?></td>
+																				</tr>
+																				<tr>
+																					<td><?php t('Min. Billing Cycle') ?></td>
+																					<td><?php echo $config->min_billing_cycle ?>&nbsp;&nbsp;<?php echo (string)$config->min_billing_cycle > 1 ? __('months') : __('month') ?></td>
+																				</tr>
+																			</tbody>
+																		</table>
+																	</li>
+																	<li class="cpec-inner-list last">
+																		<table class="addons second">
+																				<tbody>
+																				<tr>
+																					<td><?php t('Support') ?></td>
+																					<td><?php t('24/7') ?></td>
+																				</tr>
+																				<tr>
+																					<td><?php t('Data Centre Access') ?></td>
+																					<td><?php t('24/7') ?></td>
+																				</tr>	
+																				<tr>
+																					<td><?php t('KVM/IPMI') ?></td>
+																					<td><?php t('Free of charge') ?></td>
+																				</tr>
+																				<tr>
+																					<td><?php t('Reboots') ?></td>
+																					<td><?php t('Free of charge') ?></td>
+																				</tr>
+																				<tr>
+																					<td><?php t('DDoS protection') ?></td>
+																					<td><?php t('Up to 10 Gb/s or 4 Mpps free of charge') ?></td>
+																				</tr>														
+																			</tbody>
+																		</table>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</li>
+													
+													<?php endforeach ?>
+										</ul>
+
+										<div class="power">
+											<p class="hardware-title"><?php t('Power') ?></p>
+											<ul class="hardware-list">
+												<li><?php t('Dual AC/DC source') ?></li>
+												<li><?php t('Auto switch-over in case of outage') ?></li>
+												<li><?php t('Fast dedicated UPSs') ?></li>
+												<li><?php t('Diesel generators for ultimate redundancy') ?></li>
+												<li><?php t('99.9% uptime SLA') ?></li>
+											</ul>
+										</div>
+										<div class="power">
+											<p class="hardware-title"><?php t('Network') ?></p>
+											<ul class="hardware-list">
+												<li><?php t('Cisco routers only') ?></li>
+												<li><?php t('Multiple Tier-1 upstream providers') ?></li>
+												<li><?php t('Low-latency multi-homed network') ?></li>
+												<li><?php t('40Gb redundant fibre connection') ?></li>
+												<li><?php t('Free protection against DDoS attacks') ?></li>
+											</ul>
+										</div>
+										<div class="power">
+											<p class="hardware-title"><?php t('Control') ?></p>
+											<ul class="hardware-list">
+												<li><?php t('Easy and fast equipment setup') ?></li>
+												<li><?php t('Skilled engineers on site') ?></li>
+												<li><?php t('KVM/IPMI available') ?></li>
+												<li><?php t('24/7 data centre access') ?></li>
+												<li><?php t('24/7 phone support') ?></li>
+											</ul>
+										</div>
+									</div>
+									<div class="row last clearfix location">
+											<p class="location-title"><?php t('Colocation Setup and Equipment Delivery') ?></p>
+											<p class="location-text"><?php t('Colocation setup procedure does not require your physical presence in the Data Center. There are to ways to deliver your equipment to our Data Center in Zurich - you can either bring your equipment to the DC yourself or arrange for a courier to collect and deliver it to us. Once we receive the equipment that you wish to co-locate, our engineers will install and set it up accordingly to your requirements.') ?></p>
+											<p class="location-title"><?php t('Free DDoS Protection with every Colocation order') ?></p>
+											<p class="location-text"><?php t('CoinsHost provides free protection against all types of DDoS attacks with every equipment colocation order. CoinsHost has a vast experience in protecting against application-level and network-level attacks. We host hundreds of servers on our protected network and mitigate against dozens of DDoS attacks every day. Our engineers have developed a custom built self-learning solution based on highly efficient hardware, proven mitigation techniques and proprietary software. CoinsHost will detect, automatically analyse and mitigate against HTTP, UDP, SYN, ICMP floods and all other types of DDoS attacks.') ?></p>
+											<p class="location-title"><?php t('Payment Methods') ?></p>
+											<p class="location-text"><?php t('Without any doubt you can pay for CoinsHost products and services with Bitcoin (BTC), Litecoin (LTC) and Nextcoin (NXT). We treat decentralized currencies based on encryption as completely legit payment methods and encourage our clients to pay with them. Besides these P2P currencies, we accept a wide range of other payment methods and digital currencies. These include but are not limited to: PayPal, VISA, MasterCard, American Express, Discover, Bank Wire, WebMoney and Perfect Money.') ?></p>
+											<p class="location-title"><?php t('Data Center Location') ?></p>
+											<?php include_partial('welcome/colocationmap') ?>
+									</div>
+								</div>
+							</article>
+						</div>	
+					</div>
+			           <!-- end region: Main Content -->
+				</section><!-- /end #main-content -->
+			</div><!-- /end .content-inner -->
+		</div><!-- /end #content-column -->				
+	</div><!-- /end #columns -->
+<!-- region: Content -->

@@ -72,13 +72,13 @@
 							<a href="<?php echo url_for('@colocation_config_list') ?>" title="<?php t('Collocation in Switzerland')?>"><?php t('Hardware colocation')?></a>
 						</li>
 						<li>
-							<a href="<?php echo url_for('@show_page?name=contol-panels') ?>" title=""><?php t('Control panels')?></a>
+							<a href="<?php echo url_for('@show_page?name=control-panels') ?>" title="<?php t('Control panels')?>"><?php t('Control panels')?></a>
 						</li>
 						<li>
-							<a href="<?php echo url_for('@show_page?name=bitsync') ?>" title=""><?php t('BitTorrent Sync')?></a>
+							<a href="<?php echo url_for('@show_page?name=bitsync') ?>" title="<?php t('BitTorrent Sync')?>"><?php t('BitTorrent Sync')?></a>
 						</li>
 						<li>
-							<a href="<?php echo url_for('@show_page?name=cdn') ?>" title=""><?php t('Content Delivery Network')?></a>
+							<a href="<?php echo url_for('@show_page?name=cdn') ?>" title="<?php t('Content Delivery Network')?>"><?php t('Content Delivery Network')?></a>
 						</li>
 						<li class="last">
 							<a href="<?php echo url_for('@gameservers_config_list') ?>" title="<?php t('DDoS Protected Game Servers')?>"><?php t('Game Servers')?></a>
@@ -86,10 +86,10 @@
 					</ul>
 				</li>
 				<li>
-					<a href="<?php echo url_for('@show_page?name=contact-us') ?>" title=""><?php t('Contacts')?></a>
+					<a href="<?php echo url_for('@show_page?name=contact-us') ?>" title="<?php t('Contacts')?>"><?php t('Contacts')?></a>
 				</li>
 				<li class="last">
-					<a href="<?php echo url_for('@show_page?name=blog') ?>" title=""><?php t('Blog')?></a>
+					<a href="<?php echo url_for('@show_page?name=blog') ?>" title="<?php t('Blog')?>"><?php t('Blog')?></a>
 				</li>
 			</ul>
 		</div>

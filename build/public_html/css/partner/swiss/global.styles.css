@@ -2662,16 +2662,18 @@ ul.product-grid.lite-4 li.trial div.billing-order form #add-cart-submit { backgr
 .page-adn-cdn .row.first p { margin: 0 0.5% 0 0; width: 70%; float: left; }
 .page-adn-cdn .row.first ul { margin: 0; float: right; }
 .page-adn-cdn .row.first ul li { list-style: none;margin-bottom: 5px;font-size: 12px;background: url(images/arrow-list.png) left no-repeat;padding: 0 0 0 15px;color: #393939;display: block;}
-.page-adn-cdn ul.product-grid.lite-4 li.cdn-na { background: #333f4f;}
-.page-adn-cdn ul.product-grid.lite-4 li.cdn-eu { background: #f57815; }
-.page-adn-cdn ul.product-grid.lite-4 li.cdn-a { background: #333f4f; }
-.page-adn-cdn ul.product-grid.lite-4 li.cdn-sa { background: #4d555f; }
+.page-adn-cdn ul.product-grid.lite-4 li.cdn-na { background: #333f4f; height:285px; }
+.page-adn-cdn ul.product-grid.lite-4 li.cdn-eu { background: #f57815; height:285px; }
+.page-adn-cdn ul.product-grid.lite-4 li.cdn-a { background: #333f4f; height:285px; }
+.page-adn-cdn ul.product-grid.lite-4 li.cdn-sa { background: #4d555f; height:285px; }
 .page-adn-cdn ul.product-grid.lite-4 li.cdn-na p.cost { background: #3e4e64; }
 .page-adn-cdn ul.product-grid.lite-4 li.cdn-eu p.cost { background: #f5984e; }
 .page-adn-cdn ul.product-grid.lite-4 li.cdn-a p.cost { background: #3e4e64; }
 .page-adn-cdn ul.product-grid.lite-4 li.cdn-sa p.cost { background: #6a6f75; }
 .page-adn-cdn ul.product-grid li p.cost b { font-weight: normal; font-size: 9px; padding: 0 1px 0 0; }
-.page-adn-cdn ul.product-grid.lite-4 li div.billing-order form #add-cart-submit { width: 100%; text-align: center; }
+.page-adn-cdn ul.product-grid.lite-4 li div.billing-order form .read-item { width: 100%; }
+.page-adn-cdn ul.product-grid.lite-4 li div.billing-order form #add-cart-submit,
+.page-adn-cdn ul.product-grid.lite-4 li div.billing-order form .read-item  a { width: 100%; text-align: center; }
 .page-adn-cdn ul.product-grid.lite-4 li.cdn-na div.billing-order form #add-cart-submit { background-color: #333f4f; }
 .page-adn-cdn ul.product-grid.lite-4 li.cdn-eu div.billing-order form #add-cart-submit { background-color: #f57815; }
 .page-adn-cdn ul.product-grid.lite-4 li.cdn-a div.billing-order form #add-cart-submit { background-color: #333f4f; }
