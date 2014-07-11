@@ -1,0 +1,1 @@
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1350.7315248474833!2d8.495548100000008!3d47.38339749999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900bccc1169e0b%3A0xb50db56ae43f3725!2sBadenerstrasse+569!5e0!3m2!1sru!2sua!4v1402492606201" width="580" height="214" frameborder="0" style="border:0"></iframe>

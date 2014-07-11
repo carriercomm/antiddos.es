@@ -1,140 +1,143 @@
-    <?php include_javascripts() ?>
-    	<link rel="stylesheet" type="text/css" media="screen" href="/css/partner/swiss/css/style-servers.css" />
-    
-
-
-
-		<script type="text/javascript" src="/css/partner/swiss/js/jquery.ui.core.js"></script>
-		<script type="text/javascript" src="/css/partner/swiss/js/jquery.ui.widget.js"></script>
-		<script type="text/javascript" src="/css/partner/swiss/js/jquery.ui.rcarousel.js"></script>
-		
-	
-		
-		
-		
-		<script type="text/javascript" src="/css/partner/swiss/js/jquery.carouFredSel-6.1.0-packed.js"></script>
-		<script type="text/javascript" language="javascript" src="/css/partner/swiss/js/jquery.mousewheel.min.js"></script>
-		<script type="text/javascript" language="javascript" src="/css/partner/swiss/js/jquery.touchSwipe.min.js"></script>
-		<script type="text/javascript" language="javascript" src="/css/partner/swiss/js/jquery.ba-throttle-debounce.min.js"></script>
-		<script type="text/javascript" src="/css/partner/swiss/js/jscript.servers.js"></script>
-		
-		
-		
-	
+<!-- region: Content -->
+	<div id="columns" class="columns clearfix">
+		<div id="content-column" class="content-column" role="main">
+			<div class="content-inner">
 				
-	
-		
-		  <?php solar_include_stylesheets() ?>
-		  	<link type="text/css" rel="stylesheet" href="/css/partner/swiss/style2.css" />
-		  		<link type="text/css" rel="stylesheet" href="/css/partner/swiss/css/business.css" />
-		
+				<section id="main-content">
+					<!-- region: Main Content -->
+					<div id="content" class="region page-blog">
 
-		
-</head>
-<script>
+					<div id="main-content-header" class="clearfix">
+						<h1 id="page-title">Blog</h1>
 
-$(document).ready(function () {
-<?php if(sfConfig::get('sf_web_debug')): ?>
-  sfWebDebugToggleMenu();
-<?php endif ?>
-	inboxLivechat('<?php echo url_for("@livechat_inbox")?>');
-	openLivechat("#group");
-});
+						<div id="breadcrumb" class="clearfix">
+							<ol id="crumbs" class="clearfix">
+								<li class="crumb crumb-first"><a href="index.html" title="" class="active-trail">Home</a></li>
+								<li class="crumb crumb-last">Blog</li>
+							</ol>
+						</div>
+					</div>
 
-</script>
+						<!-- block: Products -->
+						<div id="block-antiddos-top-image" class="block clearfix">
+							<div class="block-inner">
+								<div class="block-content"><img src="/images/blog.jpg"></div>
+							</div>
+						</div>
+						<!-- end block: Products -->
 
-
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-35541482-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-<!-- Yandex.Metrika counter -->
-<script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
-<script type="text/javascript">
-try { var yaCounter19318336 = new Ya.Metrika({id:19318336,
-          webvisor:true,
-          clickmap:true,
-          trackLinks:true,
-          accurateTrackBounce:true});
-} catch(e) { }
-</script>
-<noscript><div><img src="//mc.yandex.ru/watch/19318336" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-
-<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
-<?php include_partial('global/inbox') ?>
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-	<tr bgcolor="#4b8ac4"> 
-		<td height="10">
-				<img src="<?php echo solar_template_image_url('t.png') ?>" width="1" height="1"></td>
-		<td align=right>
-
-<?php include_component('welcome', 'language') ?>
-
-</td>
-		<td>
-			<img src="<?php echo solar_template_image_url('t.png') ?>" width="1" height="1" alt=""></td>
-
-	</tr>
-	<tr>
-		<td class="tdbar_st1_left">
-			<img src="<?php echo solar_template_image_url('t.png') ?>" width="1" height="1" alt=""></td>
-		<td class="tdbar_st1_center">
-
-<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td>
-											<div class="logotype">
-														<a href="<?php echo url_for('@localized_homepage') ?>" class="logo" alt="Cloudcom">
-																<img src="<?php echo solar_template_image_url('logo.png') ?>" alt="<?php t('DDoS Protected') ?> Cloudcom" border=0>
-																<div class="slogan"><b><?php t('DDoS News') ?></b></div>
-														</a>
+						<div id="block-system-main" class="block block-system no-title">  
+							<article id="node" class="node node-article">
+								<div class="node-content">
+									<div class="row first clearfix">
+										<div>
+											<div class="blog">
+												<p class="blog-date">April 22, 2014</p>
+												<a class="blog-image" href="post.html"><img src="/images/blog_one.jpg"></a>
+												<a class="blog-size" href="post.html"><h2>Mitigating against attacks up to 200 Gbps</h2></a>
+												<div>
+													<span class="blog-author-image">by</span>
+													<a class="blog-author">Brian McBill</a>
+													<a class="blog-comment">22 comments</a>
+													<span class="blog-tags">
+														<a>ddos attacks</a>,
+														<a>ddos</a>
+													</span>
 												</div>
-								
-</td><td align=right>
-<?php include_component('auth', 'login') ?>
-</td></tr></table>
-
-</td>
-		<td class="tdbar_st1_right">
-			<img src="<?php echo solar_template_image_url('t.png') ?>" width="1" height="1" alt=""></td>
-	</tr></table>
-
-<table width="" border="0" cellpadding="5" cellspacing="0"><tr>
-<td width=240 valign=top align=center>
-</td>
-</td>
-<td width=800 valign=top>
-&nbsp;
-</td>
-<td width=250 valign=bottom align=right>
-
-  <?php include_partial('blog/search_form') ?>
-
-</td>
-</tr><tr>
-<td width=240 valign=top>
-
-
-
-<?php include_partial('blog/mainmenu') ?>
-
-
-
-
-</td>
-<td width=800 valign=top>
-
-<div class="div_content">
-
+												<p class="blog-size">CoinsHost offers 20+ Dedicated Server configurations that can meet requirements of any client. Professional protection against all types of DDoS attacks can be ordered as an option. DDoS protection is also available on demand and can be enabled at any time.</p>
+												<a class="blog-submit" href="post.html">Read more</a>
+											</div>
+											<div class="blog">
+												<p class="blog-date">April 22, 2014</p>
+												<a class="blog-image"><img src="/images/blog_two.jpg"></a>
+												<a class="blog-size" href="blog.html"><h2>Mitigating against attacks up to 200 Gbps</h2></a>
+												<div>
+													<span>by</span>
+													<a class="blog-author">Brian McBill</a>
+													<a class="blog-comment">22 comments</a>
+													<span class="blog-tags">
+														<a>ddos attacks,</a>
+														<a>ddos</a>
+													</span>
+												</div>
+												<p class="blog-size">CoinsHost offers 20+ Dedicated Server configurations that can meet requirements of any client. Professional protection against all types of DDoS attacks can be ordered as an option. DDoS protection is also available on demand and can be enabled at any time.</p>
+												<a class="blog-submit">Read more</a>
+											</div>
+											<div class="blog">
+												<p class="blog-date">April 22, 2014</p>
+												<a class="blog-image"><img src="/images/blog_three.jpg"></a>
+												<a class="blog-size" href="blog.html"><h2>Mitigating against attacks up to 200 Gbps</h2></a>
+												<div>
+													<span class="blog-author-image">by</span>
+													<a class="blog-author">Brian McBill</a>
+													<a class="blog-comment">22 comments</a>
+													<span class="blog-tags">
+														<a>ddos attacks</a>,
+														<a>ddos</a>
+													</span>
+												</div>
+												<p class="blog-size">CoinsHost offers 20+ Dedicated Server configurations that can meet requirements of any client. Professional protection against all types of DDoS attacks can be ordered as an option. DDoS protection is also available on demand and can be enabled at any time.</p>
+												<a class="blog-submit">Read more</a>
+											</div>
+											<div class="blog">
+												<p class="blog-date">April 22, 2014</p>
+												<a class="blog-image"><img src="/images/blog_four.jpg"></a>
+												<a class="blog-size" href="blog.html"><h2>Mitigating against attacks up to 200 Gbps</h2></a>
+												<div>
+													<span class="blog-author-image">by</span>
+													<a class="blog-author">Brian McBill</a>
+													<a class="blog-comment">22 comments</a>
+													<span class="blog-tags">
+														<a>ddos attacks</a>,
+														<a>ddos</a>
+													</span>
+												</div>
+												<p class="blog-size">CoinsHost offers 20+ Dedicated Server configurations that can meet requirements of any client. Professional protection against all types of DDoS attacks can be ordered as an option. DDoS protection is also available on demand and can be enabled at any time.</p>
+												<a class="blog-submit">Read more</a>
+											</div>
+										</div>
+										<div class="sidebar-blog">
+											<p class="sidebar-title">About blog</p>
+											<p class="sidebar-text">This is small blog about our company and ddos protection methods. We have a lot of interesting information of computer security.</p>
+											<p class="sidebar-title">Sidebar</p>
+											<p class="sidebar-text"><?php include_component('blog', 'sidebar') ?></p>
+											<p class="sidebar-title">Search</p>
+											<p class="sidebar-text"><?php include_partial('blog/search_form') ?></p>
+											<p class="sidebar-title">Menu</p>
+											<p class="sidebar-text"><?php include_partial('blog/mainmenu') ?></p>
+											<p class="sidebar-title">Categories</p>
+											<ul>
+												<li><a>DDoS protection</a></li>
+												<li><a>Server securiry</a></li>
+												<li><a>Software protection</a></li>
+												<li><a>Hardware protection</a></li>
+												<li><a>Game servers security</a></li>
+											</ul>
+											<p class="sidebar-title">Tags</p>
+											<a>DDoS protection</a>,
+											<a>DDoS attack</a>,
+											<a>security</a>,
+											<a>server</a>,
+											<a>games</a>,
+											<a>attack</a>
+										</div>
+									</div>
+									<div class="row last clearfix">
+										<p class="blog-bitcoin">Bitcoin, Litecoin and Nextcoin Accepted</p>
+										<p>Without any doubt you can pay for CoinsHost products and services with Bitcoin (BTC), Litecoin (LTC) and Nextcoin (NXT). We treat decentralized currencies based on encryption as completely legit payment methods and encourage our clients to pay with them. Besides these P2P currencies, we accept a wide range of other payment methods and digital currencies. These include but are not limited to: PayPal, VISA, MasterCard, American Express, Discover, Bank Wire, WebMoney and Perfect Money.</p>
+									</div>
+								</div>
+							</article>
+						</div>	
+					</div>
+			           <!-- end region: Main Content -->
+				</section><!-- /end #main-content -->
+				
+			</div><!-- /end .content-inner -->
+		</div><!-- /end #content-column -->
+				
+	</div><!-- /end #columns -->
+<!-- end region: Content -->
 
             <?php if (count($posts)): ?>
             <?php foreach($posts as $n): ?>
@@ -209,7 +212,7 @@ try { var yaCounter19318336 = new Ya.Metrika({id:19318336,
 </td>
 <td width=250 valign=top>
 
-<?php include_component('blog', 'sidebar') ?>
+
 
 </td>
 </tr></table>

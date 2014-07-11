@@ -2139,11 +2139,13 @@ tr.error {}
 .page-contacts .row.feedback form .form-item.subject { clear: both; }
 .page-contacts .row.feedback form .form-item.subject input { width: 95.2%; }
 .page-contacts .row.feedback form textarea { resize: none;  width: 95.2%; height: 125px; margin: 0; padding: 20px; border: 1px solid #dadada; position: relative; -webkit-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1); }
-.page-contacts .row.feedback form .form-captcha { float: left; }
+.page-contacts .row.feedback form .form-captcha { float: left; margin-left: -7px; }
 .page-contacts .row.feedback form .form-captcha input.form-text { width: 215px; float: left; }
 .page-contacts .row.feedback form .form-captcha img { display: block; float: left; margin: 0 0 0 15px; }
 .page-contacts .row.feedback form .form-actions { float: right; }
 .page-contacts .row.feedback form .form-actions .form-submit { margin: 0; padding: 0; border: 0; background: #f57815; padding: 20px 125px; font-size: 16px; color: #ffffff; line-height: 16px; -webkit-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1); }
+.page-contacts table,
+.page-contacts tbody tr { margin: 0; border: none; }
 
 /* =============================================================================
  *   Page terms of services
