@@ -1,47 +1,31 @@
-<div class="div_menu">
+<?php include_partial('blog/search_form') ?>
 
+<p class="sidebar-title"><?php t('About blog') ?></p>
+<p class="sidebar-text"><?php echo html_entity_decode($description) ?></p>
 
-    <div class="sub1" style="margin-top: 0px;">Last posts</div>
-    <div class="pre_sub1">
+<p class="sidebar-title"><?php t('Menu') ?></p>
+<?php include_partial('blog/mainmenu') ?>
 
-      <?php foreach ($recent_posts as $post): ?>
-        <a href="<?php echo url_for('@blog_view?id='.$post['id']) ?>"><?php echo $post['title'] ?></a><hr>
-      <?php endforeach ?>
+<p class="sidebar-title"><?php t('Last posts') ?></p>
+	<ul>
+		<?php foreach ($recent_posts as $post): ?>
+	    <li><a href="<?php echo url_for('@blog_view?id='.$post['id']) ?>"><?php echo $post['title'] ?></a></li>
+		<?php endforeach ?>
+	</ul>
 
-    </div>
+<p class="sidebar-title"><?php t('Categories') ?></p>
+	<ul>
+	    <?php foreach ($categories as $cat): ?>
+		<li><a href="<?php echo url_for('@blog_view_by_category?category='.$cat['name']) ?>"><?php echo $cat['name'] ?></a></li>
+		<?php endforeach ?>
+	</ul>
 
+<p class="sidebar-title"><?php t('Tags') ?></p>
+<?php echo blog_tags_array($tags)?>
 
-    <div class="sub1">CATEGORIES</div>
-    <div class="pre_sub1">
-
-      <?php foreach ($categories as $cat): ?>
-        <a href="<?php echo url_for('@blog_view_by_category?category='.$cat['name']) ?>"><?php echo $cat['name'] ?></a><hr>
-      <?php endforeach ?>
-
-    </div>
-
-    <div class="sub1">Tags</div>
-    <div class="pre_sub1">
-        <div class="tags"><?php echo blog_tags_array($tags)?></div>
-    </div>
-
-
-    <div class="sub1">Autors</div>
-    <div class="pre_sub1">
-      <?php foreach ($authors as $author): ?>
-        <a href="<?php echo url_for('@blog_view_by_author?author='.$author['name']) ?>"><?php echo $author['name'] ?></a><hr>
-      <?php endforeach ?>
-
-    </div>
-
-
-
-    <div class="sub1">About</div>
-    <div class="pre_sub1">
-
-        <?php echo html_entity_decode($description) ?>
-
-    </div>
-
-
-</div>
+<p class="sidebar-title"><?php t('Authors') ?></p>
+	<ul>
+		<?php foreach ($authors as $author): ?>
+	    <li><a href="<?php echo url_for('@blog_view_by_author?author='.$author['name']) ?>"><?php echo $author['name'] ?></a></li>
+		<?php endforeach ?>
+	</ul>

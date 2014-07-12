@@ -10,7 +10,7 @@
 	<link type="text/css" rel="stylesheet" href="/css/partner/swiss/global.base.css">
 	<link type="text/css" rel="stylesheet" href="/css/partner/swiss/global.styles.css">
 	<link type="text/css" rel="stylesheet" href="/css/partner/swiss/camera.css">
-	<link type="text/css" rel="stylesheet" href="/css/jquery.mCustomScrollbar.css">
+	<link type="text/css" rel="stylesheet" href="/css/partner/swiss/jquery.mCustomScrollbar.css">
 	<link rel="shortcut icon" type="image/x-icon" href="/css/partner/swiss/images/favicon.ico">
 	
 	<?php //include_javascripts() ?>
@@ -62,9 +62,6 @@
 </head>
 
 <body>
-<h1 style="border: 1px solid red;">Warning, development in progress - Feeria</h1>
-<? sfWebDebugToggleMenu(); ?> <!-- ??? What is this -->
-
 <div id="page" class="container page">
 	<!-- region: Header -->
 	<header id="header" class="clearfix" role="banner">
@@ -89,6 +86,7 @@
 			<!-- end block: User login -->
 
 			<!-- block: Select language -->
+
 			<div id="block-antiddos-languages" class="block clearfix">
 				<div class="block-inner">
 					<div class="block-content">
@@ -124,7 +122,7 @@
 					<div class="block-inner">
 						<div class="block-content">
 							<ul class="footer-menu-first">
-								<?php include_menu('bottom') ?>		
+								<?php include_partial('welcome/footermenu') ?>	
 							</ul>	
 						</div>
 					</div>
@@ -145,10 +143,10 @@
 						<div class="block-content">
 							<ul class="footer-menu-second">
 								<li class="first">
-									<a href="<?php echo url_for('@show_page?name=termsofservice') ?>"><?php t('Terms of Service')?></a>
+									<a href="<?php echo url_for('@show_page?name=terms-of-service') ?>"><?php t('Terms of Service')?></a>
 								</li>
 								<li class="last">
-									<a href="<?php echo url_for('@show_page?name=privacypolicy') ?>"><?php t('Privacy Policy')?></a>
+									<a href="<?php echo url_for('@show_page?name=privacy-policy') ?>"><?php t('Privacy Policy')?></a>
 								</li>
 							</ul>
 						</div>
@@ -172,14 +170,10 @@
 					</div>
 				</div>
 				<!-- end block: antiddos-footer-partners -->
-
 			</div>
 		</div>              
 	</footer>
 	<!-- end region: Footer -->
-	<?php include_partial('welcome/businessinnumbers') ?> <!-- Design? -->
-
-
 </div><!-- /end #page -->
 </body>
 </html>

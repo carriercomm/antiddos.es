@@ -47,79 +47,9 @@
 												<p class="blog-size">CoinsHost offers 20+ Dedicated Server configurations that can meet requirements of any client. Professional protection against all types of DDoS attacks can be ordered as an option. DDoS protection is also available on demand and can be enabled at any time.</p>
 												<a class="blog-submit" href="post.html">Read more</a>
 											</div>
-											<div class="blog">
-												<p class="blog-date">April 22, 2014</p>
-												<a class="blog-image"><img src="/images/blog_two.jpg"></a>
-												<a class="blog-size" href="blog.html"><h2>Mitigating against attacks up to 200 Gbps</h2></a>
-												<div>
-													<span>by</span>
-													<a class="blog-author">Brian McBill</a>
-													<a class="blog-comment">22 comments</a>
-													<span class="blog-tags">
-														<a>ddos attacks,</a>
-														<a>ddos</a>
-													</span>
-												</div>
-												<p class="blog-size">CoinsHost offers 20+ Dedicated Server configurations that can meet requirements of any client. Professional protection against all types of DDoS attacks can be ordered as an option. DDoS protection is also available on demand and can be enabled at any time.</p>
-												<a class="blog-submit">Read more</a>
-											</div>
-											<div class="blog">
-												<p class="blog-date">April 22, 2014</p>
-												<a class="blog-image"><img src="/images/blog_three.jpg"></a>
-												<a class="blog-size" href="blog.html"><h2>Mitigating against attacks up to 200 Gbps</h2></a>
-												<div>
-													<span class="blog-author-image">by</span>
-													<a class="blog-author">Brian McBill</a>
-													<a class="blog-comment">22 comments</a>
-													<span class="blog-tags">
-														<a>ddos attacks</a>,
-														<a>ddos</a>
-													</span>
-												</div>
-												<p class="blog-size">CoinsHost offers 20+ Dedicated Server configurations that can meet requirements of any client. Professional protection against all types of DDoS attacks can be ordered as an option. DDoS protection is also available on demand and can be enabled at any time.</p>
-												<a class="blog-submit">Read more</a>
-											</div>
-											<div class="blog">
-												<p class="blog-date">April 22, 2014</p>
-												<a class="blog-image"><img src="/images/blog_four.jpg"></a>
-												<a class="blog-size" href="blog.html"><h2>Mitigating against attacks up to 200 Gbps</h2></a>
-												<div>
-													<span class="blog-author-image">by</span>
-													<a class="blog-author">Brian McBill</a>
-													<a class="blog-comment">22 comments</a>
-													<span class="blog-tags">
-														<a>ddos attacks</a>,
-														<a>ddos</a>
-													</span>
-												</div>
-												<p class="blog-size">CoinsHost offers 20+ Dedicated Server configurations that can meet requirements of any client. Professional protection against all types of DDoS attacks can be ordered as an option. DDoS protection is also available on demand and can be enabled at any time.</p>
-												<a class="blog-submit">Read more</a>
-											</div>
 										</div>
 										<div class="sidebar-blog">
-											<p class="sidebar-title">About blog</p>
-											<p class="sidebar-text">This is small blog about our company and ddos protection methods. We have a lot of interesting information of computer security.</p>
-											<p class="sidebar-title">Sidebar</p>
-											<p class="sidebar-text"><?php include_component('blog', 'sidebar') ?></p>
-											<p class="sidebar-title">Search</p>
-											<p class="sidebar-text"><?php include_partial('blog/search_form') ?></p>
-											<p class="sidebar-title">Menu</p>
-											<p class="sidebar-text"><?php include_partial('blog/mainmenu') ?></p>
-											<p class="sidebar-title">Categories</p>
-											<ul>
-												<li><a>DDoS protection</a></li>
-												<li><a>Server securiry</a></li>
-												<li><a>Software protection</a></li>
-												<li><a>Hardware protection</a></li>
-												<li><a>Game servers security</a></li>
-											</ul>
-											<p class="sidebar-title">Tags</p>
-											<a>DDoS protection</a>,
-											<a>DDoS attack</a>,
-											<a>security</a>,
-											<a>server</a>,
-											<a>games</a>,
-											<a>attack</a>
+											<?php include_component('blog', 'sidebar') ?>
 										</div>
 									</div>
 									<div class="row last clearfix">

@@ -105,14 +105,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="cloud-personal">
-											<img src="/images/personal.png">
-											<div class="text">
-												<a class="big"><?php t('Personal cloud server') ?></a> 
-												<a class="small"><?php t('Configure your own cloud server configuration') ?></a>
-											</div>
-											<img src="/images/cloud-personal.jpg">
-										</div>
+										
+										<a href="#"><div class="personal-config">
+												<img src="/images/personal.png">
+												<h3 class="big"><?php t('Personal cloud server') ?></h3> 
+												<p class="small"><?php t('Configure your own cloud server configuration') ?></p>
+										</div></a>
+										
 										<div class="cloud-system">
 											<p class="cloud-title"><?php t('Operating system selection') ?></p>
 											<p><?php t('Choose an OS to be installed on your server from a wide list of Windows licenses and Linux distributives. All Linux servers will be deployed with root access via SSH.') ?></p>

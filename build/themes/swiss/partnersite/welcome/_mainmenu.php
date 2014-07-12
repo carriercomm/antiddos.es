@@ -57,7 +57,7 @@
 					</ul>
 				</li>
 				<li class="expanded">
-					<a href="<?php echo url_for('@show_page?name=products') ?>" title=""><?php t('All products')?></a>
+					<a href="<?php echo url_for('@show_page?name=products') ?>" title="<?php t('All products')?>"><?php t('All products')?></a>
 					<ul class="menu clearfix">
 						<li class="first">
 							<a href="<?php echo url_for('@server_config_list') ?>" title="<?php t('Dedicated Servers')?>"><?php t('Dedicated Servers')?></a>
