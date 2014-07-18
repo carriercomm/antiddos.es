@@ -1,3 +1,19 @@
+<script type="text/javascript">
+(function() {
+var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+po.src = 'https://apis.google.com/js/plusone.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+</script> 
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=728334140513039&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <!-- region: Content -->
 	<div id="columns" class="columns clearfix">
 		<div id="content-column" class="content-column" role="main">
@@ -8,12 +24,12 @@
 					<div id="content" class="region page-blog">
 
 					<div id="main-content-header" class="clearfix">
-						<h1 id="page-title">Blog</h1>
+						<h1 id="page-title"><?php t('Blog') ?></h1>
 
 						<div id="breadcrumb" class="clearfix">
 							<ol id="crumbs" class="clearfix">
-								<li class="crumb crumb-first"><a href="index.html" title="" class="active-trail">Home</a></li>
-								<li class="crumb crumb-last">Blog</li>
+								<li class="crumb crumb-first"><a href="index.html" title="" class="active-trail"><?php t('Home') ?></a></li>
+								<li class="crumb crumb-last"><?php t('Blog') ?></li>
 							</ol>
 						</div>
 					</div>
@@ -31,30 +47,39 @@
 								<div class="node-content">
 									<div class="row first clearfix">
 										<div>
+										
+											<?php if (count($posts)): ?>
+											<?php foreach($posts as $n): ?>
+											
 											<div class="blog">
-												<p class="blog-date">April 22, 2014</p>
-												<a class="blog-image" href="post.html"><img src="/images/blog_one.jpg"></a>
-												<a class="blog-size" href="post.html"><h2>Mitigating against attacks up to 200 Gbps</h2></a>
+												<p class="blog-date"><?php echo format_date($n->created_at, 'D') ?></p>
+												<a class="blog-image" href="<?php echo url_for('@blog_view?id='.$n->getId())?>" title="<?php echo $n->title ?>"><img src="/images/blog-no-image.jpg"></a>
+												<a class="blog-size" href="<?php echo url_for('@blog_view?id='.$n->getId())?>" title="<?php echo $n->title ?>"><h2><?php echo $n->title ?></h2></a>
 												<div>
-													<span class="blog-author-image">by</span>
-													<a class="blog-author">Brian McBill</a>
-													<a class="blog-comment">22 comments</a>
-													<span class="blog-tags">
-														<a>ddos attacks</a>,
-														<a>ddos</a>
-													</span>
+													<span class="blog-author-image"><?php t('by') ?></span>
+													<a class="blog-author" href="<?php echo url_for('@blog_view?id='.$n->getId())?>"><?php echo $n->author ?></a>
+													<a class="blog-comment" href="<?php echo url_for('@blog_view?id='.$n->getId())?>"><?php t('Read comments') ?></a>
+													<!-- <span class="blog-tags"><a>ddos attacks</a>, <a>ddos</a></span> uncomment for tags -->
 												</div>
-												<p class="blog-size">CoinsHost offers 20+ Dedicated Server configurations that can meet requirements of any client. Professional protection against all types of DDoS attacks can be ordered as an option. DDoS protection is also available on demand and can be enabled at any time.</p>
-												<a class="blog-submit" href="post.html">Read more</a>
+												<p class="blog-size"><?php echo html_entity_decode(get_teaser($n->content)) ?></p>
+												<ul class="social"><li><g:plusone size="medium"></g:plusone></li><li><div class="fb-like" data-send="false" data-href="<?php echo url_for('@blog_view?id='.$n->getId(), true)?>" data-layout="button_count" data-show-faces="true"></div></li><li><a href="https://twitter.com/share" class="twitter-share-button" data-url="<?php echo url_for('@blog_view?id='.$n->getId(), true)?>"><?php t('Tweet') ?></a></li></ul>
+												<a class="blog-submit" href="<?php echo url_for('@blog_view?id='.$n->getId())?>"><?php t('Read more') ?></a>
 											</div>
+											
+											<?php endforeach ?>
+											<?php else: ?>
+											<h2><?php t('Results') ?></h2>
+											<?php t('Posts not found') ?>
+											<?php endif ?>
+											
 										</div>
 										<div class="sidebar-blog">
 											<?php include_component('blog', 'sidebar') ?>
 										</div>
 									</div>
 									<div class="row last clearfix">
-										<p class="blog-bitcoin">Bitcoin, Litecoin and Nextcoin Accepted</p>
-										<p>Without any doubt you can pay for CoinsHost products and services with Bitcoin (BTC), Litecoin (LTC) and Nextcoin (NXT). We treat decentralized currencies based on encryption as completely legit payment methods and encourage our clients to pay with them. Besides these P2P currencies, we accept a wide range of other payment methods and digital currencies. These include but are not limited to: PayPal, VISA, MasterCard, American Express, Discover, Bank Wire, WebMoney and Perfect Money.</p>
+										<p class="blog-bitcoin"><?php t('Bitcoin, Litecoin and Nextcoin Accepted') ?></p>
+										<p><?php t('Without any doubt you can pay for CoinsHost products and services with Bitcoin (BTC), Litecoin (LTC) and Nextcoin (NXT). We treat decentralized currencies based on encryption as completely legit payment methods and encourage our clients to pay with them. Besides these P2P currencies, we accept a wide range of other payment methods and digital currencies. These include but are not limited to: PayPal, VISA, MasterCard, American Express, Discover, Bank Wire, WebMoney and Perfect Money.') ?></p>
 									</div>
 								</div>
 							</article>
@@ -68,87 +93,3 @@
 				
 	</div><!-- /end #columns -->
 <!-- end region: Content -->
-
-            <?php if (count($posts)): ?>
-            <?php foreach($posts as $n): ?>
-
-
-
-<div class="subject"><?php echo $n->title ?></div>
-<font class="time"><?php t('Published on:')?> <font class="date"><?php echo format_date($n->created_at, 'D') ?></font> by <font class="autor"><?php echo $n->author ?></font></font>
-<br><br>
-<table class="text" border="0" cellpadding="0" cellspacing="0"><tr><td>
-
-<?php echo html_entity_decode(get_teaser($n->content)) ?>
-
-</td></tr></table>
-<br>
-<a class="readmore" href="<?php echo url_for('@blog_view?id='.$n->getId())?>"><?php t('Read More')?></a>
-<a href="<?php echo url_for('@blog_view?id='.$n->getId())?>" class="readmore">Read comments</a>
-
-
-
-<hr>
-                              <div style="padding: 0px 0px 0px 0px">
-                                  <table>
-                                      <tr>
-                                          <td>
-
-                                              <!-- Place this tag where you want the +1 button to render -->
-                                              <g:plusone size="medium"></g:plusone>
-
-                                              <!-- Place this render call where appropriate -->
-                                              <script type="text/javascript">
-                                                  (function() {
-                                                      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                                                      po.src = 'https://apis.google.com/js/plusone.js';
-                                                      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                                                  })();
-                                              </script>
-                                          </td>
-                                          <td>
-                                              <div class="fb-like" data-send="false" data-href="<?php echo url_for('@blog_view?id='.$n->getId(), true)?>" data-send="false" data-layout="button_count" data-show-faces="true"></div>
-                                          </td>
-                                          <td>
-                                              <a href="https://twitter.com/share" class="twitter-share-button" data-url="<?php echo url_for('@blog_view?id='.$n->getId(), true)?>">Tweet</a>
-                                              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                                          </td>
-                                      </tr>
-                                  </table>
-                              </div>
-
-
-
-<hr><br>
-
-
-              <?php endforeach ?>
-            <?php else: ?>
-              <h3><?php t('Results') ?></h3>
-
-              <table width=100%>
-                  <tr><td valign=top>
-                    <?php t('Posts not found') ?>
-                  </td></tr>
-              </table>
-            <?php endif ?>
-
-
-
-
-</div>
-
-
-</td>
-<td width=250 valign=top>
-
-
-
-</td>
-</tr></table>
-
-
-
-
-
-

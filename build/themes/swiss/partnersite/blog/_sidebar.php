@@ -22,7 +22,7 @@
 
 <p class="sidebar-title"><?php t('Tags') ?></p>
 <?php echo blog_tags_array($tags)?>
-
+<br><br>
 <p class="sidebar-title"><?php t('Authors') ?></p>
 	<ul>
 		<?php foreach ($authors as $author): ?>

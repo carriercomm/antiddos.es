@@ -62,9 +62,6 @@
 </head>
 
 <body>
-<h1 style="border: 1px solid red;">Warning, development in progress - Feeria</h1>
-<? sfWebDebugToggleMenu(); ?> <!-- ??? What is this -->
-
 <div id="page" class="container page">
 	<!-- region: Header -->
 	<header id="header" class="clearfix" role="banner">
